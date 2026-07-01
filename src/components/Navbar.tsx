@@ -2,10 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useAuth } from '@/components/AuthProvider';
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { user, loading } = useAuth();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -44,12 +46,33 @@ export function Navbar() {
           >
             Les langues
           </Link>
-          <Link
-            href="/#langues"
-            className="bg-coral text-white text-sm font-semibold px-5 py-2 rounded-lg hover:bg-coral-dark transition-colors no-underline"
-          >
-            Commencer
-          </Link>
+
+          {!loading && (
+            user ? (
+              <Link
+                href="/profil"
+                className="flex items-center gap-2 bg-ink text-white text-sm font-semibold px-5 py-2 rounded-lg hover:opacity-90 transition-opacity no-underline"
+              >
+                <span className="text-base">👤</span>
+                Mon profil
+              </Link>
+            ) : (
+              <div className="flex items-center gap-3">
+                <Link
+                  href="/login"
+                  className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline"
+                >
+                  Connexion
+                </Link>
+                <Link
+                  href="/signup"
+                  className="bg-coral text-white text-sm font-semibold px-5 py-2 rounded-lg hover:bg-coral-dark transition-colors no-underline"
+                >
+                  Commencer
+                </Link>
+              </div>
+            )
+          )}
         </div>
 
         {/* Mobile hamburger */}
@@ -65,27 +88,28 @@ export function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden px-6 pb-4 flex flex-col gap-4 border-t border-black/5">
-          <Link
-            href="/methode"
-            className="text-sm font-medium text-ink no-underline pt-4"
-            onClick={() => setMenuOpen(false)}
-          >
+          <Link href="/methode" className="text-sm font-medium text-ink no-underline pt-4" onClick={() => setMenuOpen(false)}>
             La méthode
           </Link>
-          <Link
-            href="/#langues"
-            className="text-sm font-medium text-ink no-underline"
-            onClick={() => setMenuOpen(false)}
-          >
+          <Link href="/#langues" className="text-sm font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
             Les langues
           </Link>
-          <Link
-            href="/#langues"
-            className="bg-coral text-white text-sm font-semibold px-5 py-2.5 rounded-lg text-center no-underline"
-            onClick={() => setMenuOpen(false)}
-          >
-            Commencer
-          </Link>
+          {!loading && (
+            user ? (
+              <Link href="/profil" className="text-sm font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
+                👤 Mon profil
+              </Link>
+            ) : (
+              <>
+                <Link href="/login" className="text-sm font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
+                  Connexion
+                </Link>
+                <Link href="/signup" className="bg-coral text-white text-sm font-semibold px-5 py-2.5 rounded-lg text-center no-underline" onClick={() => setMenuOpen(false)}>
+                  Commencer
+                </Link>
+              </>
+            )
+          )}
         </div>
       )}
     </nav>
