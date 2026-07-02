@@ -77,15 +77,15 @@ export default function LessonPage({
         <LessonRenderer content={content} />
 
         {/* Next lesson button */}
-        {meta.nextSlug && (
-          <Link
-            href={`/lecon/${meta.nextSlug}`}
-            className="block w-full mt-10 py-4 text-center text-white font-bold rounded-xl text-base no-underline hover:opacity-90 transition-opacity"
-            style={{ background: meta.color || '#E63946' }}
-          >
-            Leçon suivante →
-          </Link>
-        )}
+{meta.nextSlug && (
+  <Link
+    href={`/lecon/${meta.nextSlug}`}
+    className="block w-full mt-10 py-4 text-center text-white font-bold rounded-xl text-base no-underline hover:opacity-90 transition-opacity"
+    style={{ background: meta.color || '#E63946' }}
+  >
+    Leçon suivante →
+  </Link>
+)}
       </div>
     </div>
   );
