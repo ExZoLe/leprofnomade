@@ -20,23 +20,45 @@ export default function LessonPage({
 }: {
   params: { slug: string };
 }) {
-  // Find the lesson across all languages
-  const allLangs = ['anglais', 'coreen', 'italien'];
+  // Détecte la langue à partir du préfixe du slug (kr-, it-, en-)
+  const prefixMap: Record<string, string> = {
+    'kr-': 'coreen',
+    'it-': 'italien',
+    'en-': 'anglais',
+  };
+
+  const prefix = params.slug.substring(0, 3);
+  const targetLang = prefixMap[prefix];
+
   let lessonData = null;
   let lessonLang = '';
 
-  for (const lang of allLangs) {
-    const data = getLessonContent(lang, params.slug);
+  if (targetLang) {
+    // Cherche directement dans la bonne langue
+    const data = getLessonContent(targetLang, params.slug);
     if (data) {
       lessonData = data;
-      lessonLang = lang;
-      break;
+      lessonLang = targetLang;
+    }
+  } else {
+    // Fallback : cherche dans toutes les langues (pour les anciennes leçons sans préfixe)
+    const allLangs = ['anglais', 'coreen', 'italien'];
+    for (const lang of allLangs) {
+      const data = getLessonContent(lang, params.slug);
+      if (data) {
+        lessonData = data;
+        lessonLang = lang;
+        break;
+      }
     }
   }
 
   if (!lessonData) notFound();
 
   const { meta, content } = lessonData;
+
+  // Détecte si le prochain slug est un quiz d'escale
+  const nextIsQuiz = meta.nextSlug && meta.nextSlug.includes('quiz-escale');
 
   return (
     <div className="page-enter pt-20 pb-20">
@@ -76,16 +98,22 @@ export default function LessonPage({
         {/* Lesson content */}
         <LessonRenderer content={content} />
 
-        {/* Next lesson button */}
-{meta.nextSlug && (
-  <Link
-    href={`/lecon/${meta.nextSlug}`}
-    className="block w-full mt-10 py-4 text-center text-white font-bold rounded-xl text-base no-underline hover:opacity-90 transition-opacity"
-    style={{ background: meta.color || '#E63946' }}
-  >
-    Leçon suivante →
-  </Link>
-)}
+        {/* Next button — detects quiz OR next lesson */}
+        {meta.nextSlug && (
+          <Link
+            href={
+              nextIsQuiz
+                ? `/quiz-escale/${meta.nextSlug}`
+                : `/lecon/${meta.nextSlug}`
+            }
+            className="block w-full mt-10 py-4 text-center text-white font-bold rounded-xl text-base no-underline hover:opacity-90 transition-opacity"
+            style={{ background: meta.color || '#E63946' }}
+          >
+            {nextIsQuiz
+              ? "🎯 Quiz final de l'escale →"
+              : 'Leçon suivante →'}
+          </Link>
+        )}
       </div>
     </div>
   );

@@ -1,0 +1,129 @@
+{
+  "lang": "coreen",
+  "escale": 1,
+  "title": "Quiz final — Découvrir le Hangul",
+  "color": "#8338EC",
+  "nextEscaleSlug": "kr-escale-2-lecon-1",
+  "questions": [
+    {
+      "question": "Qui a inventé le Hangul ?",
+      "options": ["Un moine bouddhiste au XIIIe siècle", "Le roi Sejong le Grand en 1443", "Les érudits confucéens en 1600"],
+      "correct": 1,
+      "explanation": "Le roi Sejong le Grand a créé le Hangul en 1443 pour que tout son peuple puisse apprendre à lire et écrire."
+    },
+    {
+      "question": "Pourquoi la consonne ㅁ (m) a cette forme carrée ?",
+      "options": ["C'est arbitraire", "Elle imite les lèvres fermées quand on prononce 'm'", "Elle vient d'un caractère chinois"],
+      "correct": 1,
+      "explanation": "Chaque consonne de base du Hangul imite la position de la bouche. ㅁ représente les lèvres fermées."
+    },
+    {
+      "question": "Combien de consonnes de base y a-t-il en Hangul ?",
+      "options": ["10", "14", "24"],
+      "correct": 1,
+      "explanation": "Le Hangul a 14 consonnes de base : ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ."
+    },
+    {
+      "question": "Comment se prononce ㅇ au début d'une syllabe ?",
+      "options": ["Comme 'ng'", "Il est muet", "Comme 'o'"],
+      "correct": 1,
+      "explanation": "En début de syllabe, ㅇ est silencieux et sert juste de support pour la voyelle."
+    },
+    {
+      "question": "Quelle consonne se prononce entre 'r' et 'l' ?",
+      "options": ["ㄴ", "ㄹ", "ㄷ"],
+      "correct": 1,
+      "explanation": "ㄹ est le son entre 'r' léger et 'l' rapide — n'existe pas vraiment en français."
+    },
+    {
+      "question": "Combien de voyelles de base y a-t-il ?",
+      "options": ["6", "10", "14"],
+      "correct": 1,
+      "explanation": "10 voyelles de base : ㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ."
+    },
+    {
+      "question": "Comment se prononce ㅜ ?",
+      "options": ["Comme le 'u' de 'lune'", "Comme le 'ou' de 'bouche'", "Comme le 'o' de 'beau'"],
+      "correct": 1,
+      "explanation": "ㅜ = 'ou' comme dans 'bouche'. Le son 'u' français n'existe pas en coréen."
+    },
+    {
+      "question": "Quelle est la différence entre ㅏ et ㅑ ?",
+      "options": ["Ce sont les mêmes sons", "ㅑ ajoute un 'y' devant : ya au lieu de a", "ㅑ est plus long"],
+      "correct": 1,
+      "explanation": "Un trait supplémentaire = 'y' devant. ㅏ (a) → ㅑ (ya), ㅓ (eo) → ㅕ (yeo)."
+    },
+    {
+      "question": "En Hangul, les lettres s'écrivent...",
+      "options": ["En ligne, comme en français", "En blocs syllabiques carrés", "De droite à gauche"],
+      "correct": 1,
+      "explanation": "Chaque syllabe forme un bloc carré assemblant consonne(s) + voyelle."
+    },
+    {
+      "question": "Que signifie le mot 물 (mul) ?",
+      "options": ["Feu", "Eau", "Terre"],
+      "correct": 1,
+      "explanation": "물 = eau. ㅁ(m) + ㅜ(u) + ㄹ(l) = mul. Attention à ne pas dire 불 (bul = feu) !"
+    },
+    {
+      "question": "Comment lit-on 코 ?",
+      "options": ["go", "ko", "to"],
+      "correct": 1,
+      "explanation": "ㅋ (k aspiré) + ㅗ (o) = 코 (ko), qui signifie 'nez' en coréen."
+    },
+    {
+      "question": "Que veut dire 출구 sur un panneau ?",
+      "options": ["Attention", "Sortie", "Entrée"],
+      "correct": 1,
+      "explanation": "출구 (chulgu) = sortie. Tu le verras à toutes les stations de métro."
+    },
+    {
+      "question": "Que veut dire 입구 ?",
+      "options": ["Sortie de secours", "Entrée", "Métro"],
+      "correct": 1,
+      "explanation": "입구 (ipgu) = entrée. L'opposé de 출구 (sortie)."
+    },
+    {
+      "question": "Que veut dire 화장실 ?",
+      "options": ["Restaurant", "Toilettes", "Pharmacie"],
+      "correct": 1,
+      "explanation": "화장실 (hwajangsil) = toilettes. Mot essentiel pour tout voyageur !"
+    },
+    {
+      "question": "Que veut dire 편의점 ?",
+      "options": ["Hôpital", "Konbini / superette 24h/24", "Banque"],
+      "correct": 1,
+      "explanation": "편의점 (pyeonuijeom) = superette type GS25, CU, 7-Eleven — ouvertes 24h/24."
+    },
+    {
+      "question": "Le Konglish, c'est...",
+      "options": ["Un dialecte du sud de la Corée", "Des mots anglais coréanisés (écrits en Hangul)", "L'anglais officiel de Corée"],
+      "correct": 1,
+      "explanation": "Le Konglish = mots anglais adaptés en Hangul. Ex : 커피 (keopi) = coffee."
+    },
+    {
+      "question": "Que se prononce 버스 ?",
+      "options": ["beuseu (bus en Konglish)", "beoseu", "beseu"],
+      "correct": 0,
+      "explanation": "버스 = 'beoseu' — c'est le mot 'bus' en Konglish. Lis-le à voix haute et tu reconnais l'anglais !"
+    },
+    {
+      "question": "Un panneau indique 지하 2층. Que signifie 지하 ?",
+      "options": ["2e étage", "Sous-sol", "2e sortie"],
+      "correct": 1,
+      "explanation": "지하 (jiha) = sous-sol. 지하 2층 = niveau -2 (sous-sol 2)."
+    },
+    {
+      "question": "Combien de temps a-t-il fallu pour concevoir le Hangul ?",
+      "options": ["Plusieurs décennies", "Quelques années", "Quelques semaines seulement (un vrai coup de génie)"],
+      "correct": 2,
+      "explanation": "Sejong et ses érudits ont conçu le Hangul très rapidement — d'où le mythe du 'week-end'. C'est un chef-d'œuvre de logique."
+    },
+    {
+      "question": "Quel jour la Corée célèbre-t-elle le Hangul ?",
+      "options": ["1er janvier", "9 octobre", "15 août"],
+      "correct": 1,
+      "explanation": "Le 9 octobre est le 한글날 (Jour du Hangul), jour férié en Corée du Sud."
+    }
+  ]
+}
