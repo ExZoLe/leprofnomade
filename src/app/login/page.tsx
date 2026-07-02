@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { signInWithEmail, signInWithGoogle } from '@/lib/supabase';
+import { useAuth } from '@/components/AuthProvider';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
@@ -11,6 +12,14 @@ export default function LoginPage() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const { user, loading: authLoading } = useAuth();
+
+  // Redirige automatiquement si déjà connecté (utile après le retour de Google)
+  useEffect(() => {
+    if (!authLoading && user) {
+      router.push('/profil');
+    }
+  }, [user, authLoading, router]);
 
   const handleEmailLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -52,7 +61,6 @@ export default function LoginPage() {
         </div>
 
         <div className="bg-white rounded-2xl p-8 border border-black/5 shadow-sm">
-          {/* Google */}
           <button
             onClick={handleGoogleLogin}
             className="w-full flex items-center justify-center gap-3 px-4 py-3 border-2 border-black/10 rounded-xl text-sm font-semibold text-ink bg-white hover:bg-gray-50 transition-colors cursor-pointer mb-6"
@@ -75,7 +83,6 @@ export default function LoginPage() {
             </div>
           </div>
 
-          {/* Email form */}
           <form onSubmit={handleEmailLogin}>
             <div className="mb-4">
               <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wider">
