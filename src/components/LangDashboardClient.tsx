@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
 import { getProgress } from '@/lib/supabase';
+import { AlphabetSection } from '@/components/AlphabetSection';
 import type { LangKey } from '@/lib/languages';
 import type { LessonMeta } from '@/lib/lessons';
 
@@ -98,6 +99,9 @@ export function LangDashboardClient({
           </div>
           <p className="text-sm text-gray-500 leading-relaxed max-w-lg">{lang.description}</p>
         </div>
+
+        {/* ===== BLOC ALPHABET ===== */}
+        <AlphabetSection langKey={langKey} color={lang.color} />
 
         {/* Barre de progression */}
         {user && !loading && completedCount > 0 && (
