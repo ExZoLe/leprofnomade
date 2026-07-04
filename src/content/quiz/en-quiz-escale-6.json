@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 6,
+  "title": "Quiz final — Shopping and courses",
+  "color": "#1B4965",
+  "nextEscaleSlug": "en-escale-7-lecon-1",
+  "questions": [
+    {
+      "question": "A 'meal deal' typically includes:",
+      "options": [
+        "Starter + main + dessert",
+        "Sandwich + drink + snack",
+        "Just a sandwich"
+      ],
+      "correct": 1,
+      "explanation": "Meal deal = sandwich + boisson + snack pour ~3,50£."
+    },
+    {
+      "question": "'Self-checkout' means:",
+      "options": [
+        "Sortie de secours",
+        "Caisse automatique",
+        "Contrôle de sécurité"
+      ],
+      "correct": 1,
+      "explanation": "Self-checkout = caisse automatique en libre-service."
+    },
+    {
+      "question": "Plastic bags at UK shops cost:",
+      "options": [
+        "Nothing",
+        "5-10p",
+        "£1"
+      ],
+      "correct": 1,
+      "explanation": "Les sacs plastiques coûtent 5-10p depuis la loi de 2015."
+    },
+    {
+      "question": "'Here you go' means:",
+      "options": [
+        "Allez-y",
+        "Tenez / voilà",
+        "Là-bas"
+      ],
+      "correct": 1,
+      "explanation": "'Here you go' = tenez, voilà. Très courant."
+    },
+    {
+      "question": "'A loaf' is:",
+      "options": [
+        "A slice of bread",
+        "A whole bread",
+        "A roll"
+      ],
+      "correct": 1,
+      "explanation": "A loaf = un pain entier. A slice = une tranche."
+    },
+    {
+      "question": "Which market is multicultural?",
+      "options": [
+        "Borough Market",
+        "Brixton Market",
+        "Camden Market"
+      ],
+      "correct": 1,
+      "explanation": "Brixton Market = multiculturel : cuisine caribéenne, africaine."
+    },
+    {
+      "question": "'A tenner' is:",
+      "options": [
+        "£10 note",
+        "10 pence",
+        "£100"
+      ],
+      "correct": 0,
+      "explanation": "A tenner = billet de 10£. A fiver = billet de 5£."
+    },
+    {
+      "question": "UK contactless limit:",
+      "options": [
+        "£30",
+        "£50",
+        "£100"
+      ],
+      "correct": 2,
+      "explanation": "Limite de paiement sans contact = £100 au UK."
+    },
+    {
+      "question": "'Change for a twenty' means:",
+      "options": [
+        "Changer 20€",
+        "La monnaie d'un billet de 20£",
+        "Échanger des billets"
+      ],
+      "correct": 1,
+      "explanation": "Change = monnaie. Change for a twenty = monnaie de 20£."
+    },
+    {
+      "question": "Which is correct?",
+      "options": [
+        "Do you have some questions?",
+        "Do you have any questions?",
+        "Do you have no questions?"
+      ],
+      "correct": 1,
+      "explanation": "Question = any. 'Do you have any questions?'"
+    },
+    {
+      "question": "Offering tea — which is correct?",
+      "options": [
+        "Would you like any tea?",
+        "Would you like some tea?",
+        "Would you like no tea?"
+      ],
+      "correct": 1,
+      "explanation": "Offre = some. Tu espères un oui."
+    },
+    {
+      "question": "'There's no milk left' means:",
+      "options": [
+        "Il y a du lait",
+        "Il n'y a plus de lait",
+        "Il y a peu de lait"
+      ],
+      "correct": 1,
+      "explanation": "No milk = aucun lait. Left = restant."
+    },
+    {
+      "question": "A Brit says 'Awful weather, isn't it?' — best response:",
+      "options": [
+        "I like rain actually",
+        "Dreadful! Got soaked this morning",
+        "The forecast says 3pm"
+      ],
+      "correct": 1,
+      "explanation": "Surenchérir dans la plainte. C'est un rituel social, pas une question météo."
+    },
+    {
+      "question": "'Chucking it down' means:",
+      "options": [
+        "Il neige",
+        "Il pleut des cordes",
+        "Il fait chaud"
+      ],
+      "correct": 1,
+      "explanation": "'Chucking it down' = il pleut des cordes. Argot britannique."
+    },
+    {
+      "question": "'Have a good one!' means:",
+      "options": [
+        "Prenez-en un bon",
+        "Bonne journée (informel)",
+        "Amusez-vous"
+      ],
+      "correct": 1,
+      "explanation": "'Have a good one' = bonne journée/soirée. Décontracté."
+    },
+    {
+      "question": "Tag questions ('isn't it?') are used for:",
+      "options": [
+        "Poser une vraie question",
+        "Inviter l'interlocuteur à être d'accord",
+        "Contredire"
+      ],
+      "correct": 1,
+      "explanation": "Les tag questions invitent à l'accord. Rituel du small talk."
+    },
+    {
+      "question": "'Makes a change' means:",
+      "options": [
+        "Change la monnaie",
+        "Ça change (de l'habitude)",
+        "Fais un changement"
+      ],
+      "correct": 1,
+      "explanation": "'Makes a change' = ça change, pour une fois."
+    },
+    {
+      "question": "'Bit nippy today' means:",
+      "options": [
+        "Un peu chaud",
+        "Un peu frisquet",
+        "Un peu venteux"
+      ],
+      "correct": 1,
+      "explanation": "Nippy = frisquet/froid. Argot britannique."
+    },
+    {
+      "question": "Costa Coffee is:",
+      "options": [
+        "Une chaîne américaine",
+        "La plus grande chaîne de café au UK",
+        "Un café italien"
+      ],
+      "correct": 1,
+      "explanation": "Costa Coffee = plus grande chaîne UK, devant Starbucks."
+    },
+    {
+      "question": "'Quid' is slang for:",
+      "options": [
+        "Dollar",
+        "Pound sterling",
+        "Euro"
+      ],
+      "correct": 1,
+      "explanation": "Quid = pound = £. 'Ten quid' = 10£."
+    }
+  ]
+}

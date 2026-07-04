@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 2,
+  "title": "Quiz final — Premiers mots et survie",
+  "color": "#8338EC",
+  "nextEscaleSlug": "kr-escale-3-lecon-1",
+  "questions": [
+    {
+      "question": "Comment dit-on 'Bonjour' (formel) ?",
+      "options": [
+        "안녕 (annyeong)",
+        "안녕하세요 (annyeonghaseyo)",
+        "감사합니다 (gamsahamnida)"
+      ],
+      "correct": 1,
+      "explanation": "안녕하세요 est la forme polie. 안녕 est informel (entre amis)."
+    },
+    {
+      "question": "'감사합니다' signifie :",
+      "options": [
+        "Bonjour",
+        "Au revoir",
+        "Merci"
+      ],
+      "correct": 2,
+      "explanation": "감사합니다 (gamsahamnida) = merci (formel)."
+    },
+    {
+      "question": "Comment te présentes-tu ?",
+      "options": [
+        "저는 [nom]입니다",
+        "이것은 [nom]입니다",
+        "여기는 [nom]입니다"
+      ],
+      "correct": 0,
+      "explanation": "저는 = je (poli) + 는 (thème). 입니다 = suis."
+    },
+    {
+      "question": "'네' signifie :",
+      "options": [
+        "Non",
+        "Oui",
+        "Merci"
+      ],
+      "correct": 1,
+      "explanation": "네 (ne) = oui. 아니요 (aniyo) = non."
+    },
+    {
+      "question": "Les chiffres sino-coréens servent pour :",
+      "options": [
+        "Compter les objets",
+        "Les dates, téléphone, prix",
+        "Compter les personnes"
+      ],
+      "correct": 1,
+      "explanation": "Sino-coréens (일이삼) = dates, prix, téléphone. Natifs (하나둘셋) = objets, personnes."
+    },
+    {
+      "question": "'죄송합니다' signifie :",
+      "options": [
+        "Excusez-moi / Pardon (formel)",
+        "De rien",
+        "S'il vous plaît"
+      ],
+      "correct": 0,
+      "explanation": "죄송합니다 = je suis désolé (très formel)."
+    },
+    {
+      "question": "Comment dire 'je ne comprends pas' ?",
+      "options": [
+        "모르겠어요",
+        "이해가 안 돼요",
+        "알겠습니다"
+      ],
+      "correct": 1,
+      "explanation": "이해가 안 돼요 = je ne comprends pas. 알겠습니다 = compris."
+    },
+    {
+      "question": "'주세요' signifie :",
+      "options": [
+        "Merci",
+        "S'il vous plaît / donnez-moi",
+        "Au revoir"
+      ],
+      "correct": 1,
+      "explanation": "주세요 (juseyo) = donnez-moi / SVP. 이거 주세요 = donnez-moi ça."
+    },
+    {
+      "question": "Comment dire 'combien ça coûte' ?",
+      "options": [
+        "이거 뭐예요?",
+        "얼마예요?",
+        "어디예요?"
+      ],
+      "correct": 1,
+      "explanation": "얼마예요 (eolmayeyo) = combien ça coûte ?"
+    },
+    {
+      "question": "'만나서 반갑습니다' signifie :",
+      "options": [
+        "À bientôt",
+        "Enchanté de vous rencontrer",
+        "Comment allez-vous ?"
+      ],
+      "correct": 1,
+      "explanation": "Littéralement : en vous rencontrant, je suis content = enchanté."
+    },
+    {
+      "question": "Le coréen a combien de niveaux de politesse ?",
+      "options": [
+        "2",
+        "4",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "7 niveaux, mais 3-4 utilisés au quotidien."
+    },
+    {
+      "question": "'안녕히 가세요' se dit à quelqu'un qui :",
+      "options": [
+        "Part",
+        "Reste",
+        "Arrive"
+      ],
+      "correct": 0,
+      "explanation": "가세요 = allez bien (à celui qui part). 계세요 = restez bien (à celui qui reste)."
+    },
+    {
+      "question": "'물' signifie :",
+      "options": [
+        "Bière",
+        "Eau",
+        "Riz"
+      ],
+      "correct": 1,
+      "explanation": "물 (mul) = eau. 밥 = riz. 맥주 = bière."
+    },
+    {
+      "question": "Le registre en '-요' est :",
+      "options": [
+        "Très formel",
+        "Poli courant",
+        "Familier"
+      ],
+      "correct": 1,
+      "explanation": "Le registre -요 est le poli courant, utilisé au quotidien."
+    },
+    {
+      "question": "Comment dire 'je suis français(e)' ?",
+      "options": [
+        "저는 프랑스 사람이에요",
+        "저는 프랑스에 가요",
+        "프랑스 좋아해요"
+      ],
+      "correct": 0,
+      "explanation": "프랑스 사람 = personne française. 이에요 = suis."
+    },
+    {
+      "question": "'화장실 어디예요?' signifie :",
+      "options": [
+        "Où est la sortie ?",
+        "Où sont les toilettes ?",
+        "Où est le restaurant ?"
+      ],
+      "correct": 1,
+      "explanation": "화장실 = toilettes. 어디예요 = où est-ce."
+    },
+    {
+      "question": "'맛있어요' signifie :",
+      "options": [
+        "C'est cher",
+        "C'est beau",
+        "C'est bon/délicieux"
+      ],
+      "correct": 2,
+      "explanation": "맛있어요 (masisseoyo) = c'est bon/délicieux."
+    },
+    {
+      "question": "Quelle particule marque le thème ?",
+      "options": [
+        "을/를",
+        "은/는",
+        "이/가"
+      ],
+      "correct": 1,
+      "explanation": "은/는 = particule de thème."
+    },
+    {
+      "question": "'한국어' signifie :",
+      "options": [
+        "La Corée",
+        "Le coréen (langue)",
+        "Un Coréen"
+      ],
+      "correct": 1,
+      "explanation": "한국어 = la langue coréenne. 한국 = la Corée."
+    },
+    {
+      "question": "1 euro ≈ combien de wons ?",
+      "options": [
+        "100 wons",
+        "1 400 wons",
+        "10 000 wons"
+      ],
+      "correct": 1,
+      "explanation": "1€ ≈ 1 400 wons."
+    }
+  ]
+}

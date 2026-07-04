@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 7,
+  "title": "Quiz final — Le restaurant avancé",
+  "color": "#E63946",
+  "nextEscaleSlug": "it-escale-8-lecon-1",
+  "questions": [
+    {
+      "question": "À quelle heure les Italiens dînent-ils ?",
+      "options": [
+        "18h-19h",
+        "20h-21h30",
+        "22h-23h"
+      ],
+      "correct": 1,
+      "explanation": "Les Italiens dînent entre 20h et 21h30."
+    },
+    {
+      "question": "'A che nome?' signifie :",
+      "options": [
+        "C'est quoi votre nom ?",
+        "À quel nom (la réservation) ?",
+        "Quel est le nom du plat ?"
+      ],
+      "correct": 1,
+      "explanation": "A che nome = à quel nom ? Standard pour les réservations."
+    },
+    {
+      "question": "'Vorrei prenotare un tavolo' signifie :",
+      "options": [
+        "J'ai une réservation",
+        "Je voudrais réserver une table",
+        "La table est réservée"
+      ],
+      "correct": 1,
+      "explanation": "Vorrei = je voudrais. Prenotare = réserver."
+    },
+    {
+      "question": "Où sont les pâtes dans un menu italien ?",
+      "options": [
+        "Antipasto",
+        "Primo",
+        "Secondo"
+      ],
+      "correct": 1,
+      "explanation": "Les pâtes, risottos et soupes sont des 'primi' (premiers plats)."
+    },
+    {
+      "question": "Le contorno se commande :",
+      "options": [
+        "Il est inclus avec le secondo",
+        "Séparément",
+        "Seulement au déjeuner"
+      ],
+      "correct": 1,
+      "explanation": "Le contorno (accompagnement) se commande SÉPARÉMENT. Erreur classique des touristes."
+    },
+    {
+      "question": "Peut-on ne commander qu'un primo ?",
+      "options": [
+        "Non, c'est impoli",
+        "Oui, c'est normal",
+        "Seulement au déjeuner"
+      ],
+      "correct": 1,
+      "explanation": "Commander seulement un primo est très courant, même pour les Italiens."
+    },
+    {
+      "question": "'Sono allergico ai frutti di mare' signifie :",
+      "options": [
+        "J'adore les fruits de mer",
+        "Je suis allergique aux fruits de mer",
+        "Il y a des fruits de mer ?"
+      ],
+      "correct": 1,
+      "explanation": "Allergico = allergique. Frutti di mare = fruits de mer."
+    },
+    {
+      "question": "'Senza' signifie :",
+      "options": [
+        "Avec",
+        "Sans",
+        "Beaucoup de"
+      ],
+      "correct": 1,
+      "explanation": "Senza = sans. Senza glutine, senza lattosio, senza carne."
+    },
+    {
+      "question": "Comment commander le vin de la maison ?",
+      "options": [
+        "Il vino più caro",
+        "Il vino della casa",
+        "Il vino straniero"
+      ],
+      "correct": 1,
+      "explanation": "Vino della casa = vin de la maison. Souvent bon et moins cher."
+    },
+    {
+      "question": "'Secco' pour un vin signifie :",
+      "options": [
+        "Sucré",
+        "Sec",
+        "Pétillant"
+      ],
+      "correct": 1,
+      "explanation": "Secco = sec. Dolce = doux. Frizzante = pétillant."
+    },
+    {
+      "question": "Le Prosecco vient de :",
+      "options": [
+        "La Toscane",
+        "La Vénétie",
+        "La Sicile"
+      ],
+      "correct": 1,
+      "explanation": "Le Prosecco vient de la Vénétie (nord-est)."
+    },
+    {
+      "question": "Comment dire 'j'ai mangé' ?",
+      "options": [
+        "Sono mangiato",
+        "Ho mangiato",
+        "Mangiavo"
+      ],
+      "correct": 1,
+      "explanation": "Mangiare utilise AVERE. Ho mangiato = j'ai mangé."
+    },
+    {
+      "question": "'Sono andato' utilise 'essere' car :",
+      "options": [
+        "C'est irrégulier",
+        "Andare est un verbe de mouvement",
+        "C'est du passé lointain"
+      ],
+      "correct": 1,
+      "explanation": "Les verbes de mouvement utilisent essere au passé composé."
+    },
+    {
+      "question": "Une femme dit 'je suis allée' :",
+      "options": [
+        "Sono andato",
+        "Sono andata",
+        "Ho andata"
+      ],
+      "correct": 1,
+      "explanation": "Avec essere, accord : andato (masc.), andata (fém.)."
+    },
+    {
+      "question": "'Com'è andata oggi?' signifie :",
+      "options": [
+        "Où es-tu allé ?",
+        "Comment ça s'est passé aujourd'hui ?",
+        "Tu es partie ?"
+      ],
+      "correct": 1,
+      "explanation": "Com'è andata = comment ça s'est passé."
+    },
+    {
+      "question": "'Come antipasto, prendo...' signifie :",
+      "options": [
+        "Comme dessert, je prends...",
+        "En entrée, je prends...",
+        "Pour le plat, je prends..."
+      ],
+      "correct": 1,
+      "explanation": "Come antipasto = en entrée. Come primo = en premier plat."
+    },
+    {
+      "question": "'Avete scelto?' signifie :",
+      "options": [
+        "Vous avez réservé ?",
+        "Vous avez choisi ?",
+        "Vous avez payé ?"
+      ],
+      "correct": 1,
+      "explanation": "Scelto = participe passé de scegliere (choisir)."
+    },
+    {
+      "question": "'Celiaco' signifie :",
+      "options": [
+        "Végétarien",
+        "Intolérant au gluten (cœliaque)",
+        "Allergique au lait"
+      ],
+      "correct": 1,
+      "explanation": "Celiaco/a = cœliaque (intolérant au gluten)."
+    },
+    {
+      "question": "Un quarto de vin correspond à :",
+      "options": [
+        "Un quart de litre (25cl)",
+        "Un quart de bouteille",
+        "Un verre"
+      ],
+      "correct": 0,
+      "explanation": "Un quarto = un quart de litre (25cl). Mezzo litro = un demi-litre."
+    },
+    {
+      "question": "'Corposo' pour un vin signifie :",
+      "options": [
+        "Léger",
+        "Corsé / charpenté",
+        "Sucré"
+      ],
+      "correct": 1,
+      "explanation": "Corposo = corsé. Leggero = léger."
+    }
+  ]
+}

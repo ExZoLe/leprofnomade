@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 4,
+  "title": "Quiz final — Getting around London",
+  "color": "#1B4965",
+  "nextEscaleSlug": "en-escale-5-lecon-1",
+  "questions": [
+    {
+      "question": "What's a 'daily cap'?",
+      "options": [
+        "Le premier trajet",
+        "Le plafond journalier de dépense",
+        "Un type de billet"
+      ],
+      "correct": 1,
+      "explanation": "Le daily cap = montant max par jour. Après, tous les trajets sont gratuits."
+    },
+    {
+      "question": "'Mind the gap' signifie :",
+      "options": [
+        "Attention aux pickpockets",
+        "Attention à l'espace (quai/train)",
+        "Fermez les portes"
+      ],
+      "correct": 1,
+      "explanation": "Mind the gap = faites attention à l'espace entre le quai et le train."
+    },
+    {
+      "question": "How much is an Oyster card deposit?",
+      "options": [
+        "£3",
+        "£5 (refundable)",
+        "£10"
+      ],
+      "correct": 1,
+      "explanation": "La caution est de 5£, remboursable quand tu rends la carte."
+    },
+    {
+      "question": "Which is more polite?",
+      "options": [
+        "Where is the museum?",
+        "Could you tell me how to get to the museum?",
+        "Museum where?"
+      ],
+      "correct": 1,
+      "explanation": "'Could you tell me...' est la forme la plus polie en anglais britannique."
+    },
+    {
+      "question": "'You can't miss it' means:",
+      "options": [
+        "C'est caché",
+        "Tu ne peux pas entrer",
+        "Tu le verras facilement"
+      ],
+      "correct": 2,
+      "explanation": "'You can't miss it' = c'est impossible à rater."
+    },
+    {
+      "question": "'Traffic lights' means:",
+      "options": [
+        "Lampadaires",
+        "Feux de signalisation",
+        "Phares"
+      ],
+      "correct": 1,
+      "explanation": "Traffic lights = feux de signalisation."
+    },
+    {
+      "question": "What is 'The Knowledge'?",
+      "options": [
+        "Un guide touristique",
+        "L'examen des chauffeurs de black cab",
+        "Un podcast"
+      ],
+      "correct": 1,
+      "explanation": "The Knowledge = examen légendaire : 25 000 rues mémorisées."
+    },
+    {
+      "question": "'Quid' means:",
+      "options": [
+        "Dollar",
+        "Pound / livre sterling",
+        "Euro"
+      ],
+      "correct": 1,
+      "explanation": "Quid = pound = £. Argot très courant. 'Five quid' = 5£."
+    },
+    {
+      "question": "'Drop me off here' means:",
+      "options": [
+        "Prenez-moi ici",
+        "Déposez-moi ici",
+        "Attendez-moi ici"
+      ],
+      "correct": 1,
+      "explanation": "Drop off = déposer. Pick up = récupérer."
+    },
+    {
+      "question": "Can you pay cash on London buses?",
+      "options": [
+        "Yes",
+        "No, card/Oyster only since 2014",
+        "Only coins"
+      ],
+      "correct": 1,
+      "explanation": "Depuis 2014, Oyster ou carte contactless uniquement dans les bus."
+    },
+    {
+      "question": "'Get off' means:",
+      "options": [
+        "Monter",
+        "Descendre",
+        "S'asseoir"
+      ],
+      "correct": 1,
+      "explanation": "Get on = monter. Get off = descendre."
+    },
+    {
+      "question": "A 'request stop' is:",
+      "options": [
+        "Un arrêt interdit",
+        "Un arrêt où le bus s'arrête seulement si tu appuies",
+        "L'arrêt principal"
+      ],
+      "correct": 1,
+      "explanation": "Request stop = arrêt à la demande."
+    },
+    {
+      "question": "'I'm eating' is what tense?",
+      "options": [
+        "Present simple",
+        "Present continuous",
+        "Past simple"
+      ],
+      "correct": 1,
+      "explanation": "am/is/are + -ing = present continuous. Action en cours."
+    },
+    {
+      "question": "Which is correct for a habit?",
+      "options": [
+        "I'm eating pizza every day",
+        "I eat pizza every day",
+        "I'm eat pizza"
+      ],
+      "correct": 1,
+      "explanation": "Habitude (every day) = present simple : I eat."
+    },
+    {
+      "question": "'What are you doing?' asks about:",
+      "options": [
+        "Tes habitudes",
+        "Ce que tu fais maintenant",
+        "Ce que tu as fait"
+      ],
+      "correct": 1,
+      "explanation": "Present continuous = action en cours, maintenant."
+    },
+    {
+      "question": "'Lovely' in British English means:",
+      "options": [
+        "Joli seulement",
+        "Super / génial / agréable",
+        "Amoureux"
+      ],
+      "correct": 1,
+      "explanation": "Lovely = super/génial. Très britannique et polyvalent."
+    },
+    {
+      "question": "'Brilliant' means:",
+      "options": [
+        "Intelligent",
+        "Génial / Super",
+        "Brillant (lumière)"
+      ],
+      "correct": 1,
+      "explanation": "Brilliant = super/génial en anglais britannique."
+    },
+    {
+      "question": "'Cheers' can mean:",
+      "options": [
+        "Seulement santé",
+        "Merci / Santé / Au revoir",
+        "Seulement merci"
+      ],
+      "correct": 1,
+      "explanation": "Cheers est ultra-polyvalent : merci, santé, au revoir."
+    },
+    {
+      "question": "The Tube has how many lines?",
+      "options": [
+        "8",
+        "11",
+        "15"
+      ],
+      "correct": 1,
+      "explanation": "Le métro londonien a 11 lignes identifiées par des couleurs."
+    },
+    {
+      "question": "'Does this bus go to...?' is:",
+      "options": [
+        "A statement",
+        "A question about the destination",
+        "A complaint"
+      ],
+      "correct": 1,
+      "explanation": "La question standard pour vérifier la destination d'un bus."
+    }
+  ]
+}

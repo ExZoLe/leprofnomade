@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 8,
+  "title": "Quiz final — Tea time and British culture",
+  "color": "#1B4965",
+  "nextEscaleSlug": "en-escale-9-lecon-1",
+  "questions": [
+    {
+      "question": "'Fancy a cuppa?' means:",
+      "options": [
+        "Want a cup of tea?",
+        "Want a coffee?",
+        "Want a biscuit?"
+      ],
+      "correct": 0,
+      "explanation": "Cuppa = cup of tea en argot. 'Fancy a cuppa?' = ça te dit un thé ?"
+    },
+    {
+      "question": "A 'builder's tea' is:",
+      "options": [
+        "Weak herbal tea",
+        "Strong tea with lots of milk and sugar",
+        "Earl Grey with lemon"
+      ],
+      "correct": 1,
+      "explanation": "Builder's tea = thé noir fort, beaucoup de lait, souvent du sucre."
+    },
+    {
+      "question": "'How do you take your tea?' asks about:",
+      "options": [
+        "Where you drink it",
+        "How you prefer it (milk, sugar, strength)",
+        "When you drink it"
+      ],
+      "correct": 1,
+      "explanation": "Comment tu le prends = lait ? sucre ? fort ? LA question du thé."
+    },
+    {
+      "question": "'Take away' in the UK means:",
+      "options": [
+        "Enlever",
+        "À emporter",
+        "Livraison"
+      ],
+      "correct": 1,
+      "explanation": "Take away (UK) = à emporter. To go (US)."
+    },
+    {
+      "question": "A 'flat white' is:",
+      "options": [
+        "A white tea",
+        "Espresso with micro-foam milk",
+        "Latte with cream"
+      ],
+      "correct": 1,
+      "explanation": "Flat white = espresso + lait micro-moussé. Très tendance au UK."
+    },
+    {
+      "question": "Biggest coffee chain in the UK:",
+      "options": [
+        "Starbucks",
+        "Costa Coffee",
+        "Pret A Manger"
+      ],
+      "correct": 1,
+      "explanation": "Costa Coffee = plus grande chaîne UK, devant Starbucks."
+    },
+    {
+      "question": "Afternoon tea order (bottom to top):",
+      "options": [
+        "Scones → sandwiches → cakes",
+        "Sandwiches → scones → cakes",
+        "Cakes → scones → sandwiches"
+      ],
+      "correct": 1,
+      "explanation": "De bas en haut : sandwichs → scones → gâteaux (salé vers sucré)."
+    },
+    {
+      "question": "'Clotted cream' is:",
+      "options": [
+        "Whipped cream",
+        "Thick cream from Devon",
+        "Ice cream"
+      ],
+      "correct": 1,
+      "explanation": "Clotted cream = crème caillée épaisse du Devon."
+    },
+    {
+      "question": "Cream first or jam first debate is between:",
+      "options": [
+        "England and Scotland",
+        "Devon and Cornwall",
+        "Rich and poor"
+      ],
+      "correct": 1,
+      "explanation": "Devon = crème d'abord. Cornwall = confiture d'abord."
+    },
+    {
+      "question": "Which expresses a pre-made plan?",
+      "options": [
+        "I'll visit London",
+        "I'm going to visit London",
+        "I visit London"
+      ],
+      "correct": 1,
+      "explanation": "Going to = plan/intention déjà décidé."
+    },
+    {
+      "question": "At a restaurant, more natural:",
+      "options": [
+        "I'm going to have the fish",
+        "I'll have the fish",
+        "Both work but 'I'll have' is more natural"
+      ],
+      "correct": 2,
+      "explanation": "'I'll have' = décision sur le moment. Plus naturel au restaurant."
+    },
+    {
+      "question": "'Shall I book a table?' means:",
+      "options": [
+        "Je dois réserver ?",
+        "Voulez-vous que je réserve ?",
+        "J'ai réservé"
+      ],
+      "correct": 1,
+      "explanation": "'Shall I...?' = voulez-vous que je... / est-ce que je devrais... ?"
+    },
+    {
+      "question": "Worst social crime in Britain:",
+      "options": [
+        "Talking loudly",
+        "Jumping the queue",
+        "Not knowing the Queen"
+      ],
+      "correct": 1,
+      "explanation": "Resquiller = péché cardinal. Rien n'énerve plus un Britannique."
+    },
+    {
+      "question": "'That's quite interesting' likely means:",
+      "options": [
+        "Fascinating!",
+        "OK / unremarkable",
+        "Terrible"
+      ],
+      "correct": 1,
+      "explanation": "'Quite' atténue en britannique. 'Quite interesting' = moyen, pas terrible."
+    },
+    {
+      "question": "On a Tube escalator:",
+      "options": [
+        "Stand wherever",
+        "Stand right, walk left",
+        "Stand left, walk right"
+      ],
+      "correct": 1,
+      "explanation": "DROITE = immobile. GAUCHE = marcher. Se tromper = soupirs audibles."
+    },
+    {
+      "question": "'Not bad' in British usually means:",
+      "options": [
+        "Mediocre",
+        "Quite good / impressed",
+        "Bad"
+      ],
+      "correct": 1,
+      "explanation": "Understatement : 'not bad' = plutôt bien, voire très bien."
+    },
+    {
+      "question": "'With respect...' actually means:",
+      "options": [
+        "Je vous respecte",
+        "Tu as complètement tort",
+        "Je suis d'accord"
+      ],
+      "correct": 1,
+      "explanation": "Plus c'est poli, plus le désaccord est profond."
+    },
+    {
+      "question": "'I'm not being funny, but...' means:",
+      "options": [
+        "Something hilarious follows",
+        "A criticism is coming",
+        "A joke is coming"
+      ],
+      "correct": 1,
+      "explanation": "L'introduction qui annonce une critique directe."
+    },
+    {
+      "question": "A 'scone' — how to pronounce:",
+      "options": [
+        "Only 'skon'",
+        "Only 'skône'",
+        "Both exist — it divides the nation"
+      ],
+      "correct": 2,
+      "explanation": "'Skon' (nord) ou 'skône' (sud). Autre sujet de guerre civile."
+    },
+    {
+      "question": "'Fingers crossed' means:",
+      "options": [
+        "Croisons les doigts (espérons)",
+        "Les doigts dans le nez",
+        "Doigts croisés (serment)"
+      ],
+      "correct": 0,
+      "explanation": "Fingers crossed = croisons les doigts = espérons que ça marche."
+    }
+  ]
+}

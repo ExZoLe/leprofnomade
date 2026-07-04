@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 3,
+  "title": "Quiz final — L'aéroport et l'arrivée",
+  "color": "#1B4965",
+  "nextEscaleSlug": "en-escale-4-lecon-1",
+  "questions": [
+    {
+      "question": "'Passport control' is:",
+      "options": [
+        "Contrôle bagages",
+        "Contrôle d'immigration",
+        "Contrôle sécurité"
+      ],
+      "correct": 1,
+      "explanation": "Passport control = contrôle d'immigration."
+    },
+    {
+      "question": "'Baggage reclaim' means:",
+      "options": [
+        "Enregistrement bagages",
+        "Récupération bagages",
+        "Perte bagages"
+      ],
+      "correct": 1,
+      "explanation": "Baggage reclaim = récupération des bagages."
+    },
+    {
+      "question": "'Nothing to declare' means:",
+      "options": [
+        "Rien à déclarer",
+        "Rien à acheter",
+        "Je ne parle pas anglais"
+      ],
+      "correct": 0,
+      "explanation": "Nothing to declare = rien à déclarer (douane)."
+    },
+    {
+      "question": "'Boarding pass' is:",
+      "options": [
+        "Carte d'embarquement",
+        "Carte de fidélité",
+        "Billet de train"
+      ],
+      "correct": 0,
+      "explanation": "Boarding pass = carte d'embarquement."
+    },
+    {
+      "question": "'Gate' at the airport is:",
+      "options": [
+        "Porte d'embarquement",
+        "Sortie",
+        "Guichet"
+      ],
+      "correct": 0,
+      "explanation": "Gate = porte d'embarquement."
+    },
+    {
+      "question": "'Delayed' means:",
+      "options": [
+        "Annulé",
+        "En retard",
+        "À l'heure"
+      ],
+      "correct": 1,
+      "explanation": "Delayed = en retard. Cancelled = annulé. On time = à l'heure."
+    },
+    {
+      "question": "'Could you help me find...?' is:",
+      "options": [
+        "A demand",
+        "A polite request",
+        "A complaint"
+      ],
+      "correct": 1,
+      "explanation": "Could you = formule polie de demande."
+    },
+    {
+      "question": "'The Tube' refers to:",
+      "options": [
+        "A drinking tube",
+        "London's underground",
+        "A TV channel"
+      ],
+      "correct": 1,
+      "explanation": "The Tube = le métro londonien."
+    },
+    {
+      "question": "'Single' ticket means:",
+      "options": [
+        "Billet 1 personne",
+        "Aller simple",
+        "Première classe"
+      ],
+      "correct": 1,
+      "explanation": "Single = aller simple. Return = aller-retour."
+    },
+    {
+      "question": "'Platform' at a station is:",
+      "options": [
+        "Guichet",
+        "Quai",
+        "Gare"
+      ],
+      "correct": 1,
+      "explanation": "Platform = quai."
+    },
+    {
+      "question": "'Cashpoint' means:",
+      "options": [
+        "Caisse supermarché",
+        "Distributeur (ATM)",
+        "Bureau de change"
+      ],
+      "correct": 1,
+      "explanation": "Cashpoint (UK) = ATM = distributeur de billets."
+    },
+    {
+      "question": "'Way out' means:",
+      "options": [
+        "Entrée",
+        "Sortie",
+        "Sens interdit"
+      ],
+      "correct": 1,
+      "explanation": "Way out = sortie (dans le métro londonien)."
+    },
+    {
+      "question": "'I'm looking for...' means:",
+      "options": [
+        "J'attends...",
+        "Je cherche...",
+        "Je regarde..."
+      ],
+      "correct": 1,
+      "explanation": "I'm looking for = je cherche."
+    },
+    {
+      "question": "A 'taxi rank' is:",
+      "options": [
+        "Un classement de taxis",
+        "Une station de taxis",
+        "Un taxi de luxe"
+      ],
+      "correct": 1,
+      "explanation": "Taxi rank (UK) = station de taxis."
+    },
+    {
+      "question": "'Oyster card' is:",
+      "options": [
+        "Carte de pêche",
+        "Carte de transport Londres",
+        "Pass musée"
+      ],
+      "correct": 1,
+      "explanation": "Oyster card = carte de transport rechargeable de Londres."
+    },
+    {
+      "question": "'Top up' means:",
+      "options": [
+        "Monter en haut",
+        "Recharger (une carte)",
+        "Remplir un verre"
+      ],
+      "correct": 1,
+      "explanation": "Top up = recharger. 'Top up your Oyster card'."
+    },
+    {
+      "question": "'Mind the gap' warns about:",
+      "options": [
+        "Pickpockets",
+        "L'espace quai/train",
+        "Fermeture des portes"
+      ],
+      "correct": 1,
+      "explanation": "Mind the gap = attention à l'espace entre quai et train."
+    },
+    {
+      "question": "'Luggage' is:",
+      "options": [
+        "Countable",
+        "Uncountable",
+        "Both"
+      ],
+      "correct": 1,
+      "explanation": "Luggage est uncountable ! 'A piece of luggage', jamais 'a luggage'."
+    },
+    {
+      "question": "'Have you got any ID?' means:",
+      "options": [
+        "Avez-vous une idée ?",
+        "Avez-vous une pièce d'identité ?",
+        "Savez-vous ?"
+      ],
+      "correct": 1,
+      "explanation": "ID = identity document = pièce d'identité."
+    },
+    {
+      "question": "'Straightaway' means:",
+      "options": [
+        "Tout droit",
+        "Immédiatement",
+        "Plus tard"
+      ],
+      "correct": 1,
+      "explanation": "Straightaway = immédiatement / tout de suite."
+    }
+  ]
+}

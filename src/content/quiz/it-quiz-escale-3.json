@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 3,
+  "title": "Quiz final — L'aéroport et l'arrivée",
+  "color": "#E63946",
+  "nextEscaleSlug": "it-escale-4-lecon-1",
+  "questions": [
+    {
+      "question": "'Biglietto' signifie :",
+      "options": [
+        "Bagage",
+        "Billet",
+        "Guichet"
+      ],
+      "correct": 1,
+      "explanation": "Biglietto = billet (avion, train, bus)."
+    },
+    {
+      "question": "'Dov'è l'uscita?' signifie :",
+      "options": [
+        "Où est l'entrée ?",
+        "Où est la sortie ?",
+        "Où est la gare ?"
+      ],
+      "correct": 1,
+      "explanation": "Uscita = sortie. Dov'è = où est."
+    },
+    {
+      "question": "'Cerco il mio hotel' signifie :",
+      "options": [
+        "Je cherche mon hôtel",
+        "Je vais à mon hôtel",
+        "Où est mon hôtel ?"
+      ],
+      "correct": 0,
+      "explanation": "Cerco = je cherche. Il mio = mon."
+    },
+    {
+      "question": "'Volo' signifie :",
+      "options": [
+        "Voiture",
+        "Vol (avion)",
+        "Valise"
+      ],
+      "correct": 1,
+      "explanation": "Volo = vol. Il mio volo = mon vol."
+    },
+    {
+      "question": "'Quanto costa il taxi?' signifie :",
+      "options": [
+        "Où est le taxi ?",
+        "Combien coûte le taxi ?",
+        "Où va le taxi ?"
+      ],
+      "correct": 1,
+      "explanation": "Quanto costa = combien ça coûte."
+    },
+    {
+      "question": "Le 'coperto' au restaurant est :",
+      "options": [
+        "Le pourboire",
+        "Un frais de couvert",
+        "L'entrée"
+      ],
+      "correct": 1,
+      "explanation": "Le coperto = supplément par personne pour le couvert (pain, couverts)."
+    },
+    {
+      "question": "'Ho bisogno di...' signifie :",
+      "options": [
+        "J'ai besoin de...",
+        "J'ai envie de...",
+        "J'ai peur de..."
+      ],
+      "correct": 0,
+      "explanation": "Ho bisogno di = j'ai besoin de."
+    },
+    {
+      "question": "'Passaporto' signifie :",
+      "options": [
+        "Passeport",
+        "Passage",
+        "Passager"
+      ],
+      "correct": 0,
+      "explanation": "Passaporto = passeport."
+    },
+    {
+      "question": "'Gli' s'utilise devant :",
+      "options": [
+        "Noms féminins",
+        "Noms masc. pluriels devant voyelle/s+cons/z",
+        "Tous les pluriels"
+      ],
+      "correct": 1,
+      "explanation": "Gli = article défini masculin pluriel devant voyelle, s+consonne, z."
+    },
+    {
+      "question": "'A che ora parte l'aereo?' signifie :",
+      "options": [
+        "Où atterrit l'avion ?",
+        "À quelle heure part l'avion ?",
+        "Combien coûte l'avion ?"
+      ],
+      "correct": 1,
+      "explanation": "A che ora = à quelle heure. Parte = part."
+    },
+    {
+      "question": "'Bagaglio a mano' signifie :",
+      "options": [
+        "Bagage en soute",
+        "Bagage à main/cabine",
+        "Sac à dos"
+      ],
+      "correct": 1,
+      "explanation": "A mano = à main. Bagaglio a mano = bagage cabine."
+    },
+    {
+      "question": "'Parli lentamente, per favore' signifie :",
+      "options": [
+        "Parlez plus fort",
+        "Parlez lentement SVP",
+        "Répétez SVP"
+      ],
+      "correct": 1,
+      "explanation": "Lentamente = lentement. Per favore = SVP."
+    },
+    {
+      "question": "'Dogana' signifie :",
+      "options": [
+        "Douane",
+        "Docteur",
+        "Document"
+      ],
+      "correct": 0,
+      "explanation": "Dogana = douane."
+    },
+    {
+      "question": "'C'è un autobus per il centro?' signifie :",
+      "options": [
+        "Le bus est au centre ?",
+        "Y a-t-il un bus pour le centre ?",
+        "Le centre est loin ?"
+      ],
+      "correct": 1,
+      "explanation": "C'è = il y a. Per = pour. Centro = centre."
+    },
+    {
+      "question": "Les articles indéfinis masculins sont :",
+      "options": [
+        "un, uno",
+        "una, un'",
+        "il, lo"
+      ],
+      "correct": 0,
+      "explanation": "Un (devant consonne/voyelle), uno (devant s+cons, z)."
+    },
+    {
+      "question": "'Non lo so' signifie :",
+      "options": [
+        "Je ne le veux pas",
+        "Je ne le sais pas",
+        "Je ne le vois pas"
+      ],
+      "correct": 1,
+      "explanation": "Lo = le. So = sais. Non lo so = je ne sais pas."
+    },
+    {
+      "question": "'Posso pagare con la carta?' signifie :",
+      "options": [
+        "Payer en espèces ?",
+        "Payer par carte ?",
+        "Combien payer ?"
+      ],
+      "correct": 1,
+      "explanation": "Carta = carte. Pagare = payer."
+    },
+    {
+      "question": "'Vicino' signifie :",
+      "options": [
+        "Loin",
+        "Proche",
+        "Vieux"
+      ],
+      "correct": 1,
+      "explanation": "Vicino = proche. Lontano = loin."
+    },
+    {
+      "question": "'Vorrei un caffè' signifie :",
+      "options": [
+        "Je veux un café",
+        "Je voudrais un café",
+        "J'ai un café"
+      ],
+      "correct": 1,
+      "explanation": "Vorrei = je voudrais (conditionnel, plus poli que voglio)."
+    },
+    {
+      "question": "'Pronto?' au téléphone signifie :",
+      "options": [
+        "Prêt ?",
+        "Allô ?",
+        "Vite !"
+      ],
+      "correct": 1,
+      "explanation": "Pronto = allô (uniquement au téléphone en Italie)."
+    }
+  ]
+}

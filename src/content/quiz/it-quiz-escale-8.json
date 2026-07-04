@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 8,
+  "title": "Quiz final — Le café et l'apéritif",
+  "color": "#E63946",
+  "nextEscaleSlug": "it-escale-9-lecon-1",
+  "questions": [
+    {
+      "question": "L'aperitivo a lieu entre :",
+      "options": [
+        "12h et 14h",
+        "18h et 21h",
+        "22h et minuit"
+      ],
+      "correct": 1,
+      "explanation": "L'aperitivo = rituel du début de soirée, 18h-21h."
+    },
+    {
+      "question": "Qu'est-ce qu'une 'apericena' ?",
+      "options": [
+        "Un dessert",
+        "Un apéritif-dîner (buffet copieux)",
+        "Un restaurant"
+      ],
+      "correct": 1,
+      "explanation": "Apericena = aperitivo + cena. Le buffet remplace le dîner."
+    },
+    {
+      "question": "Le Negroni a été inventé à :",
+      "options": [
+        "Rome",
+        "Florence",
+        "Venise"
+      ],
+      "correct": 1,
+      "explanation": "Le Negroni est né à Florence, au Caffè Casoni."
+    },
+    {
+      "question": "'Cin cin!' signifie :",
+      "options": [
+        "Au revoir",
+        "Santé ! (pour trinquer)",
+        "Merci"
+      ],
+      "correct": 1,
+      "explanation": "Cin cin = santé / tchin tchin (pour trinquer)."
+    },
+    {
+      "question": "Après quelle heure ne plus commander de cappuccino ?",
+      "options": [
+        "9h",
+        "11h",
+        "14h"
+      ],
+      "correct": 1,
+      "explanation": "Le cappuccino ne se boit que le matin, avant 11h."
+    },
+    {
+      "question": "Pourquoi commander 'al banco' ?",
+      "options": [
+        "C'est plus rapide",
+        "C'est moins cher (prix réglementé)",
+        "C'est plus poli"
+      ],
+      "correct": 1,
+      "explanation": "Au comptoir (al banco), le prix est réglementé et moins cher qu'à table."
+    },
+    {
+      "question": "Un 'cornetto vuoto' est :",
+      "options": [
+        "Au chocolat",
+        "Nature (sans garniture)",
+        "Un grand cornetto"
+      ],
+      "correct": 1,
+      "explanation": "Vuoto = vide. Cornetto vuoto = nature, sans crème ni confiture."
+    },
+    {
+      "question": "Comment repérer un bon gelato artisanal ?",
+      "options": [
+        "Couleurs vives et brillantes",
+        "Couleurs naturelles (pistache vert-gris)",
+        "Beaucoup de parfums"
+      ],
+      "correct": 1,
+      "explanation": "Couleurs naturelles = artisanal. Pistache vert fluo = colorant = industriel."
+    },
+    {
+      "question": "'Gusto' signifie :",
+      "options": [
+        "Goût / parfum",
+        "Texture",
+        "Taille"
+      ],
+      "correct": 0,
+      "explanation": "Gusto = goût/parfum de glace."
+    },
+    {
+      "question": "'Con panna' signifie :",
+      "options": [
+        "Avec du pain",
+        "Avec de la crème fouettée",
+        "Avec un supplément"
+      ],
+      "correct": 1,
+      "explanation": "Panna = crème fouettée. Souvent gratuite !"
+    },
+    {
+      "question": "Comment dire 'j'irai' ?",
+      "options": [
+        "Andarò",
+        "Andrò",
+        "Vado"
+      ],
+      "correct": 1,
+      "explanation": "Andare est irrégulier au futur : andrò."
+    },
+    {
+      "question": "Les terminaisons du futur sont :",
+      "options": [
+        "Différentes pour chaque groupe",
+        "Identiques pour les 3 groupes",
+        "Inexistantes"
+      ],
+      "correct": 1,
+      "explanation": "Les terminaisons -ò, -ai, -à, -emo, -ete, -anno sont les mêmes pour tous."
+    },
+    {
+      "question": "'Sarà divertente' signifie :",
+      "options": [
+        "C'était amusant",
+        "Ce sera amusant",
+        "C'est amusant"
+      ],
+      "correct": 1,
+      "explanation": "Sarà = ce sera (futur de essere)."
+    },
+    {
+      "question": "La 'passeggiata' c'est :",
+      "options": [
+        "Un plat de pâtes",
+        "La promenade du soir (rituel)",
+        "Un type de café"
+      ],
+      "correct": 1,
+      "explanation": "La passeggiata = promenade du soir, rituel social quotidien."
+    },
+    {
+      "question": "'Il caffè sospeso' est :",
+      "options": [
+        "Un café froid",
+        "Un café payé pour un inconnu",
+        "Un café très fort"
+      ],
+      "correct": 1,
+      "explanation": "Caffè sospeso = café suspendu, tradition napolitaine de solidarité."
+    },
+    {
+      "question": "'Il dolce far niente' signifie :",
+      "options": [
+        "Le dessert italien",
+        "La douceur de ne rien faire",
+        "La fin du repas"
+      ],
+      "correct": 1,
+      "explanation": "Il dolce far niente = la douceur de ne rien faire. Art de vivre italien."
+    },
+    {
+      "question": "'Cono o coppetta?' demande :",
+      "options": [
+        "Grand ou petit ?",
+        "Cornet ou pot ?",
+        "Un ou deux parfums ?"
+      ],
+      "correct": 1,
+      "explanation": "Cono = cornet. Coppetta = pot/coupe. Première question en gelateria."
+    },
+    {
+      "question": "L'Aperol Spritz est composé de :",
+      "options": [
+        "Gin + tonic + citron",
+        "Prosecco + Aperol + soda",
+        "Vodka + orange + glace"
+      ],
+      "correct": 1,
+      "explanation": "Spritz = Prosecco + Aperol + eau gazeuse + olive ou orange."
+    },
+    {
+      "question": "'Stuzzichini' sont :",
+      "options": [
+        "Des desserts",
+        "Des amuse-bouches / snacks",
+        "Des plats principaux"
+      ],
+      "correct": 1,
+      "explanation": "Stuzzichini = amuse-bouches servis pendant l'aperitivo, souvent gratuits."
+    },
+    {
+      "question": "'Rallentare' signifie :",
+      "options": [
+        "Accélérer",
+        "Ralentir",
+        "S'arrêter"
+      ],
+      "correct": 1,
+      "explanation": "Rallentare = ralentir. L'Italia mi ha insegnato a rallentare."
+    }
+  ]
+}

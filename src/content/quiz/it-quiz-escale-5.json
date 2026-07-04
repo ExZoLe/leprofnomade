@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 5,
+  "title": "Quiz final — L'hébergement italien",
+  "color": "#E63946",
+  "nextEscaleSlug": "it-escale-6-lecon-1",
+  "questions": [
+    {
+      "question": "'Ho una prenotazione' signifie :",
+      "options": [
+        "Je voudrais réserver",
+        "J'ai une réservation",
+        "Il n'y a pas de réservation"
+      ],
+      "correct": 1,
+      "explanation": "Ho = j'ai. Una prenotazione = une réservation."
+    },
+    {
+      "question": "'Colazione' signifie :",
+      "options": [
+        "Déjeuner",
+        "Dîner",
+        "Petit-déjeuner"
+      ],
+      "correct": 2,
+      "explanation": "Colazione = petit-déjeuner. Pranzo = déjeuner. Cena = dîner."
+    },
+    {
+      "question": "'Per cortesia' signifie :",
+      "options": [
+        "Avec plaisir",
+        "S'il vous plaît (élégant)",
+        "De rien"
+      ],
+      "correct": 1,
+      "explanation": "Per cortesia = s'il vous plaît, version plus élégante que per favore."
+    },
+    {
+      "question": "'Dalle 7 alle 10' signifie :",
+      "options": [
+        "7 ou 10",
+        "De 7h à 10h",
+        "À 7h10"
+      ],
+      "correct": 1,
+      "explanation": "Dalle = de les (da + le). Alle = à les (a + le). De 7h à 10h."
+    },
+    {
+      "question": "'Non funziona' signifie :",
+      "options": [
+        "Ça ne marche pas",
+        "Ce n'est pas amusant",
+        "Ce n'est pas fini"
+      ],
+      "correct": 0,
+      "explanation": "Non funziona = ça ne fonctionne pas. LA phrase de survie en hôtel."
+    },
+    {
+      "question": "'Non c'è acqua calda' signifie :",
+      "options": [
+        "L'eau est chaude",
+        "Il n'y a pas d'eau chaude",
+        "Où est l'eau chaude ?"
+      ],
+      "correct": 1,
+      "explanation": "Non c'è = il n'y a pas. Acqua calda = eau chaude."
+    },
+    {
+      "question": "'Subito' signifie :",
+      "options": [
+        "Lentement",
+        "Demain",
+        "Tout de suite"
+      ],
+      "correct": 2,
+      "explanation": "Subito = tout de suite / immédiatement."
+    },
+    {
+      "question": "Qu'est-ce qu'un agriturismo ?",
+      "options": [
+        "Un restaurant végétarien",
+        "Une ferme qui accueille des hôtes",
+        "Un marché bio"
+      ],
+      "correct": 1,
+      "explanation": "L'agriturismo est un concept italien : ferme-auberge avec hébergement et repas locaux."
+    },
+    {
+      "question": "'Fatto in casa' signifie :",
+      "options": [
+        "Fait en usine",
+        "Fait maison",
+        "Fait à la main"
+      ],
+      "correct": 1,
+      "explanation": "Fatto = fait. In casa = à la maison. Pasta fatta in casa = pâtes faites maison."
+    },
+    {
+      "question": "'Non vedo l'ora' signifie :",
+      "options": [
+        "Je ne vois pas l'heure",
+        "J'ai hâte",
+        "Je suis en retard"
+      ],
+      "correct": 1,
+      "explanation": "Non vedo l'ora = j'ai hâte (littéralement : je ne vois pas l'heure)."
+    },
+    {
+      "question": "'Che bello!' signifie :",
+      "options": [
+        "Quel beau temps",
+        "Que c'est beau !",
+        "Quelle belle chose"
+      ],
+      "correct": 1,
+      "explanation": "Che bello! = Que c'est beau ! Expression d'enthousiasme."
+    },
+    {
+      "question": "Les terminaisons du présent pour 'nous' (-iamo) sont :",
+      "options": [
+        "Différentes pour chaque groupe",
+        "Les mêmes pour les 3 groupes",
+        "Inexistantes"
+      ],
+      "correct": 1,
+      "explanation": "La terminaison 'noi' est toujours -iamo : parliamo, prendiamo, dormiamo."
+    },
+    {
+      "question": "Comment dire 'nous mangeons' ?",
+      "options": [
+        "Mangio",
+        "Mangiamo",
+        "Mangiate"
+      ],
+      "correct": 1,
+      "explanation": "Mangiare → noi mangiamo. Terminaison -iamo pour 'nous'."
+    },
+    {
+      "question": "'Dormo' signifie :",
+      "options": [
+        "Tu dors",
+        "Je dors",
+        "Il dort"
+      ],
+      "correct": 1,
+      "explanation": "Dormo = je dors. Dormi = tu dors. Dorme = il/elle dort."
+    },
+    {
+      "question": "Pour 'je' (io), la terminaison est toujours :",
+      "options": [
+        "-o",
+        "-i",
+        "-a"
+      ],
+      "correct": 0,
+      "explanation": "Pour io, c'est toujours -o : parlo, prendo, dormo."
+    },
+    {
+      "question": "'Prego' peut signifier tout sauf :",
+      "options": [
+        "De rien",
+        "S'il vous plaît",
+        "Je vous en prie"
+      ],
+      "correct": 1,
+      "explanation": "Prego = de rien, je vous en prie, après vous, servez-vous. Mais PAS 's'il vous plaît'."
+    },
+    {
+      "question": "Comment dire 'avec plaisir' ?",
+      "options": [
+        "Con piacere",
+        "Volentieri",
+        "Les deux marchent"
+      ],
+      "correct": 2,
+      "explanation": "Les deux sont corrects ! Volentieri est courant à l'oral."
+    },
+    {
+      "question": "'Si accomodi' signifie :",
+      "options": [
+        "Installez-vous / mettez-vous à l'aise",
+        "Excusez-moi",
+        "Au revoir"
+      ],
+      "correct": 0,
+      "explanation": "Si accomodi = installez-vous, mettez-vous à l'aise (forme Lei)."
+    },
+    {
+      "question": "'Camera' signifie :",
+      "options": [
+        "Caméra",
+        "Chambre",
+        "Salle de bain"
+      ],
+      "correct": 1,
+      "explanation": "Camera = chambre d'hôtel. Faux ami avec le français !"
+    },
+    {
+      "question": "'Piano' dans 'al secondo piano' signifie :",
+      "options": [
+        "Piano (instrument)",
+        "Étage",
+        "Plan"
+      ],
+      "correct": 1,
+      "explanation": "Piano = étage. Al secondo piano = au deuxième étage."
+    }
+  ]
+}

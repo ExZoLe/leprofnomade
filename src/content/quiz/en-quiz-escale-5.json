@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 5,
+  "title": "Quiz final — Accommodation",
+  "color": "#1B4965",
+  "nextEscaleSlug": "en-escale-6-lecon-1",
+  "questions": [
+    {
+      "question": "'Ground floor' in British English means:",
+      "options": [
+        "Premier étage",
+        "Rez-de-chaussée",
+        "Sous-sol"
+      ],
+      "correct": 1,
+      "explanation": "Ground floor = RDC. First floor = notre 1er étage. Décalage d'un étage !"
+    },
+    {
+      "question": "What's a 'kettle'?",
+      "options": [
+        "Casserole",
+        "Bouilloire",
+        "Grille-pain"
+      ],
+      "correct": 1,
+      "explanation": "Kettle = bouilloire. Chaque chambre UK a une bouilloire pour le thé."
+    },
+    {
+      "question": "'Booking' means:",
+      "options": [
+        "Un livre",
+        "Une réservation",
+        "Une commande"
+      ],
+      "correct": 1,
+      "explanation": "Booking = réservation (terme britannique)."
+    },
+    {
+      "question": "The most British way to report a problem:",
+      "options": [
+        "Fix my room!",
+        "I'm sorry to bother you, but...",
+        "My room is broken"
+      ],
+      "correct": 1,
+      "explanation": "La politesse indirecte est la clé de la culture britannique."
+    },
+    {
+      "question": "'It isn't working' means:",
+      "options": [
+        "Ça fonctionne",
+        "Ça ne fonctionne pas",
+        "Ce n'est pas du travail"
+      ],
+      "correct": 1,
+      "explanation": "Isn't working = ne fonctionne pas."
+    },
+    {
+      "question": "'I do apologise' is:",
+      "options": [
+        "Moins poli que sorry",
+        "Plus sincère et emphatique",
+        "Informel"
+      ],
+      "correct": 1,
+      "explanation": "Le 'do' ajoute de l'emphase. 'I do apologise' = je m'excuse vraiment."
+    },
+    {
+      "question": "What's NOT in a Full English?",
+      "options": [
+        "Croissant",
+        "Bacon and sausages",
+        "Baked beans"
+      ],
+      "correct": 0,
+      "explanation": "Le croissant = petit-déj continental. Le Full English = bacon, eggs, beans, toast, sausages."
+    },
+    {
+      "question": "'Scrambled eggs' are:",
+      "options": [
+        "Œufs au plat",
+        "Œufs brouillés",
+        "Œufs pochés"
+      ],
+      "correct": 1,
+      "explanation": "Scrambled = brouillés. Fried = au plat. Poached = pochés."
+    },
+    {
+      "question": "British tea is served with:",
+      "options": [
+        "Lemon",
+        "Milk",
+        "Nothing"
+      ],
+      "correct": 1,
+      "explanation": "Les Britanniques boivent leur thé avec du lait. Toujours."
+    },
+    {
+      "question": "Which is correct?",
+      "options": [
+        "I need an information",
+        "I need some information",
+        "I need many informations"
+      ],
+      "correct": 1,
+      "explanation": "Information est uncountable. On dit 'some information', jamais 'an information'."
+    },
+    {
+      "question": "'How much' is used for:",
+      "options": [
+        "Countable nouns",
+        "Uncountable nouns",
+        "Both"
+      ],
+      "correct": 1,
+      "explanation": "How much = uncountable (water, money). How many = countable (apples)."
+    },
+    {
+      "question": "Which is correct?",
+      "options": [
+        "Too much biscuits",
+        "Too many biscuits",
+        "Too many biscuit"
+      ],
+      "correct": 1,
+      "explanation": "Biscuits = countable pluriel → too many biscuits."
+    },
+    {
+      "question": "Brits say 'sorry' about __ times per day:",
+      "options": [
+        "1-2",
+        "About 8",
+        "Never"
+      ],
+      "correct": 1,
+      "explanation": "Un Britannique moyen dit 'sorry' environ 8 fois par jour."
+    },
+    {
+      "question": "'Sorry?' with rising intonation means:",
+      "options": [
+        "Je suis désolé",
+        "Pardon ? (je n'ai pas compris)",
+        "Je m'excuse"
+      ],
+      "correct": 1,
+      "explanation": "'Sorry?' montant = je n'ai pas compris, pouvez-vous répéter ?"
+    },
+    {
+      "question": "If a Brit bumps into YOU:",
+      "options": [
+        "They say sorry",
+        "They ignore it",
+        "They get angry"
+      ],
+      "correct": 0,
+      "explanation": "Le Britannique s'excuse même quand c'est TA faute. Et tu dis sorry aussi."
+    },
+    {
+      "question": "'A piece of luggage' is correct because:",
+      "options": [
+        "Luggage is countable",
+        "Luggage is uncountable",
+        "It's an idiom"
+      ],
+      "correct": 1,
+      "explanation": "Luggage est uncountable. On dit 'a piece of luggage', jamais 'a luggage'."
+    },
+    {
+      "question": "'Would it be possible to...?' is:",
+      "options": [
+        "Very rude",
+        "Very polite and indirect",
+        "Only for formal letters"
+      ],
+      "correct": 1,
+      "explanation": "Très poli et indirect. Les Britanniques adorent cette formule."
+    },
+    {
+      "question": "'Right away' means:",
+      "options": [
+        "Tout droit",
+        "Immédiatement",
+        "Plus tard"
+      ],
+      "correct": 1,
+      "explanation": "Right away = immédiatement / tout de suite."
+    },
+    {
+      "question": "'Is breakfast included?' means:",
+      "options": [
+        "Le petit-déjeuner est bon ?",
+        "Le petit-déjeuner est inclus ?",
+        "Où est le petit-déjeuner ?"
+      ],
+      "correct": 1,
+      "explanation": "Included = inclus. Question standard au check-in."
+    },
+    {
+      "question": "'Lift' in British English means:",
+      "options": [
+        "Escalier",
+        "Ascenseur",
+        "Monte-charge"
+      ],
+      "correct": 1,
+      "explanation": "Lift (UK) = Elevator (US) = ascenseur."
+    }
+  ]
+}

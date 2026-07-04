@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 4,
+  "title": "Quiz final — Se déplacer en Italie",
+  "color": "#E63946",
+  "nextEscaleSlug": "it-escale-5-lecon-1",
+  "questions": [
+    {
+      "question": "'Solo andata' signifie :",
+      "options": [
+        "Aller-retour",
+        "Aller simple",
+        "Première classe"
+      ],
+      "correct": 1,
+      "explanation": "Solo = seulement. Andata = aller. Solo andata = aller simple."
+    },
+    {
+      "question": "Que faut-il faire avec un billet de train papier ?",
+      "options": [
+        "Rien",
+        "Le composter/valider (convalidare)",
+        "Le montrer au chauffeur"
+      ],
+      "correct": 1,
+      "explanation": "Les billets papier doivent être validés aux bornes jaunes sur le quai, sinon amende de 50€."
+    },
+    {
+      "question": "'Binario' signifie :",
+      "options": [
+        "Billet",
+        "Quai",
+        "Train"
+      ],
+      "correct": 1,
+      "explanation": "Binario = quai. Binario 7 = quai 7."
+    },
+    {
+      "question": "'A che ora parte il treno?' signifie :",
+      "options": [
+        "Combien coûte le train ?",
+        "À quelle heure part le train ?",
+        "Où est le train ?"
+      ],
+      "correct": 1,
+      "explanation": "A che ora = à quelle heure. Parte = part."
+    },
+    {
+      "question": "Où acheter un billet de bus en Italie ?",
+      "options": [
+        "Dans le bus",
+        "Au tabaccaio (bureau de tabac)",
+        "Uniquement en ligne"
+      ],
+      "correct": 1,
+      "explanation": "Les billets s'achètent au tabaccaio (T bleu), dans les kiosques, ou via l'app."
+    },
+    {
+      "question": "'Fermata' signifie :",
+      "options": [
+        "Fermé",
+        "Arrêt (de bus/tram)",
+        "Gare"
+      ],
+      "correct": 1,
+      "explanation": "Fermata = arrêt de bus ou de tramway."
+    },
+    {
+      "question": "'Questo autobus' signifie :",
+      "options": [
+        "Cet autobus (proche)",
+        "Cet autobus (loin)",
+        "L'ancien autobus"
+      ],
+      "correct": 0,
+      "explanation": "Questo = ce/cet (proche). Quello = ce/cet (loin)."
+    },
+    {
+      "question": "Comment vérifier qu'un taxi est officiel à Rome ?",
+      "options": [
+        "Il est jaune",
+        "Il est blanc avec un compteur (tassametro)",
+        "Il a un drapeau"
+      ],
+      "correct": 1,
+      "explanation": "Les taxis officiels italiens sont blancs avec un compteur. Ne jamais prendre un taxi non officiel."
+    },
+    {
+      "question": "'Quanto tempo ci vuole?' signifie :",
+      "options": [
+        "Combien ça coûte ?",
+        "Combien de temps ça prend ?",
+        "Quelle heure est-il ?"
+      ],
+      "correct": 1,
+      "explanation": "Quanto tempo = combien de temps. Ci vuole = il faut / ça prend."
+    },
+    {
+      "question": "'Tariffa fissa' signifie :",
+      "options": [
+        "Tarif variable",
+        "Tarif fixe/réglementé",
+        "Tarif réduit"
+      ],
+      "correct": 1,
+      "explanation": "Tariffa fissa = tarif fixe. Les trajets aéroport ont souvent un tarif réglementé."
+    },
+    {
+      "question": "'Dov'è' est la contraction de :",
+      "options": [
+        "Dove + era",
+        "Dove + è",
+        "Dove + hai"
+      ],
+      "correct": 1,
+      "explanation": "Dov'è = dove (où) + è (est). Dov'è la stazione? = Où est la gare ?"
+    },
+    {
+      "question": "'A sinistra' signifie :",
+      "options": [
+        "À droite",
+        "Tout droit",
+        "À gauche"
+      ],
+      "correct": 2,
+      "explanation": "A sinistra = à gauche. A destra = à droite. Dritto = tout droit."
+    },
+    {
+      "question": "'Vicinissimo' signifie :",
+      "options": [
+        "Très loin",
+        "Très proche",
+        "Moyen"
+      ],
+      "correct": 1,
+      "explanation": "Vicinissimo = superlatif de vicino. Le suffixe -issimo = très."
+    },
+    {
+      "question": "'Semaforo' signifie :",
+      "options": [
+        "Panneau",
+        "Feu rouge",
+        "Rond-point"
+      ],
+      "correct": 1,
+      "explanation": "Semaforo = feu de signalisation. Al semaforo = au feu."
+    },
+    {
+      "question": "Comment dire 'je vais au restaurant' ?",
+      "options": [
+        "Vengo al ristorante",
+        "Vado al ristorante",
+        "Prendo il ristorante"
+      ],
+      "correct": 1,
+      "explanation": "Vado (je vais) + al ristorante. Andare = aller."
+    },
+    {
+      "question": "'Prendiamo la metro?' signifie :",
+      "options": [
+        "Le métro est en retard ?",
+        "On prend le métro ?",
+        "Où est le métro ?"
+      ],
+      "correct": 1,
+      "explanation": "Prendiamo = nous prenons. Prendiamo la metro? = On prend le métro ?"
+    },
+    {
+      "question": "'Vieni domani?' signifie :",
+      "options": [
+        "Tu vas demain ?",
+        "Tu viens demain ?",
+        "Tu pars demain ?"
+      ],
+      "correct": 1,
+      "explanation": "Vieni = tu viens (de venire). Domani = demain."
+    },
+    {
+      "question": "La conjugaison de 'andare' pour 'je vais' :",
+      "options": [
+        "Ando",
+        "Vado",
+        "Vai"
+      ],
+      "correct": 1,
+      "explanation": "Andare est irrégulier : vado, vai, va, andiamo, andate, vanno."
+    },
+    {
+      "question": "Trenitalia et Italo sont :",
+      "options": [
+        "Des compagnies aériennes",
+        "Des compagnies de trains à grande vitesse",
+        "Des chaînes d'hôtels"
+      ],
+      "correct": 1,
+      "explanation": "Trenitalia (publique) et Italo (privée) sont les deux compagnies de trains grande vitesse en Italie."
+    },
+    {
+      "question": "'A piedi' signifie :",
+      "options": [
+        "En voiture",
+        "À pied",
+        "En bus"
+      ],
+      "correct": 1,
+      "explanation": "A piedi = à pied. Cinque minuti a piedi = 5 minutes à pied."
+    }
+  ]
+}

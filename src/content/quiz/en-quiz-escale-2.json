@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 2,
+  "title": "Quiz final — Small talk et premiers mots",
+  "color": "#1B4965",
+  "nextEscaleSlug": "en-escale-3-lecon-1",
+  "questions": [
+    {
+      "question": "'Good, cheers! You?' is a response to:",
+      "options": [
+        "What's your name?",
+        "How are you?",
+        "Where are you from?"
+      ],
+      "correct": 1,
+      "explanation": "Réponse naturelle et britannique à 'How are you?'"
+    },
+    {
+      "question": "'Cheers' can mean:",
+      "options": [
+        "Only 'santé'",
+        "Merci / Santé / Au revoir",
+        "Only 'merci'"
+      ],
+      "correct": 1,
+      "explanation": "Cheers est ultra-polyvalent en anglais britannique."
+    },
+    {
+      "question": "'Fancy a drink?' means:",
+      "options": [
+        "You like drinks",
+        "Would you like a drink?",
+        "I'm drinking"
+      ],
+      "correct": 1,
+      "explanation": "Fancy + nom = ça te dit un/une... ?"
+    },
+    {
+      "question": "'Ta' in British slang means:",
+      "options": [
+        "Oui",
+        "Non",
+        "Merci"
+      ],
+      "correct": 2,
+      "explanation": "'Ta' = merci en argot (surtout nord de l'Angleterre)."
+    },
+    {
+      "question": "'Hiya' compared to 'Hi' is:",
+      "options": [
+        "More rude",
+        "More informal/friendly",
+        "Identical"
+      ],
+      "correct": 1,
+      "explanation": "Hiya = version plus chaleureuse et informelle de Hi."
+    },
+    {
+      "question": "'Lovely to meet you' is:",
+      "options": [
+        "Very formal",
+        "Warm and natural",
+        "Too casual"
+      ],
+      "correct": 1,
+      "explanation": "Lovely to meet you = enchanté (chaleureux, naturel)."
+    },
+    {
+      "question": "'What do you do?' asks about:",
+      "options": [
+        "Your hobbies",
+        "Your job",
+        "Your plans"
+      ],
+      "correct": 1,
+      "explanation": "What do you do? = quel est ton métier ?"
+    },
+    {
+      "question": "'Whereabouts are you from?' means:",
+      "options": [
+        "Where exactly are you from?",
+        "Where are you going?",
+        "Where do you live?"
+      ],
+      "correct": 0,
+      "explanation": "Whereabouts = d'où exactement."
+    },
+    {
+      "question": "'Not bad' in British English means:",
+      "options": [
+        "Mediocre",
+        "Quite good / impressed",
+        "Bad"
+      ],
+      "correct": 1,
+      "explanation": "Understatement : 'not bad' = plutôt bien, voire très bien."
+    },
+    {
+      "question": "'Mate' means:",
+      "options": [
+        "Partner",
+        "Friend/buddy",
+        "Enemy"
+      ],
+      "correct": 1,
+      "explanation": "Mate = pote/ami. 'Alright, mate?' = salut, ça va ?"
+    },
+    {
+      "question": "'See you later' means:",
+      "options": [
+        "I'll see you later today",
+        "Goodbye (general)",
+        "Look at you"
+      ],
+      "correct": 1,
+      "explanation": "See you later = au revoir (pas forcément plus tard)."
+    },
+    {
+      "question": "Which is more polite?",
+      "options": [
+        "Can I have...?",
+        "Could I have...?",
+        "Give me..."
+      ],
+      "correct": 1,
+      "explanation": "Could I = plus poli que Can I."
+    },
+    {
+      "question": "'Brilliant!' means:",
+      "options": [
+        "Intelligent",
+        "Génial / Super",
+        "Bright"
+      ],
+      "correct": 1,
+      "explanation": "Brilliant = super/génial. Très courant au UK."
+    },
+    {
+      "question": "'Proper good' means:",
+      "options": [
+        "Correctly good",
+        "Really/very good (slang)",
+        "Properly cooked"
+      ],
+      "correct": 1,
+      "explanation": "Proper = vraiment (argot UK)."
+    },
+    {
+      "question": "Small talk is:",
+      "options": [
+        "Talking quietly",
+        "Light conversation about non-personal topics",
+        "Gossip"
+      ],
+      "correct": 1,
+      "explanation": "Small talk = conversation légère (météo, week-end)."
+    },
+    {
+      "question": "'How's it going?' expects:",
+      "options": [
+        "A detailed answer",
+        "A brief 'Good, thanks!'",
+        "Silence"
+      ],
+      "correct": 1,
+      "explanation": "C'est une salutation, pas une vraie question."
+    },
+    {
+      "question": "'I reckon' means:",
+      "options": [
+        "I recommend",
+        "I think/believe",
+        "I recognize"
+      ],
+      "correct": 1,
+      "explanation": "I reckon = je pense/crois. Très britannique."
+    },
+    {
+      "question": "'Right' at the start of a sentence means:",
+      "options": [
+        "Correct",
+        "'Bon, alors' (transition signal)",
+        "Turn right"
+      ],
+      "correct": 1,
+      "explanation": "'Right' en début de phrase = bon, alors."
+    },
+    {
+      "question": "'Lovely' in British English means:",
+      "options": [
+        "Only 'joli'",
+        "Super / génial / agréable",
+        "Romantic"
+      ],
+      "correct": 1,
+      "explanation": "Lovely = super/génial. Très britannique et polyvalent."
+    },
+    {
+      "question": "'Ta-ra!' means:",
+      "options": [
+        "Thank you",
+        "Goodbye (northern slang)",
+        "Hello"
+      ],
+      "correct": 1,
+      "explanation": "Ta-ra = au revoir en argot du nord de l'Angleterre."
+    }
+  ]
+}

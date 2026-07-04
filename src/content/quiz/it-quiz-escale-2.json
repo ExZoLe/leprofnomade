@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 2,
+  "title": "Quiz final — Se présenter et premiers mots",
+  "color": "#E63946",
+  "nextEscaleSlug": "it-escale-3-lecon-1",
+  "questions": [
+    {
+      "question": "'Come ti chiami?' signifie :",
+      "options": [
+        "Où habites-tu ?",
+        "Comment tu t'appelles ?",
+        "Quel âge as-tu ?"
+      ],
+      "correct": 1,
+      "explanation": "Come = comment. Ti chiami = tu t'appelles."
+    },
+    {
+      "question": "Comment dire 'je suis français' ?",
+      "options": [
+        "Sono francese",
+        "Parlo francese",
+        "Vivo in Francia"
+      ],
+      "correct": 0,
+      "explanation": "Sono = je suis. Francese = français(e)."
+    },
+    {
+      "question": "'Piacere!' signifie :",
+      "options": [
+        "S'il vous plaît",
+        "Enchanté !",
+        "Merci"
+      ],
+      "correct": 1,
+      "explanation": "Piacere = enchanté / plaisir."
+    },
+    {
+      "question": "Les articles définis masculins sont :",
+      "options": [
+        "il, lo, l'",
+        "la, le, l'",
+        "un, uno, un'"
+      ],
+      "correct": 0,
+      "explanation": "il (devant consonne), lo (devant s+cons, z), l' (devant voyelle)."
+    },
+    {
+      "question": "'Quanti anni hai?' demande :",
+      "options": [
+        "L'adresse",
+        "L'âge",
+        "Le nom"
+      ],
+      "correct": 1,
+      "explanation": "Quanti anni = combien d'années = quel âge."
+    },
+    {
+      "question": "'Non parlo bene l'italiano' signifie :",
+      "options": [
+        "Je parle bien italien",
+        "Je ne parle pas bien italien",
+        "Je veux apprendre l'italien"
+      ],
+      "correct": 1,
+      "explanation": "Non = ne pas. Bene = bien."
+    },
+    {
+      "question": "'Dove abiti?' signifie :",
+      "options": [
+        "Où travailles-tu ?",
+        "Où habites-tu ?",
+        "D'où viens-tu ?"
+      ],
+      "correct": 1,
+      "explanation": "Dove = où. Abitare = habiter."
+    },
+    {
+      "question": "Comment dire 'je ne comprends pas' ?",
+      "options": [
+        "Non capisco",
+        "Non parlo",
+        "Non lo so"
+      ],
+      "correct": 0,
+      "explanation": "Non capisco = je ne comprends pas."
+    },
+    {
+      "question": "'Buonasera' s'utilise :",
+      "options": [
+        "Le matin",
+        "L'après-midi/soir",
+        "La nuit"
+      ],
+      "correct": 1,
+      "explanation": "Buonasera = bonsoir (à partir de ~17h)."
+    },
+    {
+      "question": "'Mi piace' signifie :",
+      "options": [
+        "J'aime / ça me plaît",
+        "S'il vous plaît",
+        "Je voudrais"
+      ],
+      "correct": 0,
+      "explanation": "Mi piace = ça me plaît."
+    },
+    {
+      "question": "'Parla francese?' est la forme :",
+      "options": [
+        "Informelle (tu)",
+        "Formelle (Lei)",
+        "Plurielle (vous tous)"
+      ],
+      "correct": 1,
+      "explanation": "Parla = vous parlez (forme Lei, formelle). Parli = tu parles."
+    },
+    {
+      "question": "'Che lavoro fai?' signifie :",
+      "options": [
+        "Quel travail fais-tu ?",
+        "Quel temps fait-il ?",
+        "Quelle heure est-il ?"
+      ],
+      "correct": 0,
+      "explanation": "Che = quel. Lavoro = travail. Fai = tu fais."
+    },
+    {
+      "question": "'Sono sposato/a' signifie :",
+      "options": [
+        "Je suis célibataire",
+        "Je suis marié(e)",
+        "Je suis fatigué(e)"
+      ],
+      "correct": 1,
+      "explanation": "Sposato/a = marié(e)."
+    },
+    {
+      "question": "Les nombres 1-5 en italien :",
+      "options": [
+        "uno, due, tre, quattro, cinque",
+        "uno, dos, tres, cuatro, cinco",
+        "un, deux, trois, quatre, cinq"
+      ],
+      "correct": 0,
+      "explanation": "Les chiffres italiens : uno, due, tre, quattro, cinque."
+    },
+    {
+      "question": "'Scusa' vs 'Scusi' :",
+      "options": [
+        "Scusa = formel, Scusi = informel",
+        "Scusa = informel (tu), Scusi = formel (Lei)",
+        "C'est la même chose"
+      ],
+      "correct": 1,
+      "explanation": "Scusa = tu (informel). Scusi = Lei (formel)."
+    },
+    {
+      "question": "'Arrivederci' signifie :",
+      "options": [
+        "Bonjour",
+        "Au revoir",
+        "Bonne nuit"
+      ],
+      "correct": 1,
+      "explanation": "Arrivederci = au revoir (formel). Ciao = informel."
+    },
+    {
+      "question": "Comment dire 'un peu' ?",
+      "options": [
+        "Molto",
+        "Un po'",
+        "Tanto"
+      ],
+      "correct": 1,
+      "explanation": "Un po' = un peu. Parlo un po' d'italiano."
+    },
+    {
+      "question": "'Posso avere...' signifie :",
+      "options": [
+        "Je dois avoir",
+        "Puis-je avoir",
+        "Je veux avoir"
+      ],
+      "correct": 1,
+      "explanation": "Posso = je peux. Avere = avoir."
+    },
+    {
+      "question": "'È' avec accent signifie :",
+      "options": [
+        "Et (conjonction)",
+        "Est (verbe être)",
+        "Hé (interjection)"
+      ],
+      "correct": 1,
+      "explanation": "È = est (verbe être). E (sans accent) = et."
+    },
+    {
+      "question": "'Grazie mille' signifie :",
+      "options": [
+        "Merci beaucoup",
+        "Mille de rien",
+        "Merci monsieur"
+      ],
+      "correct": 0,
+      "explanation": "Grazie mille = merci mille fois = merci beaucoup."
+    }
+  ]
+}

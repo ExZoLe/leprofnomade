@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 3,
+  "title": "Quiz final — L'aéroport et l'arrivée",
+  "color": "#8338EC",
+  "nextEscaleSlug": "kr-escale-4-lecon-1",
+  "questions": [
+    {
+      "question": "'여권' signifie :",
+      "options": [
+        "Billet d'avion",
+        "Passeport",
+        "Visa"
+      ],
+      "correct": 1,
+      "explanation": "여권 (yeogwon) = passeport."
+    },
+    {
+      "question": "'출구가 어디예요?' signifie :",
+      "options": [
+        "Où est l'entrée ?",
+        "Où est la sortie ?",
+        "Où est la gare ?"
+      ],
+      "correct": 1,
+      "explanation": "출구 = sortie. 입구 = entrée."
+    },
+    {
+      "question": "'입국 심사' signifie :",
+      "options": [
+        "Douane",
+        "Contrôle d'immigration",
+        "Récupération bagages"
+      ],
+      "correct": 1,
+      "explanation": "입국 심사 = contrôle d'immigration."
+    },
+    {
+      "question": "La monnaie coréenne s'appelle :",
+      "options": [
+        "Yen",
+        "Won",
+        "Yuan"
+      ],
+      "correct": 1,
+      "explanation": "원 (won) est la monnaie coréenne."
+    },
+    {
+      "question": "'택시 타는 곳이 어디예요?' signifie :",
+      "options": [
+        "Combien coûte le taxi ?",
+        "Où prendre le taxi ?",
+        "Appelez un taxi"
+      ],
+      "correct": 1,
+      "explanation": "택시 타는 곳 = l'endroit pour prendre le taxi."
+    },
+    {
+      "question": "'짐' signifie :",
+      "options": [
+        "Argent",
+        "Bagages",
+        "Billet"
+      ],
+      "correct": 1,
+      "explanation": "짐 (jim) = bagages/affaires."
+    },
+    {
+      "question": "L'AREX est :",
+      "options": [
+        "Un restaurant",
+        "Le train express aéroport-Séoul",
+        "Un bus de nuit"
+      ],
+      "correct": 1,
+      "explanation": "L'AREX relie Incheon à la gare de Séoul en 43 minutes."
+    },
+    {
+      "question": "'환전' signifie :",
+      "options": [
+        "Change de monnaie",
+        "Toilettes",
+        "Transfert"
+      ],
+      "correct": 0,
+      "explanation": "환전 (hwanjeon) = change de monnaie. 환전소 = bureau de change."
+    },
+    {
+      "question": "'서울 가는 표 한 장 주세요' signifie :",
+      "options": [
+        "Où est Séoul ?",
+        "Un billet pour Séoul SVP",
+        "Le train pour Séoul ?"
+      ],
+      "correct": 1,
+      "explanation": "표 = billet. 한 장 = un (compteur pour billets)."
+    },
+    {
+      "question": "'얼마나 걸려요?' signifie :",
+      "options": [
+        "C'est combien ?",
+        "Combien de temps ça prend ?",
+        "C'est loin ?"
+      ],
+      "correct": 1,
+      "explanation": "걸리다 = prendre (du temps)."
+    },
+    {
+      "question": "Les chiffres natifs (하나둘셋) servent pour :",
+      "options": [
+        "Dates et téléphone",
+        "Objets et heures",
+        "Les prix"
+      ],
+      "correct": 1,
+      "explanation": "Natifs = objets (개), personnes (명), heures, âge."
+    },
+    {
+      "question": "Comment compter 3 objets ?",
+      "options": [
+        "삼 개",
+        "셋 개",
+        "세 개"
+      ],
+      "correct": 2,
+      "explanation": "Devant un compteur, 셋 devient 세. 세 개 = 3 objets."
+    },
+    {
+      "question": "'여기요' sert à :",
+      "options": [
+        "Dire au revoir",
+        "Appeler l'attention",
+        "Demander l'heure"
+      ],
+      "correct": 1,
+      "explanation": "여기요 = pour appeler l'attention d'un serveur ou vendeur."
+    },
+    {
+      "question": "Le compteur 장 sert pour :",
+      "options": [
+        "Les boissons",
+        "Les feuilles/billets/photos",
+        "Les personnes"
+      ],
+      "correct": 1,
+      "explanation": "장 = compteur pour objets plats : billets, feuilles, tickets."
+    },
+    {
+      "question": "'이 호텔에 가요' signifie :",
+      "options": [
+        "C'est cet hôtel",
+        "Je vais à cet hôtel",
+        "Où est cet hôtel ?"
+      ],
+      "correct": 1,
+      "explanation": "에 = particule de direction. 가다 = aller."
+    },
+    {
+      "question": "'와이파이' est :",
+      "options": [
+        "Un plat coréen",
+        "Le wifi (Konglish)",
+        "Un taxi"
+      ],
+      "correct": 1,
+      "explanation": "와이파이 = wifi. C'est du Konglish."
+    },
+    {
+      "question": "Konglish signifie :",
+      "options": [
+        "Du coréen ancien",
+        "Des mots anglais adaptés en coréen",
+        "Un dialecte régional"
+      ],
+      "correct": 1,
+      "explanation": "Konglish = mots anglais intégrés au coréen (에어컨, 핸드폰)."
+    },
+    {
+      "question": "'SIM 카드 살 수 있어요?' signifie :",
+      "options": [
+        "Avez-vous une carte SIM ?",
+        "Je peux acheter une carte SIM ?",
+        "Où est la carte SIM ?"
+      ],
+      "correct": 1,
+      "explanation": "살 수 있어요 = je peux acheter."
+    },
+    {
+      "question": "Le compteur 명 sert pour :",
+      "options": [
+        "Les objets",
+        "Les personnes",
+        "Les boissons"
+      ],
+      "correct": 1,
+      "explanation": "명 = compteur pour les personnes. 세 명 = 3 personnes."
+    },
+    {
+      "question": "À Incheon, que faire en PREMIER ?",
+      "options": [
+        "Acheter une T-money",
+        "Passer l'immigration (입국 심사)",
+        "Prendre un taxi"
+      ],
+      "correct": 1,
+      "explanation": "L'immigration est le premier passage obligatoire à l'arrivée."
+    }
+  ]
+}

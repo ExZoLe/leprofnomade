@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 6,
+  "title": "Quiz final — Le marché et les courses",
+  "color": "#E63946",
+  "nextEscaleSlug": "it-escale-7-lecon-1",
+  "questions": [
+    {
+      "question": "Au marché italien, qui touche les produits ?",
+      "options": [
+        "Le client choisit lui-même",
+        "Le vendeur choisit pour toi",
+        "Ça dépend"
+      ],
+      "correct": 1,
+      "explanation": "En Italie, c'est le vendeur qui choisit les produits. Toucher soi-même est très mal vu."
+    },
+    {
+      "question": "'Un etto' correspond à :",
+      "options": [
+        "10 grammes",
+        "100 grammes",
+        "1 kilo"
+      ],
+      "correct": 1,
+      "explanation": "Un etto = 100g. Unité typiquement italienne. Due etti = 200g."
+    },
+    {
+      "question": "'Quanto viene in tutto?' signifie :",
+      "options": [
+        "D'où ça vient ?",
+        "Combien ça fait en tout ?",
+        "Quand ça arrive ?"
+      ],
+      "correct": 1,
+      "explanation": "Quanto viene = combien ça fait. In tutto = en tout."
+    },
+    {
+      "question": "Que faut-il faire avec les fruits au supermarché ?",
+      "options": [
+        "Les laver",
+        "Les peser à la balance et coller l'étiquette",
+        "Rien"
+      ],
+      "correct": 1,
+      "explanation": "Tu dois peser toi-même et coller l'étiquette. Sans ça, la caisse te renvoie."
+    },
+    {
+      "question": "'Corsia' signifie :",
+      "options": [
+        "Caisse",
+        "Rayon / allée",
+        "Panier"
+      ],
+      "correct": 1,
+      "explanation": "Corsia = rayon ou allée du supermarché."
+    },
+    {
+      "question": "'Prosciutto crudo' c'est :",
+      "options": [
+        "Jambon cuit",
+        "Jambon cru",
+        "Jambon fumé"
+      ],
+      "correct": 1,
+      "explanation": "Crudo = cru. Cotto = cuit. Prosciutto crudo = jambon cru (type Parme)."
+    },
+    {
+      "question": "'Taglio fine o spesso?' demande :",
+      "options": [
+        "Le poids",
+        "L'épaisseur des tranches",
+        "Le prix"
+      ],
+      "correct": 1,
+      "explanation": "Taglio = coupe. Fine = fin. Spesso = épais."
+    },
+    {
+      "question": "Comment dire 'des tomates' avec le partitif ?",
+      "options": [
+        "Del pomodori",
+        "Dei pomodori",
+        "Delle pomodori"
+      ],
+      "correct": 1,
+      "explanation": "Pomodori = masculin pluriel. Di + i = dei. Dei pomodori."
+    },
+    {
+      "question": "'Dell'acqua' utilise dell' parce que :",
+      "options": [
+        "Acqua est féminin",
+        "Acqua commence par une voyelle",
+        "Acqua est pluriel"
+      ],
+      "correct": 1,
+      "explanation": "Devant une voyelle, on utilise dell' (contraction)."
+    },
+    {
+      "question": "'Basta così' signifie :",
+      "options": [
+        "Encore un peu",
+        "C'est tout / ça suffit",
+        "C'est trop cher"
+      ],
+      "correct": 1,
+      "explanation": "Basta così = c'est tout, ça suffit comme ça."
+    },
+    {
+      "question": "'Tagliare' signifie :",
+      "options": [
+        "Mélanger",
+        "Couper",
+        "Cuire"
+      ],
+      "correct": 1,
+      "explanation": "Tagliare = couper. Taglia le cipolle = coupe les oignons."
+    },
+    {
+      "question": "'Padella' c'est :",
+      "options": [
+        "Une casserole",
+        "Une poêle",
+        "Un four"
+      ],
+      "correct": 1,
+      "explanation": "Padella = poêle. Pentola = casserole. Forno = four."
+    },
+    {
+      "question": "'Mescola piano' signifie :",
+      "options": [
+        "Mélange vite",
+        "Mélange doucement",
+        "Arrête de mélanger"
+      ],
+      "correct": 1,
+      "explanation": "Mescolare = mélanger. Piano = doucement."
+    },
+    {
+      "question": "Conad est :",
+      "options": [
+        "Un restaurant",
+        "Une chaîne de supermarchés italienne",
+        "Un marché"
+      ],
+      "correct": 1,
+      "explanation": "Conad, Esselunga et Coop sont des chaînes italiennes."
+    },
+    {
+      "question": "'Bilancia' signifie :",
+      "options": [
+        "Bilan",
+        "Balance (pour peser)",
+        "Panier"
+      ],
+      "correct": 1,
+      "explanation": "Bilancia = balance pour peser les fruits et légumes."
+    },
+    {
+      "question": "'Dove trovo il latte?' signifie :",
+      "options": [
+        "Où est le lait ?",
+        "Où je trouve le lait ?",
+        "Il y a du lait ?"
+      ],
+      "correct": 1,
+      "explanation": "Dove trovo = où je trouve. Question naturelle en supermarché."
+    },
+    {
+      "question": "'Mezzo chilo' correspond à :",
+      "options": [
+        "250g",
+        "500g",
+        "750g"
+      ],
+      "correct": 1,
+      "explanation": "Mezzo = demi. Mezzo chilo = un demi-kilo = 500g."
+    },
+    {
+      "question": "Le partitif 'della' s'utilise devant :",
+      "options": [
+        "Noms masculins",
+        "Noms féminins singuliers",
+        "Noms pluriels"
+      ],
+      "correct": 1,
+      "explanation": "Della = di + la = de la. Pour les noms féminins singuliers."
+    },
+    {
+      "question": "'Aggiungere' signifie :",
+      "options": [
+        "Couper",
+        "Ajouter",
+        "Retirer"
+      ],
+      "correct": 1,
+      "explanation": "Aggiungere = ajouter. Aggiungi le cipolle = ajoute les oignons."
+    },
+    {
+      "question": "'Scontrino' signifie :",
+      "options": [
+        "Réduction",
+        "Ticket de caisse",
+        "Menu"
+      ],
+      "correct": 1,
+      "explanation": "Scontrino = ticket de caisse / reçu."
+    }
+  ]
+}

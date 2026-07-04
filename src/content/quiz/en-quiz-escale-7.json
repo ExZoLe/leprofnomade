@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 7,
+  "title": "Quiz final — Restaurant and pub",
+  "color": "#1B4965",
+  "nextEscaleSlug": "en-escale-8-lecon-1",
+  "questions": [
+    {
+      "question": "Most natural way to book:",
+      "options": [
+        "I want a table",
+        "I'd like to book a table, please",
+        "Give me a table"
+      ],
+      "correct": 1,
+      "explanation": "'I'd like to...' est poli et naturel."
+    },
+    {
+      "question": "'Do you have anything available?' means:",
+      "options": [
+        "Quelque chose de gratuit ?",
+        "De la disponibilité ?",
+        "Quelque chose à vendre ?"
+      ],
+      "correct": 1,
+      "explanation": "Available = disponible."
+    },
+    {
+      "question": "Most polite way to order:",
+      "options": [
+        "I want the fish",
+        "Could I have the fish, please?",
+        "Fish."
+      ],
+      "correct": 1,
+      "explanation": "'Could I have...please?' = la plus polie."
+    },
+    {
+      "question": "'Medium rare' means:",
+      "options": [
+        "Bien cuit",
+        "Saignant",
+        "À point (rosé)"
+      ],
+      "correct": 2,
+      "explanation": "Medium rare = à point, légèrement rosé au centre."
+    },
+    {
+      "question": "'Is everything alright?' during a meal is:",
+      "options": [
+        "A complaint check",
+        "Normal politeness",
+        "An invitation to complain"
+      ],
+      "correct": 1,
+      "explanation": "Politesse standard. Réponse : 'Lovely, thanks!'"
+    },
+    {
+      "question": "'GF' on a menu means:",
+      "options": [
+        "Good food",
+        "Gluten-free",
+        "Grain-fed"
+      ],
+      "correct": 1,
+      "explanation": "GF = Gluten-Free. V = Vegetarian. Ve = Vegan."
+    },
+    {
+      "question": "'Does this contain nuts?' asks about:",
+      "options": [
+        "Le goût",
+        "La présence de fruits à coque",
+        "Le prix"
+      ],
+      "correct": 1,
+      "explanation": "Nuts = fruits à coque. Question de sécurité alimentaire."
+    },
+    {
+      "question": "'Cross-contamination' matters because:",
+      "options": [
+        "It affects taste",
+        "Traces of allergens can transfer",
+        "It's about hygiene"
+      ],
+      "correct": 1,
+      "explanation": "Contamination croisée = traces d'allergènes via ustensiles/surfaces."
+    },
+    {
+      "question": "At a pub, to order you must:",
+      "options": [
+        "Wait for a waiter",
+        "Go to the bar yourself",
+        "Ring a bell"
+      ],
+      "correct": 1,
+      "explanation": "Au pub = PAS de service à table. Tu vas au bar."
+    },
+    {
+      "question": "Someone bought you a pint. You should:",
+      "options": [
+        "Just say thanks",
+        "Buy the next round",
+        "Pay them back immediately"
+      ],
+      "correct": 1,
+      "explanation": "Le système des rounds est sacré. Tu offres la suivante."
+    },
+    {
+      "question": "'Crisps' in British English are:",
+      "options": [
+        "Frites",
+        "Chips (en sachet)",
+        "Crackers"
+      ],
+      "correct": 1,
+      "explanation": "Crisps (UK) = chips en sachet. Chips (UK) = frites !"
+    },
+    {
+      "question": "'A pint' is:",
+      "options": [
+        "250ml",
+        "568ml",
+        "1 litre"
+      ],
+      "correct": 1,
+      "explanation": "A pint = 568ml. Plus qu'un demi français."
+    },
+    {
+      "question": "'Last orders!' means:",
+      "options": [
+        "Les commandes arrivent",
+        "Dernières commandes avant fermeture",
+        "Commandez vite"
+      ],
+      "correct": 1,
+      "explanation": "Last orders = annoncé ~20min avant la fermeture du bar."
+    },
+    {
+      "question": "Past simple of 'go':",
+      "options": [
+        "Goed",
+        "Went",
+        "Gone"
+      ],
+      "correct": 1,
+      "explanation": "Go → went (past simple). Gone = participe passé."
+    },
+    {
+      "question": "'Did you go to the pub?' — correct because:",
+      "options": [
+        "Did + go (base form)",
+        "Did + went",
+        "Did + going"
+      ],
+      "correct": 0,
+      "explanation": "Avec 'did', le verbe revient à sa forme de base : did you GO."
+    },
+    {
+      "question": "'Bought' is the past of:",
+      "options": [
+        "Bring",
+        "Buy",
+        "Build"
+      ],
+      "correct": 1,
+      "explanation": "Buy → bought. Bring → brought. Build → built."
+    },
+    {
+      "question": "'On tap' means:",
+      "options": [
+        "En bouteille",
+        "À la pression",
+        "En canette"
+      ],
+      "correct": 1,
+      "explanation": "On tap = à la pression / au fût."
+    },
+    {
+      "question": "'My round' means:",
+      "options": [
+        "Mon tour de table",
+        "C'est ma tournée",
+        "Mon coin préféré"
+      ],
+      "correct": 1,
+      "explanation": "My round = c'est ma tournée. Tu paies pour tout le groupe."
+    },
+    {
+      "question": "'Lager' is:",
+      "options": [
+        "Bière brune",
+        "Bière blonde",
+        "Cidre"
+      ],
+      "correct": 1,
+      "explanation": "Lager = blonde. Ale = ambrée. Bitter = amère."
+    },
+    {
+      "question": "'Though' at the end of a sentence means:",
+      "options": [
+        "Cependant / quand même",
+        "Aussi",
+        "Surtout"
+      ],
+      "correct": 0,
+      "explanation": "'Though' en fin de phrase = quand même / cependant. Très britannique."
+    }
+  ]
+}
