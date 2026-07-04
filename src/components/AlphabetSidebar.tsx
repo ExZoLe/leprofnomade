@@ -2,6 +2,87 @@
 
 import { useState, useCallback, useRef } from 'react';
 
+// ===== YOUTUBE SONG DATA =====
+const alphabetSongs: Record<string, { title: string; subtitle: string; youtubeId: string }> = {
+  coreen: {
+    title: "가나다 송",
+    subtitle: "La chanson du Hangul — apprends les consonnes en chantant",
+    youtubeId: "oH_82As0g-8",
+  },
+  italien: {
+    title: "Canzone dell'Alfabeto",
+    subtitle: "La chanson de l'alphabet italien — A B C D E F G...",
+    youtubeId: "A7_IyjPjzn0",
+  },
+  anglais: {
+    title: "ABC Song (British)",
+    subtitle: "L'alphabet anglais version UK — avec 'zed' pas 'zee'",
+    youtubeId: "XC6wQQHo8uU",
+  },
+};
+
+// ===== SONG MODAL =====
+function SongModal({
+  song,
+  color,
+  onClose,
+}: {
+  song: { title: string; subtitle: string; youtubeId: string };
+  color: string;
+  onClose: () => void;
+}) {
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      {/* Backdrop */}
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+
+      {/* Modal */}
+      <div
+        className="relative bg-white rounded-2xl overflow-hidden w-full max-w-lg shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="p-4 flex items-center justify-between">
+          <div>
+            <p className="text-sm font-bold" style={{ color }}>
+              🎵 {song.title}
+            </p>
+            <p className="text-xs text-gray-400 mt-0.5">{song.subtitle}</p>
+          </div>
+          <button
+            onClick={onClose}
+            className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 hover:bg-gray-200 hover:text-gray-600 transition-colors border-none cursor-pointer text-sm"
+          >
+            ✕
+          </button>
+        </div>
+
+        {/* YouTube embed */}
+        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src={`https://www.youtube.com/embed/${song.youtubeId}?rel=0`}
+            title={song.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            style={{ border: 'none' }}
+          />
+        </div>
+
+        {/* Footer */}
+        <div className="p-3 text-center">
+          <p className="text-[10px] text-gray-400">
+            Chante avec la vidéo pour mémoriser l'alphabet plus vite 🎤
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ===== AUDIO PLAYER =====
 function useAudioPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -242,9 +323,11 @@ export function AlphabetSidebar({
 }) {
   const [activeGroup, setActiveGroup] = useState(0);
   const [isOpen, setIsOpen] = useState(!collapsible);
+  const [showSong, setShowSong] = useState(false);
   const { play, stop, playingId } = useAudioPlayer();
 
   const data = alphabetData[langKey];
+  const song = alphabetSongs[langKey];
   if (!data) return null;
 
   // Play all sequentially
@@ -305,6 +388,23 @@ export function AlphabetSidebar({
         <span>▶</span>
         Écouter tout
       </button>
+
+      {/* Song button */}
+      {song && (
+        <button
+          onClick={() => setShowSong(true)}
+          className="w-full flex items-center justify-center gap-2 py-2 mb-3 rounded-lg border cursor-pointer text-[11px] font-semibold transition-all hover:shadow-sm"
+          style={{ borderColor: `${color}30`, background: 'white', color }}
+        >
+          <span>🎵</span>
+          Chanson de l'alphabet
+        </button>
+      )}
+
+      {/* Song modal */}
+      {showSong && song && (
+        <SongModal song={song} color={color} onClose={() => setShowSong(false)} />
+      )}
 
       {/* Characters list */}
       <div className="flex flex-col gap-0.5 max-h-[calc(100vh-280px)] overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin' }}>
