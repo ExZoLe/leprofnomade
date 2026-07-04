@@ -1,94 +1,69 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 
-// ===== SPEECH HELPER =====
-function speak(text: string, lang: string) {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return;
-  
-  // Stop any current speech
-  window.speechSynthesis.cancel();
-  
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = lang;
-  utterance.rate = 0.75; // Plus lent pour bien entendre
-  utterance.pitch = 1;
-  utterance.volume = 1;
-  
-  // Try to find the best voice for this language
-  const voices = window.speechSynthesis.getVoices();
-  const langVoice = voices.find(v => v.lang.startsWith(lang.split('-')[0]));
-  if (langVoice) utterance.voice = langVoice;
-  
-  window.speechSynthesis.speak(utterance);
+// ===== AUDIO PLAYER =====
+function useAudioPlayer() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [playingId, setPlayingId] = useState<string | null>(null);
+
+  const play = useCallback((id: string) => {
+    // Stop current
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+
+    const audio = new Audio(`/audio/alphabet/${id}.mp3`);
+    audioRef.current = audio;
+    setPlayingId(id);
+
+    audio.onended = () => setPlayingId(null);
+    audio.onerror = () => {
+      setPlayingId(null);
+      console.warn(`Audio not found: /audio/alphabet/${id}.mp3`);
+    };
+
+    audio.play().catch(() => setPlayingId(null));
+  }, []);
+
+  const stop = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    setPlayingId(null);
+  }, []);
+
+  return { play, stop, playingId };
 }
 
-// Map langKey to BCP-47 speech lang codes
-const speechLangs: Record<string, string> = {
-  coreen: 'ko-KR',
-  italien: 'it-IT',
-  anglais: 'en-GB',
-};
-
-// ===== PLAY BUTTON COMPONENT =====
-function PlayButton({ 
-  text, 
-  langKey, 
+// ===== PLAY BUTTON =====
+function PlayButton({
+  audioId,
   color,
-  size = 'sm',
-}: { 
-  text: string; 
-  langKey: string; 
+  playingId,
+  onPlay,
+}: {
+  audioId: string;
   color: string;
-  size?: 'sm' | 'md';
+  playingId: string | null;
+  onPlay: (id: string) => void;
 }) {
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const handlePlay = useCallback((e: React.MouseEvent) => {
-    e.stopPropagation();
-    setIsPlaying(true);
-    
-    const lang = speechLangs[langKey] || 'en-GB';
-    
-    if (typeof window !== 'undefined' && window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-      
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = lang;
-      utterance.rate = 0.75;
-      utterance.pitch = 1;
-      utterance.volume = 1;
-      
-      const voices = window.speechSynthesis.getVoices();
-      const langVoice = voices.find(v => v.lang.startsWith(lang.split('-')[0]));
-      if (langVoice) utterance.voice = langVoice;
-      
-      utterance.onend = () => setIsPlaying(false);
-      utterance.onerror = () => setIsPlaying(false);
-      
-      window.speechSynthesis.speak(utterance);
-      
-      // Fallback timeout in case onend doesn't fire
-      setTimeout(() => setIsPlaying(false), 3000);
-    }
-  }, [text, langKey]);
-
-  const dims = size === 'md' ? 'w-7 h-7 text-sm' : 'w-5 h-5 text-[10px]';
+  const isPlaying = playingId === audioId;
 
   return (
     <button
-      onClick={handlePlay}
-      className={`${dims} rounded-full flex items-center justify-center border-none cursor-pointer transition-all flex-shrink-0 ${
-        isPlaying 
-          ? 'scale-110' 
-          : 'hover:scale-110'
+      onClick={(e) => { e.stopPropagation(); onPlay(audioId); }}
+      className={`w-5 h-5 rounded-full flex items-center justify-center border-none cursor-pointer transition-all flex-shrink-0 text-[10px] ${
+        isPlaying ? 'scale-110' : 'hover:scale-110'
       }`}
       style={{
         background: isPlaying ? color : `${color}15`,
         color: isPlaying ? '#fff' : color,
       }}
-      title={`Écouter "${text}"`}
-      aria-label={`Écouter la prononciation de ${text}`}
+      title="Écouter"
+      aria-label="Écouter la prononciation"
     >
       {isPlaying ? '◼' : '▶'}
     </button>
@@ -96,12 +71,11 @@ function PlayButton({
 }
 
 // ===== DATA =====
-
 interface AlphabetChar {
   char: string;
   name?: string;
   phonetic: string;
-  speakText: string; // What to actually say via TTS
+  audioId: string;
   example?: string;
 }
 
@@ -118,46 +92,46 @@ const alphabetData: Record<string, { label: string; groups: AlphabetGroup[] }> =
       {
         title: "Consonnes (자음)", shortTitle: "자음",
         chars: [
-          { char: "ㄱ", name: "giyeok", phonetic: "g/k", speakText: "기역" },
-          { char: "ㄴ", name: "nieun", phonetic: "n", speakText: "니은" },
-          { char: "ㄷ", name: "digeut", phonetic: "d/t", speakText: "디귿" },
-          { char: "ㄹ", name: "rieul", phonetic: "r/l", speakText: "리을" },
-          { char: "ㅁ", name: "mieum", phonetic: "m", speakText: "미음" },
-          { char: "ㅂ", name: "bieup", phonetic: "b/p", speakText: "비읍" },
-          { char: "ㅅ", name: "siot", phonetic: "s", speakText: "시옷" },
-          { char: "ㅇ", name: "ieung", phonetic: "—/ng", speakText: "이응" },
-          { char: "ㅈ", name: "jieut", phonetic: "j", speakText: "지읒" },
-          { char: "ㅊ", name: "chieut", phonetic: "tch", speakText: "치읓" },
-          { char: "ㅋ", name: "kieuk", phonetic: "k", speakText: "키읔" },
-          { char: "ㅌ", name: "tieut", phonetic: "t", speakText: "티읕" },
-          { char: "ㅍ", name: "pieup", phonetic: "p", speakText: "피읖" },
-          { char: "ㅎ", name: "hieut", phonetic: "h", speakText: "히읗" },
+          { char: "ㄱ", name: "giyeok", phonetic: "g/k", audioId: "kr-giyeok" },
+          { char: "ㄴ", name: "nieun", phonetic: "n", audioId: "kr-nieun" },
+          { char: "ㄷ", name: "digeut", phonetic: "d/t", audioId: "kr-digeut" },
+          { char: "ㄹ", name: "rieul", phonetic: "r/l", audioId: "kr-rieul" },
+          { char: "ㅁ", name: "mieum", phonetic: "m", audioId: "kr-mieum" },
+          { char: "ㅂ", name: "bieup", phonetic: "b/p", audioId: "kr-bieup" },
+          { char: "ㅅ", name: "siot", phonetic: "s", audioId: "kr-siot" },
+          { char: "ㅇ", name: "ieung", phonetic: "—/ng", audioId: "kr-ieung" },
+          { char: "ㅈ", name: "jieut", phonetic: "j", audioId: "kr-jieut" },
+          { char: "ㅊ", name: "chieut", phonetic: "tch", audioId: "kr-chieut" },
+          { char: "ㅋ", name: "kieuk", phonetic: "k", audioId: "kr-kieuk" },
+          { char: "ㅌ", name: "tieut", phonetic: "t", audioId: "kr-tieut" },
+          { char: "ㅍ", name: "pieup", phonetic: "p", audioId: "kr-pieup2" },
+          { char: "ㅎ", name: "hieut", phonetic: "h", audioId: "kr-hieut" },
         ],
       },
       {
         title: "Voyelles (모음)", shortTitle: "모음",
         chars: [
-          { char: "ㅏ", phonetic: "a", speakText: "아" },
-          { char: "ㅑ", phonetic: "ya", speakText: "야" },
-          { char: "ㅓ", phonetic: "eo", speakText: "어" },
-          { char: "ㅕ", phonetic: "yeo", speakText: "여" },
-          { char: "ㅗ", phonetic: "o", speakText: "오" },
-          { char: "ㅛ", phonetic: "yo", speakText: "요" },
-          { char: "ㅜ", phonetic: "ou", speakText: "우" },
-          { char: "ㅠ", phonetic: "you", speakText: "유" },
-          { char: "ㅡ", phonetic: "eu", speakText: "으" },
-          { char: "ㅣ", phonetic: "i", speakText: "이" },
+          { char: "ㅏ", phonetic: "a", audioId: "kr-a" },
+          { char: "ㅑ", phonetic: "ya", audioId: "kr-ya" },
+          { char: "ㅓ", phonetic: "eo", audioId: "kr-eo" },
+          { char: "ㅕ", phonetic: "yeo", audioId: "kr-yeo" },
+          { char: "ㅗ", phonetic: "o", audioId: "kr-o" },
+          { char: "ㅛ", phonetic: "yo", audioId: "kr-yo" },
+          { char: "ㅜ", phonetic: "ou", audioId: "kr-u" },
+          { char: "ㅠ", phonetic: "you", audioId: "kr-yu" },
+          { char: "ㅡ", phonetic: "eu", audioId: "kr-eu" },
+          { char: "ㅣ", phonetic: "i", audioId: "kr-i" },
         ],
       },
       {
         title: "Syllabes (조합)", shortTitle: "조합",
         chars: [
-          { char: "가", phonetic: "ga", speakText: "가", example: "ㄱ+ㅏ" },
-          { char: "한", phonetic: "han", speakText: "한", example: "ㅎ+ㅏ+ㄴ" },
-          { char: "글", phonetic: "geul", speakText: "글", example: "ㄱ+ㅡ+ㄹ" },
-          { char: "서", phonetic: "seo", speakText: "서", example: "ㅅ+ㅓ" },
-          { char: "울", phonetic: "ul", speakText: "울", example: "ㅇ+ㅜ+ㄹ" },
-          { char: "밥", phonetic: "bap", speakText: "밥", example: "ㅂ+ㅏ+ㅂ" },
+          { char: "가", phonetic: "ga", audioId: "kr-ga", example: "ㄱ+ㅏ" },
+          { char: "한", phonetic: "han", audioId: "kr-han", example: "ㅎ+ㅏ+ㄴ" },
+          { char: "글", phonetic: "geul", audioId: "kr-geul", example: "ㄱ+ㅡ+ㄹ" },
+          { char: "서", phonetic: "seo", audioId: "kr-seo", example: "ㅅ+ㅓ" },
+          { char: "울", phonetic: "ul", audioId: "kr-ul", example: "ㅇ+ㅜ+ㄹ" },
+          { char: "밥", phonetic: "bap", audioId: "kr-bap", example: "ㅂ+ㅏ+ㅂ" },
         ],
       },
     ],
@@ -168,41 +142,41 @@ const alphabetData: Record<string, { label: string; groups: AlphabetGroup[] }> =
       {
         title: "Lettres (21)", shortTitle: "A-Z",
         chars: [
-          { char: "A", phonetic: "a", speakText: "a" },
-          { char: "B", phonetic: "bi", speakText: "bi" },
-          { char: "C", phonetic: "tchi", speakText: "ci" },
-          { char: "D", phonetic: "di", speakText: "di" },
-          { char: "E", phonetic: "é", speakText: "e" },
-          { char: "F", phonetic: "èffé", speakText: "effe" },
-          { char: "G", phonetic: "dji", speakText: "gi" },
-          { char: "H", phonetic: "akka", speakText: "acca", example: "muet !" },
-          { char: "I", phonetic: "i", speakText: "i" },
-          { char: "L", phonetic: "èllé", speakText: "elle" },
-          { char: "M", phonetic: "èmmé", speakText: "emme" },
-          { char: "N", phonetic: "ènné", speakText: "enne" },
-          { char: "O", phonetic: "o", speakText: "o" },
-          { char: "P", phonetic: "pi", speakText: "pi" },
-          { char: "Q", phonetic: "kou", speakText: "cu" },
-          { char: "R", phonetic: "èrré", speakText: "erre", example: "roulé !" },
-          { char: "S", phonetic: "èssé", speakText: "esse" },
-          { char: "T", phonetic: "ti", speakText: "ti" },
-          { char: "U", phonetic: "ou", speakText: "u" },
-          { char: "V", phonetic: "vou", speakText: "vu" },
-          { char: "Z", phonetic: "dzèta", speakText: "zeta" },
+          { char: "A", phonetic: "a", audioId: "it-a" },
+          { char: "B", phonetic: "bi", audioId: "it-b" },
+          { char: "C", phonetic: "tchi", audioId: "it-c" },
+          { char: "D", phonetic: "di", audioId: "it-d" },
+          { char: "E", phonetic: "é", audioId: "it-e" },
+          { char: "F", phonetic: "èffé", audioId: "it-f" },
+          { char: "G", phonetic: "dji", audioId: "it-g" },
+          { char: "H", phonetic: "akka", audioId: "it-h", example: "muet !" },
+          { char: "I", phonetic: "i", audioId: "it-i" },
+          { char: "L", phonetic: "èllé", audioId: "it-l" },
+          { char: "M", phonetic: "èmmé", audioId: "it-m" },
+          { char: "N", phonetic: "ènné", audioId: "it-n" },
+          { char: "O", phonetic: "o", audioId: "it-o" },
+          { char: "P", phonetic: "pi", audioId: "it-p" },
+          { char: "Q", phonetic: "kou", audioId: "it-q" },
+          { char: "R", phonetic: "èrré", audioId: "it-r", example: "roulé !" },
+          { char: "S", phonetic: "èssé", audioId: "it-s" },
+          { char: "T", phonetic: "ti", audioId: "it-t" },
+          { char: "U", phonetic: "ou", audioId: "it-u" },
+          { char: "V", phonetic: "vou", audioId: "it-v" },
+          { char: "Z", phonetic: "dzèta", audioId: "it-z" },
         ],
       },
       {
         title: "Pièges prononciation", shortTitle: "Pièges",
         chars: [
-          { char: "CE CI", phonetic: "tché tchi", speakText: "ce, ci", example: "cena, cinema" },
-          { char: "CA CO", phonetic: "ka ko", speakText: "ca, co", example: "casa, cosa" },
-          { char: "CHE", phonetic: "ké", speakText: "che", example: "che, chiave" },
-          { char: "GE GI", phonetic: "djé dji", speakText: "ge, gi", example: "gelato, giro" },
-          { char: "GHE", phonetic: "gué", speakText: "ghe", example: "spaghetti" },
-          { char: "GLI", phonetic: "lli", speakText: "gli", example: "famiglia" },
-          { char: "GN", phonetic: "gn", speakText: "gn", example: "gnocchi, bagno" },
-          { char: "SC+E", phonetic: "ch", speakText: "sce", example: "scena, uscire" },
-          { char: "SC+A", phonetic: "sk", speakText: "sca", example: "scala, scuola" },
+          { char: "CE CI", phonetic: "tché tchi", audioId: "it-ce-ci", example: "cena, cinema" },
+          { char: "CA CO", phonetic: "ka ko", audioId: "it-ca-co", example: "casa, cosa" },
+          { char: "CHE", phonetic: "ké", audioId: "it-che", example: "che, chiave" },
+          { char: "GE GI", phonetic: "djé dji", audioId: "it-ge-gi", example: "gelato, giro" },
+          { char: "GHE", phonetic: "gué", audioId: "it-ghe", example: "spaghetti" },
+          { char: "GLI", phonetic: "lli", audioId: "it-gli", example: "famiglia" },
+          { char: "GN", phonetic: "gn", audioId: "it-gn", example: "gnocchi, bagno" },
+          { char: "SC+E", phonetic: "ch", audioId: "it-sce", example: "scena, uscire" },
+          { char: "SC+A", phonetic: "sk", audioId: "it-sca", example: "scala, scuola" },
         ],
       },
     ],
@@ -213,43 +187,43 @@ const alphabetData: Record<string, { label: string; groups: AlphabetGroup[] }> =
       {
         title: "Alphabet (26)", shortTitle: "A-Z",
         chars: [
-          { char: "A", phonetic: "éi", speakText: "A" },
-          { char: "B", phonetic: "bi", speakText: "B" },
-          { char: "C", phonetic: "si", speakText: "C" },
-          { char: "D", phonetic: "di", speakText: "D" },
-          { char: "E", phonetic: "i", speakText: "E" },
-          { char: "F", phonetic: "èf", speakText: "F" },
-          { char: "G", phonetic: "dji", speakText: "G" },
-          { char: "H", phonetic: "éitch", speakText: "H" },
-          { char: "I", phonetic: "aï", speakText: "I" },
-          { char: "J", phonetic: "djéi", speakText: "J" },
-          { char: "K", phonetic: "kéi", speakText: "K" },
-          { char: "L", phonetic: "èl", speakText: "L" },
-          { char: "M", phonetic: "èm", speakText: "M" },
-          { char: "N", phonetic: "èn", speakText: "N" },
-          { char: "O", phonetic: "ôou", speakText: "O" },
-          { char: "P", phonetic: "pi", speakText: "P" },
-          { char: "Q", phonetic: "kiou", speakText: "Q" },
-          { char: "R", phonetic: "ar", speakText: "R" },
-          { char: "S", phonetic: "ès", speakText: "S" },
-          { char: "T", phonetic: "ti", speakText: "T" },
-          { char: "U", phonetic: "iou", speakText: "U" },
-          { char: "V", phonetic: "vi", speakText: "V" },
-          { char: "W", phonetic: "deub-liou", speakText: "W" },
-          { char: "X", phonetic: "èks", speakText: "X" },
-          { char: "Y", phonetic: "ouaï", speakText: "Y" },
-          { char: "Z", phonetic: "zèd", speakText: "Z" },
+          { char: "A", phonetic: "éi", audioId: "en-a" },
+          { char: "B", phonetic: "bi", audioId: "en-b" },
+          { char: "C", phonetic: "si", audioId: "en-c" },
+          { char: "D", phonetic: "di", audioId: "en-d" },
+          { char: "E", phonetic: "i", audioId: "en-e" },
+          { char: "F", phonetic: "èf", audioId: "en-f" },
+          { char: "G", phonetic: "dji", audioId: "en-g" },
+          { char: "H", phonetic: "éitch", audioId: "en-h" },
+          { char: "I", phonetic: "aï", audioId: "en-i" },
+          { char: "J", phonetic: "djéi", audioId: "en-j" },
+          { char: "K", phonetic: "kéi", audioId: "en-k" },
+          { char: "L", phonetic: "èl", audioId: "en-l" },
+          { char: "M", phonetic: "èm", audioId: "en-m" },
+          { char: "N", phonetic: "èn", audioId: "en-n" },
+          { char: "O", phonetic: "ôou", audioId: "en-o" },
+          { char: "P", phonetic: "pi", audioId: "en-p" },
+          { char: "Q", phonetic: "kiou", audioId: "en-q" },
+          { char: "R", phonetic: "ar", audioId: "en-r" },
+          { char: "S", phonetic: "ès", audioId: "en-s" },
+          { char: "T", phonetic: "ti", audioId: "en-t" },
+          { char: "U", phonetic: "iou", audioId: "en-u" },
+          { char: "V", phonetic: "vi", audioId: "en-v" },
+          { char: "W", phonetic: "deub-liou", audioId: "en-w" },
+          { char: "X", phonetic: "èks", audioId: "en-x" },
+          { char: "Y", phonetic: "ouaï", audioId: "en-y" },
+          { char: "Z", phonetic: "zèd", audioId: "en-z" },
         ],
       },
       {
         title: "Sons difficiles", shortTitle: "Sons",
         chars: [
-          { char: "TH", phonetic: "langue entre les dents", speakText: "the, think, three", example: "the, think" },
-          { char: "H", phonetic: "souffle (aspiré)", speakText: "hello, house, happy", example: "hello, house" },
-          { char: "W", phonetic: "ou-a (lèvres rondes)", speakText: "water, what, well", example: "water, what" },
-          { char: "R", phonetic: "langue ne touche pas", speakText: "red, right, around", example: "red, right" },
-          { char: "-ING", phonetic: "ng nasal", speakText: "going, eating, learning", example: "going, eating" },
-          { char: "Schwa", phonetic: "/ə/ eu très court", speakText: "about, banana, the", example: "about, banana" },
+          { char: "TH", phonetic: "langue entre les dents", audioId: "en-th", example: "the, think" },
+          { char: "H", phonetic: "souffle (aspiré)", audioId: "en-h-asp", example: "hello, house" },
+          { char: "W", phonetic: "ou-a (lèvres rondes)", audioId: "en-w-snd", example: "water, what" },
+          { char: "R", phonetic: "langue ne touche pas", audioId: "en-r-snd", example: "red, right" },
+          { char: "-ING", phonetic: "ng nasal", audioId: "en-ing", example: "going, eating" },
+          { char: "Schwa", phonetic: "/ə/ eu très court", audioId: "en-schwa", example: "about, banana" },
         ],
       },
     ],
@@ -257,7 +231,6 @@ const alphabetData: Record<string, { label: string; groups: AlphabetGroup[] }> =
 };
 
 // ===== MAIN COMPONENT =====
-
 export function AlphabetSidebar({
   langKey,
   color,
@@ -269,41 +242,39 @@ export function AlphabetSidebar({
 }) {
   const [activeGroup, setActiveGroup] = useState(0);
   const [isOpen, setIsOpen] = useState(!collapsible);
+  const { play, stop, playingId } = useAudioPlayer();
 
   const data = alphabetData[langKey];
   if (!data) return null;
 
+  // Play all sequentially
   const playAll = useCallback(() => {
     const chars = data.groups[activeGroup]?.chars;
     if (!chars || chars.length === 0) return;
-    
-    const lang = speechLangs[langKey] || 'en-GB';
-    
-    if (typeof window === 'undefined' || !window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
-    
+
+    stop();
     let index = 0;
-    const speakNext = () => {
+
+    const playNext = () => {
       if (index >= chars.length) return;
       const c = chars[index];
-      const utterance = new SpeechSynthesisUtterance(c.speakText);
-      utterance.lang = lang;
-      utterance.rate = 0.65;
-      utterance.pitch = 1;
-      
-      const voices = window.speechSynthesis.getVoices();
-      const langVoice = voices.find(v => v.lang.startsWith(lang.split('-')[0]));
-      if (langVoice) utterance.voice = langVoice;
-      
-      utterance.onend = () => {
+      const audio = new Audio(`/audio/alphabet/${c.audioId}.mp3`);
+      audio.onended = () => {
         index++;
-        setTimeout(speakNext, 400); // Pause between letters
+        setTimeout(playNext, 400);
       };
-      
-      window.speechSynthesis.speak(utterance);
+      audio.onerror = () => {
+        index++;
+        setTimeout(playNext, 200);
+      };
+      audio.play().catch(() => {
+        index++;
+        setTimeout(playNext, 200);
+      });
     };
-    speakNext();
-  }, [data, activeGroup, langKey]);
+
+    playNext();
+  }, [data, activeGroup, stop]);
 
   const content = (
     <>
@@ -325,7 +296,7 @@ export function AlphabetSidebar({
         ))}
       </div>
 
-      {/* Play All button */}
+      {/* Play All */}
       <button
         onClick={playAll}
         className="w-full flex items-center justify-center gap-2 py-2 mb-3 rounded-lg border-none cursor-pointer text-[11px] font-semibold transition-all hover:opacity-80"
@@ -335,22 +306,19 @@ export function AlphabetSidebar({
         Écouter tout
       </button>
 
-      {/* Grille */}
+      {/* Characters list */}
       <div className="flex flex-col gap-0.5 max-h-[calc(100vh-280px)] overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin' }}>
         {data.groups[activeGroup]?.chars.map((c, idx) => (
           <div
             key={idx}
-            className="flex items-center gap-2 py-1.5 px-2 rounded-lg hover:bg-gray-50 transition-colors group"
+            className="flex items-center gap-2 py-1.5 px-2 rounded-lg hover:bg-gray-50 transition-colors"
           >
-            {/* Character */}
             <span
               className="text-lg font-bold w-8 text-center flex-shrink-0 leading-none"
               style={{ color }}
             >
               {c.char}
             </span>
-
-            {/* Info */}
             <div className="flex-1 min-w-0">
               <div className="flex items-baseline gap-1">
                 {c.name && (
@@ -362,16 +330,19 @@ export function AlphabetSidebar({
                 <p className="text-[10px] text-gray-400 truncate leading-tight mt-0.5">{c.example}</p>
               )}
             </div>
-
-            {/* Play button */}
-            <PlayButton text={c.speakText} langKey={langKey} color={color} />
+            <PlayButton
+              audioId={c.audioId}
+              color={color}
+              playingId={playingId}
+              onPlay={play}
+            />
           </div>
         ))}
       </div>
     </>
   );
 
-  // ===== COLLAPSIBLE VERSION (mobile) =====
+  // Collapsible (mobile)
   if (collapsible) {
     return (
       <div className="bg-white rounded-xl border border-black/5 overflow-hidden">
@@ -388,7 +359,7 @@ export function AlphabetSidebar({
           <div className="flex-1">
             <p className="text-xs font-bold" style={{ color }}>{data.label}</p>
             <p className="text-[10px] text-gray-400">
-              {isOpen ? 'Replier' : 'Voir l\'alphabet et écouter la prononciation'}
+              {isOpen ? 'Replier' : 'Alphabet et prononciation 🔊'}
             </p>
           </div>
           <span className={`text-gray-300 transition-transform ${isOpen ? 'rotate-180' : ''}`}>▾</span>
@@ -402,7 +373,7 @@ export function AlphabetSidebar({
     );
   }
 
-  // ===== STICKY VERSION (desktop) =====
+  // Sticky (desktop)
   return (
     <div className="bg-white rounded-xl border border-black/5 p-4 overflow-hidden">
       <div className="flex items-center gap-2.5 mb-4">
