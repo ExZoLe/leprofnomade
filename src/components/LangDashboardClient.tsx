@@ -280,7 +280,7 @@ export function LangDashboardClient({
         </div>
 
         {/* ===== COLONNE DROITE — Photo du pays (desktop only) ===== */}
-        <div className="hidden lg:block w-[280px] xl:w-[320px] flex-shrink-0">
+        <div className="hidden lg:block w-[320px] xl:w-[380px] flex-shrink-0">
           <div className="sticky top-24">
             <CountryPhoto langKey={langKey} color={lang.color} />
           </div>

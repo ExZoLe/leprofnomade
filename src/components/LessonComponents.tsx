@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 // ============================================
-// PROF SAYS — Anecdote du prof
+// PROF SAYS — Point culturel
 // ============================================
 export function ProfSays({ children }: { children: React.ReactNode }) {
   return (
@@ -12,7 +12,7 @@ export function ProfSays({ children }: { children: React.ReactNode }) {
         <span className="text-2xl">👨‍🏫</span>
         <div className="flex-1">
           <p className="text-xs font-bold tracking-wider uppercase text-coral mb-2">
-            L'anecdote du prof
+            Point culturel
           </p>
           <div className="text-ink leading-relaxed text-[15px]">
             {children}
