@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
 import { getProgress } from '@/lib/supabase';
 import { AlphabetSidebar } from '@/components/AlphabetSidebar';
-import { CountryPhoto } from '@/components/CountryPhoto';
+import { CountryPhoto, CountryPhotoBanner } from '@/components/CountryPhoto';
 import type { LangKey } from '@/lib/languages';
 import type { LessonMeta } from '@/lib/lessons';
 
@@ -109,6 +109,11 @@ export function LangDashboardClient({
               </div>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed max-w-lg">{lang.description}</p>
+          </div>
+
+          {/* Photo mobile (bandeau horizontal, visible seulement sur mobile/tablette) */}
+          <div className="lg:hidden">
+            <CountryPhotoBanner langKey={langKey} color={lang.color} />
           </div>
 
           {/* Alphabet mobile (visible seulement sur mobile/tablette) */}
@@ -275,7 +280,7 @@ export function LangDashboardClient({
         </div>
 
         {/* ===== COLONNE DROITE — Photo du pays (desktop only) ===== */}
-        <div className="hidden lg:block w-[200px] xl:w-[240px] flex-shrink-0">
+        <div className="hidden lg:block w-[280px] xl:w-[320px] flex-shrink-0">
           <div className="sticky top-24">
             <CountryPhoto langKey={langKey} color={lang.color} />
           </div>
