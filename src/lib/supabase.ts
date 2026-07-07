@@ -85,3 +85,25 @@ export async function getProfileStats(userId: string) {
     error: null,
   };
 }
+
+export async function getUsername(userId: string): Promise<string | null> {
+  const { data, error } = await supabase
+    .from('profiles')
+    .select('username')
+    .eq('id', userId)
+    .single();
+
+  if (error) return null;
+  return data?.username ?? null;
+}
+
+// Définit / met à jour le pseudo
+export async function setUsername(userId: string, username: string) {
+  const clean = username.trim().slice(0, 20); // max 20 caractères
+  const { error } = await supabase
+    .from('profiles')
+    .update({ username: clean })
+    .eq('id', userId);
+
+  return { error };
+}
