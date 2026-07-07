@@ -9,13 +9,13 @@ export default function HomePage() {
   return (
     <div className="page-enter">
       {/* ===== HERO ===== */}
-      <section className="min-h-screen flex items-center justify-center px-6 pt-24 pb-16 relative overflow-hidden bg-gradient-to-br from-cream via-warm to-[#EDE9E0]">
+      <section className="min-h-screen flex items-center justify-center px-6 pt-24 pb-16 relative overflow-hidden bg-gradient-to-br from-cream via-warm to-[#E3D5BE]">
         {/* Decorative */}
-        <div className="absolute -top-32 -right-20 w-96 h-96 rounded-full bg-coral/[0.03]" />
-        <div className="absolute -bottom-16 -left-24 w-72 h-72 rounded-full bg-teal/[0.03]" />
+        <div className="absolute -top-32 -right-20 w-96 h-96 rounded-full bg-coral/[0.04]" />
+        <div className="absolute -bottom-16 -left-24 w-72 h-72 rounded-full bg-teal/[0.04]" />
 
         <div className="max-w-3xl text-center relative z-10">
-          <div className="inline-block bg-gold/20 border border-gold/40 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wider text-ink mb-7">
+          <div className="inline-block bg-gold/25 border border-gold/40 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wider text-ink mb-7">
             100% GRATUIT · POUR TOUJOURS
           </div>
 
@@ -36,7 +36,7 @@ export default function HomePage() {
               <Link
                 key={lang.slug}
                 href={`/${lang.slug}`}
-                className="flex items-center gap-2.5 bg-white border-2 rounded-xl px-6 py-3.5 text-base font-semibold no-underline transition-all hover:-translate-y-0.5"
+                className="flex items-center gap-2.5 bg-[#FAF6F0] border-2 rounded-xl px-6 py-3.5 text-base font-semibold no-underline transition-all hover:-translate-y-0.5"
                 style={{
                   color: lang.color,
                   borderColor: `${lang.color}20`,
@@ -94,7 +94,7 @@ export default function HomePage() {
             <div
               className="rounded-2xl p-8 border border-teal/20"
               style={{
-                background: 'linear-gradient(135deg, rgba(42,157,143,0.08), rgba(42,157,143,0.03))',
+                background: 'linear-gradient(135deg, rgba(107,123,62,0.10), rgba(107,123,62,0.04))',
               }}
             >
               <p className="text-3xl mb-4">🔥</p>
@@ -135,7 +135,7 @@ export default function HomePage() {
                 desc: "Une anecdote ou un échange avec un natif qui pose le décor. Tu comprends le contexte avant d'apprendre un seul mot.",
                 example:
                   "« L'autre jour, Marco, un Napolitain, m'a dit que dire 'espresso' en Italie, c'est le marqueur n°1 du touriste… »",
-                color: '#E8553D',
+                color: '#C86E46',
               },
               {
                 emoji: '🗺️',
@@ -143,7 +143,7 @@ export default function HomePage() {
                 desc: "Dialogue immersif, audio, expressions de la rue. Comme si tu y étais, avec le droit de te tromper.",
                 example:
                   '— Scusi, un caffè per favore.\n— Lungo, ristretto, macchiato?\n— (Et là, tu apprends la différence.)',
-                color: '#2A9D8F',
+                color: '#6B7B3E',
               },
               {
                 emoji: '🔍',
@@ -151,12 +151,12 @@ export default function HomePage() {
                 desc: 'La grammaire expliquée avec logique. Le « pourquoi » derrière la règle. Tu comprends, tu ne récites pas.',
                 example:
                   "En italien, « un caffè » ne prend pas d'article indéfini devant le comptoir — voici pourquoi…",
-                color: '#8338EC',
+                color: '#D6A23D',
               },
             ].map((step) => (
               <div
                 key={step.title}
-                className="grid md:grid-cols-2 bg-white rounded-2xl overflow-hidden border border-black/5"
+                className="grid md:grid-cols-2 bg-[#FAF6F0] rounded-2xl overflow-hidden border border-black/5"
               >
                 <div className="p-8 sm:p-10">
                   <span className="text-3xl block mb-3">{step.emoji}</span>
@@ -173,8 +173,8 @@ export default function HomePage() {
                 <div
                   className="p-8 sm:p-10 flex items-center border-t md:border-t-0 md:border-l"
                   style={{
-                    background: `${step.color}06`,
-                    borderColor: `${step.color}12`,
+                    background: `${step.color}08`,
+                    borderColor: `${step.color}14`,
                   }}
                 >
                   <p className="font-display text-sm italic leading-relaxed text-ink/65 whitespace-pre-line">
