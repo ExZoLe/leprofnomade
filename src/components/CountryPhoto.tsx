@@ -18,7 +18,7 @@ export function CountryPhoto({ theme }: { theme: CountryTheme }) {
         <div className="mt-6 mb-auto">
           <p className="text-3xl mb-1">{theme.flag}</p>
           <p className="font-display text-4xl font-bold drop-shadow-sm" style={{ color: theme.deep }}>{theme.city}</p>
-          <p className="text-sm font-medium mt-1" style={{ color: theme.inkSoft ?? '#8B7355' }}>{theme.country}</p>
+          <p className="text-sm font-medium mt-1" style={{ color: '#8B7355' }}>{theme.country}</p>
         </div>
         <div className="flex flex-col gap-2.5 mt-8">
           {theme.facts.map((f, i) => (
