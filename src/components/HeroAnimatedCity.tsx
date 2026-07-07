@@ -3,9 +3,9 @@
 import { useState, useEffect } from 'react';
 
 const cities = [
-  { name: 'Londres', color: '#1B4965' },
-  { name: 'Séoul', color: '#8338EC' },
-  { name: 'Rome', color: '#E63946' },
+  { name: 'Londres', color: '#D6A23D' }, // mustard
+  { name: 'Séoul', color: '#C86E46' },   // terracotta
+  { name: 'Rome', color: '#6B7B3E' },    // olive
 ];
 
 export function HeroAnimatedCity() {

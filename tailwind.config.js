@@ -6,15 +6,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: '#1A1A2E',
-        cream: '#FAFAF5',
-        warm: '#F5F3EE',
-        coral: { DEFAULT: '#E8553D', dark: '#C9412D', light: '#FEF2F0' },
-        teal: { DEFAULT: '#2A9D8F', dark: '#1F7A6F', light: '#ECFDF5' },
-        gold: { DEFAULT: '#E9C46A', light: '#FFFBEB' },
-        english: '#1B4965',
-        korean: '#8338EC',
-        italian: '#E63946',
+        ink: '#3D2D14',
+        cream: '#EFE7D9',   // fond principal — kraft doux (fini le blanc)
+        warm: '#E8DCC9',    // sections alternées — un ton plus profond
+        surface: '#FAF6F0', // cartes — blanc cassé chaud
+        coral: { DEFAULT: '#C86E46', dark: '#8B4513', light: '#F5E6DC' },  // terracotta / rust
+        teal: { DEFAULT: '#6B7B3E', dark: '#4F5E2C', light: '#EDF0E6' },   // olive
+        gold: { DEFAULT: '#D6A23D', light: '#F9F0DC' },                    // mustard
+        sage: '#A4B494',
+        english: '#D6A23D',  // mustard
+        korean: '#C86E46',   // terracotta
+        italian: '#6B7B3E',  // olive
       },
       fontFamily: {
         display: ['var(--font-display)', 'serif'],
