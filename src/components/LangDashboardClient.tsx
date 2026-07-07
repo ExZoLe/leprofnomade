@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
-import { getProgress } from '@/lib/supabase';
+import { getProgress, getUsername } from '@/lib/supabase';
 import { AlphabetSidebar } from '@/components/AlphabetSidebar';
 import { CountryPhoto, CountryPhotoBanner } from '@/components/CountryPhoto';
 import { BoardingPass } from '@/components/BoardingPass';
@@ -23,6 +23,7 @@ export function LangDashboardClient({
   const [completedSlugs, setCompletedSlugs] = useState<Set<string>>(new Set());
   const [openEscales, setOpenEscales] = useState<Set<number>>(new Set());
   const [loading, setLoading] = useState(true);
+  const [username, setUsername] = useState<string | null>(null);
 
   const theme = getTheme(langKey);
 
@@ -34,6 +35,7 @@ export function LangDashboardClient({
         }
         setLoading(false);
       });
+      getUsername(user.id).then((name) => { if (name) setUsername(name); });
     } else setLoading(false);
   }, [user, langKey]);
 
@@ -66,7 +68,7 @@ export function LangDashboardClient({
 
   const currentEscale = nextLesson?.escale ?? escaleEntries.length;
   const currentLesson = nextLesson?.lesson ?? 5;
-  const passengerName = (user?.email?.split('@')[0]) || 'Voyageur';
+  const passengerName = username || (user?.email?.split('@')[0]) || 'Voyageur';
 
   const toggleEscale = (n: number) => {
     const next = new Set(openEscales);
@@ -86,7 +88,7 @@ export function LangDashboardClient({
   }
 
   return (
-    <div className="page-enter pt-24 pb-20 px-4 sm:px-6" style={{ ['--cream' as any]: '#F5EDE3' }}>
+    <div className="page-enter pt-24 pb-20 px-4 sm:px-6 min-h-screen" style={{ ['--cream' as any]: '#EFE7D9', background: '#EFE7D9' }}>
       <div className="max-w-[1400px] mx-auto flex gap-6">
 
         {/* ===== GAUCHE — Alphabet sticky (desktop) ===== */}
@@ -127,7 +129,7 @@ export function LangDashboardClient({
           {/* Bouton reprendre */}
           {nextLesson && (
             <Link href={`/lecon/${nextLesson.slug}`}
-              className="flex items-center justify-between bg-white rounded-2xl p-4 border-2 no-underline mb-5 transition-all hover:-translate-y-0.5 hover:shadow-lg group"
+              className="flex items-center justify-between bg-[#FAF6F0] rounded-2xl p-4 border-2 no-underline mb-5 transition-all hover:-translate-y-0.5 hover:shadow-lg group"
               style={{ borderColor: `${color}30` }}
               onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = color; }}
               onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = `${color}30`; }}>
@@ -170,8 +172,8 @@ export function LangDashboardClient({
               const pct = Math.round((done / total) * 100);
               const allDone = done === total && done > 0;
               return (
-                <div key={num} className={`bg-white rounded-2xl border overflow-hidden transition-colors ${isOpen ? 'border-black/10' : 'border-black/5'}`}>
-                  <button onClick={() => toggleEscale(n)} className="w-full flex items-center gap-4 p-4 bg-transparent border-none cursor-pointer text-left hover:bg-gray-50/50">
+                <div key={num} className={`bg-[#FAF6F0] rounded-2xl border overflow-hidden transition-colors ${isOpen ? 'border-black/10' : 'border-black/5'}`}>
+                  <button onClick={() => toggleEscale(n)} className="w-full flex items-center gap-4 p-4 bg-transparent border-none cursor-pointer text-left hover:bg-[#F3ECE0]/60">
                     <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0"
                       style={{ background: allDone ? color : `${color}12`, color: allDone ? '#fff' : color }}>
                       {allDone ? '✓' : num}

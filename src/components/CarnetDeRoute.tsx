@@ -33,7 +33,7 @@ export function CarnetDeRoute({
   const accents = [theme.primary, theme.accent, theme.deep];
 
   return (
-    <section className="bg-white rounded-2xl border border-black/5 p-4">
+    <section className="bg-[#FAF6F0] rounded-2xl border border-[#3D2D1414] p-4">
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-display text-lg" style={{ color: theme.deep }}>
           Carnet de route
@@ -50,7 +50,7 @@ export function CarnetDeRoute({
           return (
             <div
               key={i}
-              className="bg-gray-50/60 pl-3 pr-3 py-2.5"
+              className="bg-[#F3ECE0] pl-3 pr-3 py-2.5"
               style={{
                 borderLeft: `3px solid ${locked ? '#00000012' : accent}`,
                 opacity: locked ? 0.45 : 1,

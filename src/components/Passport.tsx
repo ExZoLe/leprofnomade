@@ -18,7 +18,7 @@ export function Passport({
   const doneCount = escaleStatus.filter((s) => s === 'done').length;
 
   return (
-    <section className="bg-white rounded-2xl border border-black/5 p-4 mb-5">
+    <section className="bg-[#FAF6F0] rounded-2xl border border-[#3D2D1414] p-4 mb-5">
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-display text-lg" style={{ color: theme.deep }}>
           Passeport

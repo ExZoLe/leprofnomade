@@ -105,11 +105,11 @@ export function BoardingPass({
         {/* encoches */}
         <div
           className="absolute -left-2 top-1/2 -translate-y-1/2 w-4 h-4 rounded-full"
-          style={{ background: 'var(--cream, #F5EDE3)' }}
+          style={{ background: 'var(--cream, #EFE7D9)' }}
         />
         <div
           className="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 rounded-full"
-          style={{ background: 'var(--cream, #F5EDE3)' }}
+          style={{ background: 'var(--cream, #EFE7D9)' }}
         />
         <div className="border-t-2 border-dashed border-white/30 mx-3" />
       </div>

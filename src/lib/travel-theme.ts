@@ -39,6 +39,8 @@ export interface CountryTheme {
 
 // Palette de base commune (fond kraft chaleureux)
 export const palette = {
+  pageBg: '#EFE7D9',   // fond de page — kraft doux (remplace le blanc)
+  surface: '#FAF6F0',  // cartes — blanc cassé chaud, moins agressif
   cream: '#F5EDE3',
   sand: '#E8DDD0',
   ink: '#3D3D3F',
@@ -46,6 +48,7 @@ export const palette = {
   white: '#FFFFFF',
   success: '#6B7B3E',
   successSoft: '#A4B494',
+  border: 'rgba(61,45,20,0.08)', // bordure chaude subtile
 };
 
 export const countryThemes: Record<string, CountryTheme> = {
@@ -175,4 +178,26 @@ export const countryThemes: Record<string, CountryTheme> = {
 
 export function getTheme(langKey: string): CountryTheme | null {
   return countryThemes[langKey] ?? null;
+}
+
+export async function getUsername(userId: string): Promise<string | null> {
+  const { data, error } = await supabase
+    .from('profiles')
+    .select('username')
+    .eq('id', userId)
+    .single();
+
+  if (error) return null;
+  return data?.username ?? null;
+}
+
+// Définit / met à jour le pseudo
+export async function setUsername(userId: string, username: string) {
+  const clean = username.trim().slice(0, 20); // max 20 caractères
+  const { error } = await supabase
+    .from('profiles')
+    .update({ username: clean })
+    .eq('id', userId);
+
+  return { error };
 }

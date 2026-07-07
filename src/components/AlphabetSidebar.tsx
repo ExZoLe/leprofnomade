@@ -187,7 +187,7 @@ export function AlphabetSidebar({ langKey, color, collapsible = false }: { langK
     <div className="grid grid-cols-3 gap-1 max-h-[calc(100vh-300px)] overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin' }}>
       {chars.map((c, idx) => (
         <button key={idx} onClick={() => play(c.audioId)}
-          className="flex flex-col items-center py-2 px-1 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer border-none bg-transparent"
+          className="flex flex-col items-center py-2 px-1 rounded-lg hover:bg-[#F3ECE0] transition-colors cursor-pointer border-none bg-transparent"
           style={{ outline: playingId === c.audioId ? `2px solid ${color}` : 'none' }}
           title={`${c.char} [${c.phonetic}]`}>
           <span className="text-xl font-bold leading-none" style={{ color }}>{c.char}</span>
@@ -200,7 +200,7 @@ export function AlphabetSidebar({ langKey, color, collapsible = false }: { langK
   const renderList = (chars: AChar[]) => (
     <div className="flex flex-col gap-0.5 max-h-[calc(100vh-300px)] overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin' }}>
       {chars.map((c, idx) => (
-        <div key={idx} className="flex items-center gap-2 py-1.5 px-2 rounded-lg hover:bg-gray-50 transition-colors">
+        <div key={idx} className="flex items-center gap-2 py-1.5 px-2 rounded-lg hover:bg-[#F3ECE0] transition-colors">
           <span className="text-lg font-bold w-8 text-center flex-shrink-0 leading-none" style={{ color }}>{c.char}</span>
           <div className="flex-1 min-w-0">
             <div className="flex items-baseline gap-1">
@@ -248,7 +248,7 @@ export function AlphabetSidebar({ langKey, color, collapsible = false }: { langK
 
   if (collapsible) {
     return (
-      <div className="bg-white rounded-2xl border border-black/5 overflow-hidden">
+      <div className="bg-[#FAF6F0] rounded-2xl border border-[#3D2D1414] overflow-hidden">
         <button onClick={() => setIsOpen(!isOpen)} className="w-full flex items-center gap-3 p-4 bg-transparent border-none cursor-pointer text-left hover:bg-gray-50/50">
           <div className="w-8 h-8 rounded-lg flex items-center justify-center text-sm flex-shrink-0" style={{ background: `${color}12`, color }}>
             {langKey === 'coreen' ? 'ㄱ' : 'Aa'}
@@ -265,7 +265,7 @@ export function AlphabetSidebar({ langKey, color, collapsible = false }: { langK
   }
 
   return (
-    <div className="bg-white rounded-2xl border border-black/5 p-4">
+    <div className="bg-[#FAF6F0] rounded-2xl border border-[#3D2D1414] p-4">
       <div className="flex items-center gap-2.5 mb-4">
         <div className="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold flex-shrink-0" style={{ background: `${color}12`, color }}>
           {langKey === 'coreen' ? 'ㄱ' : 'Aa'}
