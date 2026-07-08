@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 
 // ============================================================
 // AlphabetSidebar — corrige le chevauchement IT/EN.
@@ -17,8 +18,23 @@ const alphabetSongs: Record<string, { title: string; subtitle: string; youtubeId
 };
 
 function SongModal({ song, color, onClose }: { song: { title: string; subtitle: string; youtubeId: string }; color: string; onClose: () => void; }) {
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
+  const [mounted, setMounted] = useState(false);
+
+  // Verrouille le scroll de la page + monte le portal côté client
+  useEffect(() => {
+    setMounted(true);
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = ''; };
+  }, []);
+
+  if (!mounted) return null;
+
+  return createPortal(
+    <div
+      className="fixed inset-0 flex items-center justify-center p-4"
+      style={{ zIndex: 2147483647 }}
+      onClick={onClose}
+    >
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
       <div className="relative bg-white rounded-2xl overflow-hidden w-full max-w-lg shadow-2xl" onClick={(e) => e.stopPropagation()}>
         <div className="p-4 flex items-center justify-between">
@@ -35,7 +51,8 @@ function SongModal({ song, color, onClose }: { song: { title: string; subtitle: 
           <p className="text-[10px] text-gray-400">Chante avec la vidéo pour mémoriser plus vite 🎤</p>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 
@@ -201,11 +218,16 @@ export function AlphabetSidebar({ langKey, color, collapsible = false }: { langK
     <div className="flex flex-col gap-0.5 max-h-[calc(100vh-300px)] overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin' }}>
       {chars.map((c, idx) => (
         <div key={idx} className="flex items-center gap-2 py-1.5 px-2 rounded-lg hover:bg-[#F3ECE0] transition-colors">
-          <span className="text-lg font-bold w-8 text-center flex-shrink-0 leading-none" style={{ color }}>{c.char}</span>
+          <span
+            className="font-bold flex-shrink-0 leading-tight text-center"
+            style={{ color, minWidth: '2.75rem', maxWidth: '3.5rem', fontSize: c.char.length > 3 ? '0.78rem' : '1.05rem' }}
+          >
+            {c.char}
+          </span>
           <div className="flex-1 min-w-0">
-            <div className="flex items-baseline gap-1">
-              {c.name && <span className="text-[11px] font-semibold text-gray-700">{c.name}</span>}
-              <span className="text-[10px] text-gray-400">[{c.phonetic}]</span>
+            <div className="flex flex-col leading-tight">
+              {c.name && <span className="text-[11px] font-semibold text-gray-700 leading-tight">{c.name}</span>}
+              <span className="text-[10px] text-gray-400 leading-tight">[{c.phonetic}]</span>
             </div>
             {c.example && <p className="text-[10px] text-gray-400 truncate leading-tight mt-0.5">{c.example}</p>}
           </div>

@@ -15,17 +15,20 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Le menu ouvert OU le scroll forcent un fond opaque
+  const solidBg = scrolled || menuOpen;
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+        solidBg
           ? 'bg-cream/95 backdrop-blur-md border-b border-black/5'
           : 'bg-transparent'
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 no-underline">
+        <Link href="/" className="flex items-center gap-2 no-underline" onClick={() => setMenuOpen(false)}>
           <span className="text-2xl">🌍</span>
           <span className="font-display text-xl tracking-tight">
             Le<span className="text-coral">Prof</span>Nomade
@@ -78,38 +81,40 @@ export function Navbar() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden bg-transparent border-none text-2xl cursor-pointer"
+          className="md:hidden bg-transparent border-none text-2xl cursor-pointer text-ink"
           aria-label="Menu"
         >
           {menuOpen ? '✕' : '☰'}
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile menu — fond opaque plein, recouvre le contenu */}
       {menuOpen && (
-        <div className="md:hidden px-6 pb-4 flex flex-col gap-4 border-t border-black/5">
-          <Link href="/methode" className="text-sm font-medium text-ink no-underline pt-4" onClick={() => setMenuOpen(false)}>
-            La méthode
-          </Link>
-          <Link href="/#langues" className="text-sm font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
-            Les langues
-          </Link>
-          {!loading && (
-            user ? (
-              <Link href="/profil" className="text-sm font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
-                👤 Mon profil
-              </Link>
-            ) : (
-              <>
-                <Link href="/login" className="text-sm font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
-                  Connexion
+        <div className="md:hidden bg-cream border-t border-black/5 shadow-lg">
+          <div className="px-6 py-5 flex flex-col gap-4">
+            <Link href="/methode" className="text-base font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
+              La méthode
+            </Link>
+            <Link href="/#langues" className="text-base font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
+              Les langues
+            </Link>
+            {!loading && (
+              user ? (
+                <Link href="/profil" className="text-base font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
+                  👤 Mon profil
                 </Link>
-                <Link href="/signup" className="bg-coral text-white text-sm font-semibold px-5 py-2.5 rounded-lg text-center no-underline" onClick={() => setMenuOpen(false)}>
-                  Commencer
-                </Link>
-              </>
-            )
-          )}
+              ) : (
+                <>
+                  <Link href="/login" className="text-base font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
+                    Connexion
+                  </Link>
+                  <Link href="/signup" className="bg-coral text-white text-base font-semibold px-5 py-3 rounded-lg text-center no-underline" onClick={() => setMenuOpen(false)}>
+                    Commencer
+                  </Link>
+                </>
+              )
+            )}
+          </div>
         </div>
       )}
     </nav>
