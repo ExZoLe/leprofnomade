@@ -51,14 +51,14 @@ export function PseudoSetting({ accentColor = '#C86E46' }: { accentColor?: strin
         Il apparaît sur tes cartes d'embarquement. Modifiable à tout moment.
       </p>
 
-      <div className="flex gap-2">
+      <div className="flex flex-col sm:flex-row gap-2">
         <input
           type="text"
           value={value}
           onChange={(e) => { setValue(e.target.value); setStatus('idle'); }}
           maxLength={20}
           placeholder="Voyageur"
-          className="flex-1 bg-white rounded-xl px-4 py-2.5 text-sm border outline-none transition-colors"
+          className="flex-1 min-w-0 bg-white rounded-xl px-4 py-2.5 text-sm border outline-none transition-colors"
           style={{ borderColor: '#3D2D1418' }}
           onFocus={(e) => { e.currentTarget.style.borderColor = accentColor; }}
           onBlur={(e) => { e.currentTarget.style.borderColor = '#3D2D1418'; }}
@@ -66,7 +66,7 @@ export function PseudoSetting({ accentColor = '#C86E46' }: { accentColor?: strin
         <button
           onClick={handleSave}
           disabled={!changed || status === 'saving'}
-          className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white border-none cursor-pointer transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+          className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white border-none cursor-pointer transition-all disabled:opacity-40 disabled:cursor-not-allowed flex-shrink-0 w-full sm:w-auto"
           style={{ background: accentColor }}
         >
           {status === 'saving' ? '...' : status === 'saved' ? '✓ Enregistré' : 'Enregistrer'}
