@@ -72,19 +72,19 @@ export default function ProfilPage() {
     <div className="min-h-screen bg-cream pt-24 pb-20 px-6 page-enter">
       <div className="max-w-3xl mx-auto">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
-          <div className="flex items-center gap-4">
-            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-coral/20 to-teal/20 flex items-center justify-center text-2xl">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-8">
+          <div className="flex items-center gap-4 min-w-0">
+            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-coral/20 to-teal/20 flex items-center justify-center text-2xl flex-shrink-0">
               👤
             </div>
-            <div>
+            <div className="min-w-0">
               <h1 className="font-display text-2xl text-ink">Mon parcours</h1>
-              <p className="text-sm text-gray-400">{user.email}</p>
+              <p className="text-sm text-gray-400 truncate">{user.email}</p>
             </div>
           </div>
           <button
             onClick={handleSignOut}
-            className="text-sm text-gray-400 hover:text-coral transition-colors cursor-pointer bg-transparent border-none"
+            className="text-sm text-gray-400 hover:text-coral transition-colors cursor-pointer bg-transparent border-none self-start sm:self-auto flex-shrink-0"
           >
             Se déconnecter
           </button>
