@@ -1,5 +1,11 @@
 # 🌍 LeProfNomade
 
+![Statut](https://img.shields.io/badge/statut-en%20développement-C86E46)
+![Prix](https://img.shields.io/badge/prix-100%25%20gratuit-6B7B3E)
+![Langues](https://img.shields.io/badge/langues-EN%20·%20KR%20·%20IT-D6A23D)
+![Next.js](https://img.shields.io/badge/Next.js-14-3D2D14)
+![Déploiement](https://img.shields.io/badge/déployé%20sur-Vercel-000000)
+
 **Apprends une langue comme si tu découvrais un pays.**
 
 LeProfNomade est une plateforme d'apprentissage des langues, gratuite et en français, qui enseigne l'anglais, le coréen et l'italien. Au lieu de la répétition gamifiée, elle mise sur de vraies explications, des mises en situation de voyage et les codes culturels que les applications classiques n'enseignent pas.
@@ -52,6 +58,24 @@ Projet en développement actif. Le contenu des trois langues est complet ; le tr
 ## 📄 Licence
 
 Projet personnel. Tous droits réservés.
+
+---
+
+## 🗺️ Feuille de route
+
+```mermaid
+timeline
+    title Feuille de route LeProfNomade
+    section Terminé
+        Fondations techniques : Déploiement Vercel + Supabase : Authentification + progression : Dashboard + quiz
+        Contenu complet : 120 leçons (40 par langue) : 480 questions de quiz : Alphabets audio + chansons
+        Refonte design : Palette voyage chaleureuse : Carte d'embarquement animée : Passeport + carnet de route
+    section En cours
+        Finitions : Corrections responsive mobile : Système de pseudo
+    section À venir
+        Référencement (SEO) : Meta tags + sitemap : Blog / Carnets de route : Mini-dictionnaire
+        Lancement public : Passage OAuth en production : Réseau de natifs : Partenariats
+```
 
 ---
 
