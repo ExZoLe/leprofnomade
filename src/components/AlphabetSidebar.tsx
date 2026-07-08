@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback, useRef, useEffect } from 'react';
+// @ts-ignore - types react-dom non installés dans ce projet
 import { createPortal } from 'react-dom';
 
 // ============================================================
