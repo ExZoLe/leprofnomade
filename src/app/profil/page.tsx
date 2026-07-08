@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
 import { signOut, getProfileStats, getProgress } from '@/lib/supabase';
+import { PseudoSetting } from '@/components/PseudoSetting';
 
 interface Stats {
   totalLessons: number;
@@ -60,16 +61,18 @@ export default function ProfilPage() {
   if (!user) return null;
 
   const langCards = [
-    { key: 'anglais', name: 'Anglais', flag: '🇬🇧', color: '#1B4965', count: stats?.byLang.anglais || 0 },
-    { key: 'coreen', name: 'Coréen', flag: '🇰🇷', color: '#8338EC', count: stats?.byLang.coreen || 0 },
-    { key: 'italien', name: 'Italien', flag: '🇮🇹', color: '#E63946', count: stats?.byLang.italien || 0 },
+    { key: 'anglais', name: 'Anglais', flag: '🇬🇧', color: '#D6A23D', count: stats?.byLang.anglais || 0 },
+    { key: 'coreen', name: 'Coréen', flag: '🇰🇷', color: '#C86E46', count: stats?.byLang.coreen || 0 },
+    { key: 'italien', name: 'Italien', flag: '🇮🇹', color: '#6B7B3E', count: stats?.byLang.italien || 0 },
   ];
+
+  const TOTAL_PER_LANG = 40;
 
   return (
     <div className="min-h-screen bg-cream pt-24 pb-20 px-6 page-enter">
       <div className="max-w-3xl mx-auto">
         {/* Header */}
-        <div className="flex items-center justify-between mb-10">
+        <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-coral/20 to-teal/20 flex items-center justify-center text-2xl">
               👤
@@ -87,17 +90,22 @@ export default function ProfilPage() {
           </button>
         </div>
 
+        {/* Réglage du pseudo */}
+        <div className="mb-8">
+          <PseudoSetting accentColor="#C86E46" />
+        </div>
+
         {/* Stats globales */}
         <div className="grid grid-cols-3 gap-4 mb-10">
-          <div className="bg-white rounded-xl p-5 border border-black/5 text-center">
+          <div className="bg-[#FAF6F0] rounded-xl p-5 border border-[#3D2D1414] text-center">
             <p className="font-display text-3xl text-ink">{stats?.totalLessons || 0}</p>
             <p className="text-xs text-gray-400 mt-1">Leçons terminées</p>
           </div>
-          <div className="bg-white rounded-xl p-5 border border-black/5 text-center">
+          <div className="bg-[#FAF6F0] rounded-xl p-5 border border-[#3D2D1414] text-center">
             <p className="font-display text-3xl text-ink">{stats?.totalScore || 0}</p>
             <p className="text-xs text-gray-400 mt-1">Score total</p>
           </div>
-          <div className="bg-white rounded-xl p-5 border border-black/5 text-center">
+          <div className="bg-[#FAF6F0] rounded-xl p-5 border border-[#3D2D1414] text-center">
             <p className="font-display text-3xl text-ink">{langCards.filter(l => l.count > 0).length}</p>
             <p className="text-xs text-gray-400 mt-1">Langues actives</p>
           </div>
@@ -110,7 +118,7 @@ export default function ProfilPage() {
             <Link
               key={lang.key}
               href={`/${lang.key}`}
-              className="bg-white rounded-xl p-5 border border-black/5 no-underline hover:-translate-y-0.5 transition-all hover:shadow-md"
+              className="bg-[#FAF6F0] rounded-xl p-5 border border-[#3D2D1414] no-underline hover:-translate-y-0.5 transition-all hover:shadow-md"
             >
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl">{lang.flag}</span>
@@ -122,16 +130,16 @@ export default function ProfilPage() {
                 </p>
                 <p className="text-xs text-gray-400">leçons</p>
               </div>
-              <div className="mt-3 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+              <div className="mt-3 h-1.5 bg-black/5 rounded-full overflow-hidden">
                 <div
                   className="h-full rounded-full transition-all"
                   style={{
-                    width: `${Math.min((lang.count / 150) * 100, 100)}%`,
+                    width: `${Math.min((lang.count / TOTAL_PER_LANG) * 100, 100)}%`,
                     background: lang.color,
                   }}
                 />
               </div>
-              <p className="text-xs text-gray-400 mt-1">{lang.count}/150</p>
+              <p className="text-xs text-gray-400 mt-1">{lang.count}/{TOTAL_PER_LANG}</p>
             </Link>
           ))}
         </div>
@@ -139,7 +147,7 @@ export default function ProfilPage() {
         {/* Activité récente */}
         <h2 className="font-display text-xl text-ink mb-4">Activité récente</h2>
         {recent.length > 0 ? (
-          <div className="bg-white rounded-xl border border-black/5 divide-y divide-black/5">
+          <div className="bg-[#FAF6F0] rounded-xl border border-[#3D2D1414] divide-y divide-black/5">
             {recent.map((item, i) => {
               const langEmoji = item.lang === 'anglais' ? '🇬🇧' : item.lang === 'coreen' ? '🇰🇷' : '🇮🇹';
               const date = new Date(item.completed_at).toLocaleDateString('fr-FR', {
@@ -154,7 +162,7 @@ export default function ProfilPage() {
                 <Link
                   key={i}
                   href={`/lecon/${item.lesson_slug}`}
-                  className="flex items-center gap-4 px-5 py-4 no-underline hover:bg-gray-50 transition-colors"
+                  className="flex items-center gap-4 px-5 py-4 no-underline hover:bg-[#F3ECE0] transition-colors"
                 >
                   <span className="text-lg">{langEmoji}</span>
                   <div className="flex-1 min-w-0">
@@ -169,7 +177,7 @@ export default function ProfilPage() {
             })}
           </div>
         ) : (
-          <div className="bg-white rounded-xl p-8 border border-black/5 text-center">
+          <div className="bg-[#FAF6F0] rounded-xl p-8 border border-[#3D2D1414] text-center">
             <p className="text-3xl mb-3">🚀</p>
             <p className="text-sm text-gray-500">Aucune leçon terminée pour l&apos;instant. Lance-toi !</p>
             <Link
