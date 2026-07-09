@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useAuth } from '@/components/AuthProvider';
 
 export function Navbar() {
@@ -15,7 +16,6 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Le menu ouvert OU le scroll forcent un fond opaque
   const solidBg = scrolled || menuOpen;
 
   return (
@@ -27,9 +27,16 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 no-underline" onClick={() => setMenuOpen(false)}>
-          <span className="text-2xl">🌍</span>
+        {/* Logo : icône + texte */}
+        <Link href="/" className="flex items-center gap-2.5 no-underline" onClick={() => setMenuOpen(false)}>
+          <Image
+            src="/brand/logo-icone.png"
+            alt="LeProfNomade"
+            width={34}
+            height={34}
+            className="rounded-lg"
+            priority
+          />
           <span className="font-display text-xl tracking-tight">
             Le<span className="text-coral">Prof</span>Nomade
           </span>
@@ -37,40 +44,25 @@ export function Navbar() {
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
-          <Link
-            href="/methode"
-            className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline"
-          >
+          <Link href="/methode" className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline">
             La méthode
           </Link>
-          <Link
-            href="/#langues"
-            className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline"
-          >
+          <Link href="/#langues" className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline">
             Les langues
           </Link>
 
           {!loading && (
             user ? (
-              <Link
-                href="/profil"
-                className="flex items-center gap-2 bg-ink text-white text-sm font-semibold px-5 py-2 rounded-lg hover:opacity-90 transition-opacity no-underline"
-              >
+              <Link href="/profil" className="flex items-center gap-2 bg-ink text-white text-sm font-semibold px-5 py-2 rounded-lg hover:opacity-90 transition-opacity no-underline">
                 <span className="text-base">👤</span>
                 Mon profil
               </Link>
             ) : (
               <div className="flex items-center gap-3">
-                <Link
-                  href="/login"
-                  className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline"
-                >
+                <Link href="/login" className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline">
                   Connexion
                 </Link>
-                <Link
-                  href="/signup"
-                  className="bg-coral text-white text-sm font-semibold px-5 py-2 rounded-lg hover:bg-coral-dark transition-colors no-underline"
-                >
+                <Link href="/signup" className="bg-coral text-white text-sm font-semibold px-5 py-2 rounded-lg hover:bg-coral-dark transition-colors no-underline">
                   Commencer
                 </Link>
               </div>
@@ -88,7 +80,7 @@ export function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu — fond opaque plein, recouvre le contenu */}
+      {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-cream border-t border-black/5 shadow-lg">
           <div className="px-6 py-5 flex flex-col gap-4">
