@@ -126,6 +126,24 @@ export function LangDashboardClient({
             currentLesson={currentLesson}
           />
 
+          {/* Accès au Passeport lexical (lexique complet de la langue) */}
+          <Link
+            href={`/carnet/${langKey}`}
+            className="flex items-center justify-between bg-[#FAF6F0] rounded-2xl p-4 border-2 no-underline mb-5 transition-all hover:-translate-y-0.5 hover:shadow-lg group"
+            style={{ borderColor: `${color}30` }}
+            onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = color; }}
+            onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = `${color}30`; }}>
+            <div className="flex items-center gap-4">
+              <div className="w-11 h-11 rounded-xl flex items-center justify-center text-white text-lg" style={{ background: color }}>📓</div>
+              <div>
+                <p className="text-[11px] font-bold tracking-wider uppercase" style={{ color }}>Le Passeport lexical</p>
+                <p className="text-sm font-semibold text-ink">Tout le vocabulaire, cherchable</p>
+                <p className="text-xs text-gray-400">Chaque mot renvoie à sa leçon</p>
+              </div>
+            </div>
+            <span className="text-gray-300 text-xl group-hover:text-gray-500">→</span>
+          </Link>
+
           {/* Bouton reprendre */}
           {nextLesson && (
             <Link href={`/lecon/${nextLesson.slug}`}

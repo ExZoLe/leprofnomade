@@ -1,0 +1,3362 @@
+[
+  {
+    "native": "uno, due, tre, quattro, cinque",
+    "roman": null,
+    "fr": "1, 2, 3, 4, 5",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-4"
+  },
+  {
+    "native": "sei, sette, otto, nove, dieci",
+    "roman": null,
+    "fr": "6, 7, 8, 9, 10",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-4"
+  },
+  {
+    "native": "Contorni (kon-TOR-ni)",
+    "roman": null,
+    "fr": "Accompagnements (légumes, salade) — commandés à part !",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "Allora (al-LO-ra)",
+    "roman": null,
+    "fr": "Alors / bon / du coup — le mot le plus fréquent en italien",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "al bar",
+    "roman": null,
+    "fr": "au bar/café",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "al banco",
+    "roman": null,
+    "fr": "au comptoir",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "Bere (BÉ-ré)",
+    "roman": null,
+    "fr": "Boire",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Come sta? (Lei)",
+    "roman": null,
+    "fr": "Comment allez-vous ?",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "Come stai? (tu)",
+    "roman": null,
+    "fr": "Comment vas-tu ?",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "Consigliare (kon-si-LIA-ré)",
+    "roman": null,
+    "fr": "Conseiller",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Coperto: €2,00 a persona",
+    "roman": null,
+    "fr": "Couvert : 2€ par personne",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-4"
+  },
+  {
+    "native": "Coperto e servizio inclusi",
+    "roman": null,
+    "fr": "Couvert et service inclus",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-4"
+  },
+  {
+    "native": "Dolci (DOL-tchi)",
+    "roman": null,
+    "fr": "Desserts (tiramisù, panna cotta, gelato…)",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "Quindi (KWIN-di)",
+    "roman": null,
+    "fr": "Donc / par conséquent",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Comunque (ko-MOUN-kwé)",
+    "roman": null,
+    "fr": "En tout cas / de toute façon",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Antipasti (an-ti-PAS-ti)",
+    "roman": null,
+    "fr": "Entrées / amuse-bouches (bruschette, prosciutto, caprese…)",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "trenta (30)",
+    "roman": null,
+    "fr": "Et ça continue avec la même logique",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-4"
+  },
+  {
+    "native": "❌ Parmesan sur les fruits de mer",
+    "roman": null,
+    "fr": "Fromage + poisson = interdit en Italie",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Provare (pro-VA-ré)",
+    "roman": null,
+    "fr": "Goûter / essayer",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Non c'è problema",
+    "roman": null,
+    "fr": "Il n'y a pas de problème / pas de souci",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Mi piace la pizza",
+    "roman": null,
+    "fr": "J'aime la pizza (la pizza me plaît)",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Non mi piace il pesce",
+    "roman": null,
+    "fr": "Je n'aime pas le poisson",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Non capisco (non ka-PI-sko)",
+    "roman": null,
+    "fr": "Je ne comprends pas",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Non parlo italiano",
+    "roman": null,
+    "fr": "Je ne parle pas italien",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Non lo so",
+    "roman": null,
+    "fr": "Je ne sais pas",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Prendo la pizza margherita",
+    "roman": null,
+    "fr": "Je prends la pizza margherita",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "Prendo il risotto",
+    "roman": null,
+    "fr": "Je prends le risotto",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "la pizza, la pasta, la birra",
+    "roman": null,
+    "fr": "la pizza, les pâtes, la bière",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "il caffè, il vino, il pane",
+    "roman": null,
+    "fr": "le café, le vin, le pain",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "❌ Cappuccino après 11h",
+    "roman": null,
+    "fr": "Le lait chaud = petit-déjeuner UNIQUEMENT",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "❌ Pain avec les pâtes",
+    "roman": null,
+    "fr": "Le pain sert à « fare la scarpetta » (saucer) À LA FIN",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "La mancia non è obbligatoria",
+    "roman": null,
+    "fr": "Le pourboire n'est pas obligatoire",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-4"
+  },
+  {
+    "native": "le cacio e pepe (fém. pluriel)",
+    "roman": null,
+    "fr": "les cacio e pepe",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "i secondi (masc. pluriel)",
+    "roman": null,
+    "fr": "les seconds plats",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "Mangiare (man-DJA-ré)",
+    "roman": null,
+    "fr": "Manger",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Eccomi!",
+    "roman": null,
+    "fr": "Me voilà ! / J'arrive !",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "❌ Demander du ketchup",
+    "roman": null,
+    "fr": "Nulle part, jamais, sous aucun prétexte",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "❌ Couper les spaghetti",
+    "roman": null,
+    "fr": "On les enroule avec la fourchette, JAMAIS de cuillère",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Pagare (pa-GA-ré)",
+    "roman": null,
+    "fr": "Payer",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Magari (ma-GA-ri)",
+    "roman": null,
+    "fr": "Peut-être / si seulement / ce serait génial",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-3"
+  },
+  {
+    "native": "Per me, le tagliatelle",
+    "roman": null,
+    "fr": "Pour moi, les tagliatelles (encore plus simple)",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "Primi (PRI-mi)",
+    "roman": null,
+    "fr": "Premiers plats = les pâtes, risottos, soupes",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "Secondi (sé-KON-di)",
+    "roman": null,
+    "fr": "Seconds plats = viande ou poisson",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-2"
+  },
+  {
+    "native": "Servizio: 10%",
+    "roman": null,
+    "fr": "Service : 10% (parfois ajouté aussi)",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-4"
+  },
+  {
+    "native": "Ti piace? (informel)",
+    "roman": null,
+    "fr": "Tu aimes ? / Ça te plaît ?",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-5"
+  },
+  {
+    "native": "Ecco il caffè",
+    "roman": null,
+    "fr": "Voilà le café",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "Ecco a Lei",
+    "roman": null,
+    "fr": "Voilà pour vous",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "al tavolo",
+    "roman": null,
+    "fr": "à la table",
+    "escale": 1,
+    "theme": "Alphabet",
+    "slug": "it-escale-1-lecon-1"
+  },
+  {
+    "native": "Acqua frizzante",
+    "roman": null,
+    "fr": "Eau gazeuse",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-3"
+  },
+  {
+    "native": "Acqua naturale",
+    "roman": null,
+    "fr": "Eau plate",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-3"
+  },
+  {
+    "native": "Vorrei un bombolone.",
+    "roman": null,
+    "fr": "Je voudrais un beignet.",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-2"
+  },
+  {
+    "native": "Vorrei un caffè.",
+    "roman": null,
+    "fr": "Je voudrais un café.",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-2"
+  },
+  {
+    "native": "Possiamo ordinare ?",
+    "roman": null,
+    "fr": "Pouvens-nous commander ?",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-4"
+  },
+  {
+    "native": "Possiamo sedere qui ?",
+    "roman": null,
+    "fr": "Pouvens-nous nous asseoir ici ?",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-4"
+  },
+  {
+    "native": "Posso entrare ?",
+    "roman": null,
+    "fr": "Puis-je entrer ?",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-5"
+  },
+  {
+    "native": "Posso pagare ?",
+    "roman": null,
+    "fr": "Puis-je payer ?",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "it-escale-2-lecon-5"
+  },
+  {
+    "native": "Avete un tavolo ?",
+    "roman": null,
+    "fr": "Avez-vous une table ?",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-1"
+  },
+  {
+    "native": "Bottiglia",
+    "roman": null,
+    "fr": "Bouteille (bot-ti-lya)",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-3"
+  },
+  {
+    "native": "Mancano due bicchieri.",
+    "roman": null,
+    "fr": "Il manque deux verres.",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-4"
+  },
+  {
+    "native": "Manca un coltello.",
+    "roman": null,
+    "fr": "Il manque un couteau.",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-4"
+  },
+  {
+    "native": "Tovaglia",
+    "roman": null,
+    "fr": "Nappe (to-va-lya)",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-3"
+  },
+  {
+    "native": "Non abbiamo una prenotazione.",
+    "roman": null,
+    "fr": "Nous n'avons pas de réservation.",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-1"
+  },
+  {
+    "native": "Pagare insieme",
+    "roman": null,
+    "fr": "Payer ensemble",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-5"
+  },
+  {
+    "native": "Pagare separatamente",
+    "roman": null,
+    "fr": "Payer séparément",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "it-escale-3-lecon-5"
+  },
+  {
+    "native": "Solo andata",
+    "roman": null,
+    "fr": "Aller simple",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "Andata e ritorno",
+    "roman": null,
+    "fr": "Aller-retour",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "Fermata (fer-MA-ta)",
+    "roman": null,
+    "fr": "Arrêt",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "Si fermi qui, per favore",
+    "roman": null,
+    "fr": "Arrêtez-vous ici, s'il vous plaît",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "All'incrocio (al-lin-KRO-tcho)",
+    "roman": null,
+    "fr": "Au carrefour",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "Al semaforo",
+    "roman": null,
+    "fr": "Au feu rouge",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "Con il tassametro",
+    "roman": null,
+    "fr": "Avec le compteur",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "Biglietto (bi-LIET-to)",
+    "roman": null,
+    "fr": "Billet",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "Tabaccaio (ta-bak-KA-io)",
+    "roman": null,
+    "fr": "Bureau de tabac (vend les billets)",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "Questo autobus (KWES-to)",
+    "roman": null,
+    "fr": "Ce bus (proche)",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "Quello lì (KWEL-lo li)",
+    "roman": null,
+    "fr": "Celui-là (loin)",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "Questa fermata",
+    "roman": null,
+    "fr": "Cet arrêt",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "Quella strada",
+    "roman": null,
+    "fr": "Cette rue-là",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "Quante persone?",
+    "roman": null,
+    "fr": "Combien de personnes ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "Quanto tempo?",
+    "roman": null,
+    "fr": "Combien de temps ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "Quanto costa? (KWAN-to KOS-ta)",
+    "roman": null,
+    "fr": "Combien ça coûte ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "Quanto costa?",
+    "roman": null,
+    "fr": "Combien ça coûte ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "Come arrivo a...?",
+    "roman": null,
+    "fr": "Comment j'arrive à... ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "Timbrare / Convalidare",
+    "roman": null,
+    "fr": "Composter/valider le billet",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "Mi porti a... (mi POR-ti a)",
+    "roman": null,
+    "fr": "Emmenez-moi à...",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "(lui/lei) va",
+    "roman": null,
+    "fr": "il/elle va",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "(lui/lei) viene",
+    "roman": null,
+    "fr": "il/elle vient",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "(loro) vanno",
+    "roman": null,
+    "fr": "ils/elles vont",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "Prendo il treno",
+    "roman": null,
+    "fr": "Je prends le train",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "(io) vado",
+    "roman": null,
+    "fr": "je vais",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "(io) vengo",
+    "roman": null,
+    "fr": "je viens",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "(noi) andiamo",
+    "roman": null,
+    "fr": "nous allons",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "(noi) veniamo",
+    "roman": null,
+    "fr": "nous venons",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "Prendiamo un caffè?",
+    "roman": null,
+    "fr": "On prend un café ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "Dov'è la fermata?",
+    "roman": null,
+    "fr": "Où est l'arrêt ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "Dove sono i musei?",
+    "roman": null,
+    "fr": "Où sont les musées ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "Dov'è il bagno?",
+    "roman": null,
+    "fr": "Où sont les toilettes ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "Può aprire il bagagliaio?",
+    "roman": null,
+    "fr": "Pouvez-vous ouvrir le coffre ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "Prendi il bus numero 64",
+    "roman": null,
+    "fr": "Prends le bus numéro 64",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "Binario (bi-NA-rio)",
+    "roman": null,
+    "fr": "Quai",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "Quanti anni hai?",
+    "roman": null,
+    "fr": "Quel âge as-tu ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-3"
+  },
+  {
+    "native": "Dritto / Sempre dritto",
+    "roman": null,
+    "fr": "Tout droit / Toujours tout droit",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "Tram (tram)",
+    "roman": null,
+    "fr": "Tramway",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-2"
+  },
+  {
+    "native": "(tu) vai",
+    "roman": null,
+    "fr": "tu vas",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "(tu) vieni",
+    "roman": null,
+    "fr": "tu viens",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-5"
+  },
+  {
+    "native": "Convalidare (kon-va-li-DA-ré)",
+    "roman": null,
+    "fr": "Valider/composter (obligatoire !)",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "A destra (a DES-tra)",
+    "roman": null,
+    "fr": "À droite",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "A sinistra (a si-NIS-tra)",
+    "roman": null,
+    "fr": "À gauche",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-4"
+  },
+  {
+    "native": "A che ora arriva?",
+    "roman": null,
+    "fr": "À quelle heure arrive-t-il ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "A che ora parte il treno?",
+    "roman": null,
+    "fr": "À quelle heure part le train ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "A che ora apre?",
+    "roman": null,
+    "fr": "À quelle heure ça ouvre ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "it-escale-4-lecon-1"
+  },
+  {
+    "native": "Volentieri! (vo-len-TIÈ-ri)",
+    "roman": null,
+    "fr": "Avec plaisir !",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Camera (KA-mé-ra)",
+    "roman": null,
+    "fr": "Chambre",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-1"
+  },
+  {
+    "native": "Aria condizionata",
+    "roman": null,
+    "fr": "Climatisation",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Chiave (KIA-vé)",
+    "roman": null,
+    "fr": "Clé",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-1"
+  },
+  {
+    "native": "Dalle 7 alle 10",
+    "roman": null,
+    "fr": "De 7h à 10h",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-1"
+  },
+  {
+    "native": "Dalle 9 alle 18",
+    "roman": null,
+    "fr": "De 9h à 18h",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-1"
+  },
+  {
+    "native": "Doccia (DOT-tcha)",
+    "roman": null,
+    "fr": "Douche",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Prego = servez-vous",
+    "roman": null,
+    "fr": "En offrant à manger : Prego, prego!",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Prego = après vous",
+    "roman": null,
+    "fr": "En tenant la porte : Prego!",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Piacere! (pia-TCHÉ-ré)",
+    "roman": null,
+    "fr": "Enchanté !",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Fatto in casa",
+    "roman": null,
+    "fr": "Fait maison",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Fantastico!",
+    "roman": null,
+    "fr": "Fantastique !",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Fattoria (fat-to-RI-a)",
+    "roman": null,
+    "fr": "Ferme",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Agriturismo",
+    "roman": null,
+    "fr": "Ferme-auberge",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Prego = de rien",
+    "roman": null,
+    "fr": "Grazie! — Prego!",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Non c'è acqua calda",
+    "roman": null,
+    "fr": "Il n'y a pas d'eau chaude",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Si accomodi (si ak-KO-mo-di)",
+    "roman": null,
+    "fr": "Installez-vous / Mettez-vous à l'aise",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Non vedo l'ora!",
+    "roman": null,
+    "fr": "J'ai hâte !",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "L'aria condizionata non funziona",
+    "roman": null,
+    "fr": "La clim ne marche pas",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "La doccia non funziona",
+    "roman": null,
+    "fr": "La douche ne marche pas",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "La finestra non si apre",
+    "roman": null,
+    "fr": "La fenêtre ne s'ouvre pas",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Letto (LÈT-to)",
+    "roman": null,
+    "fr": "Lit",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Stupendo!",
+    "roman": null,
+    "fr": "Magnifique !",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Ulivo (ou-LI-vo)",
+    "roman": null,
+    "fr": "Olivier",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Colazione (ko-la-TSIO-né)",
+    "roman": null,
+    "fr": "Petit-déjeuner",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-1"
+  },
+  {
+    "native": "Che bello! (ké BEL-lo)",
+    "roman": null,
+    "fr": "Que c'est beau !",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Prenotazione (pré-no-ta-TSIO-né)",
+    "roman": null,
+    "fr": "Réservation",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-1"
+  },
+  {
+    "native": "Bagno (BA-nio)",
+    "roman": null,
+    "fr": "Salle de bain",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Asciugamano (a-chou-ga-MA-no)",
+    "roman": null,
+    "fr": "Serviette",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Prego = je vous en prie",
+    "roman": null,
+    "fr": "Si accomodi, prego.",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Se non disturbo",
+    "roman": null,
+    "fr": "Si je ne dérange pas",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-5"
+  },
+  {
+    "native": "Vigna (VI-nia)",
+    "roman": null,
+    "fr": "Vigne",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-3"
+  },
+  {
+    "native": "Non funziona (non foun-TSIO-na)",
+    "roman": null,
+    "fr": "Ça ne marche pas",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-2"
+  },
+  {
+    "native": "Piano (PIA-no)",
+    "roman": null,
+    "fr": "Étage",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "it-escale-5-lecon-1"
+  },
+  {
+    "native": "un chilo",
+    "roman": null,
+    "fr": "1 kg",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "un litro / mezzo litro",
+    "roman": null,
+    "fr": "1 L / 50 cl",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "un etto (100 g)",
+    "roman": null,
+    "fr": "2 etti = 200 g, etc.",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "due etti di prosciutto",
+    "roman": null,
+    "fr": "200 g de jambon",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "mezzo chilo",
+    "roman": null,
+    "fr": "500 g",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "Aspetta!",
+    "roman": null,
+    "fr": "Attends !",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "Serve una busta?",
+    "roman": null,
+    "fr": "Besoin d'un sac ?",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "bollire",
+    "roman": null,
+    "fr": "bouillir",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "Paga con carta o contanti?",
+    "roman": null,
+    "fr": "Carte ou espèces ?",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "basta così",
+    "roman": null,
+    "fr": "ce sera tout",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "Taglia!",
+    "roman": null,
+    "fr": "Coupe !",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "tagliare",
+    "roman": null,
+    "fr": "couper",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "cuocere",
+    "roman": null,
+    "fr": "cuire",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "dell'(di+l') acqua",
+    "roman": null,
+    "fr": "de l'eau",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "della (di+la) pasta",
+    "roman": null,
+    "fr": "de la pâte/des pâtes",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "delle (di+le) olive",
+    "roman": null,
+    "fr": "des olives",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "dei (di+i) pomodori",
+    "roman": null,
+    "fr": "des tomates",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "del (di+il) pane",
+    "roman": null,
+    "fr": "du pain",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "dello (di+lo) zucchero",
+    "roman": null,
+    "fr": "du sucre",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "Assaggia!",
+    "roman": null,
+    "fr": "Goûte !",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "assaggiare",
+    "roman": null,
+    "fr": "goûter",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "abbondante",
+    "roman": null,
+    "fr": "généreux",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "Posso?",
+    "roman": null,
+    "fr": "Je peux ? (toujours demander avant)",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "buttare la pasta",
+    "roman": null,
+    "fr": "jeter les pâtes dans l'eau",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "la cassa",
+    "roman": null,
+    "fr": "la caisse",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "il carrello",
+    "roman": null,
+    "fr": "le caddie",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "il formaggio",
+    "roman": null,
+    "fr": "le fromage",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "la busta",
+    "roman": null,
+    "fr": "le sac (payant)",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "lo scontrino",
+    "roman": null,
+    "fr": "le ticket de caisse",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "la frutta / la verdura",
+    "roman": null,
+    "fr": "les fruits / les légumes",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "i guanti",
+    "roman": null,
+    "fr": "les gants (obligatoires aux fruits!)",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "i pomodori",
+    "roman": null,
+    "fr": "les tomates",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "Butta il sale!",
+    "roman": null,
+    "fr": "Mets le sel !",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "mescolare",
+    "roman": null,
+    "fr": "mélanger/remuer",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "pesare",
+    "roman": null,
+    "fr": "peser",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "Mescola!",
+    "roman": null,
+    "fr": "Remue !",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-5"
+  },
+  {
+    "native": "Sentili che profumo!",
+    "roman": null,
+    "fr": "Sentez ce parfum ! (fierté du vendeur)",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "tagliato sottile",
+    "roman": null,
+    "fr": "tranché fin",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "un litro di latte",
+    "roman": null,
+    "fr": "un litre de lait",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "un pezzo di focaccia",
+    "roman": null,
+    "fr": "un morceau de focaccia",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "un po' di pane",
+    "roman": null,
+    "fr": "un peu de pain",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-4"
+  },
+  {
+    "native": "un po' di più / di meno",
+    "roman": null,
+    "fr": "un peu plus / moins",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "una fetta / una fettina",
+    "roman": null,
+    "fr": "une tranche / une petite tranche",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-3"
+  },
+  {
+    "native": "Ecco lo scontrino",
+    "roman": null,
+    "fr": "Voici le ticket",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "Ha la tessera?",
+    "roman": null,
+    "fr": "Vous avez la carte de fidélité ?",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-2"
+  },
+  {
+    "native": "Me li sceglie lei?",
+    "roman": null,
+    "fr": "Vous me les choisissez ?",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "da mangiare oggi/domani",
+    "roman": null,
+    "fr": "à manger aujourd'hui/demain",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "quanto viene?",
+    "roman": null,
+    "fr": "ça fait combien ?",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "it-escale-6-lecon-1"
+  },
+  {
+    "native": "un quarto / mezzo litro",
+    "roman": null,
+    "fr": "25 cl / 50 cl",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-4"
+  },
+  {
+    "native": "a nome...",
+    "roman": null,
+    "fr": "au nom de...",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "dentro o fuori?",
+    "roman": null,
+    "fr": "dedans ou dehors ?",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "acqua frizzante / gassata",
+    "roman": null,
+    "fr": "eau gazeuse",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-4"
+  },
+  {
+    "native": "ho mangiato",
+    "roman": null,
+    "fr": "j'ai mangé (avere)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-5"
+  },
+  {
+    "native": "ho preso",
+    "roman": null,
+    "fr": "j'ai pris (avere, participe irrégulier)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-5"
+  },
+  {
+    "native": "Sono allergico/a a...",
+    "roman": null,
+    "fr": "Je suis allergique à...",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "sono andato/a",
+    "roman": null,
+    "fr": "je suis allé(e) (essere + accord)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-5"
+  },
+  {
+    "native": "Sono celiaco/a",
+    "roman": null,
+    "fr": "Je suis cœliaque",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "Vorrei prenotare un tavolo",
+    "roman": null,
+    "fr": "Je voudrais réserver une table",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "Solo un primo, grazie",
+    "roman": null,
+    "fr": "Juste un primo, merci",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "il contorno",
+    "roman": null,
+    "fr": "l'accompagnement (à commander à part !)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "l'antipasto",
+    "roman": null,
+    "fr": "l'entrée (burrata, bruschette...)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "il caffè",
+    "roman": null,
+    "fr": "l'espresso final (jamais de cappuccino !)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "La cucina apre alle 19:30",
+    "roman": null,
+    "fr": "La cuisine ouvre à 19h30",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "il dolce",
+    "roman": null,
+    "fr": "le dessert",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "il pranzo (13h-14h30)",
+    "roman": null,
+    "fr": "le déjeuner",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "la cena (20h30-22h)",
+    "roman": null,
+    "fr": "le dîner",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "il latte / i latticini",
+    "roman": null,
+    "fr": "le lait / les produits laitiers",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "Il primo basta",
+    "roman": null,
+    "fr": "Le primo suffit",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "il vino della casa",
+    "roman": null,
+    "fr": "le vin de la maison (pichet)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-4"
+  },
+  {
+    "native": "i frutti di mare",
+    "roman": null,
+    "fr": "les fruits de mer",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "le noci / le arachidi",
+    "roman": null,
+    "fr": "les noix / les cacahuètes",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "le uova",
+    "roman": null,
+    "fr": "les œufs",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "Siamo al completo",
+    "roman": null,
+    "fr": "Nous sommes complets",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "siamo tornati",
+    "roman": null,
+    "fr": "nous sommes rentrés",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-5"
+  },
+  {
+    "native": "per stasera alle nove",
+    "roman": null,
+    "fr": "pour ce soir à 21h",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "per due / per quattro",
+    "roman": null,
+    "fr": "pour deux / pour quatre",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-1"
+  },
+  {
+    "native": "il primo",
+    "roman": null,
+    "fr": "pâtes, risotto ou soupe",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "Cosa ci consiglia?",
+    "roman": null,
+    "fr": "Que nous conseillez-vous ?",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "rosso / bianco / rosato",
+    "roman": null,
+    "fr": "rouge / blanc / rosé",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-4"
+  },
+  {
+    "native": "senza glutine / lattosio",
+    "roman": null,
+    "fr": "sans gluten / lactose",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "secco / dolce",
+    "roman": null,
+    "fr": "sec / doux",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-4"
+  },
+  {
+    "native": "una bottiglia d'acqua",
+    "roman": null,
+    "fr": "une bouteille d'eau (l'eau du robinet ne se sert pas)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-4"
+  },
+  {
+    "native": "il secondo",
+    "roman": null,
+    "fr": "viande ou poisson",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "Da dividere",
+    "roman": null,
+    "fr": "À partager",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-2"
+  },
+  {
+    "native": "è stato/a",
+    "roman": null,
+    "fr": "ça a été / il-elle a été",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-5"
+  },
+  {
+    "native": "Contiene noci?",
+    "roman": null,
+    "fr": "Ça contient des noix ?",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "it-escale-7-lecon-3"
+  },
+  {
+    "native": "lo Spritz",
+    "roman": null,
+    "fr": "Aperol/Campari + prosecco + soda",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "l'apericena",
+    "roman": null,
+    "fr": "apéro-buffet qui remplace le dîner",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "artigianale",
+    "roman": null,
+    "fr": "artisanal (le bon signe !)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "al banco / al tavolo",
+    "roman": null,
+    "fr": "au comptoir / à table",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "il cappuccino",
+    "roman": null,
+    "fr": "café + lait mousseux (le matin !)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "il caffè / l'espresso",
+    "roman": null,
+    "fr": "café serré",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "un Americano",
+    "roman": null,
+    "fr": "Campari + vermouth + soda",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "colori naturali",
+    "roman": null,
+    "fr": "couleurs naturelles (pistache = terne, pas fluo)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "il cornetto",
+    "roman": null,
+    "fr": "croissant italien (vuoto, alla crema...)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "della casa",
+    "roman": null,
+    "fr": "de la maison / spécialité",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "Prendere al banco",
+    "roman": null,
+    "fr": "debout, rapide, moins cher",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "un caffè macchiato",
+    "roman": null,
+    "fr": "espresso taché de lait",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "gelato artigianale",
+    "roman": null,
+    "fr": "fait maison",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "un Negroni",
+    "roman": null,
+    "fr": "gin + Campari + vermouth rouge",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "Cappuccino = matin",
+    "roman": null,
+    "fr": "jamais après un repas !",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "Non ho fretta",
+    "roman": null,
+    "fr": "je ne suis pas pressé",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "Posso assaggiare?",
+    "roman": null,
+    "fr": "Je peux goûter ?",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "Tornerò presto",
+    "roman": null,
+    "fr": "Je reviendrai bientôt",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "la spremuta",
+    "roman": null,
+    "fr": "jus de fruit pressé",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "l'aperitivo",
+    "roman": null,
+    "fr": "l'apéritif (rituel de 18h-20h)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "il far niente",
+    "roman": null,
+    "fr": "l'art de ne rien faire (sans culpabilité)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "la panna",
+    "roman": null,
+    "fr": "la chantilly (souvent offerte)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "la dolce vita",
+    "roman": null,
+    "fr": "la douceur de vivre",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "la passeggiata",
+    "roman": null,
+    "fr": "la promenade rituelle du soir",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "il cono / la coppetta",
+    "roman": null,
+    "fr": "le cornet / le pot",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "gli stuzzichini",
+    "roman": null,
+    "fr": "les amuse-bouches (souvent offerts)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "i gusti",
+    "roman": null,
+    "fr": "les parfums",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "-emo / -ete / -anno",
+    "roman": null,
+    "fr": "nous / vous / ils",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-4"
+  },
+  {
+    "native": "piccolo / medio / grande",
+    "roman": null,
+    "fr": "petit / moyen / grand",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-3"
+  },
+  {
+    "native": "Che meraviglia!",
+    "roman": null,
+    "fr": "Quelle merveille !",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "analcolico",
+    "roman": null,
+    "fr": "sans alcool",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "Cin cin!",
+    "roman": null,
+    "fr": "Santé ! (en trinquant)",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "godersi il momento",
+    "roman": null,
+    "fr": "savourer l'instant",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "Payer d'abord",
+    "roman": null,
+    "fr": "scontrino à la caisse, puis au barista",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-2"
+  },
+  {
+    "native": "un calice di prosecco",
+    "roman": null,
+    "fr": "un verre de prosecco",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-1"
+  },
+  {
+    "native": "Ci vediamo, Italia!",
+    "roman": null,
+    "fr": "À bientôt, Italie !",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "Mi mancherà",
+    "roman": null,
+    "fr": "Ça/il me manquera",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "it-escale-8-lecon-5"
+  },
+  {
+    "native": "stare bene",
+    "roman": null,
+    "fr": "aller bien",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "Chiamate un'ambulanza!",
+    "roman": null,
+    "fr": "Appelez une ambulance !",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "Avete qualcosa per...?",
+    "roman": null,
+    "fr": "Avez-vous quelque chose pour... ?",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "dormire bene",
+    "roman": null,
+    "fr": "bien dormir",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "bere molta acqua",
+    "roman": null,
+    "fr": "boire beaucoup d'eau",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "una bella cera",
+    "roman": null,
+    "fr": "bonne mine",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "È un'emergenza",
+    "roman": null,
+    "fr": "C'est une urgence",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "Quante volte al giorno?",
+    "roman": null,
+    "fr": "Combien de fois par jour ?",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "da stamattina",
+    "roman": null,
+    "fr": "depuis ce matin",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "da due giorni",
+    "roman": null,
+    "fr": "depuis deux jours",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "da ieri",
+    "roman": null,
+    "fr": "depuis hier",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "piano piano",
+    "roman": null,
+    "fr": "doucement, tranquillement",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "È cosciente?",
+    "roman": null,
+    "fr": "Est-il conscient ?",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "Serve la ricetta?",
+    "roman": null,
+    "fr": "Faut-il une ordonnance ?",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "Non respira",
+    "roman": null,
+    "fr": "Il ne respire pas",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "C'è stato un incidente",
+    "roman": null,
+    "fr": "Il y a eu un accident",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "è svenuto/a",
+    "roman": null,
+    "fr": "il/elle s'est évanoui(e)",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "Ho la tosse",
+    "roman": null,
+    "fr": "J'ai de la toux",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "Ho la nausea",
+    "roman": null,
+    "fr": "J'ai la nausée",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "Mi gira la testa",
+    "roman": null,
+    "fr": "J'ai la tête qui tourne",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "Ho mal di stomaco",
+    "roman": null,
+    "fr": "J'ai mal à l'estomac",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "Mi fa male la testa",
+    "roman": null,
+    "fr": "J'ai mal à la tête",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-2"
+  },
+  {
+    "native": "devo / devi / deve",
+    "roman": null,
+    "fr": "je dois / tu dois / il doit",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "Devo andare",
+    "roman": null,
+    "fr": "Je dois y aller",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "Non posso venire",
+    "roman": null,
+    "fr": "Je ne peux pas venir",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "posso / puoi / può",
+    "roman": null,
+    "fr": "je peux / tu peux / il peut",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "Posso aiutare",
+    "roman": null,
+    "fr": "Je peux aider",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "l'antidolorifico",
+    "roman": null,
+    "fr": "l'antidouleur",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "la febbre",
+    "roman": null,
+    "fr": "la fièvre",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "il mal di gola",
+    "roman": null,
+    "fr": "le mal de gorge",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "il mal di testa",
+    "roman": null,
+    "fr": "le mal de tête",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "il mal di pancia",
+    "roman": null,
+    "fr": "le mal de ventre",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-1"
+  },
+  {
+    "native": "Dove si trova?",
+    "roman": null,
+    "fr": "Où êtes-vous ?",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "prendere aria",
+    "roman": null,
+    "fr": "prendre l'air",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "Cosa è successo?",
+    "roman": null,
+    "fr": "Que s'est-il passé ?",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-3"
+  },
+  {
+    "native": "rimettersi",
+    "roman": null,
+    "fr": "se remettre / guérir",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "riposarsi",
+    "roman": null,
+    "fr": "se reposer",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "sentirsi meglio",
+    "roman": null,
+    "fr": "se sentir mieux",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-5"
+  },
+  {
+    "native": "Devi riposare",
+    "roman": null,
+    "fr": "Tu dois te reposer",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "Non devi fumare",
+    "roman": null,
+    "fr": "Tu ne dois pas fumer",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "Puoi uscire",
+    "roman": null,
+    "fr": "Tu peux sortir",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "it-escale-9-lecon-4"
+  },
+  {
+    "native": "(così) come",
+    "roman": null,
+    "fr": "aussi... que",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-4"
+  },
+  {
+    "native": "Con piacere!",
+    "roman": null,
+    "fr": "Avec plaisir !",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "tutto esaurito",
+    "roman": null,
+    "fr": "complet",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-2"
+  },
+  {
+    "native": "Mi dispiace, ma...",
+    "roman": null,
+    "fr": "Désolé, mais...",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "l'intervallo",
+    "roman": null,
+    "fr": "l'entracte",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-2"
+  },
+  {
+    "native": "la gita fuori porta",
+    "roman": null,
+    "fr": "l'escapade",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "la mostra",
+    "roman": null,
+    "fr": "l'exposition",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "la platea / la galleria",
+    "roman": null,
+    "fr": "l'orchestre / le balcon",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-2"
+  },
+  {
+    "native": "la passeggiata",
+    "roman": null,
+    "fr": "la balade",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "la visita guidata",
+    "roman": null,
+    "fr": "la visite guidée",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "il biglietto",
+    "roman": null,
+    "fr": "le billet",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "il pranzo della domenica",
+    "roman": null,
+    "fr": "le déjeuner du dimanche",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "meno caro di",
+    "roman": null,
+    "fr": "moins cher que",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-4"
+  },
+  {
+    "native": "meno... di",
+    "roman": null,
+    "fr": "moins... que",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-4"
+  },
+  {
+    "native": "far niente",
+    "roman": null,
+    "fr": "ne rien faire",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "Andiamo a...?",
+    "roman": null,
+    "fr": "On va à... ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "Dov'è l'uscita?",
+    "roman": null,
+    "fr": "Où est la sortie ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "Dov'è il mio posto?",
+    "roman": null,
+    "fr": "Où est ma place ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-2"
+  },
+  {
+    "native": "Si possono fare foto?",
+    "roman": null,
+    "fr": "Peut-on photographier ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "intero / ridotto",
+    "roman": null,
+    "fr": "plein tarif / réduit",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "più grande di",
+    "roman": null,
+    "fr": "plus grand que",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-4"
+  },
+  {
+    "native": "più... di",
+    "roman": null,
+    "fr": "plus... que",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-4"
+  },
+  {
+    "native": "godersi il weekend",
+    "roman": null,
+    "fr": "profiter du week-end",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "Che ne dici di...?",
+    "roman": null,
+    "fr": "Qu'en dis-tu de... ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "prenotare",
+    "roman": null,
+    "fr": "réserver",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "rilassarsi",
+    "roman": null,
+    "fr": "se détendre",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "Sei libero/a stasera?",
+    "roman": null,
+    "fr": "Tu es libre ce soir ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "Magari un'altra volta",
+    "roman": null,
+    "fr": "Une autre fois peut-être",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "una giornata di relax",
+    "roman": null,
+    "fr": "une journée détente",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "Volentieri!",
+    "roman": null,
+    "fr": "Volontiers !",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "Avete qualcosa di più economico?",
+    "roman": null,
+    "fr": "Vous avez moins cher ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-2"
+  },
+  {
+    "native": "A che ora inizia?",
+    "roman": null,
+    "fr": "Ça commence à quelle heure ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-2"
+  },
+  {
+    "native": "Quanto dura?",
+    "roman": null,
+    "fr": "Ça dure combien ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-2"
+  },
+  {
+    "native": "A che ora chiude?",
+    "roman": null,
+    "fr": "Ça ferme à quelle heure ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-1"
+  },
+  {
+    "native": "Ti va di...?",
+    "roman": null,
+    "fr": "Ça te dit de... ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-3"
+  },
+  {
+    "native": "stare in famiglia",
+    "roman": null,
+    "fr": "être en famille",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "it-escale-10-lecon-5"
+  },
+  {
+    "native": "Che bello!",
+    "roman": null,
+    "fr": "C'est génial !",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "È la prima volta in Italia?",
+    "roman": null,
+    "fr": "C'est ta première fois en Italie ?",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "Gusti sono gusti",
+    "roman": null,
+    "fr": "Chacun ses goûts",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "Di dove sei?",
+    "roman": null,
+    "fr": "D'où viens-tu ?",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "Da quanto sei qui?",
+    "roman": null,
+    "fr": "Depuis quand es-tu là ?",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "da bambino/piccolo",
+    "roman": null,
+    "fr": "enfant / petit",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "E tu?",
+    "roman": null,
+    "fr": "Et toi ?",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "Fatti sentire",
+    "roman": null,
+    "fr": "Fais signe / donne des nouvelles",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "Faceva bel tempo (description)",
+    "roman": null,
+    "fr": "Il faisait beau",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "Adoro...",
+    "roman": null,
+    "fr": "J'adore...",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-2"
+  },
+  {
+    "native": "Mi piace cucinare",
+    "roman": null,
+    "fr": "J'aime cuisiner (infinitif)",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-2"
+  },
+  {
+    "native": "Mi piace la musica",
+    "roman": null,
+    "fr": "J'aime la musique (sing.)",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-2"
+  },
+  {
+    "native": "Mi piacciono i gatti",
+    "roman": null,
+    "fr": "J'aime les chats (plur.)",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-2"
+  },
+  {
+    "native": "andavo",
+    "roman": null,
+    "fr": "j'allais",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "Andavo al mare (habitude)",
+    "roman": null,
+    "fr": "J'allais à la mer (souvent)",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "ero / avevo",
+    "roman": null,
+    "fr": "j'étais / j'avais",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "Capisco, però...",
+    "roman": null,
+    "fr": "Je comprends, mais...",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "facevo",
+    "roman": null,
+    "fr": "je faisais",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "giocavo",
+    "roman": null,
+    "fr": "je jouais (habitude)",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "Non mi piace molto",
+    "roman": null,
+    "fr": "Je n'aime pas trop",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-2"
+  },
+  {
+    "native": "Non sono sicuro",
+    "roman": null,
+    "fr": "Je ne suis pas sûr",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "Penso che...",
+    "roman": null,
+    "fr": "Je pense que...",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "Sono andato al mare (une fois)",
+    "roman": null,
+    "fr": "Je suis allé à la mer (hier)",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-4"
+  },
+  {
+    "native": "Sono d'accordo",
+    "roman": null,
+    "fr": "Je suis d'accord",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "Ti seguo",
+    "roman": null,
+    "fr": "Je te suis (réseaux)",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "Mi piacciono + pluriel",
+    "roman": null,
+    "fr": "Mi piacciono i libri",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-2"
+  },
+  {
+    "native": "Anch'io!",
+    "roman": null,
+    "fr": "Moi aussi !",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "Ci sentiamo",
+    "roman": null,
+    "fr": "On se tient au courant",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "Per me...",
+    "roman": null,
+    "fr": "Pour moi...",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "Stammi bene!",
+    "roman": null,
+    "fr": "Prends soin de toi !",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "È stato un piacere conoscerti",
+    "roman": null,
+    "fr": "Ravi de t'avoir connu",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "Restiamo in contatto",
+    "roman": null,
+    "fr": "Restons en contact",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "Secondo me",
+    "roman": null,
+    "fr": "Selon moi",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "Sei in vacanza?",
+    "roman": null,
+    "fr": "Tu es en vacances ?",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "Mi dai il tuo numero?",
+    "roman": null,
+    "fr": "Tu me donnes ton numéro ?",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "Davvero?!",
+    "roman": null,
+    "fr": "Vraiment ?!",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-1"
+  },
+  {
+    "native": "Ci vediamo!",
+    "roman": null,
+    "fr": "À la prochaine !",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-5"
+  },
+  {
+    "native": "A dire il vero",
+    "roman": null,
+    "fr": "À vrai dire",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "it-escale-11-lecon-3"
+  },
+  {
+    "native": "con una cover blu",
+    "roman": null,
+    "fr": "avec une coque bleue",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-1"
+  },
+  {
+    "native": "Buon viaggio!",
+    "roman": null,
+    "fr": "Bon voyage !",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "È stato bellissimo",
+    "roman": null,
+    "fr": "C'était magnifique",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "Non è quello che avevo prenotato",
+    "roman": null,
+    "fr": "Ce n'est pas ce que j'avais réservé",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-2"
+  },
+  {
+    "native": "Non è un addio",
+    "roman": null,
+    "fr": "Ce n'est pas un adieu",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "Scusi, c'è un problema",
+    "roman": null,
+    "fr": "Excusez-moi, il y a un problème",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-2"
+  },
+  {
+    "native": "circa un'ora fa",
+    "roman": null,
+    "fr": "il y a environ une heure",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-1"
+  },
+  {
+    "native": "Ho perso il mio...",
+    "roman": null,
+    "fr": "J'ai perdu mon...",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-1"
+  },
+  {
+    "native": "mi piacerebbe",
+    "roman": null,
+    "fr": "j'aimerais",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "L'ho lasciato sul treno",
+    "roman": null,
+    "fr": "Je l'ai laissé dans le train",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-1"
+  },
+  {
+    "native": "Non ti dimenticherò",
+    "roman": null,
+    "fr": "Je ne t'oublierai pas",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "potrei",
+    "roman": null,
+    "fr": "je pourrais",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "Ti voglio bene",
+    "roman": null,
+    "fr": "Je t'aime bien (affection)",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "Voglio un caffè (direct)",
+    "roman": null,
+    "fr": "Je veux un café",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "vorrei",
+    "roman": null,
+    "fr": "je voudrais",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "Vorrei spedire...",
+    "roman": null,
+    "fr": "Je voudrais envoyer...",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "Vorrei un caffè (poli)",
+    "roman": null,
+    "fr": "Je voudrais un café",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "Vorrei un rimborso",
+    "roman": null,
+    "fr": "Je voudrais un remboursement",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-2"
+  },
+  {
+    "native": "la cartolina",
+    "roman": null,
+    "fr": "la carte postale",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "il cambio",
+    "roman": null,
+    "fr": "le change",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "il pacco",
+    "roman": null,
+    "fr": "le colis",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "il francobollo",
+    "roman": null,
+    "fr": "le timbre",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "Grazie di tutto",
+    "roman": null,
+    "fr": "Merci pour tout",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "torneremmo",
+    "roman": null,
+    "fr": "nous reviendrions",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "oggetti smarriti",
+    "roman": null,
+    "fr": "objets trouvés",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-1"
+  },
+  {
+    "native": "Dove posso cambiare soldi?",
+    "roman": null,
+    "fr": "Où changer de l'argent ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "Potrei avere...?",
+    "roman": null,
+    "fr": "Pourrais-je avoir... ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "Potreste sistemare?",
+    "roman": null,
+    "fr": "Pourriez-vous arranger ça ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-2"
+  },
+  {
+    "native": "Può descriverlo?",
+    "roman": null,
+    "fr": "Pouvez-vous le décrire ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-1"
+  },
+  {
+    "native": "Posso parlare col responsabile?",
+    "roman": null,
+    "fr": "Puis-je parler au responsable ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-2"
+  },
+  {
+    "native": "Cosa non va?",
+    "roman": null,
+    "fr": "Qu'est-ce qui ne va pas ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-2"
+  },
+  {
+    "native": "L'ha trovato qualcuno?",
+    "roman": null,
+    "fr": "Quelqu'un l'a trouvé ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-1"
+  },
+  {
+    "native": "prelevare",
+    "roman": null,
+    "fr": "retirer (de l'argent)",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "saresti",
+    "roman": null,
+    "fr": "tu serais",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-4"
+  },
+  {
+    "native": "Mi mancherai",
+    "roman": null,
+    "fr": "Tu vas me manquer",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "C'è una commissione?",
+    "roman": null,
+    "fr": "Y a-t-il des frais ?",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-3"
+  },
+  {
+    "native": "A presto!",
+    "roman": null,
+    "fr": "À bientôt !",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-5"
+  },
+  {
+    "native": "Questo non va bene",
+    "roman": null,
+    "fr": "Ça ne va pas (ferme)",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "it-escale-12-lecon-2"
+  }
+]
