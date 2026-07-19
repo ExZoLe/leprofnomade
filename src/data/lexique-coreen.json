@@ -1,237 +1,5 @@
 [
   {
-    "native": "밥 = ㅂ + ㅏ + ㅂ",
-    "roman": null,
-    "fr": "bap (b-a-p) — riz / repas",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "버스",
-    "roman": "beo-seu",
-    "fr": "Bus (Konglish : 'bus')",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "커피",
-    "roman": "keo-pi",
-    "fr": "Café ☕ (Konglish : 'coffee')",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "물",
-    "roman": "mul",
-    "fr": "eau",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "ㄹ (r/l) · ㅁ (m) · ㅂ",
-    "roman": "b/p",
-    "fr": "entre r et l · mère · bras",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-2"
-  },
-  {
-    "native": "입구",
-    "roman": "ip-gu",
-    "fr": "Entrée",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "ㄱ + ㅡ + ㄹ = 글",
-    "roman": null,
-    "fr": "g + eu + l = geul",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-1"
-  },
-  {
-    "native": "국 = ㄱ + ㅜ + ㄱ",
-    "roman": null,
-    "fr": "guk (g-u-k) — soupe",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "ㅎ + ㅏ + ㄴ = 한",
-    "roman": null,
-    "fr": "h + a + n = han",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-1"
-  },
-  {
-    "native": "한 = ㅎ + ㅏ + ㄴ",
-    "roman": null,
-    "fr": "han (h-a-n) — ㄴ est le batchim",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "한 + 글 = 한글",
-    "roman": null,
-    "fr": "han + geul = Hangul",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-1"
-  },
-  {
-    "native": "호텔",
-    "roman": "ho-tel",
-    "fr": "Hotel",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "병원",
-    "roman": "byeong-won",
-    "fr": "Hôpital",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "인터넷",
-    "roman": "in-teo-net",
-    "fr": "Internet",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "편의점",
-    "roman": "pyeon-ui-jeom",
-    "fr": "Konbini / supérette",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "집",
-    "roman": "jip",
-    "fr": "maison",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "나",
-    "roman": "na",
-    "fr": "moi / je",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "오 (o) vs 옹",
-    "roman": "ong",
-    "fr": "Muet au début, 'ng' à la fin",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-2"
-  },
-  {
-    "native": "지하철",
-    "roman": "ji-ha-cheol",
-    "fr": "Métro",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "약국",
-    "roman": "yak-guk",
-    "fr": "Pharmacie",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "밥",
-    "roman": "bap",
-    "fr": "riz / repas",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "스마트폰",
-    "roman": "seu-ma-teu-pon",
-    "fr": "Smartphone",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "ㅅ (s) · ㅇ (muet/ng) · ㅈ",
-    "roman": "j/dj",
-    "fr": "soleil · muet en début · jeu",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-2"
-  },
-  {
-    "native": "출구",
-    "roman": "chul-gu",
-    "fr": "Sortie",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "비상구",
-    "roman": "bi-sang-gu",
-    "fr": "Sortie de secours",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "택시",
-    "roman": "taek-si",
-    "fr": "Taxi",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
-    "native": "ㅊ (tch) · ㅋ (k aspiré) · ㅌ",
-    "roman": "t aspiré",
-    "fr": "tchèque · aspiré fort · aspiré fort",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-2"
-  },
-  {
-    "native": "너",
-    "roman": "neo",
-    "fr": "toi / tu",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-4"
-  },
-  {
-    "native": "화장실",
-    "roman": "hwa-jang-sil",
-    "fr": "Toilettes",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "kr-escale-1-lecon-5"
-  },
-  {
     "native": "가세요 (존댓말) vs 가",
     "roman": "반말",
     "fr": "Allez-y (poli) vs Vas-y (familier)",
@@ -272,9 +40,9 @@
     "slug": "kr-escale-2-lecon-4"
   },
   {
-    "native": "하세요 = faites",
-    "roman": "forme polie",
-    "fr": "Conjugaison polie de 하다",
+    "native": "얼마예요?",
+    "roman": null,
+    "fr": "combien ?",
     "escale": 2,
     "theme": "Politesse",
     "slug": "kr-escale-2-lecon-1"
@@ -352,36 +120,20 @@
     "slug": "kr-escale-2-lecon-2"
   },
   {
-    "native": "안녕 = paix, tranquillité",
-    "roman": null,
-    "fr": "La racine du mot",
-    "escale": 2,
-    "theme": "Politesse",
-    "slug": "kr-escale-2-lecon-1"
-  },
-  {
-    "native": "Le -요 à la fin = 존댓말",
-    "roman": null,
-    "fr": "Le truc mnémotechnique : pas de -요 = 반말",
-    "escale": 2,
-    "theme": "Politesse",
-    "slug": "kr-escale-2-lecon-4"
-  },
-  {
-    "native": "하다 = faire",
-    "roman": null,
-    "fr": "Le verbe de base",
-    "escale": 2,
-    "theme": "Politesse",
-    "slug": "kr-escale-2-lecon-1"
-  },
-  {
     "native": "동갑이에요!",
     "roman": null,
     "fr": "On a le même âge !",
     "escale": 2,
     "theme": "Politesse",
     "slug": "kr-escale-2-lecon-5"
+  },
+  {
+    "native": "죄송합니다",
+    "roman": null,
+    "fr": "pardon",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "kr-escale-2-lecon-1"
   },
   {
     "native": "나이가 어떻게 되세요?",
@@ -398,6 +150,14 @@
     "escale": 2,
     "theme": "Politesse",
     "slug": "kr-escale-2-lecon-5"
+  },
+  {
+    "native": "주세요",
+    "roman": null,
+    "fr": "s’il vous plaît",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "kr-escale-2-lecon-1"
   },
   {
     "native": "Plus jeune que toi",
@@ -464,14 +224,6 @@
     "slug": "kr-escale-3-lecon-1"
   },
   {
-    "native": "십일 (sibil) = 11",
-    "roman": null,
-    "fr": "10 + 1",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
-  },
-  {
     "native": "이틀",
     "roman": "iteul",
     "fr": "2 jours",
@@ -480,44 +232,12 @@
     "slug": "kr-escale-3-lecon-1"
   },
   {
-    "native": "이십 (isip) = 20",
-    "roman": null,
-    "fr": "2 × 10",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
-  },
-  {
     "native": "사흘",
     "roman": "saheul",
     "fr": "3 jours",
     "escale": 3,
     "theme": "Aéroport",
     "slug": "kr-escale-3-lecon-1"
-  },
-  {
-    "native": "삼십오 (samsibo) = 35",
-    "roman": null,
-    "fr": "3 × 10 + 5",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
-  },
-  {
-    "native": "사천백오십 = 4 150",
-    "roman": null,
-    "fr": "4×1000 + 1×100 + 5×10 = prix du AREX !",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
-  },
-  {
-    "native": "구십구 (gusipgu) = 99",
-    "roman": null,
-    "fr": "9 × 10 + 9",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
   },
   {
     "native": "입국 (ipguk) / 출국",
@@ -656,14 +376,6 @@
     "slug": "kr-escale-3-lecon-1"
   },
   {
-    "native": "만 (man) = 10 000",
-    "roman": null,
-    "fr": "L'unité de compte coréenne",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
-  },
-  {
     "native": "메뉴 주세요",
     "roman": null,
     "fr": "Le menu s'il vous plaît",
@@ -678,14 +390,6 @@
     "escale": 3,
     "theme": "Aéroport",
     "slug": "kr-escale-3-lecon-1"
-  },
-  {
-    "native": "렌터카",
-    "roman": "renteoka",
-    "fr": "Location de voiture (Konglish)",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-2"
   },
   {
     "native": "출구가 어디에 있어요?",
@@ -728,6 +432,14 @@
     "slug": "kr-escale-3-lecon-3"
   },
   {
+    "native": "여권",
+    "roman": null,
+    "fr": "passeport",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "kr-escale-3-lecon-1"
+  },
+  {
     "native": "버스를 타세요",
     "roman": "beoseu-reul taseyo",
     "fr": "Prenez le bus",
@@ -752,28 +464,28 @@
     "slug": "kr-escale-3-lecon-3"
   },
   {
+    "native": "출구",
+    "roman": null,
+    "fr": "sortie",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "kr-escale-3-lecon-1"
+  },
+  {
+    "native": "택시",
+    "roman": null,
+    "fr": "taxi",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "kr-escale-3-lecon-1"
+  },
+  {
     "native": "시간 있어요?",
     "roman": null,
     "fr": "Tu as du temps ? / Tu es libre ?",
     "escale": 3,
     "theme": "Aéroport",
     "slug": "kr-escale-3-lecon-2"
-  },
-  {
-    "native": "백 (baek) = 100",
-    "roman": null,
-    "fr": "이백 = 200, 삼백 = 300…",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
-  },
-  {
-    "native": "천 (cheon) = 1 000",
-    "roman": null,
-    "fr": "이천 = 2000, 삼천 = 3000…",
-    "escale": 3,
-    "theme": "Aéroport",
-    "slug": "kr-escale-3-lecon-4"
   },
   {
     "native": "도와주세요!",
@@ -984,6 +696,22 @@
     "slug": "kr-escale-4-lecon-5"
   },
   {
+    "native": "지하철",
+    "roman": null,
+    "fr": "métro",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "kr-escale-4-lecon-1"
+  },
+  {
+    "native": "어디예요?",
+    "roman": null,
+    "fr": "où est ?",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "kr-escale-4-lecon-1"
+  },
+  {
     "native": "이 주소가 어디예요?",
     "roman": null,
     "fr": "Où est cette adresse ?",
@@ -1035,6 +763,14 @@
     "native": "종점",
     "roman": "jongjeom",
     "fr": "Terminus",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "kr-escale-4-lecon-1"
+  },
+  {
+    "native": "표",
+    "roman": null,
+    "fr": "ticket",
     "escale": 4,
     "theme": "Transport",
     "slug": "kr-escale-4-lecon-1"
@@ -1113,11 +849,11 @@
   },
   {
     "native": "방",
-    "roman": "bang",
-    "fr": "Chambre",
+    "roman": null,
+    "fr": "chambre",
     "escale": 5,
     "theme": "Hébergement",
-    "slug": "kr-escale-5-lecon-2"
+    "slug": "kr-escale-5-lecon-1"
   },
   {
     "native": "체크인",
@@ -1249,8 +985,8 @@
   },
   {
     "native": "예약",
-    "roman": "yeyak",
-    "fr": "Réservation",
+    "roman": null,
+    "fr": "réservation",
     "escale": 5,
     "theme": "Hébergement",
     "slug": "kr-escale-5-lecon-1"
@@ -1328,6 +1064,14 @@
     "slug": "kr-escale-5-lecon-1"
   },
   {
+    "native": "와이파이",
+    "roman": null,
+    "fr": "wifi",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "kr-escale-5-lecon-1"
+  },
+  {
     "native": "3시부터",
     "roman": "sesibutheo",
     "fr": "À partir de 15h",
@@ -1366,14 +1110,6 @@
     "escale": 5,
     "theme": "Hébergement",
     "slug": "kr-escale-5-lecon-3"
-  },
-  {
-    "native": "세븐일레븐",
-    "roman": "sebeun-illebeon",
-    "fr": "7-Eleven — le même qu'au Japon et ailleurs",
-    "escale": 6,
-    "theme": "Courses",
-    "slug": "kr-escale-6-lecon-5"
   },
   {
     "native": "티머니로",
@@ -1464,6 +1200,14 @@
     "slug": "kr-escale-6-lecon-2"
   },
   {
+    "native": "물",
+    "roman": null,
+    "fr": "eau",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "kr-escale-6-lecon-1"
+  },
+  {
     "native": "사러 가요",
     "roman": "sareo gayo",
     "fr": "Je vais pour acheter",
@@ -1520,22 +1264,6 @@
     "slug": "kr-escale-6-lecon-1"
   },
   {
-    "native": "괜찮아요 = ça va / non merci",
-    "roman": null,
-    "fr": "Quand on te propose quelque chose que tu ne veux pas",
-    "escale": 6,
-    "theme": "Courses",
-    "slug": "kr-escale-6-lecon-3"
-  },
-  {
-    "native": "괜찮아요 = pas grave",
-    "roman": null,
-    "fr": "Quand quelqu'un s'excuse",
-    "escale": 6,
-    "theme": "Courses",
-    "slug": "kr-escale-6-lecon-3"
-  },
-  {
     "native": "컵라면",
     "roman": "keopmyeon",
     "fr": "Ramyeon en cup (à remplir d'eau chaude)",
@@ -1552,12 +1280,28 @@
     "slug": "kr-escale-6-lecon-1"
   },
   {
+    "native": "봉투",
+    "roman": null,
+    "fr": "sac",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "kr-escale-6-lecon-1"
+  },
+  {
     "native": "대두",
     "roman": "daedu",
     "fr": "Soja",
     "escale": 6,
     "theme": "Courses",
     "slug": "kr-escale-6-lecon-2"
+  },
+  {
+    "native": "편의점",
+    "roman": null,
+    "fr": "supérette",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "kr-escale-6-lecon-1"
   },
   {
     "native": "이거",
@@ -1590,6 +1334,14 @@
     "escale": 6,
     "theme": "Courses",
     "slug": "kr-escale-6-lecon-2"
+  },
+  {
+    "native": "계산서",
+    "roman": null,
+    "fr": "addition",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "kr-escale-7-lecon-1"
   },
   {
     "native": "잘 먹었습니다",
@@ -1651,6 +1403,14 @@
     "native": "이거 주세요",
     "roman": "igeo juseyo",
     "fr": "Donnez-moi ça (en montrant le menu)",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "kr-escale-7-lecon-1"
+  },
+  {
+    "native": "맛있어요",
+    "roman": null,
+    "fr": "délicieux",
     "escale": 7,
     "theme": "Restaurant",
     "slug": "kr-escale-7-lecon-1"
@@ -1750,6 +1510,14 @@
     "escale": 7,
     "theme": "Restaurant",
     "slug": "kr-escale-7-lecon-2"
+  },
+  {
+    "native": "메뉴",
+    "roman": null,
+    "fr": "menu",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "kr-escale-7-lecon-1"
   },
   {
     "native": "같이 낼게요",
@@ -1912,22 +1680,6 @@
     "slug": "kr-escale-8-lecon-1"
   },
   {
-    "native": "스터디 카페",
-    "roman": "seuteodi kape",
-    "fr": "Cafés d'étude — payés à l'heure, silencieux",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "kr-escale-8-lecon-3"
-  },
-  {
-    "native": "개인 카페",
-    "roman": "gaein kape",
-    "fr": "Cafés indépendants — souvent design et uniques",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "kr-escale-8-lecon-3"
-  },
-  {
     "native": "고양이 카페",
     "roman": "goyangi kape",
     "fr": "Cafés à chats",
@@ -1960,6 +1712,14 @@
     "slug": "kr-escale-8-lecon-3"
   },
   {
+    "native": "문화",
+    "roman": null,
+    "fr": "culture",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "kr-escale-8-lecon-1"
+  },
+  {
     "native": "이걸로 주세요",
     "roman": null,
     "fr": "Donnez-moi celui-ci",
@@ -1987,6 +1747,14 @@
     "native": "아이스/핫",
     "roman": "aiseu/hat",
     "fr": "Glacé / Chaud",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "kr-escale-8-lecon-1"
+  },
+  {
+    "native": "감사",
+    "roman": null,
+    "fr": "gratitude",
     "escale": 8,
     "theme": "Café & culture",
     "slug": "kr-escale-8-lecon-1"
@@ -2112,22 +1880,6 @@
     "slug": "kr-escale-8-lecon-1"
   },
   {
-    "native": "스몰/레귤러/라지",
-    "roman": "seumol/regyulleo/raji",
-    "fr": "Small / Regular / Large (Konglish)",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "kr-escale-8-lecon-1"
-  },
-  {
-    "native": "테이크아웃이요",
-    "roman": "teikeuausiiyo",
-    "fr": "Takeout / à emporter (Konglish)",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "kr-escale-8-lecon-2"
-  },
-  {
     "native": "바닐라라떼",
     "roman": "banillalatte",
     "fr": "Vanilla latte",
@@ -2144,12 +1896,12 @@
     "slug": "kr-escale-8-lecon-5"
   },
   {
-    "native": "와이파이",
-    "roman": "waipai",
-    "fr": "Wifi",
+    "native": "여행",
+    "roman": null,
+    "fr": "voyage",
     "escale": 8,
     "theme": "Café & culture",
-    "slug": "kr-escale-8-lecon-5"
+    "slug": "kr-escale-8-lecon-1"
   },
   {
     "native": "쓰러졌어요",
@@ -2272,6 +2024,14 @@
     "slug": "kr-escale-9-lecon-1"
   },
   {
+    "native": "병원",
+    "roman": null,
+    "fr": "hôpital",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "kr-escale-9-lecon-1"
+  },
+  {
     "native": "~면 안 돼요",
     "roman": null,
     "fr": "il ne faut pas / interdit",
@@ -2344,6 +2104,14 @@
     "slug": "kr-escale-9-lecon-4"
   },
   {
+    "native": "열이 나요",
+    "roman": null,
+    "fr": "j’ai de la fièvre",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "kr-escale-9-lecon-1"
+  },
+  {
     "native": "휴식",
     "roman": "hyusik",
     "fr": "le repos",
@@ -2374,6 +2142,14 @@
     "escale": 9,
     "theme": "Santé",
     "slug": "kr-escale-9-lecon-3"
+  },
+  {
+    "native": "약국",
+    "roman": null,
+    "fr": "pharmacie",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "kr-escale-9-lecon-1"
   },
   {
     "native": "몸조리하다",
@@ -2504,6 +2280,14 @@
     "slug": "kr-escale-10-lecon-5"
   },
   {
+    "native": "표",
+    "roman": null,
+    "fr": "billet",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "kr-escale-10-lecon-1"
+  },
+  {
     "native": "더 좋아요",
     "roman": null,
     "fr": "c'est mieux",
@@ -2529,11 +2313,11 @@
   },
   {
     "native": "매진",
-    "roman": "maejin",
+    "roman": null,
     "fr": "complet",
     "escale": 10,
     "theme": "Sorties",
-    "slug": "kr-escale-10-lecon-2"
+    "slug": "kr-escale-10-lecon-1"
   },
   {
     "native": "좋아요!",
@@ -2678,6 +2462,14 @@
     "escale": 10,
     "theme": "Sorties",
     "slug": "kr-escale-10-lecon-4"
+  },
+  {
+    "native": "등산",
+    "roman": null,
+    "fr": "randonnée",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "kr-escale-10-lecon-1"
   },
   {
     "native": "등산",
@@ -2856,6 +2648,14 @@
     "slug": "kr-escale-11-lecon-5"
   },
   {
+    "native": "반가워요",
+    "roman": null,
+    "fr": "enchanté",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "kr-escale-11-lecon-1"
+  },
+  {
     "native": "반가워요!",
     "roman": null,
     "fr": "Enchanté !",
@@ -2873,11 +2673,11 @@
   },
   {
     "native": "취미",
-    "roman": "chwimi",
+    "roman": null,
     "fr": "hobby",
     "escale": 11,
     "theme": "Rencontres",
-    "slug": "kr-escale-11-lecon-2"
+    "slug": "kr-escale-11-lecon-1"
   },
   {
     "native": "~는 것을 좋아해요",
@@ -2950,6 +2750,14 @@
     "escale": 11,
     "theme": "Rencontres",
     "slug": "kr-escale-11-lecon-3"
+  },
+  {
+    "native": "카톡",
+    "roman": null,
+    "fr": "KakaoTalk",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "kr-escale-11-lecon-1"
   },
   {
     "native": "저도요!",
@@ -3061,7 +2869,7 @@
     "fr": "au revoir (à qui part)",
     "escale": 12,
     "theme": "Départ",
-    "slug": "kr-escale-12-lecon-5"
+    "slug": "kr-escale-12-lecon-1"
   },
   {
     "native": "안녕히 계세요",
@@ -3102,6 +2910,14 @@
     "escale": 12,
     "theme": "Départ",
     "slug": "kr-escale-12-lecon-2"
+  },
+  {
+    "native": "환전",
+    "roman": null,
+    "fr": "change",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "kr-escale-12-lecon-1"
   },
   {
     "native": "환전",
@@ -3195,6 +3011,14 @@
     "native": "검은색 / 파란색",
     "roman": null,
     "fr": "noir / bleu",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "kr-escale-12-lecon-1"
+  },
+  {
+    "native": "분실물",
+    "roman": null,
+    "fr": "objet perdu",
     "escale": 12,
     "theme": "Départ",
     "slug": "kr-escale-12-lecon-1"

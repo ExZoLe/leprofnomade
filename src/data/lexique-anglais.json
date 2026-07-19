@@ -1,285 +1,5 @@
 [
   {
-    "native": "Right then!",
-    "roman": null,
-    "fr": "Allez ! / Bon !",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "Ploughman's lunch",
-    "roman": null,
-    "fr": "Assiette froide : fromage, pain, pickles, jambon, chutney. Plat du laboureur.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "Lovely day, isn't it?",
-    "roman": null,
-    "fr": "Belle journée, n'est-ce pas ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-2"
-  },
-  {
-    "native": "Right, what's the plan?",
-    "roman": null,
-    "fr": "Bon, c'est quoi le plan ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "Right, I'd better head off.",
-    "roman": null,
-    "fr": "Bon, je ferais mieux de partir.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "Right, shall we go?",
-    "roman": null,
-    "fr": "Bon, on y va ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "My round / Your round",
-    "roman": null,
-    "fr": "C'est ma tournée / C'est ta tournée",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "Les « rounds »",
-    "roman": null,
-    "fr": "Chacun paie une tournée à tour de rôle. Si quelqu'un t'offre un verre, tu offres le suivant.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-1"
-  },
-  {
-    "native": "Sorry = Vraie excuse (rare)",
-    "roman": null,
-    "fr": "I'm really sorry, it was my fault.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-4"
-  },
-  {
-    "native": "La queue invisible",
-    "roman": null,
-    "fr": "Il n'y a pas de file visible, mais tout le monde sait qui est arrivé en premier. Le barman aussi.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-1"
-  },
-  {
-    "native": "I'm afraid I don't agree.",
-    "roman": null,
-    "fr": "J'ai bien peur de ne pas être d'accord. (= je ne suis pas du tout d'accord)",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-4"
-  },
-  {
-    "native": "I'm afraid that's not possible.",
-    "roman": null,
-    "fr": "J'ai bien peur que ce ne soit pas possible.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-4"
-  },
-  {
-    "native": "I'm afraid we're fully booked.",
-    "roman": null,
-    "fr": "J'ai bien peur que nous soyons complets.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-4"
-  },
-  {
-    "native": "I fancy a pizza.",
-    "roman": null,
-    "fr": "J'ai envie d'une pizza.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-2"
-  },
-  {
-    "native": "I'd better head off.",
-    "roman": null,
-    "fr": "Je ferais mieux d'y aller.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "Combo : « Lovely, cheers! »",
-    "roman": null,
-    "fr": "La réponse universelle à tout service rendu",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "Cheers = merci, santé, au revoir",
-    "roman": null,
-    "fr": "Le couteau suisse : « Here's your change — Cheers! »",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "Tell me about it!",
-    "roman": null,
-    "fr": "M'en parle pas ! / À qui le dis-tu !",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "Cheers / Ta / Thanks",
-    "roman": null,
-    "fr": "Merci (du plus courant au plus familier)",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-1"
-  },
-  {
-    "native": "Sorry = Je compatis",
-    "roman": null,
-    "fr": "Oh, I'm sorry to hear that. (mauvaise nouvelle)",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-4"
-  },
-  {
-    "native": "We've met before, haven't we?",
-    "roman": null,
-    "fr": "On s'est déjà rencontrés, non ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-2"
-  },
-  {
-    "native": "Fish & chips",
-    "roman": null,
-    "fr": "Poisson pané + frites épaisses. LE classique. Avec mushy peas et tartar sauce.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "What do you recommend?",
-    "roman": null,
-    "fr": "Qu'est-ce que vous recommandez ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-1"
-  },
-  {
-    "native": "Sunday roast",
-    "roman": null,
-    "fr": "Rôti du dimanche : viande rôtie + Yorkshire pudding + légumes + gravy. Servi uniquement le dimanche.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "Bangers and mash",
-    "roman": null,
-    "fr": "Saucisses + purée + sauce à l'oignon (gravy)",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "Pas de service à table",
-    "roman": null,
-    "fr": "Tu commandes AU BAR, tu paies immédiatement, tu emportes",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-1"
-  },
-  {
-    "native": "Pas de pourboire au bar",
-    "roman": null,
-    "fr": "Tu paies le prix affiché. Pas de tip attendu.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-1"
-  },
-  {
-    "native": "What are you having?",
-    "roman": null,
-    "fr": "Tu prends quoi ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
-    "native": "Brilliant = excellent, génial",
-    "roman": null,
-    "fr": "« Brilliant » pour l'enthousiasme : « I got the job! — Brilliant! »",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "Last orders!",
-    "roman": null,
-    "fr": "« Dernières commandes ! » — annoncé ~20 min avant la fermeture (souvent 23h)",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-1"
-  },
-  {
-    "native": "Lovely = super, parfait, génial",
-    "roman": null,
-    "fr": "« Lovely » pour approuver : « Tea? — Lovely! »",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-3"
-  },
-  {
-    "native": "I don't fancy it.",
-    "roman": null,
-    "fr": "Ça ne me dit rien.",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-2"
-  },
-  {
-    "native": "Fancy going out tonight?",
-    "roman": null,
-    "fr": "Ça te dit de sortir ce soir ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-2"
-  },
-  {
-    "native": "Fancy a drink?",
-    "roman": null,
-    "fr": "Ça te dit un verre ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-2"
-  },
-  {
-    "native": "Fancy a quick one?",
-    "roman": null,
-    "fr": "Ça te dit un verre rapide ?",
-    "escale": 1,
-    "theme": "Alphabet",
-    "slug": "en-escale-1-lecon-5"
-  },
-  {
     "native": "8 PM",
     "roman": null,
     "fr": "20 heures",
@@ -328,6 +48,14 @@
     "slug": "en-escale-2-lecon-3"
   },
   {
+    "native": "mate",
+    "roman": null,
+    "fr": "pote",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "en-escale-2-lecon-1"
+  },
+  {
     "native": "Could I have some water?",
     "roman": null,
     "fr": "Pourrais-je avoir de l'eau ?",
@@ -352,12 +80,36 @@
     "slug": "en-escale-2-lecon-1"
   },
   {
+    "native": "lovely",
+    "roman": null,
+    "fr": "super",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "en-escale-2-lecon-1"
+  },
+  {
+    "native": "how’s it going?",
+    "roman": null,
+    "fr": "ça va ?",
+    "escale": 2,
+    "theme": "Politesse",
+    "slug": "en-escale-2-lecon-1"
+  },
+  {
     "native": "How long does it take by car?",
     "roman": null,
     "fr": "Combien de temps ça prend en voiture ?",
     "escale": 3,
     "theme": "Aéroport",
     "slug": "en-escale-3-lecon-5"
+  },
+  {
+    "native": "passport control",
+    "roman": null,
+    "fr": "immigration",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "en-escale-3-lecon-1"
   },
   {
     "native": "The nearest hotel",
@@ -408,6 +160,22 @@
     "slug": "en-escale-3-lecon-3"
   },
   {
+    "native": "top up",
+    "roman": null,
+    "fr": "recharger",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "en-escale-3-lecon-1"
+  },
+  {
+    "native": "way out",
+    "roman": null,
+    "fr": "sortie",
+    "escale": 3,
+    "theme": "Aéroport",
+    "slug": "en-escale-3-lecon-1"
+  },
+  {
     "native": "Turn right",
     "roman": null,
     "fr": "Tournez à droite",
@@ -424,6 +192,14 @@
     "slug": "en-escale-3-lecon-2"
   },
   {
+    "native": "single",
+    "roman": null,
+    "fr": "aller simple",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "en-escale-4-lecon-1"
+  },
+  {
     "native": "Bus stop",
     "roman": null,
     "fr": "Arrêt de bus",
@@ -438,6 +214,14 @@
     "escale": 4,
     "theme": "Transport",
     "slug": "en-escale-4-lecon-4"
+  },
+  {
+    "native": "mind the gap",
+    "roman": null,
+    "fr": "attention à l’espace",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "en-escale-4-lecon-1"
   },
   {
     "native": "At the traffic lights",
@@ -560,14 +344,6 @@
     "slug": "en-escale-4-lecon-1"
   },
   {
-    "native": "Quid (kwid)",
-    "roman": null,
-    "fr": "Livre sterling (£) — 'Ten quid' = 10£",
-    "escale": 4,
-    "theme": "Transport",
-    "slug": "en-escale-4-lecon-3"
-  },
-  {
     "native": "Cheers (tchirze)",
     "roman": null,
     "fr": "Merci (informel) / Santé (pour trinquer)",
@@ -648,6 +424,14 @@
     "slug": "en-escale-4-lecon-4"
   },
   {
+    "native": "platform",
+    "roman": null,
+    "fr": "quai",
+    "escale": 4,
+    "theme": "Transport",
+    "slug": "en-escale-4-lecon-1"
+  },
+  {
     "native": "Platform (PLAT-form)",
     "roman": null,
     "fr": "Quai",
@@ -704,6 +488,14 @@
     "slug": "en-escale-5-lecon-1"
   },
   {
+    "native": "lift",
+    "roman": null,
+    "fr": "ascenseur",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "en-escale-5-lecon-1"
+  },
+  {
     "native": "Lift (UK) / Elevator (US)",
     "roman": null,
     "fr": "Ascenseur",
@@ -720,20 +512,12 @@
     "slug": "en-escale-5-lecon-3"
   },
   {
-    "native": "Bacon (BÉ-keune)",
+    "native": "kettle",
     "roman": null,
-    "fr": "Bacon — en tranches fines et croustillantes",
+    "fr": "bouilloire",
     "escale": 5,
     "theme": "Hébergement",
-    "slug": "en-escale-5-lecon-3"
-  },
-  {
-    "native": "Black pudding (blak POUD-ingue)",
-    "roman": null,
-    "fr": "Boudin noir — pas pour les âmes sensibles",
-    "escale": 5,
-    "theme": "Hébergement",
-    "slug": "en-escale-5-lecon-3"
+    "slug": "en-escale-5-lecon-1"
   },
   {
     "native": "Kettle (KET-eul)",
@@ -928,20 +712,20 @@
     "slug": "en-escale-5-lecon-1"
   },
   {
+    "native": "ground floor",
+    "roman": null,
+    "fr": "rez-de-chaussée",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "en-escale-5-lecon-1"
+  },
+  {
     "native": "Booking / Reservation",
     "roman": null,
     "fr": "Réservation",
     "escale": 5,
     "theme": "Hébergement",
     "slug": "en-escale-5-lecon-1"
-  },
-  {
-    "native": "Sausages (SOS-i-djiz)",
-    "roman": null,
-    "fr": "Saucisses — petites et grasses",
-    "escale": 5,
-    "theme": "Hébergement",
-    "slug": "en-escale-5-lecon-3"
   },
   {
     "native": "Would it be possible to…?",
@@ -968,6 +752,14 @@
     "slug": "en-escale-5-lecon-3"
   },
   {
+    "native": "… doesn't work / … isn't working",
+    "roman": null,
+    "fr": "…ne marche pas",
+    "escale": 5,
+    "theme": "Hébergement",
+    "slug": "en-escale-5-lecon-2"
+  },
+  {
     "native": "Portobello Road",
     "roman": null,
     "fr": "antiquités (samedi)",
@@ -987,6 +779,14 @@
     "native": "Do you need a bag?",
     "roman": null,
     "fr": "Besoin d'un sac ? (payant !)",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "en-escale-6-lecon-1"
+  },
+  {
+    "native": "a tenner",
+    "roman": null,
+    "fr": "billet de 10 £",
     "escale": 6,
     "theme": "Courses",
     "slug": "en-escale-6-lecon-1"
@@ -1082,10 +882,10 @@
   {
     "native": "quid",
     "roman": null,
-    "fr": "livre(s) — invariable",
+    "fr": "livre (£)",
     "escale": 6,
     "theme": "Courses",
-    "slug": "en-escale-6-lecon-3"
+    "slug": "en-escale-6-lecon-1"
   },
   {
     "native": "Columbia Road",
@@ -1110,6 +910,14 @@
     "escale": 6,
     "theme": "Courses",
     "slug": "en-escale-6-lecon-3"
+  },
+  {
+    "native": "chucking it down / pouring",
+    "roman": null,
+    "fr": "pleuvoir à verse",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "en-escale-6-lecon-5"
   },
   {
     "native": "Could I have some water?",
@@ -1150,6 +958,14 @@
     "escale": 6,
     "theme": "Courses",
     "slug": "en-escale-6-lecon-2"
+  },
+  {
+    "native": "here you go",
+    "roman": null,
+    "fr": "tenez",
+    "escale": 6,
+    "theme": "Courses",
+    "slug": "en-escale-6-lecon-1"
   },
   {
     "native": "receipt",
@@ -1320,6 +1136,14 @@
     "slug": "en-escale-7-lecon-3"
   },
   {
+    "native": "last orders",
+    "roman": null,
+    "fr": "dernières commandes",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "en-escale-7-lecon-1"
+  },
+  {
     "native": "last orders!",
     "roman": null,
     "fr": "dernières commandes (souvent ~23h)",
@@ -1384,6 +1208,14 @@
     "slug": "en-escale-7-lecon-2"
   },
   {
+    "native": "I'm allergic to nuts/shellfish",
+    "roman": null,
+    "fr": "Je suis allergique aux noix/fruits de mer",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "en-escale-7-lecon-3"
+  },
+  {
     "native": "I'm vegetarian/vegan",
     "roman": null,
     "fr": "Je suis végétarien/végan",
@@ -1414,6 +1246,14 @@
     "escale": 7,
     "theme": "Restaurant",
     "slug": "en-escale-7-lecon-4"
+  },
+  {
+    "native": "my round",
+    "roman": null,
+    "fr": "ma tournée",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "en-escale-7-lecon-1"
   },
   {
     "native": "Where did you eat?",
@@ -1482,6 +1322,14 @@
   {
     "native": "a pint",
     "roman": null,
+    "fr": "une pinte",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "en-escale-7-lecon-1"
+  },
+  {
+    "native": "a pint",
+    "roman": null,
     "fr": "une pinte (568 ml)",
     "escale": 7,
     "theme": "Restaurant",
@@ -1502,6 +1350,14 @@
     "escale": 7,
     "theme": "Restaurant",
     "slug": "en-escale-7-lecon-3"
+  },
+  {
+    "native": "Friday at seven / half seven",
+    "roman": null,
+    "fr": "vendredi à 19h / 19h30",
+    "escale": 7,
+    "theme": "Restaurant",
+    "slug": "en-escale-7-lecon-1"
   },
   {
     "native": "on tap / draught",
@@ -1576,17 +1432,17 @@
     "slug": "en-escale-8-lecon-2"
   },
   {
-    "native": "gonna",
-    "roman": null,
-    "fr": "forme orale de going to — à l'écrit, reste sur going to",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "en-escale-8-lecon-4"
-  },
-  {
     "native": "strong / weak",
     "roman": null,
     "fr": "fort / léger",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "en-escale-8-lecon-1"
+  },
+  {
+    "native": "brilliant",
+    "roman": null,
+    "fr": "génial",
     "escale": 8,
     "theme": "Café & culture",
     "slug": "en-escale-8-lecon-1"
@@ -1630,14 +1486,6 @@
     "escale": 8,
     "theme": "Café & culture",
     "slug": "en-escale-8-lecon-1"
-  },
-  {
-    "native": "pinkie down!",
-    "roman": null,
-    "fr": "l'auriculaire ne se lève PAS — c'est un mythe",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "en-escale-8-lecon-3"
   },
   {
     "native": "I'm not going to miss the rain",
@@ -1712,14 +1560,6 @@
     "slug": "en-escale-8-lecon-3"
   },
   {
-    "native": "sorry (réflexe)",
-    "roman": null,
-    "fr": "pardon — même si ce n'est pas ta faute",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "en-escale-8-lecon-5"
-  },
-  {
     "native": "no worries / no bother",
     "roman": null,
     "fr": "pas de souci",
@@ -1750,14 +1590,6 @@
     "escale": 8,
     "theme": "Café & culture",
     "slug": "en-escale-8-lecon-3"
-  },
-  {
-    "native": "queue properly",
-    "roman": null,
-    "fr": "respecter la file — JAMAIS resquiller",
-    "escale": 8,
-    "theme": "Café & culture",
-    "slug": "en-escale-8-lecon-5"
   },
   {
     "native": "finger sandwiches",
@@ -1800,6 +1632,14 @@
     "slug": "en-escale-8-lecon-1"
   },
   {
+    "native": "fancy a cuppa?",
+    "roman": null,
+    "fr": "un thé ?",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "en-escale-8-lecon-1"
+  },
+  {
     "native": "a shot of...",
     "roman": null,
     "fr": "une dose de... (extra shot = double)",
@@ -1814,6 +1654,14 @@
     "escale": 8,
     "theme": "Café & culture",
     "slug": "en-escale-8-lecon-5"
+  },
+  {
+    "native": "take away",
+    "roman": null,
+    "fr": "à emporter",
+    "escale": 8,
+    "theme": "Café & culture",
+    "slug": "en-escale-8-lecon-1"
   },
   {
     "native": "painkillers",
@@ -1976,6 +1824,14 @@
     "slug": "en-escale-9-lecon-2"
   },
   {
+    "native": "the chemist’s",
+    "roman": null,
+    "fr": "la pharmacie",
+    "escale": 9,
+    "theme": "Santé",
+    "slug": "en-escale-9-lecon-1"
+  },
+  {
     "native": "Where are you?",
     "roman": null,
     "fr": "Où êtes-vous ?",
@@ -1989,7 +1845,7 @@
     "fr": "patraque",
     "escale": 9,
     "theme": "Santé",
-    "slug": "en-escale-9-lecon-5"
+    "slug": "en-escale-9-lecon-1"
   },
   {
     "native": "get some fresh air",
@@ -2149,7 +2005,7 @@
     "fr": "complet",
     "escale": 10,
     "theme": "Sorties",
-    "slug": "en-escale-10-lecon-2"
+    "slug": "en-escale-10-lecon-1"
   },
   {
     "native": "out and about",
@@ -2251,6 +2107,14 @@
     "native": "Is photography allowed?",
     "roman": null,
     "fr": "Peut-on photographier ?",
+    "escale": 10,
+    "theme": "Sorties",
+    "slug": "en-escale-10-lecon-1"
+  },
+  {
+    "native": "the West End",
+    "roman": null,
+    "fr": "quartier des théâtres",
     "escale": 10,
     "theme": "Sorties",
     "slug": "en-escale-10-lecon-1"
@@ -2376,12 +2240,12 @@
     "slug": "en-escale-10-lecon-2"
   },
   {
-    "native": "Do you fancy...?",
+    "native": "do you fancy...?",
     "roman": null,
-    "fr": "Ça te dit... ?",
+    "fr": "ça te dit... ?",
     "escale": 10,
     "theme": "Sorties",
-    "slug": "en-escale-10-lecon-3"
+    "slug": "en-escale-10-lecon-1"
   },
   {
     "native": "add me on...",
@@ -2560,6 +2424,14 @@
     "slug": "en-escale-11-lecon-4"
   },
   {
+    "native": "I’m into...",
+    "roman": null,
+    "fr": "je suis fan de...",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "en-escale-11-lecon-1"
+  },
+  {
     "native": "I'm keen on...",
     "roman": null,
     "fr": "Je suis passionné de...",
@@ -2574,6 +2446,14 @@
     "escale": 11,
     "theme": "Rencontres",
     "slug": "en-escale-11-lecon-2"
+  },
+  {
+    "native": "I reckon",
+    "roman": null,
+    "fr": "je trouve",
+    "escale": 11,
+    "theme": "Rencontres",
+    "slug": "en-escale-11-lecon-1"
   },
   {
     "native": "Same here!",
@@ -2605,7 +2485,7 @@
     "fr": "rester en contact",
     "escale": 11,
     "theme": "Rencontres",
-    "slug": "en-escale-11-lecon-5"
+    "slug": "en-escale-11-lecon-1"
   },
   {
     "native": "If you ask me",
@@ -2696,6 +2576,14 @@
     "slug": "en-escale-11-lecon-2"
   },
   {
+    "native": "safe travels",
+    "roman": null,
+    "fr": "bon voyage",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "en-escale-12-lecon-1"
+  },
+  {
     "native": "Safe travels!",
     "roman": null,
     "fr": "Bon voyage !",
@@ -2712,12 +2600,28 @@
     "slug": "en-escale-12-lecon-2"
   },
   {
+    "native": "It's black / small / leather",
+    "roman": null,
+    "fr": "C'est noir / petit / en cuir",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "en-escale-12-lecon-1"
+  },
+  {
     "native": "It's been a pleasure",
     "roman": null,
     "fr": "Ce fut un plaisir",
     "escale": 12,
     "theme": "Départ",
     "slug": "en-escale-12-lecon-5"
+  },
+  {
+    "native": "This isn't what I ordered/booked",
+    "roman": null,
+    "fr": "Ce n'est pas ce que j'ai commandé/réservé",
+    "escale": 12,
+    "theme": "Départ",
+    "slug": "en-escale-12-lecon-2"
   },
   {
     "native": "This isn't goodbye",
@@ -2824,14 +2728,6 @@
     "slug": "en-escale-12-lecon-5"
   },
   {
-    "native": "won't (= will not)",
-    "roman": null,
-    "fr": "ne...pas (futur)",
-    "escale": 12,
-    "theme": "Départ",
-    "slug": "en-escale-12-lecon-4"
-  },
-  {
     "native": "lost property",
     "roman": null,
     "fr": "objets trouvés",
@@ -2933,7 +2829,7 @@
     "fr": "un timbre",
     "escale": 12,
     "theme": "Départ",
-    "slug": "en-escale-12-lecon-3"
+    "slug": "en-escale-12-lecon-1"
   },
   {
     "native": "Is there a fee?",

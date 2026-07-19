@@ -18,6 +18,38 @@ interface Props {
   entries: Entry[];
 }
 
+// Normalise : minuscules + suppression des accents (café -> cafe)
+function norm(s: string): string {
+  return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+// Distance de Levenshtein (nb d'éditions entre deux mots)
+function levenshtein(a: string, b: string): number {
+  const m = a.length, n = b.length;
+  if (!m) return n;
+  if (!n) return m;
+  let prev = Array.from({ length: n + 1 }, (_, i) => i);
+  let curr = new Array<number>(n + 1);
+  for (let i = 1; i <= m; i++) {
+    curr[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      curr[j] = Math.min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + cost);
+    }
+    [prev, curr] = [curr, prev];
+  }
+  return prev[n];
+}
+
+// Tolérance : 1 faute pour les mots courts, 2 pour les plus longs
+function closeEnough(query: string, word: string): boolean {
+  if (word.includes(query) || query.includes(word)) return true;
+  const tolerance = query.length <= 5 ? 1 : 2;
+  // évite d'apparier des mots de longueurs trop différentes
+  if (Math.abs(word.length - query.length) > tolerance) return false;
+  return levenshtein(query, word) <= tolerance;
+}
+
 export default function CarnetClient({ langue, entries }: Props) {
   const theme = getTheme(langue);
   const [query, setQuery] = useState('');
@@ -36,18 +68,43 @@ export default function CarnetClient({ langue, entries }: Props) {
     return ['Toutes', ...ordered];
   }, [entries]);
 
-  const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return entries.filter((e) => {
-      if (activeTheme !== 'Toutes' && e.theme !== activeTheme) return false;
-      if (!q) return true;
-      return (
-        e.fr.toLowerCase().includes(q) ||
-        e.native.toLowerCase().includes(q) ||
-        (e.roman ?? '').toLowerCase().includes(q)
-      );
+  const { matches, related } = useMemo(() => {
+    const q = norm(query);
+
+    // Filtre thème actif d'abord
+    const pool = activeTheme === 'Toutes'
+      ? entries
+      : entries.filter((e) => e.theme === activeTheme);
+
+    if (!q) return { matches: pool, related: [] as Entry[] };
+
+    // 1) Correspondance directe (sous-chaîne) sur fr / natif / romanisation
+    const direct = pool.filter((e) =>
+      norm(e.fr).includes(q) ||
+      norm(e.native).includes(q) ||
+      norm(e.roman ?? '').includes(q)
+    );
+
+    // 2) Tolérance aux fautes de frappe (Levenshtein, longueurs comparables)
+    const fuzzy = pool.filter((e) => {
+      if (direct.includes(e)) return false;
+      const words = (norm(e.fr) + ' ' + norm(e.native) + ' ' + norm(e.roman ?? '')).split(/\s+/);
+      return words.some((w) => w.length > 2 && closeEnough(q, w));
     });
+
+    const found = [...direct, ...fuzzy];
+
+    // 3) Expansion par thème : tous les mots des thèmes touchés par une correspondance
+    const hitThemes = new Set(found.map((e) => e.theme));
+    const sameTheme = pool.filter(
+      (e) => hitThemes.has(e.theme) && !found.includes(e)
+    );
+
+    return { matches: found, related: sameTheme };
   }, [entries, query, activeTheme]);
+
+  const hasQuery = query.trim().length > 0;
+  const totalShown = matches.length + related.length;
 
   return (
     <div style={{ background: '#EFE7D9', minHeight: '100vh' }}>
@@ -120,12 +177,13 @@ export default function CarnetClient({ langue, entries }: Props) {
 
         {/* Compteur */}
         <p style={{ fontSize: 13, color: '#8B7355', margin: '0 0 12px' }}>
-          {results.length} mot{results.length > 1 ? 's' : ''}
+          {totalShown} mot{totalShown > 1 ? 's' : ''}
+          {hasQuery && related.length > 0 && ` · dont ${matches.length} correspondance${matches.length > 1 ? 's' : ''}`}
         </p>
 
         {/* Résultats */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-          {results.map((e, i) => (
+          {matches.map((e, i) => (
             <Link
               key={`${e.slug}-${e.native}-${i}`}
               href={`/lecon/${e.slug}`}
@@ -169,7 +227,64 @@ export default function CarnetClient({ langue, entries }: Props) {
             </Link>
           ))}
 
-          {results.length === 0 && (
+          {/* Séparateur + mots du même thème */}
+          {hasQuery && related.length > 0 && (
+            <>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, margin: '10px 2px 2px' }}>
+                <span style={{ flex: 1, height: 1, background: 'rgba(61,45,20,0.10)' }} />
+                <span style={{ fontSize: 12, color: '#8B7355', whiteSpace: 'nowrap' }}>
+                  Autres mots du même thème
+                </span>
+                <span style={{ flex: 1, height: 1, background: 'rgba(61,45,20,0.10)' }} />
+              </div>
+              {related.map((e, i) => (
+                <Link
+                  key={`rel-${e.slug}-${e.native}-${i}`}
+                  href={`/lecon/${e.slug}`}
+                  style={{ textDecoration: 'none' }}
+                >
+                  <div
+                    style={{
+                      background: '#FAF6F0',
+                      borderRadius: 12,
+                      border: '1px solid rgba(61,45,20,0.10)',
+                      padding: '12px 16px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      gap: 12,
+                      opacity: 0.85,
+                    }}
+                  >
+                    <div style={{ minWidth: 0 }}>
+                      <p style={{ margin: 0, fontSize: 17, color: '#3D2D14' }}>
+                        {e.native}
+                        {e.roman && (
+                          <span style={{ fontSize: 13, color: '#8B7355', marginLeft: 8 }}>{e.roman}</span>
+                        )}
+                      </p>
+                      <p style={{ margin: '2px 0 0', fontSize: 14, color: '#5F5E5A' }}>{e.fr}</p>
+                    </div>
+                    <span
+                      style={{
+                        flexShrink: 0,
+                        fontSize: 12,
+                        color: accent,
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 4,
+                        whiteSpace: 'nowrap',
+                      }}
+                    >
+                      Escale {e.escale} →
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </>
+          )}
+
+          {totalShown === 0 && (
             <div
               style={{
                 background: '#F5EDE3',
