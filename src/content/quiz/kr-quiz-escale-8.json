@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 8,
+  "title": "Quiz final — Le café coréen",
+  "color": "#C86E46",
+  "nextEscaleSlug": "",
+  "questions": [
+    {
+      "question": "'아메리카노 하나 주세요' signifie :",
+      "options": [
+        "Deux cafés SVP",
+        "Un americano SVP",
+        "Un thé SVP"
+      ],
+      "correct": 1,
+      "explanation": "하나 = un, 주세요 = donnez SVP. 'Un americano SVP'."
+    },
+    {
+      "question": "'따뜻한 거' signifie :",
+      "options": [
+        "Un truc chaud",
+        "Un truc glacé",
+        "Un truc sucré"
+      ],
+      "correct": 0,
+      "explanation": "따뜻한 = chaud. Pour commander une boisson chaude."
+    },
+    {
+      "question": "'아이스' signifie :",
+      "options": [
+        "Chaud",
+        "Glacé",
+        "Décaféiné"
+      ],
+      "correct": 1,
+      "explanation": "아이스 (aiseu) = glacé, de l'anglais 'ice'. Les Coréens adorent l'아아 (iced americano)."
+    },
+    {
+      "question": "'여기서 드세요?' demande :",
+      "options": [
+        "Sur place ou à emporter ?",
+        "Chaud ou froid ?",
+        "Quelle taille ?"
+      ],
+      "correct": 0,
+      "explanation": "여기서 = ici, 드세요 = manger/boire (poli). 'C'est pour sur place ?'"
+    },
+    {
+      "question": "'포장이요' / '테이크아웃' signifie :",
+      "options": [
+        "Sur place",
+        "À emporter",
+        "Livraison"
+      ],
+      "correct": 1,
+      "explanation": "포장 (emballer) ou 테이크아웃 (take-out) = à emporter."
+    },
+    {
+      "question": "'뜨거운' et '차가운' signifient :",
+      "options": [
+        "Grand et petit",
+        "Chaud et froid",
+        "Sucré et amer"
+      ],
+      "correct": 1,
+      "explanation": "뜨거운 = chaud, 차가운 = froid."
+    },
+    {
+      "question": "Pour dire 'un café', le bon compteur est :",
+      "options": [
+        "잔",
+        "명",
+        "개"
+      ],
+      "correct": 0,
+      "explanation": "잔 = compteur pour les boissons (verres/tasses) : 커피 한 잔 = un café."
+    },
+    {
+      "question": "Le compteur 개 sert à compter :",
+      "options": [
+        "Les personnes",
+        "Les objets en général",
+        "Les boissons"
+      ],
+      "correct": 1,
+      "explanation": "개 = compteur générique pour les objets. 하나, 둘, 셋 + 개."
+    },
+    {
+      "question": "Le compteur 명 sert à compter :",
+      "options": [
+        "Les objets",
+        "Les personnes",
+        "Les animaux"
+      ],
+      "correct": 1,
+      "explanation": "명 = compteur pour les personnes : 두 명 = deux personnes."
+    },
+    {
+      "question": "'하나, 둘, 셋' sont :",
+      "options": [
+        "Les nombres coréens natifs 1,2,3",
+        "Les jours",
+        "Les couleurs"
+      ],
+      "correct": 0,
+      "explanation": "Nombres natifs coréens : 하나(1), 둘(2), 셋(3), utilisés avec les compteurs."
+    },
+    {
+      "question": "'와이파이 비밀번호가 뭐예요?' demande :",
+      "options": [
+        "Le prix du café",
+        "Le mot de passe wifi",
+        "L'heure de fermeture"
+      ],
+      "correct": 1,
+      "explanation": "비밀번호 = mot de passe. Question essentielle dans un café coréen !"
+    },
+    {
+      "question": "'사이즈' signifie :",
+      "options": [
+        "Le prix",
+        "La taille",
+        "Le goût"
+      ],
+      "correct": 1,
+      "explanation": "사이즈 (saijeu) = taille, de l'anglais 'size'."
+    },
+    {
+      "question": "'라떼' signifie :",
+      "options": [
+        "Latte",
+        "Thé vert",
+        "Chocolat"
+      ],
+      "correct": 0,
+      "explanation": "라떼 (latte) : café au lait. 녹차 라떼 = latté au thé vert."
+    },
+    {
+      "question": "'얼음 빼주세요' signifie :",
+      "options": [
+        "Plus de glaçons",
+        "Sans glaçons SVP",
+        "Plus de sucre"
+      ],
+      "correct": 1,
+      "explanation": "얼음 = glace/glaçons, 빼다 = enlever. 'Sans glaçons SVP'."
+    },
+    {
+      "question": "Pourquoi tant de cafés en Corée ?",
+      "options": [
+        "Lieu social, d'étude et de travail",
+        "Le café y est gratuit",
+        "C'est obligatoire"
+      ],
+      "correct": 0,
+      "explanation": "Les cafés servent de salon, bureau et lieu d'étude : ils sont partout."
+    },
+    {
+      "question": "'테이크아웃' vient de :",
+      "options": [
+        "Du français",
+        "De l'anglais (take-out)",
+        "Du japonais"
+      ],
+      "correct": 1,
+      "explanation": "Konglish : mot anglais 'take-out' adapté en coréen."
+    },
+    {
+      "question": "'디카페인' signifie :",
+      "options": [
+        "Double dose",
+        "Décaféiné",
+        "Extra chaud"
+      ],
+      "correct": 1,
+      "explanation": "디카페인 (dikapein) = décaféiné."
+    },
+    {
+      "question": "'커피 두 잔 주세요' signifie :",
+      "options": [
+        "Un café SVP",
+        "Deux cafés SVP",
+        "Trois cafés SVP"
+      ],
+      "correct": 1,
+      "explanation": "두 = deux, 잔 = compteur boisson. 'Deux cafés SVP'."
+    },
+    {
+      "question": "'현금영수증 필요하세요?' demande si vous voulez :",
+      "options": [
+        "Un sac",
+        "Un reçu pour les impôts",
+        "Un supplément"
+      ],
+      "correct": 1,
+      "explanation": "현금영수증 = reçu 'cash' (déductible fiscalement en Corée). On te le demande souvent."
+    },
+    {
+      "question": "Ton voyage linguistique est terminé — que dire ?",
+      "options": [
+        "잘 먹었습니다",
+        "여행 잘 하세요 (bon voyage !)",
+        "안녕히 계세요"
+      ],
+      "correct": 1,
+      "explanation": "여행 잘 하세요 = 'fais bon voyage'. Tu es prêt à partir en Corée ! 화이팅 💪"
+    }
+  ]
+}

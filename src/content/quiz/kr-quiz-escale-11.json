@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 11,
+  "title": "Quiz final — Rencontres & vie sociale",
+  "color": "#C86E46",
+  "nextEscaleSlug": "kr-escale-12-lecon-1",
+  "questions": [
+    {
+      "question": "'어디에서 왔어요?' :",
+      "options": [
+        "Où tu vas ?",
+        "D'où viens-tu ?",
+        "Ton âge ?"
+      ],
+      "correct": 1,
+      "explanation": "L'origine."
+    },
+    {
+      "question": "Demander l'âge en Corée :",
+      "options": [
+        "Très impoli",
+        "Normal",
+        "Interdit"
+      ],
+      "correct": 1,
+      "explanation": "Structure la politesse."
+    },
+    {
+      "question": "'저도요!' :",
+      "options": [
+        "Moi non",
+        "Moi aussi",
+        "Encore"
+      ],
+      "correct": 1,
+      "explanation": "Point commun."
+    },
+    {
+      "question": "'반가워요!' :",
+      "options": [
+        "Au revoir",
+        "Enchanté",
+        "Pardon"
+      ],
+      "correct": 1,
+      "explanation": "Ravi de rencontrer."
+    },
+    {
+      "question": "'취미' :",
+      "options": [
+        "Travail",
+        "Hobby",
+        "Famille"
+      ],
+      "correct": 1,
+      "explanation": "= passe-temps."
+    },
+    {
+      "question": "« J'aime~ » :",
+      "options": [
+        "~을/를 좋아해요",
+        "~을/를 싫어해요",
+        "~이에요"
+      ],
+      "correct": 0,
+      "explanation": "좋아하다."
+    },
+    {
+      "question": "'별로 안 좋아해요' :",
+      "options": [
+        "J'adore",
+        "Je n'aime pas trop",
+        "À moi"
+      ],
+      "correct": 1,
+      "explanation": "별로 = pas trop."
+    },
+    {
+      "question": "Particule du COD :",
+      "options": [
+        "이/가",
+        "을/를",
+        "에서"
+      ],
+      "correct": 1,
+      "explanation": "을/를 marque l'objet."
+    },
+    {
+      "question": "'~것 같아요' :",
+      "options": [
+        "Ordonner",
+        "Avis adouci",
+        "Nier"
+      ],
+      "correct": 1,
+      "explanation": "Opinion polie."
+    },
+    {
+      "question": "'맞아요' :",
+      "options": [
+        "Non",
+        "C'est vrai",
+        "Peut-être"
+      ],
+      "correct": 1,
+      "explanation": "Être d'accord."
+    },
+    {
+      "question": "'글쎄요...' :",
+      "options": [
+        "Certitude",
+        "Hésitation",
+        "Colère"
+      ],
+      "correct": 1,
+      "explanation": "Hésitation polie."
+    },
+    {
+      "question": "'동의해요' :",
+      "options": [
+        "Je refuse",
+        "Je suis d'accord",
+        "Je pars"
+      ],
+      "correct": 1,
+      "explanation": "Accord."
+    },
+    {
+      "question": "Passé de '가다' :",
+      "options": [
+        "가요",
+        "갔어요",
+        "갈 거예요"
+      ],
+      "correct": 1,
+      "explanation": "갔어요."
+    },
+    {
+      "question": "« J'ai mangé » :",
+      "options": [
+        "먹어요",
+        "먹었어요",
+        "먹을 거예요"
+      ],
+      "correct": 1,
+      "explanation": "먹었어요."
+    },
+    {
+      "question": "Passé de '하다' :",
+      "options": [
+        "하요",
+        "했어요",
+        "할래요"
+      ],
+      "correct": 1,
+      "explanation": "했어요."
+    },
+    {
+      "question": "Passé de '보다' :",
+      "options": [
+        "봐요",
+        "봤어요",
+        "볼 거예요"
+      ],
+      "correct": 1,
+      "explanation": "봤어요."
+    },
+    {
+      "question": "'카톡' :",
+      "options": [
+        "Un plat",
+        "KakaoTalk",
+        "Un lieu"
+      ],
+      "correct": 1,
+      "explanation": "Messagerie coréenne."
+    },
+    {
+      "question": "'연락해요!' :",
+      "options": [
+        "Au revoir",
+        "Restons en contact",
+        "Pars"
+      ],
+      "correct": 1,
+      "explanation": "Garder le lien."
+    },
+    {
+      "question": "'또 봐요' :",
+      "options": [
+        "Adieu définitif",
+        "À la prochaine",
+        "Merci"
+      ],
+      "correct": 1,
+      "explanation": "Se revoir."
+    },
+    {
+      "question": "'조심히 가세요' :",
+      "options": [
+        "Dépêche-toi",
+        "Rentrez bien",
+        "Mange"
+      ],
+      "correct": 1,
+      "explanation": "Adieu bienveillant."
+    }
+  ]
+}

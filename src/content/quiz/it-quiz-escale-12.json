@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 12,
+  "title": "Quiz final — Imprévus & départ",
+  "color": "#6B7B3E",
+  "nextEscaleSlug": "",
+  "questions": [
+    {
+      "question": "'Oggetti smarriti' :",
+      "options": [
+        "Objets chers",
+        "Objets trouvés",
+        "Cassés"
+      ],
+      "correct": 1,
+      "explanation": "Objets perdus."
+    },
+    {
+      "question": "« J'ai perdu mon téléphone » :",
+      "options": [
+        "Perdo",
+        "Ho perso il telefono",
+        "Perderò"
+      ],
+      "correct": 1,
+      "explanation": "Passato prossimo."
+    },
+    {
+      "question": "'circa un'ora fa' :",
+      "options": [
+        "Dans 1h",
+        "Il y a environ 1h",
+        "1h pile"
+      ],
+      "correct": 1,
+      "explanation": "fa = il y a."
+    },
+    {
+      "question": "'Può descriverlo?' :",
+      "options": [
+        "Vous l'avez ?",
+        "Pouvez-vous le décrire ?",
+        "C'est cher ?"
+      ],
+      "correct": 1,
+      "explanation": "Décrire l'objet."
+    },
+    {
+      "question": "Plainte polie :",
+      "options": [
+        "Sei terribile",
+        "Scusi, c'è un problema...",
+        "Soldi subito"
+      ],
+      "correct": 1,
+      "explanation": "Politesse d'abord."
+    },
+    {
+      "question": "'Potreste sistemare?' :",
+      "options": [
+        "Vous partez ?",
+        "Pourriez-vous arranger ?",
+        "Cassé ?"
+      ],
+      "correct": 1,
+      "explanation": "Solution."
+    },
+    {
+      "question": "'Un rimborso' :",
+      "options": [
+        "Reçu",
+        "Remboursement",
+        "Chambre"
+      ],
+      "correct": 1,
+      "explanation": "Rimborso."
+    },
+    {
+      "question": "'Il responsabile' :",
+      "options": [
+        "Le client",
+        "Le responsable",
+        "La chambre"
+      ],
+      "correct": 1,
+      "explanation": "Le manager."
+    },
+    {
+      "question": "'Il francobollo' :",
+      "options": [
+        "Colis",
+        "Timbre",
+        "Carte"
+      ],
+      "correct": 1,
+      "explanation": "Pour affranchir."
+    },
+    {
+      "question": "'Il cambio' :",
+      "options": [
+        "Change",
+        "Frais",
+        "Reçu"
+      ],
+      "correct": 0,
+      "explanation": "Change de devises."
+    },
+    {
+      "question": "'Prelevare' :",
+      "options": [
+        "Déposer",
+        "Retirer",
+        "Envoyer"
+      ],
+      "correct": 1,
+      "explanation": "Retirer argent."
+    },
+    {
+      "question": "'Il pacco' :",
+      "options": [
+        "Lettre",
+        "Colis",
+        "Timbre"
+      ],
+      "correct": 1,
+      "explanation": "Un paquet."
+    },
+    {
+      "question": "Le conditionnel exprime :",
+      "options": [
+        "Passé",
+        "Souhait/politesse",
+        "Certitude"
+      ],
+      "correct": 1,
+      "explanation": "Vorrei."
+    },
+    {
+      "question": "Plus poli que 'voglio' :",
+      "options": [
+        "devo",
+        "vorrei",
+        "ho"
+      ],
+      "correct": 1,
+      "explanation": "Vorrei."
+    },
+    {
+      "question": "'Mi piacerebbe' :",
+      "options": [
+        "Ça m'a plu",
+        "J'aimerais",
+        "Ça me plaît"
+      ],
+      "correct": 1,
+      "explanation": "Souhait."
+    },
+    {
+      "question": "'Potrei avere?' :",
+      "options": [
+        "Je dois",
+        "Pourrais-je avoir ?",
+        "J'ai eu"
+      ],
+      "correct": 1,
+      "explanation": "Demande polie."
+    },
+    {
+      "question": "'Arrivederci' vs 'addio' :",
+      "options": [
+        "Pareils",
+        "Arrivederci = on se reverra",
+        "addio = à demain"
+      ],
+      "correct": 1,
+      "explanation": "Addio définitif."
+    },
+    {
+      "question": "'Mi mancherai' :",
+      "options": [
+        "Tu me manques",
+        "Tu vas me manquer",
+        "Je pars"
+      ],
+      "correct": 1,
+      "explanation": "Mancare."
+    },
+    {
+      "question": "'È stato bellissimo' :",
+      "options": [
+        "Nul",
+        "Magnifique",
+        "À demain"
+      ],
+      "correct": 1,
+      "explanation": "Bilan chaleureux."
+    },
+    {
+      "question": "'A presto!' :",
+      "options": [
+        "Adieu",
+        "À bientôt",
+        "Vite"
+      ],
+      "correct": 1,
+      "explanation": "Se revoir bientôt."
+    }
+  ]
+}

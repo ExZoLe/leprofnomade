@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 10,
+  "title": "Quiz final — Sorties & loisirs",
+  "color": "#D6A23D",
+  "nextEscaleSlug": "en-escale-11-lecon-1",
+  "questions": [
+    {
+      "question": "Musées londoniens majeurs :",
+      "options": [
+        "Chers",
+        "Souvent gratuits",
+        "Fermés"
+      ],
+      "correct": 1,
+      "explanation": "British Museum, Tate..."
+    },
+    {
+      "question": "'Cloakroom' :",
+      "options": [
+        "Toilettes",
+        "Vestiaire",
+        "Boutique"
+      ],
+      "correct": 1,
+      "explanation": "Où laisser ses affaires."
+    },
+    {
+      "question": "'Guided tour' :",
+      "options": [
+        "Audioguide",
+        "Visite guidée",
+        "Plan"
+      ],
+      "correct": 1,
+      "explanation": "Avec un guide."
+    },
+    {
+      "question": "'Exhibition' :",
+      "options": [
+        "Sortie",
+        "Exposition",
+        "Billet"
+      ],
+      "correct": 1,
+      "explanation": "Une expo."
+    },
+    {
+      "question": "Quartier des théâtres :",
+      "options": [
+        "The City",
+        "West End",
+        "Camden"
+      ],
+      "correct": 1,
+      "explanation": "West End."
+    },
+    {
+      "question": "'Sold out' :",
+      "options": [
+        "En solde",
+        "Complet",
+        "Gratuit"
+      ],
+      "correct": 1,
+      "explanation": "Plus de places."
+    },
+    {
+      "question": "'The interval' :",
+      "options": [
+        "Le début",
+        "L'entracte",
+        "La fin"
+      ],
+      "correct": 1,
+      "explanation": "La pause."
+    },
+    {
+      "question": "'Matinee' :",
+      "options": [
+        "Séance du matin/après-midi",
+        "Séance de nuit",
+        "Répétition"
+      ],
+      "correct": 0,
+      "explanation": "Séance en journée."
+    },
+    {
+      "question": "'Do you fancy...?' :",
+      "options": [
+        "Tu détestes ?",
+        "Ça te dit ?",
+        "Tu peux ?"
+      ],
+      "correct": 1,
+      "explanation": "Avoir envie."
+    },
+    {
+      "question": "'What's on?' :",
+      "options": [
+        "Où ?",
+        "Qu'est-ce qui passe ?",
+        "C'est allumé ?"
+      ],
+      "correct": 1,
+      "explanation": "À l'affiche."
+    },
+    {
+      "question": "'Are you up for it?' :",
+      "options": [
+        "Tu es fatigué ?",
+        "Tu es partant ?",
+        "Tu montes ?"
+      ],
+      "correct": 1,
+      "explanation": "Être partant."
+    },
+    {
+      "question": "Décliner poliment :",
+      "options": [
+        "No.",
+        "I'd love to, but...",
+        "Never"
+      ],
+      "correct": 1,
+      "explanation": "Adoucir le refus."
+    },
+    {
+      "question": "Comparatif 'big' :",
+      "options": [
+        "More big",
+        "Bigger",
+        "Biggest"
+      ],
+      "correct": 1,
+      "explanation": "big → bigger."
+    },
+    {
+      "question": "Comparatif 'expensive' :",
+      "options": [
+        "Expensiver",
+        "More expensive",
+        "Most"
+      ],
+      "correct": 1,
+      "explanation": "more + long adj."
+    },
+    {
+      "question": "Comparatif 'good' :",
+      "options": [
+        "Gooder",
+        "Better",
+        "Best"
+      ],
+      "correct": 1,
+      "explanation": "Irrégulier."
+    },
+    {
+      "question": "Comparatif 'bad' :",
+      "options": [
+        "Badder",
+        "Worse",
+        "Worst"
+      ],
+      "correct": 1,
+      "explanation": "bad → worse."
+    },
+    {
+      "question": "'...than...' sert à :",
+      "options": [
+        "Additionner",
+        "Comparer",
+        "Nier"
+      ],
+      "correct": 1,
+      "explanation": "Introduit la comparaison."
+    },
+    {
+      "question": "'A lie-in' :",
+      "options": [
+        "Mensonge",
+        "Grasse matinée",
+        "Sieste"
+      ],
+      "correct": 1,
+      "explanation": "Rester au lit."
+    },
+    {
+      "question": "'A Sunday roast' :",
+      "options": [
+        "Dessert",
+        "Rôti dominical",
+        "Thé"
+      ],
+      "correct": 1,
+      "explanation": "Tradition du dimanche."
+    },
+    {
+      "question": "'Make the most of it' :",
+      "options": [
+        "Gâcher",
+        "En profiter à fond",
+        "Partir"
+      ],
+      "correct": 1,
+      "explanation": "Profiter au max."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 5,
+  "title": "Quiz final — L'hébergement en Corée",
+  "color": "#C86E46",
+  "nextEscaleSlug": "kr-escale-6-lecon-1",
+  "questions": [
+    {
+      "question": "'예약' signifie :",
+      "options": [
+        "Facture",
+        "Réservation",
+        "Clé"
+      ],
+      "correct": 1,
+      "explanation": "예약 (yeyak) = réservation."
+    },
+    {
+      "question": "'방 있어요?' signifie :",
+      "options": [
+        "Avez-vous une chambre ?",
+        "Où est la chambre ?",
+        "La chambre est chère ?"
+      ],
+      "correct": 0,
+      "explanation": "방 = chambre, 있어요? = y a-t-il ? 'Avez-vous une chambre ?'"
+    },
+    {
+      "question": "'체크인' et '체크아웃' sont :",
+      "options": [
+        "Des plats",
+        "Check-in / check-out (Konglish)",
+        "Des quartiers"
+      ],
+      "correct": 1,
+      "explanation": "Mots empruntés à l'anglais : 체크인 (check-in), 체크아웃 (check-out)."
+    },
+    {
+      "question": "Qu'est-ce qu'un 찜질방 (jjimjilbang) ?",
+      "options": [
+        "Un restaurant",
+        "Un sauna/spa coréen",
+        "Un marché"
+      ],
+      "correct": 1,
+      "explanation": "Le jjimjilbang est un sauna public coréen, où l'on peut aussi dormir."
+    },
+    {
+      "question": "'와이파이 비밀번호' signifie :",
+      "options": [
+        "Adresse wifi",
+        "Mot de passe wifi",
+        "Vitesse wifi"
+      ],
+      "correct": 1,
+      "explanation": "비밀번호 = mot de passe. 'Mot de passe du wifi'."
+    },
+    {
+      "question": "'뜨거운 물이 안 나와요' signifie :",
+      "options": [
+        "Il y a de l'eau chaude",
+        "Il n'y a pas d'eau chaude",
+        "L'eau est froide"
+      ],
+      "correct": 1,
+      "explanation": "안 나와요 = ne sort pas. 'L'eau chaude ne coule pas'."
+    },
+    {
+      "question": "'수건' signifie :",
+      "options": [
+        "Serviette",
+        "Savon",
+        "Oreiller"
+      ],
+      "correct": 0,
+      "explanation": "수건 (sugeon) = serviette."
+    },
+    {
+      "question": "'게스트하우스' est :",
+      "options": [
+        "Un hôtel de luxe",
+        "Une guesthouse (auberge)",
+        "Un camping"
+      ],
+      "correct": 1,
+      "explanation": "게스트하우스 = guesthouse, hébergement convivial et abordable."
+    },
+    {
+      "question": "Dans un jjimjilbang, on porte :",
+      "options": [
+        "Ses propres vêtements",
+        "Un uniforme fourni",
+        "Un maillot de bain"
+      ],
+      "correct": 1,
+      "explanation": "On reçoit un uniforme (t-shirt + short) fourni à l'entrée."
+    },
+    {
+      "question": "'몇 시에 체크아웃이에요?' demande :",
+      "options": [
+        "Le prix",
+        "L'heure du check-out",
+        "Le numéro de chambre"
+      ],
+      "correct": 1,
+      "explanation": "몇 시 = quelle heure. 'À quelle heure le check-out ?'"
+    },
+    {
+      "question": "'열쇠' signifie :",
+      "options": [
+        "Porte",
+        "Clé",
+        "Fenêtre"
+      ],
+      "correct": 1,
+      "explanation": "열쇠 (yeolsoe) = clé (beaucoup d'hôtels utilisent aussi des cartes 카드키)."
+    },
+    {
+      "question": "L'ordre des mots en coréen suit le schéma :",
+      "options": [
+        "Sujet-Verbe-Objet",
+        "Sujet-Objet-Verbe",
+        "Verbe-Sujet-Objet"
+      ],
+      "correct": 1,
+      "explanation": "Le coréen est SOV : 'je (S) café (O) bois (V)'."
+    },
+    {
+      "question": "'조용한 방' signifie :",
+      "options": [
+        "Chambre calme",
+        "Grande chambre",
+        "Chambre propre"
+      ],
+      "correct": 0,
+      "explanation": "조용한 = calme, 방 = chambre. 'Une chambre calme'."
+    },
+    {
+      "question": "'하룻밤에 얼마예요?' demande :",
+      "options": [
+        "Le prix par nuit",
+        "Le nombre de nuits",
+        "L'étage"
+      ],
+      "correct": 0,
+      "explanation": "하룻밤 = une nuit. 'C'est combien par nuit ?'"
+    },
+    {
+      "question": "'수건 좀 더 주세요' signifie :",
+      "options": [
+        "Reprenez les serviettes",
+        "Donnez-moi plus de serviettes SVP",
+        "Où sont les serviettes ?"
+      ],
+      "correct": 1,
+      "explanation": "좀 더 = un peu plus. 'Encore des serviettes SVP'."
+    },
+    {
+      "question": "'에어컨' signifie :",
+      "options": [
+        "Chauffage",
+        "Climatisation",
+        "Ventilateur"
+      ],
+      "correct": 1,
+      "explanation": "에어컨 = climatiseur (de l'anglais 'air con')."
+    },
+    {
+      "question": "'짐을 맡길 수 있어요?' demande si on peut :",
+      "options": [
+        "Payer plus tard",
+        "Laisser ses bagages",
+        "Changer de chambre"
+      ],
+      "correct": 1,
+      "explanation": "짐 = bagages, 맡기다 = confier. 'Puis-je laisser mes bagages ?'"
+    },
+    {
+      "question": "Enlever ses chaussures à l'entrée d'un logement coréen est :",
+      "options": [
+        "Facultatif",
+        "Obligatoire et attendu",
+        "Mal vu"
+      ],
+      "correct": 1,
+      "explanation": "On se déchausse toujours avant d'entrer dans un espace de vie coréen."
+    },
+    {
+      "question": "'화장실' signifie :",
+      "options": [
+        "Cuisine",
+        "Toilettes / salle de bain",
+        "Salon"
+      ],
+      "correct": 1,
+      "explanation": "화장실 (hwajangsil) = toilettes / salle de bain."
+    },
+    {
+      "question": "'좋은 하루 되세요' signifie :",
+      "options": [
+        "Bonne nuit",
+        "Bonne journée",
+        "Bon voyage"
+      ],
+      "correct": 1,
+      "explanation": "Formule de politesse : 'Passez une bonne journée'."
+    }
+  ]
+}

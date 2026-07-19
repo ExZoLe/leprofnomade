@@ -2,7 +2,7 @@
   "lang": "anglais",
   "escale": 4,
   "title": "Quiz final — Getting around London",
-  "color": "#1B4965",
+  "color": "#D6A23D",
   "nextEscaleSlug": "en-escale-5-lecon-1",
   "questions": [
     {
@@ -36,7 +36,7 @@
       "explanation": "La caution est de 5£, remboursable quand tu rends la carte."
     },
     {
-      "question": "Which is more polite?",
+      "question": "Pour demander son chemin, quelle formule est la plus polie ?",
       "options": [
         "Where is the museum?",
         "Could you tell me how to get to the museum?",
@@ -156,14 +156,14 @@
       "explanation": "Present continuous = action en cours, maintenant."
     },
     {
-      "question": "'Lovely' in British English means:",
+      "question": "'It's just around the corner' means:",
       "options": [
-        "Joli seulement",
-        "Super / génial / agréable",
-        "Amoureux"
+        "C'est très loin",
+        "C'est tout près",
+        "C'est fermé"
       ],
       "correct": 1,
-      "explanation": "Lovely = super/génial. Très britannique et polyvalent."
+      "explanation": "Just around the corner = à deux pas, tout près."
     },
     {
       "question": "'Brilliant' means:",
@@ -176,14 +176,14 @@
       "explanation": "Brilliant = super/génial en anglais britannique."
     },
     {
-      "question": "'Cheers' can mean:",
+      "question": "'Hop on the bus' means:",
       "options": [
-        "Seulement santé",
-        "Merci / Santé / Au revoir",
-        "Seulement merci"
+        "Descendre du bus",
+        "Monter dans le bus",
+        "Rater le bus"
       ],
       "correct": 1,
-      "explanation": "Cheers est ultra-polyvalent : merci, santé, au revoir."
+      "explanation": "Hop on = monter. Hop off = descendre. D'où les bus touristiques 'hop-on hop-off'."
     },
     {
       "question": "The Tube has how many lines?",

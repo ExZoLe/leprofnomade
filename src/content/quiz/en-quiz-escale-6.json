@@ -2,7 +2,7 @@
   "lang": "anglais",
   "escale": 6,
   "title": "Quiz final — Shopping and courses",
-  "color": "#1B4965",
+  "color": "#D6A23D",
   "nextEscaleSlug": "en-escale-7-lecon-1",
   "questions": [
     {
@@ -96,7 +96,7 @@
       "explanation": "Change = monnaie. Change for a twenty = monnaie de 20£."
     },
     {
-      "question": "Which is correct?",
+      "question": "some / any — quelle phrase est correcte ?",
       "options": [
         "Do you have some questions?",
         "Do you have any questions?",
@@ -196,14 +196,14 @@
       "explanation": "Costa Coffee = plus grande chaîne UK, devant Starbucks."
     },
     {
-      "question": "'Quid' is slang for:",
+      "question": "'Skint' means:",
       "options": [
-        "Dollar",
-        "Pound sterling",
-        "Euro"
+        "Riche",
+        "Fauché (sans argent)",
+        "Radin"
       ],
       "correct": 1,
-      "explanation": "Quid = pound = £. 'Ten quid' = 10£."
+      "explanation": "Skint = fauché, sans un sou. Argot britannique très courant."
     }
   ]
 }

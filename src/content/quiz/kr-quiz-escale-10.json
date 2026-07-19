@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 10,
+  "title": "Quiz final — Sorties & loisirs",
+  "color": "#C86E46",
+  "nextEscaleSlug": "kr-escale-11-lecon-1",
+  "questions": [
+    {
+      "question": "'무료' :",
+      "options": [
+        "Cher",
+        "Gratuit",
+        "Fermé"
+      ],
+      "correct": 1,
+      "explanation": "= gratuit."
+    },
+    {
+      "question": "Porter un 한복 au palais :",
+      "options": [
+        "Interdit",
+        "Entrée gratuite",
+        "Plus cher"
+      ],
+      "correct": 1,
+      "explanation": "Hanbok = gratuit !"
+    },
+    {
+      "question": "'표' :",
+      "options": [
+        "Guide",
+        "Billet",
+        "Sortie"
+      ],
+      "correct": 1,
+      "explanation": "= billet."
+    },
+    {
+      "question": "'입장료' :",
+      "options": [
+        "Sortie",
+        "Droit d'entrée",
+        "Guide"
+      ],
+      "correct": 1,
+      "explanation": "= droit d'entrée."
+    },
+    {
+      "question": "'매진' :",
+      "options": [
+        "Ouvert",
+        "Complet",
+        "Gratuit"
+      ],
+      "correct": 1,
+      "explanation": "= épuisé."
+    },
+    {
+      "question": "'예매하다' :",
+      "options": [
+        "Annuler",
+        "Réserver",
+        "Payer"
+      ],
+      "correct": 1,
+      "explanation": "Réserver un billet."
+    },
+    {
+      "question": "'공연' :",
+      "options": [
+        "Billet",
+        "Spectacle",
+        "Place"
+      ],
+      "correct": 1,
+      "explanation": "= spectacle."
+    },
+    {
+      "question": "'앞자리' :",
+      "options": [
+        "Place derrière",
+        "Place devant",
+        "Sortie"
+      ],
+      "correct": 1,
+      "explanation": "앞 = devant."
+    },
+    {
+      "question": "'~ㄹ래요?' :",
+      "options": [
+        "Refuser",
+        "Proposer/inviter",
+        "Payer"
+      ],
+      "correct": 1,
+      "explanation": "Proposition."
+    },
+    {
+      "question": "'좋아요!' :",
+      "options": [
+        "Non",
+        "D'accord",
+        "Peut-être"
+      ],
+      "correct": 1,
+      "explanation": "Accepter."
+    },
+    {
+      "question": "'~는 어때요?' :",
+      "options": [
+        "C'est fini",
+        "Et si~ ?",
+        "Combien ?"
+      ],
+      "correct": 1,
+      "explanation": "Suggestion."
+    },
+    {
+      "question": "'같이 갈래요?' :",
+      "options": [
+        "Tu pars ?",
+        "On y va ensemble ?",
+        "Combien ?"
+      ],
+      "correct": 1,
+      "explanation": "Inviter."
+    },
+    {
+      "question": "'더' :",
+      "options": [
+        "Moins",
+        "Plus",
+        "Le plus"
+      ],
+      "correct": 1,
+      "explanation": "= plus."
+    },
+    {
+      "question": "'보다' :",
+      "options": [
+        "Le lieu",
+        "La comparaison",
+        "Le temps"
+      ],
+      "correct": 1,
+      "explanation": "A보다 = que A."
+    },
+    {
+      "question": "'제일' :",
+      "options": [
+        "Plus",
+        "Le plus",
+        "Moins"
+      ],
+      "correct": 1,
+      "explanation": "Superlatif."
+    },
+    {
+      "question": "'더 비싸요' :",
+      "options": [
+        "Moins cher",
+        "Plus cher",
+        "Gratuit"
+      ],
+      "correct": 1,
+      "explanation": "더 + adjectif."
+    },
+    {
+      "question": "'등산' :",
+      "options": [
+        "Karaoké",
+        "Randonnée",
+        "Café"
+      ],
+      "correct": 1,
+      "explanation": "Sport du week-end."
+    },
+    {
+      "question": "'노래방' :",
+      "options": [
+        "Restaurant",
+        "Karaoké",
+        "Musée"
+      ],
+      "correct": 1,
+      "explanation": "= karaoké."
+    },
+    {
+      "question": "'푹 쉬세요' :",
+      "options": [
+        "Travaille",
+        "Repose-toi bien",
+        "Dépêche"
+      ],
+      "correct": 1,
+      "explanation": "Bon repos."
+    },
+    {
+      "question": "'놀러 가다' :",
+      "options": [
+        "Travailler",
+        "Sortir s'amuser",
+        "Dormir"
+      ],
+      "correct": 1,
+      "explanation": "Sortir s'amuser."
+    }
+  ]
+}

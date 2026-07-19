@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 9,
+  "title": "Quiz final — Santé & urgences",
+  "color": "#6B7B3E",
+  "nextEscaleSlug": "it-escale-10-lecon-1",
+  "questions": [
+    {
+      "question": "La 'farmacia' :",
+      "options": [
+        "Croix rouge",
+        "Croix verte",
+        "Drapeau"
+      ],
+      "correct": 1,
+      "explanation": "Croix verte lumineuse."
+    },
+    {
+      "question": "« Avez-vous quelque chose pour... ? »",
+      "options": [
+        "Dove qualcosa?",
+        "Avete qualcosa per...?",
+        "Voglio"
+      ],
+      "correct": 1,
+      "explanation": "Formule pharmacie."
+    },
+    {
+      "question": "'La febbre' :",
+      "options": [
+        "Toux",
+        "Fièvre",
+        "Rhume"
+      ],
+      "correct": 1,
+      "explanation": "= fièvre."
+    },
+    {
+      "question": "'Il mal di gola' :",
+      "options": [
+        "Mal de tête",
+        "Mal de gorge",
+        "Mal de ventre"
+      ],
+      "correct": 1,
+      "explanation": "Gola = gorge."
+    },
+    {
+      "question": "« J'ai mal à la tête » :",
+      "options": [
+        "Mi fa male la testa",
+        "Ho fame",
+        "Sto bene"
+      ],
+      "correct": 0,
+      "explanation": "Mi fa male + partie du corps."
+    },
+    {
+      "question": "'Mi gira la testa' :",
+      "options": [
+        "J'ai faim",
+        "La tête tourne",
+        "J'ai froid"
+      ],
+      "correct": 1,
+      "explanation": "Vertige."
+    },
+    {
+      "question": "« Depuis deux jours » :",
+      "options": [
+        "per due giorni",
+        "da due giorni",
+        "fa"
+      ],
+      "correct": 1,
+      "explanation": "da + durée."
+    },
+    {
+      "question": "'Ho la nausea' :",
+      "options": [
+        "J'ai soif",
+        "J'ai la nausée",
+        "J'ai chaud"
+      ],
+      "correct": 1,
+      "explanation": "Nausée."
+    },
+    {
+      "question": "Numéro d'urgence Italie :",
+      "options": [
+        "911",
+        "112",
+        "999"
+      ],
+      "correct": 1,
+      "explanation": "112 européen."
+    },
+    {
+      "question": "'è svenuto' :",
+      "options": [
+        "Il dort",
+        "Il s'est évanoui",
+        "Il court"
+      ],
+      "correct": 1,
+      "explanation": "Svenire."
+    },
+    {
+      "question": "'Respira?' :",
+      "options": [
+        "Il mange ?",
+        "Il respire ?",
+        "Il parle ?"
+      ],
+      "correct": 1,
+      "explanation": "Respirer."
+    },
+    {
+      "question": "En urgence, d'abord :",
+      "options": [
+        "Nom",
+        "Lieu",
+        "Âge"
+      ],
+      "correct": 1,
+      "explanation": "Le lieu."
+    },
+    {
+      "question": "'Dovere' exprime :",
+      "options": [
+        "Possibilité",
+        "Obligation",
+        "Passé"
+      ],
+      "correct": 1,
+      "explanation": "Devo = je dois."
+    },
+    {
+      "question": "« Puis-je ? » :",
+      "options": [
+        "Devo?",
+        "Posso?",
+        "Voglio?"
+      ],
+      "correct": 1,
+      "explanation": "Posso."
+    },
+    {
+      "question": "Après un modal :",
+      "options": [
+        "Passé",
+        "Infinitif",
+        "Futur"
+      ],
+      "correct": 1,
+      "explanation": "+ infinitif."
+    },
+    {
+      "question": "'Non devi fumare' :",
+      "options": [
+        "Tu peux fumer",
+        "Tu ne dois pas fumer",
+        "Fume"
+      ],
+      "correct": 1,
+      "explanation": "Interdiction."
+    },
+    {
+      "question": "'Sto bene' :",
+      "options": [
+        "Debout",
+        "Je vais bien",
+        "Je mange"
+      ],
+      "correct": 1,
+      "explanation": "Aller bien."
+    },
+    {
+      "question": "'Piano piano' :",
+      "options": [
+        "Vite",
+        "Doucement",
+        "Fort"
+      ],
+      "correct": 1,
+      "explanation": "Sans se presser."
+    },
+    {
+      "question": "'Una bella cera' :",
+      "options": [
+        "Belle cire",
+        "Bonne mine",
+        "Beau ciel"
+      ],
+      "correct": 1,
+      "explanation": "Bonne mine."
+    },
+    {
+      "question": "'Rimettersi' :",
+      "options": [
+        "Tomber malade",
+        "Se remettre",
+        "Partir"
+      ],
+      "correct": 1,
+      "explanation": "Guérir."
+    }
+  ]
+}

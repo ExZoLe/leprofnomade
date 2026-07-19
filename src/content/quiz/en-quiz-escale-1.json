@@ -2,126 +2,206 @@
   "lang": "anglais",
   "escale": 1,
   "title": "Quiz final — Survivre au pub londonien",
-  "color": "#1B4965",
+  "color": "#D6A23D",
   "nextEscaleSlug": "en-escale-2-lecon-1",
   "questions": [
     {
       "question": "Tu entres dans un pub à Londres. Tu t'assois à une table et tu attends. Que va-t-il se passer ?",
-      "options": ["Un serveur va venir prendre ta commande", "Rien — il faut aller commander au bar", "On va te demander de partir"],
+      "options": [
+        "Un serveur va venir prendre ta commande",
+        "Rien — il faut aller commander au bar",
+        "On va te demander de partir"
+      ],
       "correct": 1,
       "explanation": "Dans un pub britannique, il n'y a PAS de service à table. Tu vas au bar, tu commandes, tu paies immédiatement, tu emportes."
     },
     {
       "question": "Comment commander une pinte poliment ?",
-      "options": ["Give me a pint of lager", "Could I get a pint of lager, please?", "I want beer"],
+      "options": [
+        "Give me a pint of lager",
+        "Could I get a pint of lager, please?",
+        "I want beer"
+      ],
       "correct": 1,
       "explanation": "'Could I get...' est la formule polie standard. 'Give me' ou 'I want' sont considérés comme grossiers en Angleterre."
     },
     {
       "question": "Un collègue anglais t'offre une pinte. Que dois-tu faire ?",
-      "options": ["Le remercier et c'est tout", "Offrir la tournée suivante — c'est la règle des rounds", "Insister pour payer ta part"],
+      "options": [
+        "Le remercier et c'est tout",
+        "Offrir la tournée suivante — c'est la règle des rounds",
+        "Insister pour payer ta part"
+      ],
       "correct": 1,
       "explanation": "Le système des rounds est sacré. Si quelqu'un t'offre un verre, tu offres le suivant. Ne pas le faire est très mal vu."
     },
     {
       "question": "Que signifie 'Cheers' en anglais britannique ?",
-      "options": ["Uniquement 'santé' quand on trinque", "Merci / Santé / Au revoir selon le contexte", "Un salut formel"],
+      "options": [
+        "Uniquement 'santé' quand on trinque",
+        "Merci / Santé / Au revoir selon le contexte",
+        "Un salut formel"
+      ],
       "correct": 1,
       "explanation": "'Cheers' est le mot le plus polyvalent de l'anglais britannique. Merci, santé, au revoir — ça marche dans presque tout contexte."
     },
     {
       "question": "Un collègue dit 'Terrible weather, isn't it?' alors qu'il pleut. Meilleure réponse ?",
-      "options": ["Actually, I like rain", "Awful, isn't it? I got completely drenched!", "Let's talk about something else"],
+      "options": [
+        "Actually, I like rain",
+        "Awful, isn't it? I got completely drenched!",
+        "Let's talk about something else"
+      ],
       "correct": 1,
       "explanation": "Surenchérir dans la plainte est la bonne réponse sociale. Le small talk sur la météo est un rituel de connexion, pas une vraie discussion."
     },
     {
       "question": "Un Anglais te dit 'That's not bad at all'. Que veut-il vraiment dire ?",
-      "options": ["C'est médiocre", "C'est très bien — il est impressionné", "C'est acceptable"],
+      "options": [
+        "C'est médiocre",
+        "C'est très bien — il est impressionné",
+        "C'est acceptable"
+      ],
       "correct": 1,
       "explanation": "Understatement britannique : 'not bad at all' = excellent. Les Anglais expriment rarement leur enthousiasme directement."
     },
     {
       "question": "Quelqu'un te dit 'Fancy a curry tonight?'. Que te propose-t-il ?",
-      "options": ["Il veut te donner un curry", "Il te propose d'aller manger un curry ce soir", "Il aime le curry"],
+      "options": [
+        "Il veut te donner un curry",
+        "Il te propose d'aller manger un curry ce soir",
+        "Il aime le curry"
+      ],
       "correct": 1,
       "explanation": "Fancy + nom/verbe = ça te dit de... ? C'est une invitation décontractée typiquement britannique."
     },
     {
       "question": "Tu arrives au pub à 21h30 et tu veux manger. Que demandes-tu en premier ?",
-      "options": ["A table for two", "Are you still serving food?", "What's on the menu?"],
+      "options": [
+        "A table for two",
+        "Are you still serving food?",
+        "What's on the menu?"
+      ],
       "correct": 1,
       "explanation": "Les cuisines de pub ferment souvent entre 21h et 22h. Toujours vérifier d'abord si la cuisine est encore ouverte."
     },
     {
       "question": "C'est dimanche à Londres. Que dois-tu commander au pub ?",
-      "options": ["Fish and chips", "A Sunday roast", "A ploughman's lunch"],
+      "options": [
+        "Fish and chips",
+        "A Sunday roast",
+        "A ploughman's lunch"
+      ],
       "correct": 1,
       "explanation": "Le Sunday roast est LE rituel du dimanche : viande rôtie, Yorkshire pudding, légumes, gravy. À ne pas manquer."
     },
     {
       "question": "Quelqu'un te marche sur le pied dans le métro. Que fais-tu ?",
-      "options": ["Tu le regardes fâché", "Tu dis 'Sorry!' en même temps que lui", "Tu ne dis rien"],
+      "options": [
+        "Tu le regardes fâché",
+        "Tu dis 'Sorry!' en même temps que lui",
+        "Tu ne dis rien"
+      ],
       "correct": 1,
       "explanation": "En Angleterre, les deux personnes disent sorry simultanément — même la victime. C'est le réflexe social britannique."
     },
     {
       "question": "Ton ami dit 'I'm afraid I can't come tonight'. Que veut-il dire ?",
-      "options": ["Il a peur de venir", "Il ne peut pas venir — 'I'm afraid' adoucit le refus", "Il viendra peut-être"],
+      "options": [
+        "Il a peur de venir",
+        "Il ne peut pas venir — 'I'm afraid' adoucit le refus",
+        "Il viendra peut-être"
+      ],
       "correct": 1,
       "explanation": "'I'm afraid' n'a rien à voir avec la peur. C'est un amortisseur de mauvaise nouvelle — il te dit non, poliment."
     },
     {
       "question": "Quelle est la différence entre 'Excuse me' et 'Sorry' ?",
-      "options": ["C'est la même chose", "'Excuse me' = avant de déranger, 'Sorry' = après avoir dérangé", "'Sorry' est plus formel"],
+      "options": [
+        "C'est la même chose",
+        "'Excuse me' = avant de déranger, 'Sorry' = après avoir dérangé",
+        "'Sorry' est plus formel"
+      ],
       "correct": 1,
       "explanation": "Excuse me = je m'apprête à te déranger. Sorry = je viens de te déranger (bousculade, question, etc.)."
     },
     {
       "question": "'Fancy a quick one?' — combien de temps dure vraiment 'a quick one' ?",
-      "options": ["20 minutes", "Exactement une pinte", "3-4 heures — le 'quick' est un mensonge collectif"],
+      "options": [
+        "20 minutes",
+        "Exactement une pinte",
+        "3-4 heures — le 'quick' est un mensonge collectif"
+      ],
       "correct": 2,
       "explanation": "Tout le monde sait que 'a quick one' ne sera jamais rapide. C'est une fiction sociale acceptée."
     },
     {
       "question": "Que signifie 'Right' en début de phrase ?",
-      "options": ["Correct / Vrai", "Un signal de transition — 'Bon, allez'", "À droite"],
+      "options": [
+        "Correct / Vrai",
+        "Un signal de transition — 'Bon, allez'",
+        "À droite"
+      ],
       "correct": 1,
       "explanation": "'Right' en début de phrase = 'bon' ou 'alors'. C'est un signal de transition, souvent avant un départ ou un changement de sujet."
     },
     {
       "question": "Qu'est-ce qu'une 'lager' ?",
-      "options": ["Une bière blonde", "Une bière brune", "Un cocktail"],
+      "options": [
+        "Une bière blonde",
+        "Une bière brune",
+        "Un cocktail"
+      ],
       "correct": 0,
       "explanation": "Lager = bière blonde. Ale = ambrée. Bitter = bière amère. Stout = bière noire (type Guinness)."
     },
     {
       "question": "Qu'est-ce que 'mushy peas' ?",
-      "options": ["Des petits pois écrasés", "Des champignons", "Une purée de pommes de terre"],
+      "options": [
+        "Des petits pois écrasés",
+        "Des champignons",
+        "Une purée de pommes de terre"
+      ],
       "correct": 0,
       "explanation": "Mushy peas = purée de petits pois. C'est l'accompagnement classique du fish & chips en Angleterre."
     },
     {
       "question": "Que signifie 'Lovely!' quand le barman le dit après ta commande ?",
-      "options": ["Il te trouve beau", "Super / Parfait / C'est noté", "Il n'a pas compris"],
+      "options": [
+        "Il te trouve beau",
+        "Super / Parfait / C'est noté",
+        "Il n'a pas compris"
+      ],
       "correct": 1,
       "explanation": "'Lovely' est un mot d'approbation générale. C'est aussi polyvalent que 'cheers' — ça peut vouloir dire OK, super, parfait."
     },
     {
       "question": "'Last orders!' est annoncé à quel moment ?",
-      "options": ["À l'ouverture", "Environ 20 min avant la fermeture", "À midi"],
+      "options": [
+        "À l'ouverture",
+        "Environ 20 min avant la fermeture",
+        "À midi"
+      ],
       "correct": 1,
       "explanation": "'Last orders!' = dernières commandes ! Annoncé ~20 min avant la fermeture, souvent vers 22h40 pour une fermeture à 23h."
     },
     {
       "question": "Que veut dire 'quid' ?",
-      "options": ["Argot pour 'pound' (livre sterling)", "Un cocktail", "Une plaisanterie"],
+      "options": [
+        "Argot pour 'pound' (livre sterling)",
+        "Un cocktail",
+        "Une plaisanterie"
+      ],
       "correct": 0,
       "explanation": "'Quid' = livre sterling en argot. Comme 'balle' pour euro en français. 'Five quid' = 5 livres."
     },
     {
       "question": "Un collègue te dit 'I'd better head off'. Que va-t-il faire ?",
-      "options": ["Il change de sujet", "Il va partir — c'est la phrase de départ classique", "Il commande une autre pinte"],
+      "options": [
+        "Il change de sujet",
+        "Il va partir — c'est la phrase de départ classique",
+        "Il commande une autre pinte"
+      ],
       "correct": 1,
       "explanation": "'I'd better head off' = 'je ferais mieux d'y aller'. C'est LA phrase de départ typique au pub. Prépare-toi à dire 'Cheers, mate!'."
     }

@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 12,
+  "title": "Quiz final — Imprévus & départ",
+  "color": "#C86E46",
+  "nextEscaleSlug": "",
+  "questions": [
+    {
+      "question": "'분실물' :",
+      "options": [
+        "Objet cher",
+        "Objet perdu",
+        "Objet cassé"
+      ],
+      "correct": 1,
+      "explanation": "= objet perdu."
+    },
+    {
+      "question": "« J'ai perdu mon téléphone » :",
+      "options": [
+        "샀어요",
+        "잃어버렸어요",
+        "있어요"
+      ],
+      "correct": 1,
+      "explanation": "잃어버리다."
+    },
+    {
+      "question": "'어떻게 생겼어요?' :",
+      "options": [
+        "Où ?",
+        "À quoi ça ressemble ?",
+        "Combien ?"
+      ],
+      "correct": 1,
+      "explanation": "Décrire."
+    },
+    {
+      "question": "'검은색' :",
+      "options": [
+        "Bleu",
+        "Noir",
+        "Rouge"
+      ],
+      "correct": 1,
+      "explanation": "= noir."
+    },
+    {
+      "question": "Interpeller poliment :",
+      "options": [
+        "야!",
+        "저기요",
+        "안녕"
+      ],
+      "correct": 1,
+      "explanation": "저기요."
+    },
+    {
+      "question": "'바꿔 주실 수 있어요?' :",
+      "options": [
+        "Vous partez ?",
+        "Pourriez-vous changer ?",
+        "Cassé ?"
+      ],
+      "correct": 1,
+      "explanation": "Solution."
+    },
+    {
+      "question": "'환불해 주세요' :",
+      "options": [
+        "Reçu",
+        "Remboursez-moi",
+        "Chambre"
+      ],
+      "correct": 1,
+      "explanation": "환불 = remboursement."
+    },
+    {
+      "question": "'문제가 있어요' :",
+      "options": [
+        "Tout va bien",
+        "Il y a un problème",
+        "C'est fini"
+      ],
+      "correct": 1,
+      "explanation": "Signaler un souci."
+    },
+    {
+      "question": "'우표' :",
+      "options": [
+        "Colis",
+        "Timbre",
+        "Carte"
+      ],
+      "correct": 1,
+      "explanation": "= timbre."
+    },
+    {
+      "question": "'환전' :",
+      "options": [
+        "Change de devises",
+        "Frais",
+        "Reçu"
+      ],
+      "correct": 0,
+      "explanation": "= change."
+    },
+    {
+      "question": "'소포' :",
+      "options": [
+        "Lettre",
+        "Colis",
+        "Timbre"
+      ],
+      "correct": 1,
+      "explanation": "= colis."
+    },
+    {
+      "question": "'돈을 찾다' :",
+      "options": [
+        "Déposer",
+        "Retirer de l'argent",
+        "Envoyer"
+      ],
+      "correct": 1,
+      "explanation": "Retirer."
+    },
+    {
+      "question": "Futur de '가다' :",
+      "options": [
+        "가요",
+        "갔어요",
+        "갈 거예요"
+      ],
+      "correct": 2,
+      "explanation": "갈 거예요."
+    },
+    {
+      "question": "« Je reviendrai » :",
+      "options": [
+        "다시 와요",
+        "다시 올 거예요",
+        "다시 왔어요"
+      ],
+      "correct": 1,
+      "explanation": "올 거예요."
+    },
+    {
+      "question": "'~ㄹ 거예요' :",
+      "options": [
+        "Passé",
+        "Futur",
+        "Obligation"
+      ],
+      "correct": 1,
+      "explanation": "Futur."
+    },
+    {
+      "question": "'꼭' :",
+      "options": [
+        "Peut-être",
+        "Sûrement",
+        "Jamais"
+      ],
+      "correct": 1,
+      "explanation": "= absolument."
+    },
+    {
+      "question": "Au revoir à qui PART :",
+      "options": [
+        "안녕히 계세요",
+        "안녕히 가세요",
+        "안녕하세요"
+      ],
+      "correct": 1,
+      "explanation": "가세요."
+    },
+    {
+      "question": "Au revoir à qui RESTE :",
+      "options": [
+        "안녕히 계세요",
+        "안녕히 가세요",
+        "잘 가요"
+      ],
+      "correct": 0,
+      "explanation": "계세요."
+    },
+    {
+      "question": "'보고 싶을 거예요' :",
+      "options": [
+        "Je te vois",
+        "Tu vas me manquer",
+        "Je pars"
+      ],
+      "correct": 1,
+      "explanation": "보고 싶다."
+    },
+    {
+      "question": "'또 만나요' :",
+      "options": [
+        "Adieu définitif",
+        "On se reverra",
+        "Merci"
+      ],
+      "correct": 1,
+      "explanation": "Se revoir."
+    }
+  ]
+}

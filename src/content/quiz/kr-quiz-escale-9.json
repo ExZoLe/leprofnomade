@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 9,
+  "title": "Quiz final — Santé & urgences",
+  "color": "#C86E46",
+  "nextEscaleSlug": "kr-escale-10-lecon-1",
+  "questions": [
+    {
+      "question": "Le '약국' :",
+      "options": [
+        "Médecin",
+        "Pharmacie",
+        "Hôpital"
+      ],
+      "correct": 1,
+      "explanation": "약국 = pharmacie."
+    },
+    {
+      "question": "'감기' :",
+      "options": [
+        "Fièvre",
+        "Rhume",
+        "Toux"
+      ],
+      "correct": 1,
+      "explanation": "= rhume."
+    },
+    {
+      "question": "'진통제' :",
+      "options": [
+        "Vitamine",
+        "Antidouleur",
+        "Pansement"
+      ],
+      "correct": 1,
+      "explanation": "= antidouleur."
+    },
+    {
+      "question": "« Médicament pour... ? »",
+      "options": [
+        "어디예요?",
+        "~에 좋은 약 있어요?",
+        "얼마예요?"
+      ],
+      "correct": 1,
+      "explanation": "Formule pharmacie."
+    },
+    {
+      "question": "« J'ai mal à la gorge » :",
+      "options": [
+        "배가 아파요",
+        "목이 아파요",
+        "머리가 아파요"
+      ],
+      "correct": 1,
+      "explanation": "목 = gorge."
+    },
+    {
+      "question": "'열이 나요' :",
+      "options": [
+        "J'ai froid",
+        "J'ai de la fièvre",
+        "J'ai faim"
+      ],
+      "correct": 1,
+      "explanation": "열 = fièvre."
+    },
+    {
+      "question": "'병원' :",
+      "options": [
+        "Pharmacie",
+        "Clinique/hôpital",
+        "Restaurant"
+      ],
+      "correct": 1,
+      "explanation": "= hôpital/clinique."
+    },
+    {
+      "question": "'어지러워요' :",
+      "options": [
+        "J'ai faim",
+        "La tête tourne",
+        "J'ai chaud"
+      ],
+      "correct": 1,
+      "explanation": "Vertige."
+    },
+    {
+      "question": "'이틀 됐어요' :",
+      "options": [
+        "Dans 2 jours",
+        "Ça fait 2 jours",
+        "2 jours pile"
+      ],
+      "correct": 1,
+      "explanation": "Durée écoulée."
+    },
+    {
+      "question": "Urgences médicales :",
+      "options": [
+        "112",
+        "119",
+        "911"
+      ],
+      "correct": 1,
+      "explanation": "119 (112 = police)."
+    },
+    {
+      "question": "'쓰러졌어요' :",
+      "options": [
+        "Il dort",
+        "Il s'est effondré",
+        "Il court"
+      ],
+      "correct": 1,
+      "explanation": "쓰러지다."
+    },
+    {
+      "question": "'도와주세요' :",
+      "options": [
+        "Merci",
+        "À l'aide",
+        "Au revoir"
+      ],
+      "correct": 1,
+      "explanation": "Appel au secours."
+    },
+    {
+      "question": "'응급상황' :",
+      "options": [
+        "Vacances",
+        "Urgence",
+        "Repas"
+      ],
+      "correct": 1,
+      "explanation": "= situation d'urgence."
+    },
+    {
+      "question": "'~아야/어야 해요' :",
+      "options": [
+        "Permission",
+        "Obligation",
+        "Passé"
+      ],
+      "correct": 1,
+      "explanation": "Devoir."
+    },
+    {
+      "question": "« Puis-je boire ? » :",
+      "options": [
+        "마셔야 해요",
+        "마셔도 돼요?",
+        "마시면 안 돼요"
+      ],
+      "correct": 1,
+      "explanation": "Permission."
+    },
+    {
+      "question": "'~면 안 돼요' :",
+      "options": [
+        "Il faut",
+        "Il ne faut pas",
+        "On peut"
+      ],
+      "correct": 1,
+      "explanation": "Interdiction."
+    },
+    {
+      "question": "'괜찮아요' :",
+      "options": [
+        "Ça va pas",
+        "Ça va",
+        "J'ai mal"
+      ],
+      "correct": 1,
+      "explanation": "Aller bien."
+    },
+    {
+      "question": "'몸조리 잘하세요' :",
+      "options": [
+        "Bon appétit",
+        "Prends soin de ta santé",
+        "Bon voyage"
+      ],
+      "correct": 1,
+      "explanation": "Rétablissement."
+    },
+    {
+      "question": "'다행이에요' :",
+      "options": [
+        "Dommage",
+        "Tant mieux",
+        "Au revoir"
+      ],
+      "correct": 1,
+      "explanation": "Soulagement."
+    },
+    {
+      "question": "'휴식' :",
+      "options": [
+        "Le travail",
+        "Le repos",
+        "Le repas"
+      ],
+      "correct": 1,
+      "explanation": "= repos."
+    }
+  ]
+}

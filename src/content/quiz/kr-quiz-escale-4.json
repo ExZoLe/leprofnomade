@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 4,
+  "title": "Quiz final — Se déplacer à Séoul",
+  "color": "#C86E46",
+  "nextEscaleSlug": "kr-escale-5-lecon-1",
+  "questions": [
+    {
+      "question": "'지하철' signifie :",
+      "options": [
+        "Bus",
+        "Métro",
+        "Taxi"
+      ],
+      "correct": 1,
+      "explanation": "지하철 (jihacheol) = métro. Littéralement 'chemin de fer souterrain'."
+    },
+    {
+      "question": "La T-money (티머니) sert à :",
+      "options": [
+        "Payer les transports",
+        "Acheter à manger seulement",
+        "Entrer au musée"
+      ],
+      "correct": 0,
+      "explanation": "La T-money est la carte rechargeable pour métro, bus et même taxis."
+    },
+    {
+      "question": "'어디에 있어요?' signifie :",
+      "options": [
+        "C'est combien ?",
+        "Où est-ce ?",
+        "Quelle heure ?"
+      ],
+      "correct": 1,
+      "explanation": "어디 = où, 있어요 = se trouve. 'Où est-ce ?'"
+    },
+    {
+      "question": "Comment dit-on 'à gauche' ?",
+      "options": [
+        "왼쪽",
+        "오른쪽",
+        "직진"
+      ],
+      "correct": 0,
+      "explanation": "왼쪽 = gauche, 오른쪽 = droite, 직진 = tout droit."
+    },
+    {
+      "question": "'오른쪽' signifie :",
+      "options": [
+        "Gauche",
+        "Droite",
+        "Derrière"
+      ],
+      "correct": 1,
+      "explanation": "오른쪽 (oreunjjok) = à droite."
+    },
+    {
+      "question": "'직진' signifie :",
+      "options": [
+        "Demi-tour",
+        "Tout droit",
+        "S'arrêter"
+      ],
+      "correct": 1,
+      "explanation": "직진 (jikjin) = tout droit / continuer."
+    },
+    {
+      "question": "Pour héler un taxi, l'app la plus utilisée en Corée est :",
+      "options": [
+        "Uber",
+        "Kakao T",
+        "Grab"
+      ],
+      "correct": 1,
+      "explanation": "Kakao T domine en Corée ; Uber y est très marginal."
+    },
+    {
+      "question": "'이 주소로 가주세요' signifie :",
+      "options": [
+        "Allez à cette adresse SVP",
+        "Où est cette adresse ?",
+        "Cette adresse est loin ?"
+      ],
+      "correct": 0,
+      "explanation": "주소 = adresse, 가주세요 = allez-y SVP. Utile pour montrer l'adresse au chauffeur."
+    },
+    {
+      "question": "'세워 주세요' demande au chauffeur de :",
+      "options": [
+        "Accélérer",
+        "S'arrêter / se garer",
+        "Faire demi-tour"
+      ],
+      "correct": 1,
+      "explanation": "세우다 = arrêter (un véhicule). 'Arrêtez-vous ici SVP'."
+    },
+    {
+      "question": "'버스' signifie :",
+      "options": [
+        "Bus",
+        "Vélo",
+        "Bateau"
+      ],
+      "correct": 0,
+      "explanation": "버스 (beoseu) = bus, mot emprunté à l'anglais."
+    },
+    {
+      "question": "À quelle porte descendre du bus se dit avec :",
+      "options": [
+        "내려요",
+        "올라요",
+        "앉아요"
+      ],
+      "correct": 0,
+      "explanation": "내리다 = descendre. 내려요 = je descends."
+    },
+    {
+      "question": "'환승' signifie :",
+      "options": [
+        "Terminus",
+        "Correspondance",
+        "Aller simple"
+      ],
+      "correct": 1,
+      "explanation": "환승 (hwanseung) = correspondance / changement de ligne."
+    },
+    {
+      "question": "'몇 번 출구예요?' demande :",
+      "options": [
+        "Quel quai ?",
+        "Quelle sortie (numéro) ?",
+        "Quelle ligne ?"
+      ],
+      "correct": 1,
+      "explanation": "몇 번 = quel numéro, 출구 = sortie. Les sorties de métro sont numérotées à Séoul."
+    },
+    {
+      "question": "Le verbe coréen se place :",
+      "options": [
+        "Au début de la phrase",
+        "À la fin de la phrase",
+        "Au milieu"
+      ],
+      "correct": 1,
+      "explanation": "Le coréen est SOV : le verbe vient toujours en fin de phrase."
+    },
+    {
+      "question": "'여기서 내려요' signifie :",
+      "options": [
+        "Je monte ici",
+        "Je descends ici",
+        "J'attends ici"
+      ],
+      "correct": 1,
+      "explanation": "여기서 = ici, 내려요 = je descends."
+    },
+    {
+      "question": "'갈아타세요' signifie :",
+      "options": [
+        "Descendez ici",
+        "Changez de ligne (correspondance)",
+        "Attendez"
+      ],
+      "correct": 1,
+      "explanation": "갈아타다 = changer de moyen de transport. Annonce fréquente dans le métro."
+    },
+    {
+      "question": "'빨리' signifie :",
+      "options": [
+        "Lentement",
+        "Vite",
+        "Doucement"
+      ],
+      "correct": 1,
+      "explanation": "빨리 (ppalli) = vite. Un mot qu'on entend beaucoup en Corée !"
+    },
+    {
+      "question": "'천천히' signifie :",
+      "options": [
+        "Vite",
+        "Lentement",
+        "Bientôt"
+      ],
+      "correct": 1,
+      "explanation": "천천히 (cheoncheonhi) = lentement, doucement."
+    },
+    {
+      "question": "Les portes de quai du métro de Séoul sont :",
+      "options": [
+        "Inexistantes",
+        "Vitrées et sécurisées",
+        "Manuelles"
+      ],
+      "correct": 1,
+      "explanation": "Le métro de Séoul a des portes palières vitrées sur la plupart des lignes."
+    },
+    {
+      "question": "'다음 역' signifie :",
+      "options": [
+        "Station précédente",
+        "Prochaine station",
+        "Terminus"
+      ],
+      "correct": 1,
+      "explanation": "다음 = prochain, 역 = station. 'Prochaine station'."
+    }
+  ]
+}

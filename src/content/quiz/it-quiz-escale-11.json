@@ -1,0 +1,209 @@
+{
+  "lang": "italien",
+  "escale": 11,
+  "title": "Quiz final — Rencontres & vie sociale",
+  "color": "#6B7B3E",
+  "nextEscaleSlug": "it-escale-12-lecon-1",
+  "questions": [
+    {
+      "question": "'Di dove sei?' :",
+      "options": [
+        "Où vas-tu ?",
+        "D'où viens-tu ?",
+        "Que fais-tu ?"
+      ],
+      "correct": 1,
+      "explanation": "L'origine."
+    },
+    {
+      "question": "'Anch'io!' :",
+      "options": [
+        "Moi non",
+        "Moi aussi",
+        "Encore"
+      ],
+      "correct": 1,
+      "explanation": "Point commun."
+    },
+    {
+      "question": "'Davvero?!' :",
+      "options": [
+        "Au revoir",
+        "Vraiment ?!",
+        "Doucement"
+      ],
+      "correct": 1,
+      "explanation": "Surprise."
+    },
+    {
+      "question": "'E tu?' :",
+      "options": [
+        "Adieu",
+        "Et toi ?",
+        "Assez"
+      ],
+      "correct": 1,
+      "explanation": "Relancer."
+    },
+    {
+      "question": "« J'aime voyager » :",
+      "options": [
+        "Mi piace viaggiare",
+        "Mi piacciono viaggiare",
+        "Amo viaggio"
+      ],
+      "correct": 0,
+      "explanation": "Mi piace + infinitif."
+    },
+    {
+      "question": "Avec un pluriel :",
+      "options": [
+        "Mi piace",
+        "Mi piacciono",
+        "Mi piaci"
+      ],
+      "correct": 1,
+      "explanation": "Mi piacciono i libri."
+    },
+    {
+      "question": "'Adoro' :",
+      "options": [
+        "Je déteste",
+        "J'adore",
+        "Je peux"
+      ],
+      "correct": 1,
+      "explanation": "Adorare."
+    },
+    {
+      "question": "'Non mi piace molto' :",
+      "options": [
+        "J'adore",
+        "Je n'aime pas trop",
+        "À moi"
+      ],
+      "correct": 1,
+      "explanation": "Peu aimer."
+    },
+    {
+      "question": "'Secondo me' :",
+      "options": [
+        "Deuxièmement",
+        "Selon moi",
+        "Après"
+      ],
+      "correct": 1,
+      "explanation": "Opinion."
+    },
+    {
+      "question": "'Capisco, però...' :",
+      "options": [
+        "Accord total",
+        "Désaccord courtois",
+        "Insulte"
+      ],
+      "correct": 1,
+      "explanation": "Nuancer."
+    },
+    {
+      "question": "'Gusti sono gusti' :",
+      "options": [
+        "Pareils",
+        "Chacun ses goûts",
+        "Tu as tort"
+      ],
+      "correct": 1,
+      "explanation": "Respect."
+    },
+    {
+      "question": "'A dire il vero' :",
+      "options": [
+        "Je mens",
+        "À vrai dire",
+        "Au revoir"
+      ],
+      "correct": 1,
+      "explanation": "Franchise."
+    },
+    {
+      "question": "L'imperfetto exprime :",
+      "options": [
+        "Action unique",
+        "Habitude passée",
+        "Futur"
+      ],
+      "correct": 1,
+      "explanation": "Ce qu'on faisait."
+    },
+    {
+      "question": "'Andavo' :",
+      "options": [
+        "Je suis allé",
+        "J'allais",
+        "J'irai"
+      ],
+      "correct": 1,
+      "explanation": "Habitude."
+    },
+    {
+      "question": "'Da bambino' :",
+      "options": [
+        "Demain",
+        "Enfant (passé)",
+        "Vite"
+      ],
+      "correct": 1,
+      "explanation": "Quand j'étais petit."
+    },
+    {
+      "question": "'Ero' :",
+      "options": [
+        "Je serai",
+        "J'étais",
+        "Je suis"
+      ],
+      "correct": 1,
+      "explanation": "Imparfait d'essere."
+    },
+    {
+      "question": "'Restiamo in contatto' :",
+      "options": [
+        "Adieu",
+        "Restons en contact",
+        "Pars"
+      ],
+      "correct": 1,
+      "explanation": "Garder le lien."
+    },
+    {
+      "question": "'Ti seguo' :",
+      "options": [
+        "Je te fuis",
+        "Je te suis",
+        "Je te vois"
+      ],
+      "correct": 1,
+      "explanation": "Réseaux."
+    },
+    {
+      "question": "'Fatti sentire' :",
+      "options": [
+        "Tais-toi",
+        "Fais signe",
+        "Écoute"
+      ],
+      "correct": 1,
+      "explanation": "Donner des nouvelles."
+    },
+    {
+      "question": "'Stammi bene!' :",
+      "options": [
+        "Danger",
+        "Prends soin de toi",
+        "Vite"
+      ],
+      "correct": 1,
+      "explanation": "Adieu bienveillant."
+    }
+  ]
+}

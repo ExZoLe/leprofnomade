@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 7,
+  "title": "Quiz final — Le restaurant coréen",
+  "color": "#C86E46",
+  "nextEscaleSlug": "kr-escale-8-lecon-1",
+  "questions": [
+    {
+      "question": "'여기요!' sert à :",
+      "options": [
+        "Dire merci",
+        "Appeler le serveur",
+        "Payer"
+      ],
+      "correct": 1,
+      "explanation": "여기요 = 'ici !' pour héler le personnel, tout à fait normal en Corée."
+    },
+    {
+      "question": "'메뉴 주세요' signifie :",
+      "options": [
+        "L'addition SVP",
+        "Le menu SVP",
+        "De l'eau SVP"
+      ],
+      "correct": 1,
+      "explanation": "메뉴 = menu, 주세요 = donnez SVP."
+    },
+    {
+      "question": "'비빔밥' est :",
+      "options": [
+        "Un riz mélangé aux légumes",
+        "Une soupe froide",
+        "Un dessert"
+      ],
+      "correct": 0,
+      "explanation": "비빔밥 (bibimbap) = riz mélangé avec légumes, œuf et gochujang."
+    },
+    {
+      "question": "'불고기' est :",
+      "options": [
+        "Du poisson cru",
+        "Du bœuf mariné grillé",
+        "Une soupe piquante"
+      ],
+      "correct": 1,
+      "explanation": "불고기 (bulgogi) = bœuf mariné, doux et sucré-salé."
+    },
+    {
+      "question": "Les 반찬 (banchan) sont :",
+      "options": [
+        "Les desserts",
+        "Les petits accompagnements gratuits",
+        "Les boissons"
+      ],
+      "correct": 1,
+      "explanation": "Les banchan (kimchi, etc.) sont servis gratuitement et resservis."
+    },
+    {
+      "question": "Qui sert à boire en premier, selon l'étiquette ?",
+      "options": [
+        "Le plus jeune sert l'aîné",
+        "L'aîné se sert seul",
+        "Chacun pour soi"
+      ],
+      "correct": 0,
+      "explanation": "Le plus jeune sert l'aîné, souvent à deux mains, par respect."
+    },
+    {
+      "question": "Recevoir un verre d'un aîné se fait :",
+      "options": [
+        "D'une main",
+        "À deux mains",
+        "Sans regarder"
+      ],
+      "correct": 1,
+      "explanation": "On tient son verre à deux mains quand un aîné vous sert, par politesse."
+    },
+    {
+      "question": "'계산서 주세요' signifie :",
+      "options": [
+        "Le menu SVP",
+        "L'addition SVP",
+        "Encore de l'eau"
+      ],
+      "correct": 1,
+      "explanation": "계산서 = addition. Souvent on paie à la caisse en sortant."
+    },
+    {
+      "question": "'짜요' signifie :",
+      "options": [
+        "C'est sucré",
+        "C'est salé",
+        "C'est amer"
+      ],
+      "correct": 1,
+      "explanation": "짜다 → 짜요 = c'est salé. Avec 매워요 (piquant) et 달아요 (sucré), le trio des saveurs."
+    },
+    {
+      "question": "'잘 먹겠습니다' se dit :",
+      "options": [
+        "Après le repas",
+        "Avant de commencer à manger",
+        "En payant"
+      ],
+      "correct": 1,
+      "explanation": "'Je vais bien manger', dit avant le repas (équivalent du 'itadakimasu')."
+    },
+    {
+      "question": "'잘 먹었습니다' se dit :",
+      "options": [
+        "Avant le repas",
+        "Après le repas (merci c'était bon)",
+        "En commandant"
+      ],
+      "correct": 1,
+      "explanation": "'J'ai bien mangé', formule de remerciement après le repas."
+    },
+    {
+      "question": "Les particules 에/에서 indiquent :",
+      "options": [
+        "L'objet",
+        "Le lieu (où / d'où)",
+        "Le temps seulement"
+      ],
+      "correct": 1,
+      "explanation": "에 = destination/lieu statique, 에서 = lieu d'une action / origine."
+    },
+    {
+      "question": "Dans '식당에서 먹어요', 에서 indique :",
+      "options": [
+        "La destination",
+        "Le lieu de l'action (manger au resto)",
+        "Le COD"
+      ],
+      "correct": 1,
+      "explanation": "에서 marque le lieu où se déroule l'action : manger AU restaurant."
+    },
+    {
+      "question": "'김치찌개' est :",
+      "options": [
+        "Un ragoût de kimchi",
+        "Une salade",
+        "Un thé"
+      ],
+      "correct": 0,
+      "explanation": "김치찌개 (kimchi jjigae) = ragoût mijoté au kimchi, piquant et réconfortant."
+    },
+    {
+      "question": "'물 좀 주세요' signifie :",
+      "options": [
+        "De l'eau SVP",
+        "L'addition SVP",
+        "Un menu SVP"
+      ],
+      "correct": 0,
+      "explanation": "물 = eau. L'eau est presque toujours gratuite et en libre-service."
+    },
+    {
+      "question": "'매워요' signifie :",
+      "options": [
+        "C'est sucré",
+        "C'est piquant",
+        "C'est salé"
+      ],
+      "correct": 1,
+      "explanation": "맵다 → 매워요 = c'est épicé/piquant. Très utile en Corée !"
+    },
+    {
+      "question": "'안 매운 거 있어요?' demande :",
+      "options": [
+        "Y a-t-il un plat non piquant ?",
+        "C'est trop cher ?",
+        "C'est prêt ?"
+      ],
+      "correct": 0,
+      "explanation": "안 매운 = pas épicé. 'Avez-vous quelque chose de non piquant ?'"
+    },
+    {
+      "question": "'젓가락' signifie :",
+      "options": [
+        "Cuillère",
+        "Baguettes",
+        "Fourchette"
+      ],
+      "correct": 1,
+      "explanation": "젓가락 = baguettes (souvent métalliques en Corée). 숟가락 = cuillère."
+    },
+    {
+      "question": "'포장돼요?' demande si :",
+      "options": [
+        "C'est piquant",
+        "C'est à emporter possible",
+        "C'est ouvert"
+      ],
+      "correct": 1,
+      "explanation": "포장 = emballage à emporter. 'Est-ce possible à emporter ?'"
+    },
+    {
+      "question": "'한 명 더 와요' signifie :",
+      "options": [
+        "Une personne de plus arrive",
+        "On part",
+        "On paie séparément"
+      ],
+      "correct": 0,
+      "explanation": "한 명 더 = une personne de plus. Utile pour prévenir le resto."
+    }
+  ]
+}

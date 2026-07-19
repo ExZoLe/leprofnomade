@@ -2,7 +2,7 @@
   "lang": "anglais",
   "escale": 5,
   "title": "Quiz final — Accommodation",
-  "color": "#1B4965",
+  "color": "#D6A23D",
   "nextEscaleSlug": "en-escale-6-lecon-1",
   "questions": [
     {
@@ -96,7 +96,7 @@
       "explanation": "Les Britanniques boivent leur thé avec du lait. Toujours."
     },
     {
-      "question": "Which is correct?",
+      "question": "Countable ou uncountable — quelle phrase est correcte ?",
       "options": [
         "I need an information",
         "I need some information",
@@ -116,7 +116,7 @@
       "explanation": "How much = uncountable (water, money). How many = countable (apples)."
     },
     {
-      "question": "Which is correct?",
+      "question": "Singulier ou pluriel — quelle phrase est correcte ?",
       "options": [
         "Too much biscuits",
         "Too many biscuits",

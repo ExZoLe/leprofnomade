@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 12,
+  "title": "Quiz final — Imprévus & départ",
+  "color": "#D6A23D",
+  "nextEscaleSlug": "",
+  "questions": [
+    {
+      "question": "'Lost property' :",
+      "options": [
+        "Propriété privée",
+        "Objets trouvés",
+        "Perte"
+      ],
+      "correct": 1,
+      "explanation": "Service des objets trouvés."
+    },
+    {
+      "question": "« J'ai perdu mon téléphone » :",
+      "options": [
+        "I lose",
+        "I've lost my phone",
+        "I losing"
+      ],
+      "correct": 1,
+      "explanation": "Present perfect."
+    },
+    {
+      "question": "'Hand it in' :",
+      "options": [
+        "Le voler",
+        "Le rapporter",
+        "Le casser"
+      ],
+      "correct": 1,
+      "explanation": "Remettre/rapporter."
+    },
+    {
+      "question": "Décrire un objet :",
+      "options": [
+        "It's black, small",
+        "Où es-tu ?",
+        "Combien ?"
+      ],
+      "correct": 0,
+      "explanation": "Couleur, taille..."
+    },
+    {
+      "question": "Plainte britannique commence par :",
+      "options": [
+        "You're terrible",
+        "I'm sorry to bother you, but...",
+        "Money now"
+      ],
+      "correct": 1,
+      "explanation": "Politesse d'abord."
+    },
+    {
+      "question": "'Sort it out' :",
+      "options": [
+        "Trier",
+        "Régler",
+        "Sortir"
+      ],
+      "correct": 1,
+      "explanation": "Résoudre."
+    },
+    {
+      "question": "'I'd like a refund' :",
+      "options": [
+        "Reçu",
+        "Remboursement",
+        "Chambre"
+      ],
+      "correct": 1,
+      "explanation": "Refund."
+    },
+    {
+      "question": "'Can I speak to the manager?' :",
+      "options": [
+        "Appeler la police",
+        "Parler au responsable",
+        "Partir"
+      ],
+      "correct": 1,
+      "explanation": "Escalader poliment."
+    },
+    {
+      "question": "'A stamp' :",
+      "options": [
+        "Tampon",
+        "Timbre",
+        "Colis"
+      ],
+      "correct": 1,
+      "explanation": "Pour le courrier."
+    },
+    {
+      "question": "'Exchange rate' :",
+      "options": [
+        "Taux de change",
+        "Frais",
+        "Reçu"
+      ],
+      "correct": 0,
+      "explanation": "Cours des devises."
+    },
+    {
+      "question": "'First class' courrier :",
+      "options": [
+        "Luxe",
+        "Rapide",
+        "Gratuit"
+      ],
+      "correct": 1,
+      "explanation": "Plus rapide."
+    },
+    {
+      "question": "'A parcel' :",
+      "options": [
+        "Une lettre",
+        "Un colis",
+        "Un timbre"
+      ],
+      "correct": 1,
+      "explanation": "Un paquet."
+    },
+    {
+      "question": "'I'll come back' :",
+      "options": [
+        "Passé",
+        "Futur",
+        "Obligation"
+      ],
+      "correct": 1,
+      "explanation": "will = futur."
+    },
+    {
+      "question": "'won't' :",
+      "options": [
+        "want",
+        "will not",
+        "would"
+      ],
+      "correct": 1,
+      "explanation": "will not."
+    },
+    {
+      "question": "Décision spontanée :",
+      "options": [
+        "going to",
+        "will",
+        "must"
+      ],
+      "correct": 1,
+      "explanation": "I'll get it !"
+    },
+    {
+      "question": "'I'll miss you' :",
+      "options": [
+        "Je te rate",
+        "Tu vas me manquer",
+        "Je pars"
+      ],
+      "correct": 1,
+      "explanation": "Manquer à quelqu'un."
+    },
+    {
+      "question": "'Safe travels' :",
+      "options": [
+        "Bon voyage",
+        "Reste",
+        "Danger"
+      ],
+      "correct": 0,
+      "explanation": "Souhait de voyage."
+    },
+    {
+      "question": "'Take care' :",
+      "options": [
+        "Danger",
+        "Prends soin de toi",
+        "Vite"
+      ],
+      "correct": 1,
+      "explanation": "Adieu bienveillant."
+    },
+    {
+      "question": "'It's been a pleasure' :",
+      "options": [
+        "C'était nul",
+        "Ce fut un plaisir",
+        "À demain"
+      ],
+      "correct": 1,
+      "explanation": "Adieu poli."
+    },
+    {
+      "question": "'This isn't goodbye' :",
+      "options": [
+        "Adieu définitif",
+        "On se reverra",
+        "Pars"
+      ],
+      "correct": 1,
+      "explanation": "Se reverra."
+    }
+  ]
+}

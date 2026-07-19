@@ -2,126 +2,206 @@
   "lang": "italien",
   "escale": 1,
   "title": "Quiz final — Manger comme un local",
-  "color": "#E63946",
+  "color": "#6B7B3E",
   "nextEscaleSlug": "it-escale-2-lecon-1",
   "questions": [
     {
       "question": "Tu entres dans un bar à Rome. Tu veux payer moins cher ton café. Où te places-tu ?",
-      "options": ["Al tavolo (à table)", "Al banco (au comptoir)", "Fuori (dehors en terrasse)"],
+      "options": [
+        "Al tavolo (à table)",
+        "Al banco (au comptoir)",
+        "Fuori (dehors en terrasse)"
+      ],
       "correct": 1,
       "explanation": "Au comptoir ! Le prix du café est réglementé au comptoir. À table, le prix double ou triple."
     },
     {
       "question": "Tu veux un espresso classique. Que demandes-tu ?",
-      "options": ["Un espresso, per favore", "Un caffè, per favore", "Un caffè americano"],
+      "options": [
+        "Un espresso, per favore",
+        "Un caffè, per favore",
+        "Un caffè americano"
+      ],
       "correct": 1,
       "explanation": "En Italie, 'un caffè' = un espresso. Le mot 'espresso' n'est presque jamais utilisé par les Italiens."
     },
     {
       "question": "Tu demandes 'un latte' au barista. Que va-t-il te servir ?",
-      "options": ["Un café au lait", "Un verre de lait", "Un cappuccino"],
+      "options": [
+        "Un café au lait",
+        "Un verre de lait",
+        "Un cappuccino"
+      ],
       "correct": 1,
       "explanation": "'Latte' signifie simplement 'lait'. Pour un café au lait, demande 'caffè latte' ou 'latte macchiato'."
     },
     {
       "question": "Que signifie littéralement 'al banco' ?",
-      "options": ["À la banque", "Au comptoir", "Au bar"],
+      "options": [
+        "À la banque",
+        "Au comptoir",
+        "Au bar"
+      ],
       "correct": 1,
       "explanation": "'Al banco' = au comptoir. C'est la contraction de 'a' (à) + 'il' (le) + 'banco' (comptoir)."
     },
     {
       "question": "Que veut dire 'Ecco' ?",
-      "options": ["Écoute", "Voici / Voilà", "Encore"],
+      "options": [
+        "Écoute",
+        "Voici / Voilà",
+        "Encore"
+      ],
       "correct": 1,
       "explanation": "'Ecco' est le couteau suisse italien : voici, voilà, tiens. Les Italiens l'utilisent constamment."
     },
     {
       "question": "Dans un menu italien, où sont les pâtes ?",
-      "options": ["Antipasti", "Primi", "Secondi"],
+      "options": [
+        "Antipasti",
+        "Primi",
+        "Secondi"
+      ],
       "correct": 1,
       "explanation": "Les 'primi' (premiers plats) = pâtes, risottos, soupes. Les 'secondi' sont les viandes et poissons."
     },
     {
       "question": "Que sont les 'contorni' ?",
-      "options": ["Les desserts", "Les accompagnements (légumes, salade)", "Les entrées"],
+      "options": [
+        "Les desserts",
+        "Les accompagnements (légumes, salade)",
+        "Les entrées"
+      ],
       "correct": 1,
       "explanation": "Les contorni sont les accompagnements — commandés SÉPARÉMENT. Ton plat de viande arrive seul."
     },
     {
       "question": "Comment commander en italien de façon naturelle ?",
-      "options": ["Vorrei una pizza", "Prendo una pizza", "Les deux sont corrects"],
+      "options": [
+        "Vorrei una pizza",
+        "Prendo una pizza",
+        "Les deux sont corrects"
+      ],
       "correct": 2,
       "explanation": "Les deux marchent parfaitement. 'Prendo' (je prends) est plus courant et naturel. 'Vorrei' (je voudrais) est un peu plus formel."
     },
     {
       "question": "Il est 14h30. Tu viens de finir de manger. Que commandes-tu ?",
-      "options": ["Un cappuccino", "Un caffè", "Un latte macchiato"],
+      "options": [
+        "Un cappuccino",
+        "Un caffè",
+        "Un latte macchiato"
+      ],
       "correct": 1,
       "explanation": "Après un repas, TOUJOURS un caffè (espresso). Le cappuccino c'est uniquement le matin — après 11h, c'est un crime culinaire."
     },
     {
       "question": "Tu manges des spaghetti alle vongole. Peux-tu ajouter du parmesan ?",
-      "options": ["Oui bien sûr", "Non — fromage + fruits de mer = interdit en Italie", "Seulement si tu es italien"],
+      "options": [
+        "Oui bien sûr",
+        "Non — fromage + fruits de mer = interdit en Italie",
+        "Seulement si tu es italien"
+      ],
       "correct": 1,
       "explanation": "Règle absolue : le fromage ne se met JAMAIS sur un plat de poisson ou de fruits de mer en Italie."
     },
     {
       "question": "Que signifie 'fare la scarpetta' ?",
-      "options": ["Couper les pâtes", "Saucer son assiette avec du pain", "Commander un dessert"],
+      "options": [
+        "Couper les pâtes",
+        "Saucer son assiette avec du pain",
+        "Commander un dessert"
+      ],
       "correct": 1,
       "explanation": "Fare la scarpetta = saucer la sauce restante avec du pain. C'est un compliment au chef !"
     },
     {
       "question": "Comment demander l'addition en italien ?",
-      "options": ["La fattura, per favore", "Il conto, per favore", "Il prezzo, per favore"],
+      "options": [
+        "La fattura, per favore",
+        "Il conto, per favore",
+        "Il prezzo, per favore"
+      ],
       "correct": 1,
       "explanation": "'Il conto, per favore' = l'addition, s'il vous plaît. Le serveur ne l'apportera JAMAIS spontanément — tu dois la demander."
     },
     {
       "question": "Tu vois 'coperto: €2,50' sur l'addition. C'est quoi ?",
-      "options": ["Une arnaque pour touristes", "Un frais de couvert normal et légal", "Le pourboire obligatoire"],
+      "options": [
+        "Une arnaque pour touristes",
+        "Un frais de couvert normal et légal",
+        "Le pourboire obligatoire"
+      ],
       "correct": 1,
       "explanation": "Le coperto est un supplément par personne pour le couvert (pain, service). C'est légal et affiché dans le menu."
     },
     {
       "question": "Le pourboire est-il obligatoire en Italie ?",
-      "options": ["Oui, 15-20% comme aux USA", "Non — c'est un geste apprécié mais pas attendu", "Jamais, c'est insultant"],
+      "options": [
+        "Oui, 15-20% comme aux USA",
+        "Non — c'est un geste apprécié mais pas attendu",
+        "Jamais, c'est insultant"
+      ],
       "correct": 1,
       "explanation": "Le service est couvert par le coperto. Laisser 1-2€ sur la table est gentil mais pas obligatoire."
     },
     {
       "question": "Tu es à Bologne. Que commander comme plat local ?",
-      "options": ["Spaghetti bolognaise", "Tagliatelle al ragù", "Carbonara"],
+      "options": [
+        "Spaghetti bolognaise",
+        "Tagliatelle al ragù",
+        "Carbonara"
+      ],
       "correct": 1,
       "explanation": "Les 'spaghetti bolognaise' N'EXISTENT PAS en Italie ! À Bologna, le ragù se sert sur des tagliatelle."
     },
     {
       "question": "La carbonara est la spécialité de quelle ville ?",
-      "options": ["Milan", "Rome", "Naples"],
+      "options": [
+        "Milan",
+        "Rome",
+        "Naples"
+      ],
       "correct": 1,
       "explanation": "La carbonara est romaine, comme l'amatriciana, la cacio e pepe et la gricia — les 4 pâtes classiques de Rome."
     },
     {
       "question": "Que signifie 'allora' ?",
-      "options": ["Beaucoup", "Alors / Bon / Du coup", "Après"],
+      "options": [
+        "Beaucoup",
+        "Alors / Bon / Du coup",
+        "Après"
+      ],
       "correct": 1,
       "explanation": "'Allora' est le mot le plus fréquent en italien conversationnel. C'est le 'ben' ou 'du coup' français."
     },
     {
       "question": "Comment dis-tu 'J'aime la pizza' en italien ?",
-      "options": ["Io amo la pizza", "Mi piace la pizza", "La pizza è buona"],
+      "options": [
+        "Io amo la pizza",
+        "Mi piace la pizza",
+        "La pizza è buona"
+      ],
       "correct": 1,
       "explanation": "'Mi piace la pizza' = la pizza me plaît. C'est la construction standard. 'Amo' est trop fort — on le réserve à l'amour."
     },
     {
       "question": "La pizza est née dans quelle ville italienne ?",
-      "options": ["Rome", "Naples", "Florence"],
+      "options": [
+        "Rome",
+        "Naples",
+        "Florence"
+      ],
       "correct": 1,
       "explanation": "La pizza est née à Naples. Les deux classiques napolitains : margherita et marinara."
     },
     {
       "question": "Comment demander le plat typique d'une ville ?",
-      "options": ["Cosa c'è di buono?", "Qual è il piatto tipico di qui?", "Che cosa vuole?"],
+      "options": [
+        "Cosa c'è di buono?",
+        "Qual è il piatto tipico di qui?",
+        "Che cosa vuole?"
+      ],
       "correct": 1,
       "explanation": "'Qual è il piatto tipico di qui?' = Quel est le plat typique d'ici ? La question magique dans chaque ville italienne."
     }

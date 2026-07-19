@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 11,
+  "title": "Quiz final — Rencontres & vie sociale",
+  "color": "#D6A23D",
+  "nextEscaleSlug": "en-escale-12-lecon-1",
+  "questions": [
+    {
+      "question": "Bonne ouverture :",
+      "options": [
+        "How much do you earn?",
+        "Where are you from?",
+        "Why here?"
+      ],
+      "correct": 1,
+      "explanation": "Léger et ouvert."
+    },
+    {
+      "question": "'Same here!' :",
+      "options": [
+        "Viens",
+        "Pareil",
+        "Reste"
+      ],
+      "correct": 1,
+      "explanation": "Point commun."
+    },
+    {
+      "question": "'What about you?' :",
+      "options": [
+        "Critique",
+        "Renvoie la question",
+        "Adieu"
+      ],
+      "correct": 1,
+      "explanation": "Relancer."
+    },
+    {
+      "question": "'I'm into photography' :",
+      "options": [
+        "Je déteste",
+        "Je suis passionné",
+        "Je photographie mal"
+      ],
+      "correct": 1,
+      "explanation": "Be into = passionné."
+    },
+    {
+      "question": "Après 'enjoy' :",
+      "options": [
+        "-ed",
+        "-ing",
+        "to"
+      ],
+      "correct": 1,
+      "explanation": "enjoy + -ing."
+    },
+    {
+      "question": "'It's not my thing' :",
+      "options": [
+        "J'adore",
+        "Pas mon truc",
+        "À moi"
+      ],
+      "correct": 1,
+      "explanation": "Ne pas aimer."
+    },
+    {
+      "question": "'I'm keen on...' :",
+      "options": [
+        "Je déteste",
+        "Je suis passionné de",
+        "J'ai peur de"
+      ],
+      "correct": 1,
+      "explanation": "Keen on = passionné."
+    },
+    {
+      "question": "'I reckon' :",
+      "options": [
+        "Je compte",
+        "Je pense",
+        "Je reconnais"
+      ],
+      "correct": 1,
+      "explanation": "Familier UK."
+    },
+    {
+      "question": "'I see your point, but...' :",
+      "options": [
+        "Accord total",
+        "Désaccord courtois",
+        "Insulte"
+      ],
+      "correct": 1,
+      "explanation": "Nuancer."
+    },
+    {
+      "question": "'Each to their own' :",
+      "options": [
+        "On est pareils",
+        "Chacun ses goûts",
+        "Tu as tort"
+      ],
+      "correct": 1,
+      "explanation": "Respect des goûts."
+    },
+    {
+      "question": "'To be honest' :",
+      "options": [
+        "Je mens",
+        "Pour être franc",
+        "Au revoir"
+      ],
+      "correct": 1,
+      "explanation": "Introduire une opinion franche."
+    },
+    {
+      "question": "'Have you ever...?' :",
+      "options": [
+        "Futur",
+        "Expérience de vie",
+        "Hier précis"
+      ],
+      "correct": 1,
+      "explanation": "Expérience sans date."
+    },
+    {
+      "question": "Present perfect =",
+      "options": [
+        "have + base",
+        "have + participe",
+        "have + -ing"
+      ],
+      "correct": 1,
+      "explanation": "have + participe passé."
+    },
+    {
+      "question": "'I've never been' :",
+      "options": [
+        "Souvent",
+        "Jamais allé",
+        "Hier"
+      ],
+      "correct": 1,
+      "explanation": "never = jamais."
+    },
+    {
+      "question": "'already' :",
+      "options": [
+        "Encore",
+        "Déjà (fait)",
+        "Jamais"
+      ],
+      "correct": 1,
+      "explanation": "Action déjà accomplie."
+    },
+    {
+      "question": "'Keep in touch' :",
+      "options": [
+        "Se toucher",
+        "Rester en contact",
+        "Se battre"
+      ],
+      "correct": 1,
+      "explanation": "Garder le lien."
+    },
+    {
+      "question": "'Your socials' :",
+      "options": [
+        "Amis",
+        "Réseaux sociaux",
+        "Soirées"
+      ],
+      "correct": 1,
+      "explanation": "Comptes réseaux."
+    },
+    {
+      "question": "'Give me a shout' :",
+      "options": [
+        "Crie",
+        "Fais-moi signe",
+        "Chante"
+      ],
+      "correct": 1,
+      "explanation": "Me contacter."
+    },
+    {
+      "question": "'It was lovely to meet you' :",
+      "options": [
+        "Au revoir sec",
+        "Ravi de t'avoir rencontré",
+        "Reviens"
+      ],
+      "correct": 1,
+      "explanation": "Adieu chaleureux."
+    },
+    {
+      "question": "'Take care!' :",
+      "options": [
+        "Attention danger",
+        "Prends soin de toi",
+        "Dépêche"
+      ],
+      "correct": 1,
+      "explanation": "Adieu bienveillant."
+    }
+  ]
+}

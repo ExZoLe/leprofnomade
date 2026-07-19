@@ -1,0 +1,209 @@
+{
+  "lang": "anglais",
+  "escale": 9,
+  "title": "Quiz final — Santé & urgences",
+  "color": "#D6A23D",
+  "nextEscaleSlug": "en-escale-10-lecon-1",
+  "questions": [
+    {
+      "question": "'The chemist's' est :",
+      "options": [
+        "La pharmacie",
+        "Le labo",
+        "La clinique"
+      ],
+      "correct": 0,
+      "explanation": "= la pharmacie (aussi 'Boots')."
+    },
+    {
+      "question": "« Vous avez quelque chose pour un rhume ? »",
+      "options": [
+        "Have you got anything for a cold?",
+        "Do you like colds?",
+        "Give me a cold"
+      ],
+      "correct": 0,
+      "explanation": "Have you got anything for + maux."
+    },
+    {
+      "question": "'Painkillers' :",
+      "options": [
+        "Vitamines",
+        "Antidouleurs",
+        "Pansements"
+      ],
+      "correct": 1,
+      "explanation": "Paracetamol, ibuprofen."
+    },
+    {
+      "question": "Le 'GP' :",
+      "options": [
+        "Généraliste",
+        "Chirurgien",
+        "Dentiste"
+      ],
+      "correct": 0,
+      "explanation": "General Practitioner."
+    },
+    {
+      "question": "'I feel sick' :",
+      "options": [
+        "Je suis fatigué",
+        "J'ai la nausée",
+        "J'ai froid"
+      ],
+      "correct": 1,
+      "explanation": "Avoir la nausée."
+    },
+    {
+      "question": "« Depuis deux jours » :",
+      "options": [
+        "for two days",
+        "since two days",
+        "two days"
+      ],
+      "correct": 0,
+      "explanation": "Present perfect + for."
+    },
+    {
+      "question": "'My throat hurts' :",
+      "options": [
+        "J'ai mal à la tête",
+        "J'ai mal à la gorge",
+        "J'ai mal au dos"
+      ],
+      "correct": 1,
+      "explanation": "Throat = gorge."
+    },
+    {
+      "question": "'I feel dizzy' :",
+      "options": [
+        "J'ai faim",
+        "La tête me tourne",
+        "J'ai chaud"
+      ],
+      "correct": 1,
+      "explanation": "Avoir le vertige."
+    },
+    {
+      "question": "Numéro d'urgence UK :",
+      "options": [
+        "911",
+        "999",
+        "112 seulement"
+      ],
+      "correct": 1,
+      "explanation": "999 (112 marche aussi)."
+    },
+    {
+      "question": "'He's collapsed' :",
+      "options": [
+        "Il dort",
+        "Il s'est effondré",
+        "Il court"
+      ],
+      "correct": 1,
+      "explanation": "Perdre connaissance."
+    },
+    {
+      "question": "'Is he breathing?' :",
+      "options": [
+        "Il mange ?",
+        "Il respire ?",
+        "Il parle ?"
+      ],
+      "correct": 1,
+      "explanation": "To breathe = respirer."
+    },
+    {
+      "question": "En urgence, donner d'abord :",
+      "options": [
+        "Son âge",
+        "Le lieu",
+        "Son nom"
+      ],
+      "correct": 1,
+      "explanation": "Le lieu = priorité."
+    },
+    {
+      "question": "Conseil = modal :",
+      "options": [
+        "must",
+        "should",
+        "have to"
+      ],
+      "correct": 1,
+      "explanation": "Should = tu devrais."
+    },
+    {
+      "question": "'You mustn't smoke' :",
+      "options": [
+        "Pas obligé",
+        "Interdit",
+        "Autorisé"
+      ],
+      "correct": 1,
+      "explanation": "Interdiction stricte."
+    },
+    {
+      "question": "'You don't have to go' :",
+      "options": [
+        "Interdit d'y aller",
+        "Pas obligé d'y aller",
+        "Doit y aller"
+      ],
+      "correct": 1,
+      "explanation": "Facultatif."
+    },
+    {
+      "question": "'I have to work' :",
+      "options": [
+        "Conseil",
+        "Obligation externe",
+        "Envie"
+      ],
+      "correct": 1,
+      "explanation": "Obligation imposée."
+    },
+    {
+      "question": "'Under the weather' :",
+      "options": [
+        "Mouillé",
+        "Patraque",
+        "Heureux"
+      ],
+      "correct": 1,
+      "explanation": "Pas dans son assiette."
+    },
+    {
+      "question": "'Back on your feet' :",
+      "options": [
+        "Fatigué",
+        "Remis sur pied",
+        "Perdu"
+      ],
+      "correct": 1,
+      "explanation": "Rétabli."
+    },
+    {
+      "question": "'Take it easy' :",
+      "options": [
+        "Force !",
+        "Doucement",
+        "Cours"
+      ],
+      "correct": 1,
+      "explanation": "Se ménager."
+    },
+    {
+      "question": "'A sore throat' :",
+      "options": [
+        "Mal de tête",
+        "Mal de gorge",
+        "Mal de ventre"
+      ],
+      "correct": 1,
+      "explanation": "Sore throat = gorge irritée."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "lang": "coreen",
+  "escale": 6,
+  "title": "Quiz final — Le 편의점 (konbini)",
+  "color": "#C86E46",
+  "nextEscaleSlug": "kr-escale-7-lecon-1",
+  "questions": [
+    {
+      "question": "'편의점' signifie :",
+      "options": [
+        "Supermarché",
+        "Supérette (konbini)",
+        "Restaurant"
+      ],
+      "correct": 1,
+      "explanation": "편의점 (pyeonuijeom) = supérette ouverte souvent 24h/24."
+    },
+    {
+      "question": "Les grandes chaînes de konbini en Corée sont :",
+      "options": [
+        "7-Eleven, CU, GS25",
+        "Carrefour, Auchan",
+        "Tesco, Aldi"
+      ],
+      "correct": 0,
+      "explanation": "CU, GS25 et 7-Eleven sont les enseignes dominantes."
+    },
+    {
+      "question": "'라면' désigne :",
+      "options": [
+        "Du riz",
+        "Des nouilles instantanées",
+        "Une soupe froide"
+      ],
+      "correct": 1,
+      "explanation": "라면 (ramyeon) = nouilles instantanées, star du konbini."
+    },
+    {
+      "question": "'김밥' est :",
+      "options": [
+        "Un rouleau de riz et algue",
+        "Une soupe",
+        "Un dessert"
+      ],
+      "correct": 0,
+      "explanation": "김밥 (gimbap) = rouleau de riz garni enroulé dans une algue."
+    },
+    {
+      "question": "Au konbini, on peut faire chauffer son plat :",
+      "options": [
+        "Non, c'est interdit",
+        "Oui, avec le micro-ondes en libre-service",
+        "Seulement le matin"
+      ],
+      "correct": 1,
+      "explanation": "Les konbinis ont micro-ondes et eau chaude en libre-service."
+    },
+    {
+      "question": "'봉투 필요하세요?' signifie :",
+      "options": [
+        "Voulez-vous un sac ?",
+        "C'est pour ici ?",
+        "Vous payez comment ?"
+      ],
+      "correct": 0,
+      "explanation": "봉투 = sac. On te demande souvent si tu veux un sac (payant)."
+    },
+    {
+      "question": "'결제' signifie :",
+      "options": [
+        "Livraison",
+        "Paiement",
+        "Réduction"
+      ],
+      "correct": 1,
+      "explanation": "결제 (gyeolje) = paiement / règlement."
+    },
+    {
+      "question": "'카드로 할게요' signifie :",
+      "options": [
+        "Je paie en espèces",
+        "Je paie par carte",
+        "Je ne paie pas"
+      ],
+      "correct": 1,
+      "explanation": "카드로 = par carte. 'Je vais payer par carte'."
+    },
+    {
+      "question": "'현금' signifie :",
+      "options": [
+        "Carte",
+        "Espèces",
+        "Chèque"
+      ],
+      "correct": 1,
+      "explanation": "현금 (hyeongeum) = argent liquide / espèces."
+    },
+    {
+      "question": "Les particules 을/를 marquent :",
+      "options": [
+        "Le sujet",
+        "Le complément d'objet direct (COD)",
+        "Le lieu"
+      ],
+      "correct": 1,
+      "explanation": "을 (après consonne) / 를 (après voyelle) marquent le COD."
+    },
+    {
+      "question": "Dans '물을 주세요', 을 indique que 물 (l'eau) est :",
+      "options": [
+        "Le sujet",
+        "L'objet",
+        "Le lieu"
+      ],
+      "correct": 1,
+      "explanation": "을 marque 물 comme complément d'objet : 'donnez-moi de l'eau'."
+    },
+    {
+      "question": "'삼각김밥' est :",
+      "options": [
+        "Un gimbap triangulaire",
+        "Une boisson",
+        "Une soupe"
+      ],
+      "correct": 0,
+      "explanation": "삼각 = triangle. Le gimbap triangulaire emballé, icône du konbini."
+    },
+    {
+      "question": "'뜨거운 물' signifie :",
+      "options": [
+        "Eau froide",
+        "Eau chaude",
+        "Eau gazeuse"
+      ],
+      "correct": 1,
+      "explanation": "뜨거운 = chaud, 물 = eau. Pour préparer le ramyeon."
+    },
+    {
+      "question": "'영수증' signifie :",
+      "options": [
+        "Reçu / ticket",
+        "Monnaie",
+        "Sac"
+      ],
+      "correct": 0,
+      "explanation": "영수증 (yeongsujeung) = reçu / ticket de caisse."
+    },
+    {
+      "question": "'얼마예요?' signifie :",
+      "options": [
+        "C'est où ?",
+        "C'est combien ?",
+        "C'est quoi ?"
+      ],
+      "correct": 1,
+      "explanation": "얼마 = combien. La question de prix universelle."
+    },
+    {
+      "question": "'이거 주세요' signifie :",
+      "options": [
+        "Donnez-moi ça",
+        "Où est-ce ?",
+        "C'est cher"
+      ],
+      "correct": 0,
+      "explanation": "이거 = ceci, 주세요 = donnez SVP. En montrant le produit."
+    },
+    {
+      "question": "'맥주' signifie :",
+      "options": [
+        "Eau",
+        "Bière",
+        "Jus"
+      ],
+      "correct": 1,
+      "explanation": "맥주 (maekju) = bière, disponible au konbini."
+    },
+    {
+      "question": "'봉투' signifie :",
+      "options": [
+        "Sac",
+        "Bouteille",
+        "Boîte"
+      ],
+      "correct": 0,
+      "explanation": "봉투 (bongtu) = sac / pochette."
+    },
+    {
+      "question": "'따뜻하게 데워 주세요' demande de :",
+      "options": [
+        "Mettre au frais",
+        "Réchauffer",
+        "Emballer"
+      ],
+      "correct": 1,
+      "explanation": "데우다 = réchauffer. 'Réchauffez-le SVP' (si le caissier le fait)."
+    },
+    {
+      "question": "Pourquoi le konbini est central dans la vie coréenne ?",
+      "options": [
+        "Ouvert 24h, tout-en-un, partout",
+        "C'est le moins cher du pays",
+        "On y mange gratuitement"
+      ],
+      "correct": 0,
+      "explanation": "Ouvert en continu, présent à chaque coin de rue, il rend mille services."
+    }
+  ]
+}
