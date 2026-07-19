@@ -30,7 +30,9 @@ export default function CarnetClient({ langue, entries }: Props) {
   const themes = useMemo(() => {
     const byEscale = new Map<number, string>();
     entries.forEach((e) => byEscale.set(e.escale, e.theme));
-    const ordered = [...byEscale.entries()].sort((a, b) => a[0] - b[0]).map(([, t]) => t);
+    const ordered = Array.from(byEscale.entries())
+      .sort((a, b) => a[0] - b[0])
+      .map((pair) => pair[1]);
     return ['Toutes', ...ordered];
   }, [entries]);
 
