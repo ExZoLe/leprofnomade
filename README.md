@@ -34,10 +34,11 @@ L'apprentissage est structuré comme un voyage :
 ## 📚 Contenu
 
 - **3 langues** : anglais, coréen, italien.
-- **8 escales par langue**, de l'alphabet aux situations avancées.
-- **40 leçons par langue** (120 au total), avec dialogues immersifs, audio et explications.
-- **Un quiz par escale** pour valider ses acquis.
+- **12 escales par langue**, de l'alphabet aux situations avancées.
+- **60 leçons par langue** (180 au total), avec dialogues immersifs, audio et explications.
+- **36 quiz** (720 questions, 0 doublon) pour valider ses acquis.
 - **Alphabets interactifs** avec prononciation audio et chanson pour chaque langue.
+- **Passeport lexical** : vocabulaire cherchable par langue (recherche floue, expansion par thème).
 
 ## 🎨 Design
 
@@ -53,7 +54,11 @@ Une esthétique de carnet de voyage : tons chauds et terreux (terracotta, olive,
 
 ## 📌 Statut
 
-Projet en développement actif. Le contenu des trois langues est complet ; le travail se poursuit sur le design, le référencement et les fonctionnalités communautaires.
+Projet en développement actif. Le contenu des trois langues est complet ; le travail se poursuit sur le Passeport lexical, le polish visuel, le référencement et les fonctionnalités communautaires. Suivi détaillé sur le [board Trello](https://trello.com/b/erRmupaJ/).
+
+## 📜 Charte de développement
+
+Ce projet suit la [Charte de développement unifiée v2.0](docs/CHARTE.md) (desktop & web) : code source privé, pas de raccourcis clavier, accessibilité (mode sombre, police ajustable), vie privée (pas de tracking, CGU claires), interface FR par défaut avec EN ajouté en toute dernière étape avant la v1.0.
 
 ## 📄 Licence
 
@@ -63,18 +68,34 @@ Projet personnel. Tous droits réservés.
 
 ## 🗺️ Feuille de route
 
+Suivi détaillé sur le [board Trello](https://trello.com/b/erRmupaJ/%F0%9F%97%BA%EF%B8%8F-leprofnomade-feuille-de-route).
+
+| Phase | Contenu | Statut |
+|-------|---------|--------|
+| 1 — Fondations | Stack, auth, leçons MDX, dashboard | ✅ 100% |
+| 2 — Design & identité | Palette kraft, carte d'embarquement, passeport, carnet | ✅ 100% |
+| 3 — Contenu | 180 leçons + 36 quiz (720 questions, 0 doublon) | ✅ 100% |
+| 3.5 — Passeport lexical | Page vocabulaire cherchable par langue | 🔧 85% |
+| 3.9 — Polish visuel | Login, footer, méthode, leçons, quiz, LanguageCard | ⏳ 0% |
+| 4 — SEO & référencement | Meta tags, sitemap, Open Graph, Schema.org | ⏳ 0% |
+| 5 — Social & ouverture | Système d'amis, redirection HelloTalk/Tandem | 💭 Réflexion |
+| 6 — Accessibilité & Settings | Mode sombre, police ajustable, page settings, i18n FR+EN | ⏳ 0% |
+| 7 — Pré-lancement & conformité | CGU, tests, page erreur, aide, changelog, [charte web](docs/CHARTE.md) | ⏳ 10% |
+| ⚙️ Technique | Actions manuelles (repo privé, SQL, clé API…) | ⚠️ Urgent |
+
 ```mermaid
 timeline
     title Feuille de route LeProfNomade
     section Terminé
         Fondations techniques : Déploiement Vercel + Supabase : Authentification + progression : Dashboard + quiz
-        Contenu complet : 120 leçons (40 par langue) : 480 questions de quiz : Alphabets audio + chansons
+        Contenu complet : 180 leçons (60 par langue) : 720 questions de quiz : Alphabets audio + chansons
         Refonte design : Palette voyage chaleureuse : Carte d'embarquement animée : Passeport + carnet de route
     section En cours
-        Finitions : Corrections responsive mobile : Système de pseudo
+        Passeport lexical : Vocabulaire cherchable : Recherche floue + expansion par thème
     section À venir
-        Référencement (SEO) : Meta tags + sitemap : Blog / Carnets de route : Mini-dictionnaire
-        Lancement public : Passage OAuth en production : Réseau de natifs : Partenariats
+        Polish & SEO : Polish visuel : Meta tags + sitemap + Schema.org
+        Accessibilité & conformité : Mode sombre + settings + i18n FR-EN : CGU + CHANGELOG + page Aide
+        Lancement public : Réseau de natifs : Passage repo en privé
 ```
 
 ---
