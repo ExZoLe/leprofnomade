@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useAuth } from '@/components/AuthProvider';
 import { getProgress, getUsername } from '@/lib/supabase';
 import { AlphabetSidebar } from '@/components/AlphabetSidebar';
-import { CountryPhoto, CountryPhotoBanner } from '@/components/CountryPhoto';
 import { BoardingPass } from '@/components/BoardingPass';
 import { Passport } from '@/components/Passport';
 import { CarnetDeRoute } from '@/components/CarnetDeRoute';
@@ -50,7 +50,6 @@ export function LangDashboardClient({
   const nextLesson = lessons.find(l => !completedSlugs.has(l.slug));
   const totalLessons = lessons.length;
   const completedCount = lessons.filter(l => completedSlugs.has(l.slug)).length;
-  const progressPercent = totalLessons ? Math.round((completedCount / totalLessons) * 100) : 0;
 
   // Statut par escale : done / current / locked
   const escaleStatus = escaleEntries.map(([, esc]) => {
@@ -59,7 +58,6 @@ export function LangDashboardClient({
     if (done > 0) return 'current' as const;
     return 'locked' as const;
   });
-  // la première escale "locked" après des "done" devient la courante si rien n'est en cours
   if (!escaleStatus.includes('current')) {
     const firstLocked = escaleStatus.indexOf('locked');
     if (firstLocked >= 0) escaleStatus[firstLocked] = 'current';
@@ -82,14 +80,37 @@ export function LangDashboardClient({
 
   const color = theme?.primary ?? lang.color;
 
-  // Fallback si le thème n'existe pas
   if (!theme) {
     return <div className="pt-24 text-center text-gray-500">Langue en préparation…</div>;
   }
 
+  // Encadrés culturels tirés du carnet (données existantes du thème)
+  const introNote = theme.carnet[0]?.culturalNote ?? null;
+  const currentNote =
+    theme.carnet[currentEscale - 1]?.culturalNote ??
+    theme.carnet
+      .slice(0, currentEscale)
+      .map((c) => c.culturalNote)
+      .filter(Boolean)
+      .pop() ??
+    null;
+
+  // Les 4 raccourcis du dashboard
+  const shortcuts = [
+    {
+      emoji: '▶',
+      label: completedCount > 0 ? 'Reprendre' : 'Commencer',
+      sub: nextLesson ? `Escale ${nextLesson.escale} · Leçon ${nextLesson.lesson}` : 'Parcours terminé !',
+      href: nextLesson ? `/lecon/${nextLesson.slug}` : `/${langKey}`,
+    },
+    { emoji: '🗺️', label: 'La carte', sub: theme.city, href: `/carte/${langKey}` },
+    { emoji: '📓', label: 'Le blog', sub: 'Carnet de route', href: `/blog/${langKey}` },
+    { emoji: '🧳', label: 'Lexique', sub: 'Passeport lexical', href: `/carnet/${langKey}` },
+  ];
+
   return (
     <div className="page-enter pt-24 pb-20 px-4 sm:px-6 min-h-screen" style={{ ['--cream' as any]: '#EFE7D9', background: '#EFE7D9' }}>
-      <div className="max-w-[1400px] mx-auto flex gap-6">
+      <div className="max-w-[1200px] mx-auto flex gap-6">
 
         {/* ===== GAUCHE — Alphabet sticky (desktop) ===== */}
         <div className="hidden lg:block w-[240px] xl:w-[280px] flex-shrink-0">
@@ -99,21 +120,39 @@ export function LangDashboardClient({
         </div>
 
         {/* ===== CENTRE ===== */}
-        <div className="flex-1 min-w-0 max-w-3xl">
-          {/* Titre langue */}
-          <div className="mb-5">
-            <div className="flex items-center gap-3">
-              <span className="text-4xl">{theme.flag}</span>
-              <div>
-                <h1 className="font-display text-3xl sm:text-4xl" style={{ color }}>{lang.name}</h1>
-                <p className="text-sm text-gray-500">{lang.tagline}</p>
+        <div className="flex-1 min-w-0 max-w-4xl">
+
+          {/* Bannière pays */}
+          <div className="relative h-48 sm:h-60 rounded-2xl overflow-hidden mb-5">
+            <Image
+              src={theme.imageUrl}
+              alt={`${theme.city}, ${theme.country}`}
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 60vw"
+              className="object-cover"
+            />
+            <div
+              className="absolute inset-0"
+              style={{ background: `linear-gradient(to top, ${theme.deep}D9, ${theme.deep}26)` }}
+            />
+            <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
+              <div className="flex items-end justify-between gap-3 flex-wrap">
+                <div>
+                  <h1 className="font-display text-3xl sm:text-4xl text-white leading-tight m-0">
+                    {theme.flag} {lang.name}
+                  </h1>
+                  <p className="text-sm text-white/85 m-0 mt-1">{lang.tagline}</p>
+                </div>
+                <div className="flex gap-2 flex-wrap">
+                  {theme.facts.slice(0, 2).map((f) => (
+                    <span key={f.label} className="text-[11px] font-semibold text-white bg-white/15 border border-white/25 rounded-full px-2.5 py-1">
+                      {f.label} · {f.value}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* Photo mobile */}
-          <div className="lg:hidden">
-            <CountryPhotoBanner theme={theme} />
           </div>
 
           {/* ★ SIGNATURE : carte d'embarquement */}
@@ -126,41 +165,38 @@ export function LangDashboardClient({
             currentLesson={currentLesson}
           />
 
-          {/* Accès au Passeport lexical (lexique complet de la langue) */}
-          <Link
-            href={`/carnet/${langKey}`}
-            className="flex items-center justify-between bg-[#FAF6F0] rounded-2xl p-4 border-2 no-underline mb-5 transition-all hover:-translate-y-0.5 hover:shadow-lg group"
-            style={{ borderColor: `${color}30` }}
-            onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = color; }}
-            onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = `${color}30`; }}>
-            <div className="flex items-center gap-4">
-              <div className="w-11 h-11 rounded-xl flex items-center justify-center text-white text-lg" style={{ background: color }}>📓</div>
-              <div>
-                <p className="text-[11px] font-bold tracking-wider uppercase" style={{ color }}>Le Passeport lexical</p>
-                <p className="text-sm font-semibold text-ink">Tout le vocabulaire, cherchable</p>
-                <p className="text-xs text-gray-400">Chaque mot renvoie à sa leçon</p>
-              </div>
-            </div>
-            <span className="text-gray-300 text-xl group-hover:text-gray-500">→</span>
-          </Link>
+          {/* 4 raccourcis */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+            {shortcuts.map((s) => (
+              <Link
+                key={s.label}
+                href={s.href}
+                className="bg-[#FAF6F0] rounded-xl border p-3.5 no-underline text-center transition-all hover:-translate-y-0.5 hover:shadow-md"
+                style={{ borderColor: `${color}26` }}
+              >
+                <span
+                  className="mx-auto mb-2 w-9 h-9 rounded-lg flex items-center justify-center text-base text-white"
+                  style={{ background: color }}
+                >
+                  {s.emoji}
+                </span>
+                <p className="text-sm font-semibold text-ink m-0">{s.label}</p>
+                <p className="text-[11px] text-gray-400 m-0 mt-0.5 truncate">{s.sub}</p>
+              </Link>
+            ))}
+          </div>
 
-          {/* Bouton reprendre */}
-          {nextLesson && (
-            <Link href={`/lecon/${nextLesson.slug}`}
-              className="flex items-center justify-between bg-[#FAF6F0] rounded-2xl p-4 border-2 no-underline mb-5 transition-all hover:-translate-y-0.5 hover:shadow-lg group"
-              style={{ borderColor: `${color}30` }}
-              onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = color; }}
-              onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = `${color}30`; }}>
-              <div className="flex items-center gap-4">
-                <div className="w-11 h-11 rounded-xl flex items-center justify-center text-white text-base font-bold" style={{ background: color }}>▶</div>
-                <div>
-                  <p className="text-[11px] font-bold tracking-wider uppercase" style={{ color }}>{completedCount > 0 ? 'Reprendre' : 'Commencer'}</p>
-                  <p className="text-sm font-semibold text-ink">{nextLesson.title}</p>
-                  <p className="text-xs text-gray-400">Escale {nextLesson.escale} · Leçon {nextLesson.lesson}</p>
-                </div>
-              </div>
-              <span className="text-gray-300 text-xl group-hover:text-gray-500">→</span>
-            </Link>
+          {/* Code culturel de l'escale en cours */}
+          {currentNote && (
+            <aside
+              className="rounded-r-xl border-l-4 p-4 mb-5"
+              style={{ borderColor: color, background: `${color}0D` }}
+            >
+              <p className="text-[11px] font-bold tracking-wider uppercase mb-1" style={{ color }}>
+                🧭 Code culturel — escale {currentEscale}
+              </p>
+              <p className="text-sm text-[#5F5E5A] leading-relaxed m-0">{currentNote}</p>
+            </aside>
           )}
 
           {/* Alphabet mobile */}
@@ -168,10 +204,7 @@ export function LangDashboardClient({
             <AlphabetSidebar langKey={langKey} color={color} collapsible />
           </div>
 
-          {/* Passeport */}
-          <Passport theme={theme} escaleStatus={escaleStatus} />
-
-          {/* Escales */}
+          {/* Escales — grille 2 colonnes avec photos */}
           {escaleEntries.length > 0 && (
             <div className="flex items-center justify-between mb-3">
               <p className="text-sm font-semibold text-ink">{escaleEntries.length} escales · {totalLessons} leçons</p>
@@ -181,49 +214,67 @@ export function LangDashboardClient({
             </div>
           )}
 
-          <div className="flex flex-col gap-3 mb-5">
-            {escaleEntries.map(([num, esc], idx) => {
+          <div className="grid sm:grid-cols-2 gap-4 mb-5 items-start">
+            {escaleEntries.map(([num, esc]) => {
               const n = Number(num);
               const isOpen = openEscales.has(n);
               const done = esc.lessons.filter(l => completedSlugs.has(l.slug)).length;
               const total = esc.lessons.length;
               const pct = Math.round((done / total) * 100);
               const allDone = done === total && done > 0;
+              const photo = theme.escaleImages[n - 1];
               return (
                 <div key={num} className={`bg-[#FAF6F0] rounded-2xl border overflow-hidden transition-colors ${isOpen ? 'border-black/10' : 'border-black/5'}`}>
-                  <button onClick={() => toggleEscale(n)} className="w-full flex items-center gap-4 p-4 bg-transparent border-none cursor-pointer text-left hover:bg-[#F3ECE0]/60">
-                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0"
-                      style={{ background: allDone ? color : `${color}12`, color: allDone ? '#fff' : color }}>
-                      {allDone ? '✓' : num}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2">
-                        <p className="text-[11px] font-bold tracking-wider text-gray-400 uppercase">Escale {num}</p>
-                        {user && !loading && <span className="text-xs text-gray-300">{done}/{total}</span>}
-                      </div>
-                      <p className="font-display text-base sm:text-lg text-ink truncate">{esc.title}</p>
-                      {user && !loading && done > 0 && (
-                        <div className="mt-2 h-1 bg-gray-100 rounded-full overflow-hidden max-w-[200px]">
-                          <div className="h-full rounded-full" style={{ width: `${pct}%`, background: color }} />
-                        </div>
+                  <button onClick={() => toggleEscale(n)} className="w-full bg-transparent border-none cursor-pointer text-left p-0 block">
+                    {/* Photo d'escale */}
+                    <div className="relative h-28">
+                      {photo && (
+                        <Image
+                          src={photo}
+                          alt={esc.title}
+                          fill
+                          sizes="(max-width: 640px) 100vw, 350px"
+                          className="object-cover"
+                        />
                       )}
+                      <div
+                        className="absolute inset-0"
+                        style={{ background: `linear-gradient(to top, ${theme.deep}CC, transparent 65%)` }}
+                      />
+                      <span
+                        className="absolute top-2.5 left-2.5 w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold"
+                        style={{ background: allDone ? color : '#FAF6F0', color: allDone ? '#fff' : color }}
+                      >
+                        {allDone ? '✓' : num}
+                      </span>
+                      <span className={`absolute top-2.5 right-2.5 text-white/90 text-sm transition-transform ${isOpen ? 'rotate-180' : ''}`}>▾</span>
+                      <div className="absolute inset-x-0 bottom-0 px-3.5 pb-2.5">
+                        <p className="text-[10px] font-bold tracking-wider text-white/75 uppercase m-0">
+                          Escale {num}{user && !loading ? ` · ${done}/${total}` : ''}
+                        </p>
+                        <p className="font-display text-base text-white leading-snug m-0 truncate">{esc.title}</p>
+                      </div>
                     </div>
-                    <span className={`text-gray-300 text-lg transition-transform ${isOpen ? 'rotate-180' : ''}`}>▾</span>
+                    {/* Barre de progression */}
+                    {user && !loading && done > 0 && (
+                      <div className="h-1 bg-black/[0.06]">
+                        <div className="h-full" style={{ width: `${pct}%`, background: color }} />
+                      </div>
+                    )}
                   </button>
                   {isOpen && (
-                    <div className="px-4 pb-4 pt-0">
-                      <div className="border-t border-black/5 pt-3 flex flex-col gap-2">
+                    <div className="px-3.5 pb-3.5 pt-2">
+                      <div className="flex flex-col gap-2">
                         {esc.lessons.map((lesson) => {
                           const isDone = completedSlugs.has(lesson.slug);
                           return (
                             <Link key={lesson.slug} href={`/lecon/${lesson.slug}`}
-                              className={`flex items-center gap-3 p-3 rounded-lg no-underline transition-all hover:-translate-y-0.5 ${isDone ? 'bg-emerald-50/50 hover:bg-emerald-50' : 'bg-gray-50/50 hover:bg-gray-50'}`}>
-                              <div className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 ${isDone ? 'bg-emerald-100 text-emerald-600' : 'bg-gray-100 text-gray-400'}`}>
+                              className={`flex items-center gap-3 p-2.5 rounded-lg no-underline transition-all hover:-translate-y-0.5 ${isDone ? 'bg-emerald-50/50 hover:bg-emerald-50' : 'bg-gray-50/50 hover:bg-gray-50'}`}>
+                              <div className={`w-6 h-6 rounded-full flex items-center justify-center text-[11px] font-bold flex-shrink-0 ${isDone ? 'bg-emerald-100 text-emerald-600' : 'bg-gray-100 text-gray-400'}`}>
                                 {isDone ? '✓' : lesson.lesson}
                               </div>
                               <div className="flex-1 min-w-0">
-                                <p className={`text-sm font-medium truncate ${isDone ? 'text-emerald-700' : 'text-ink'}`}>{lesson.title}</p>
-                                {lesson.description && <p className="text-xs text-gray-400 truncate mt-0.5">{lesson.description}</p>}
+                                <p className={`text-[13px] font-medium truncate m-0 ${isDone ? 'text-emerald-700' : 'text-ink'}`}>{lesson.title}</p>
                               </div>
                               <span className="text-gray-200 text-sm">→</span>
                             </Link>
@@ -237,15 +288,19 @@ export function LangDashboardClient({
             })}
           </div>
 
-          {/* Carnet de route */}
-          <CarnetDeRoute theme={theme} escaleStatus={escaleStatus} escaleTitles={escaleTitles} />
-        </div>
+          {/* Le saviez-vous ? */}
+          {introNote && (
+            <aside className="rounded-r-xl border-l-4 p-4 mb-5 bg-[#F5EDE3]" style={{ borderColor: '#D6A23D' }}>
+              <p className="text-[11px] font-bold tracking-wider uppercase mb-1 text-[#8B6914]">
+                💡 Le saviez-vous ?
+              </p>
+              <p className="text-sm text-[#5F5E5A] leading-relaxed m-0">{introNote}</p>
+            </aside>
+          )}
 
-        {/* ===== DROITE — Photo pays (desktop) ===== */}
-        <div className="hidden lg:block w-[320px] xl:w-[380px] flex-shrink-0">
-          <div className="sticky top-24">
-            <CountryPhoto theme={theme} />
-          </div>
+          {/* Passeport + carnet de route, en bas */}
+          <Passport theme={theme} escaleStatus={escaleStatus} />
+          <CarnetDeRoute theme={theme} escaleStatus={escaleStatus} escaleTitles={escaleTitles} />
         </div>
       </div>
     </div>

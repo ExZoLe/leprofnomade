@@ -4,6 +4,8 @@
 // carnet de vocabulaire, faits. Un seul endroit à maintenir.
 // ============================================================
 
+import { escaleImages } from './unsplash-images';
+
 export interface CountryTheme {
   // Identité
   city: string;
@@ -23,6 +25,9 @@ export interface CountryTheme {
 
   // Photo d'ambiance
   imageUrl: string;
+
+  // Une photo par escale (index 0 = escale 1), depuis unsplash-images.ts
+  escaleImages: string[];
 
   // Faits du pays
   facts: { label: string; value: string }[];
@@ -65,6 +70,7 @@ export const countryThemes: Record<string, CountryTheme> = {
     arrivalCode: 'ICN',
     arrivalName: 'Séoul-Incheon',
     imageUrl: 'https://images.unsplash.com/photo-1538485399081-7191377e8241?w=900&q=80&fit=crop',
+    escaleImages: escaleImages.coreen,
     facts: [
       { label: 'Capitale', value: 'Séoul' },
       { label: 'Monnaie', value: '₩ Won' },
@@ -114,6 +120,7 @@ export const countryThemes: Record<string, CountryTheme> = {
     arrivalCode: 'FCO',
     arrivalName: 'Rome-Fiumicino',
     imageUrl: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=900&q=80&fit=crop',
+    escaleImages: escaleImages.italien,
     facts: [
       { label: 'Capitale', value: 'Rome' },
       { label: 'Monnaie', value: '€ Euro' },
@@ -163,6 +170,7 @@ export const countryThemes: Record<string, CountryTheme> = {
     arrivalCode: 'LHR',
     arrivalName: 'London-Heathrow',
     imageUrl: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80&fit=crop',
+    escaleImages: escaleImages.anglais,
     facts: [
       { label: 'Capitale', value: 'Londres' },
       { label: 'Monnaie', value: '£ Pound' },
