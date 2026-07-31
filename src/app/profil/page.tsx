@@ -66,7 +66,7 @@ export default function ProfilPage() {
     { key: 'italien', name: 'Italien', flag: '🇮🇹', color: '#6B7B3E', count: stats?.byLang.italien || 0 },
   ];
 
-  const TOTAL_PER_LANG = 40;
+  const TOTAL_PER_LANG = 60;
 
   return (
     <div className="min-h-screen bg-cream pt-24 pb-20 px-6 page-enter">
