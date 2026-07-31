@@ -1,58 +1,98 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { LanguageCard } from '@/components/LanguageCard';
 import { languages } from '@/lib/languages';
-import { HeroAnimatedCity } from '@/components/HeroAnimatedCity';
+import { heroImages, countryBanners } from '@/lib/unsplash-images';
+import { useAuth } from '@/components/AuthProvider';
+import { getProgress } from '@/lib/supabase';
 
 export default function HomePage() {
+  const { user } = useAuth();
+  // Leçons terminées par langue (uniquement si connecté)
+  const [doneByLang, setDoneByLang] = useState<Record<string, number> | null>(null);
+
+  useEffect(() => {
+    if (!user) {
+      setDoneByLang(null);
+      return;
+    }
+    getProgress(user.id).then(({ data }) => {
+      if (!data) return;
+      const seen: Record<string, Set<string>> = {};
+      data.forEach((row: { lang: string; lesson_slug: string; completed: boolean }) => {
+        if (!row.completed) return;
+        if (!seen[row.lang]) seen[row.lang] = new Set();
+        seen[row.lang].add(row.lesson_slug);
+      });
+      const counts: Record<string, number> = {};
+      Object.keys(seen).forEach((lang) => {
+        counts[lang] = seen[lang].size;
+      });
+      setDoneByLang(counts);
+    });
+  }, [user]);
+
   return (
     <div className="page-enter">
-      {/* ===== HERO ===== */}
-      <section className="min-h-screen flex items-center justify-center px-6 pt-24 pb-16 relative overflow-hidden bg-gradient-to-br from-cream via-warm to-[#E3D5BE]">
-        {/* Decorative */}
-        <div className="absolute -top-32 -right-20 w-96 h-96 rounded-full bg-coral/[0.04]" />
-        <div className="absolute -bottom-16 -left-24 w-72 h-72 rounded-full bg-teal/[0.04]" />
+      {/* ===== HERO — couverture de guide ===== */}
+      <section className="relative min-h-[92vh] flex items-center justify-center px-6 pt-24 pb-20 overflow-hidden">
+        <Image
+          src={heroImages.flatlay}
+          alt="Carnet, appareil photo et carte posés à plat — préparatifs de voyage"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        {/* Dégradé pour la lisibilité du titre */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2A1F0F]/90 via-[#2A1F0F]/55 to-[#2A1F0F]/30" />
 
         <div className="max-w-3xl text-center relative z-10">
-          <div className="inline-block bg-gold/25 border border-gold/40 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wider text-ink mb-7">
+          <div className="inline-block bg-gold/90 rounded-full px-4 py-1.5 text-xs font-bold tracking-wider text-[#3D2D14] mb-7">
             100% GRATUIT · POUR TOUJOURS
           </div>
 
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.1] tracking-tight mb-6">
-            Apprends comme si tu étais à{' '}
-            <HeroAnimatedCity />.
-            <br />
-            Comprends comme si un prof t&apos;expliquait.
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.08] tracking-tight mb-6 text-[#FAF6F0]">
+            Ton guide de voyage linguistique
           </h1>
 
-          <p className="text-base sm:text-lg text-gray-500 max-w-xl mx-auto mb-10 leading-relaxed">
-            Pas de mini-jeux. Pas de phrases absurdes. Des vraies situations,
-            des vraies explications, et la culture qu&apos;aucune app ne t&apos;enseigne.
+          <p className="text-base sm:text-lg text-[#FAF6F0]/85 max-w-xl mx-auto mb-10 leading-relaxed">
+            Anglais, coréen, italien — appris comme on prépare un voyage.
+            Des vraies situations, des vraies explications, et la culture
+            qu&apos;aucune app ne t&apos;enseigne.
           </p>
 
-          <div className="flex gap-3 justify-center flex-wrap">
+          <div className="flex gap-3 justify-center flex-wrap mb-10">
             {Object.values(languages).map((lang) => (
               <Link
                 key={lang.slug}
                 href={`/${lang.slug}`}
-                className="flex items-center gap-2.5 bg-[#FAF6F0] border-2 rounded-xl px-6 py-3.5 text-base font-semibold no-underline transition-all hover:-translate-y-0.5"
-                style={{
-                  color: lang.color,
-                  borderColor: `${lang.color}20`,
-                }}
-                onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLElement).style.borderColor = lang.color;
-                  (e.currentTarget as HTMLElement).style.boxShadow = `0 6px 20px ${lang.color}20`;
-                }}
-                onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLElement).style.borderColor = `${lang.color}20`;
-                  (e.currentTarget as HTMLElement).style.boxShadow = 'none';
-                }}
+                className="flex items-center gap-2.5 bg-[#FAF6F0]/95 rounded-xl px-6 py-3.5 text-base font-semibold no-underline transition-all hover:-translate-y-0.5 hover:bg-white"
+                style={{ color: lang.color }}
               >
                 <span className="text-xl">{lang.flag}</span>
                 {lang.name}
               </Link>
+            ))}
+          </div>
+
+          {/* Badges — les trois promesses */}
+          <div className="flex gap-2.5 justify-center flex-wrap">
+            {[
+              { emoji: '🎒', label: 'Gratuit' },
+              { emoji: '🧭', label: 'Anti-gamification' },
+              { emoji: '✈️', label: 'Immersion voyage' },
+            ].map((b) => (
+              <span
+                key={b.label}
+                className="flex items-center gap-1.5 text-xs font-semibold text-[#FAF6F0]/90 bg-white/10 border border-white/20 rounded-full px-3.5 py-1.5"
+              >
+                <span>{b.emoji}</span>
+                {b.label}
+              </span>
             ))}
           </div>
         </div>
@@ -198,7 +238,14 @@ export default function HomePage() {
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {Object.values(languages).map((lang) => (
-              <LanguageCard key={lang.slug} {...lang} />
+              <LanguageCard
+                key={lang.slug}
+                {...lang}
+                escales={12}
+                lecons={60}
+                imageUrl={countryBanners[lang.slug]}
+                leconsFaites={doneByLang ? doneByLang[lang.slug] ?? 0 : undefined}
+              />
             ))}
           </div>
         </div>
