@@ -43,6 +43,7 @@ export function Footer() {
                 { label: 'La méthode', href: '/methode' },
                 { label: 'Le blog', href: '/blog' },
                 { label: 'Aide / FAQ', href: '/aide' },
+                { label: 'Quoi de neuf', href: '/quoi-de-neuf' },
                 { label: 'Mentions légales', href: '/cgu' },
               ].map(l => (
                 <Link
