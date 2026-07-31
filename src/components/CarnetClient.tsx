@@ -94,11 +94,30 @@ export default function CarnetClient({ langue, entries }: Props) {
 
     const found = [...direct, ...fuzzy];
 
-    // 3) Expansion par thème : tous les mots des thèmes touchés par une correspondance
-    const hitThemes = new Set(found.map((e) => e.theme));
-    const sameTheme = pool.filter(
-      (e) => hitThemes.has(e.theme) && !found.includes(e)
-    );
+    // 3) Expansion par thème : au plus 8 voisins des thèmes touchés,
+    //    triés par proximité avec la requête. Rien si aucune correspondance.
+    const MAX_RELATED = 8;
+    let sameTheme: Entry[] = [];
+    if (found.length > 0) {
+      const hitThemes = new Set(found.map((e) => e.theme));
+      const foundSet = new Set(found);
+      const qWords = q.split(/\s+/).filter((w) => w.length > 2);
+      // Pertinence = nb de mots de la requête qu'on retrouve (début commun ou faute proche)
+      const score = (e: Entry): number => {
+        const words = (norm(e.fr) + ' ' + norm(e.native) + ' ' + norm(e.roman ?? '')).split(/\s+/);
+        let s = 0;
+        for (const qw of qWords) {
+          if (words.some((w) => w.startsWith(qw.slice(0, 3)) || closeEnough(qw, w))) s++;
+        }
+        return s;
+      };
+      sameTheme = pool
+        .filter((e) => hitThemes.has(e.theme) && !foundSet.has(e))
+        .map((e) => ({ entry: e, s: score(e) }))
+        .sort((a, b) => b.s - a.s)
+        .slice(0, MAX_RELATED)
+        .map((x) => x.entry);
+    }
 
     return { matches: found, related: sameTheme };
   }, [entries, query, activeTheme]);
