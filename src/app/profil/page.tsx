@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
-import { signOut, getProfileStats, getProgress } from '@/lib/supabase';
+import { signOut, getProfileStats, getProgress, deleteAccount } from '@/lib/supabase';
 import { PseudoSetting } from '@/components/PseudoSetting';
 
 interface Stats {
@@ -26,6 +26,9 @@ export default function ProfilPage() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [recent, setRecent] = useState<ProgressItem[]>([]);
   const [loading, setLoading] = useState(true);
+  const [deleteOpen, setDeleteOpen] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!authLoading && !user) {
@@ -47,6 +50,18 @@ export default function ProfilPage() {
 
   const handleSignOut = async () => {
     await signOut();
+    router.push('/');
+  };
+
+  const handleDeleteAccount = async () => {
+    setDeleting(true);
+    setDeleteError(null);
+    const error = await deleteAccount();
+    if (error) {
+      setDeleteError(error);
+      setDeleting(false);
+      return;
+    }
     router.push('/');
   };
 
@@ -188,7 +203,66 @@ export default function ProfilPage() {
             </Link>
           </div>
         )}
+
+        {/* Supprimer mon compte (charte Article 11) */}
+        <div className="mt-12 bg-[#FAF6F0] rounded-xl border border-red-200 p-5">
+          <h2 className="font-display text-lg text-ink mb-1">Supprimer mon compte</h2>
+          <p className="text-xs text-gray-400 mb-4 leading-relaxed">
+            Efface définitivement ton email, ton pseudo et toute ta progression.
+            Cette action est irréversible.
+          </p>
+          <button
+            onClick={() => { setDeleteOpen(true); setDeleteError(null); }}
+            className="text-sm font-semibold text-red-600 border border-red-300 bg-transparent rounded-xl px-5 py-2.5 cursor-pointer hover:bg-red-50 transition-colors"
+          >
+            Supprimer mon compte
+          </button>
+        </div>
       </div>
+
+      {/* Modale de confirmation (pop-up justifiée : suppression, charte Article 08) */}
+      {deleteOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center px-6"
+          style={{ background: 'rgba(61,45,20,0.45)' }}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="delete-title"
+        >
+          <div className="bg-[#FAF6F0] rounded-2xl p-6 max-w-sm w-full shadow-xl">
+            <p className="text-3xl mb-3">🧳</p>
+            <h3 id="delete-title" className="font-display text-xl text-ink mb-2">
+              Fin du voyage ?
+            </h3>
+            <p className="text-sm text-gray-500 leading-relaxed mb-1">
+              Ton compte, ton pseudo et ta progression ({stats?.totalLessons || 0} leçon{(stats?.totalLessons || 0) > 1 ? 's' : ''} terminée{(stats?.totalLessons || 0) > 1 ? 's' : ''}) seront
+              définitivement supprimés.
+            </p>
+            <p className="text-sm font-semibold text-red-600 mb-4">
+              Cette action est irréversible.
+            </p>
+            {deleteError && (
+              <p className="text-xs text-red-600 bg-red-50 rounded-lg p-3 mb-4">{deleteError}</p>
+            )}
+            <div className="flex gap-3 justify-end">
+              <button
+                onClick={() => setDeleteOpen(false)}
+                disabled={deleting}
+                className="text-sm font-semibold text-gray-500 bg-transparent border border-black/10 rounded-xl px-5 py-2.5 cursor-pointer hover:border-black/25 transition-colors"
+              >
+                Annuler
+              </button>
+              <button
+                onClick={handleDeleteAccount}
+                disabled={deleting}
+                className="text-sm font-semibold text-white bg-red-600 border-none rounded-xl px-5 py-2.5 cursor-pointer hover:bg-red-700 transition-colors disabled:opacity-60"
+              >
+                {deleting ? 'Suppression…' : 'Supprimer définitivement'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

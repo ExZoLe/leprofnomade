@@ -26,6 +26,25 @@ export async function signInWithGoogle() {
   });
 }
 
+// Suppression de compte : appelle l'API serveur avec le token de session.
+// Retourne null si tout s'est bien passé, sinon un message d'erreur lisible.
+export async function deleteAccount(): Promise<string | null> {
+  const { data } = await supabase.auth.getSession();
+  const token = data.session?.access_token;
+  if (!token) return 'Tu dois être connecté pour supprimer ton compte.';
+
+  const res = await fetch('/api/compte/supprimer', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => null);
+    return body?.error ?? 'Une erreur est survenue. Réessaie ou écris-nous.';
+  }
+  await supabase.auth.signOut();
+  return null;
+}
+
 export async function signOut() {
   return await supabase.auth.signOut();
 }
