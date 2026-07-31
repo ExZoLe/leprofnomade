@@ -53,6 +53,9 @@ export function Navbar() {
           <Link href="/blog" className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline">
             Le blog
           </Link>
+          <Link href="/aide" className="text-sm font-medium text-ink/70 hover:text-ink transition-colors no-underline">
+            Aide
+          </Link>
 
           {!loading && (
             user ? (
@@ -95,6 +98,9 @@ export function Navbar() {
             </Link>
             <Link href="/blog" className="text-base font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
               📓 Le blog
+            </Link>
+            <Link href="/aide" className="text-base font-medium text-ink no-underline" onClick={() => setMenuOpen(false)}>
+              🧭 Aide
             </Link>
             {!loading && (
               user ? (
