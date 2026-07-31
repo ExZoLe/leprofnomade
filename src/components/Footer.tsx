@@ -41,8 +41,8 @@ export function Footer() {
               </p>
               {[
                 { label: 'La méthode', href: '/methode' },
-                { label: 'Contact', href: '#' },
-                { label: 'Mentions légales', href: '#' },
+                { label: 'Le blog', href: '/blog' },
+                { label: 'Mentions légales', href: '/cgu' },
               ].map(l => (
                 <Link
                   key={l.label}
@@ -52,6 +52,12 @@ export function Footer() {
                   {l.label}
                 </Link>
               ))}
+              <a
+                href="mailto:contact.leprofnomade@gmail.com"
+                className="block text-sm text-white/60 hover:text-white transition-colors no-underline mb-2"
+              >
+                Contact
+              </a>
             </div>
           </div>
         </div>
